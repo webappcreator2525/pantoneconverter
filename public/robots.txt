@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pantoneconverter.com/sitemap.xml

@@ -1,0 +1,241 @@
+---
+title: "CMYK vs RGB: What's the Difference and When to Use Each"
+description: "Understand the key differences between CMYK and RGB color models, when to use each one, and how to convert between them for print and digital design projects."
+slug: "cmyk-vs-rgb"
+date: "2026-05-19"
+lastModified: "2026-05-19"
+canonical: "https://pantoneconverter.com/learn/cmyk-vs-rgb"
+ogImage: "/og/cmyk-vs-rgb.png"
+schema: "Article"
+keywords: ["cmyk vs rgb", "difference between cmyk and rgb", "rgb vs cmyk", "cmyk vs rgb for print", "when to use cmyk vs rgb"]
+---
+
+import { ColorSwatch } from '@/components/ColorSwatch'
+import { InfoBox } from '@/components/InfoBox'
+import { FAQSection } from '@/components/FAQSection'
+import { RelatedTools } from '@/components/RelatedTools'
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "CMYK vs RGB: What's the Difference and When to Use Each",
+  "description": "Understand the key differences between CMYK and RGB color models, when to use each one, and how to convert between them for print and digital design projects.",
+  "url": "https://pantoneconverter.com/learn/cmyk-vs-rgb",
+  "datePublished": "2026-05-19",
+  "dateModified": "2026-05-19",
+  "publisher": {
+    "@type": "Organization",
+    "name": "PantoneConverter.com",
+    "url": "https://pantoneconverter.com"
+  }
+})}} />
+
+# CMYK vs RGB: What's the Difference and When to Use Each
+
+If you've ever designed something that looked great on screen but printed completely wrong, you've experienced the CMYK vs. RGB problem firsthand. These two color systems operate on completely different principles — and using the wrong one for the wrong medium is one of the most common and costly mistakes in design.
+
+This guide explains exactly how they differ, when to use each, and how to work with both in a professional workflow.
+
+---
+
+## The Core Difference: Light vs. Ink
+
+The fundamental difference between RGB and CMYK is what they're made of.
+
+**RGB is additive — it adds light.**
+Screens (monitors, phones, TVs) produce colors by combining red, green, and blue light at varying intensities. When you combine all three at full intensity, you get white. When you combine none, you get black. This is called **additive color** because you're adding light to darkness.
+
+**CMYK is subtractive — it absorbs light.**
+Printers produce colors by layering translucent inks (cyan, magenta, yellow, and black) on white paper. Each ink absorbs certain wavelengths of light and reflects others. Combining all inks absorbs most light, producing a dark color. This is called **subtractive color** because you're subtracting light from white.
+
+<InfoBox type="tip">
+  **Why K for black?** In CMYK, K stands for "Key" — referring to the key printing plate in traditional four-color printing, which was always black. It's also sometimes explained as avoiding confusion with Blue in RGB, though the "Key" explanation is the historical one.
+</InfoBox>
+
+---
+
+## RGB: Everything Digital
+
+| Property | Value |
+|----------|-------|
+| Channels | Red, Green, Blue |
+| Range | 0–255 per channel |
+| White | rgb(255, 255, 255) |
+| Black | rgb(0, 0, 0) |
+| Color gamut | Large — can display very saturated colors |
+| Used for | Websites, apps, social media, video, digital photography |
+
+RGB has a **larger color gamut** than CMYK — it can represent more colors, including highly saturated neons and vibrant hues that simply cannot be reproduced in ink. This is why things often look "better" on screen than in print.
+
+When you design in Figma, Photoshop, or any other screen-based tool, you're working in RGB by default. HEX codes like `#FF5733` are simply RGB values written in hexadecimal format.
+
+---
+
+## CMYK: Everything Print
+
+| Property | Value |
+|----------|-------|
+| Channels | Cyan, Magenta, Yellow, Key (Black) |
+| Range | 0–100% per channel |
+| White | C:0 M:0 Y:0 K:0 (paper shows through) |
+| Black | C:0 M:0 Y:0 K:100 (or rich black: C:60 M:40 Y:40 K:100) |
+| Color gamut | Smaller than RGB |
+| Used for | Brochures, business cards, magazines, packaging, posters |
+
+CMYK's gamut is smaller than RGB's — it cannot reproduce some very saturated digital colors. When you convert an RGB file to CMYK for print, colors may shift noticeably, particularly electric blues and bright greens.
+
+Black in CMYK deserves special attention. Pure black (`K:100`) looks fine for text but can appear washed out for large black areas. **Rich black** (`C:60 M:40 Y:40 K:100`) uses all four inks for a deeper, denser black on press — but should never be used for small text as it causes misregistration issues.
+
+---
+
+## Key Differences at a Glance
+
+| | RGB | CMYK |
+|--|-----|------|
+| **Medium** | Screens | Print |
+| **Color mixing** | Additive (light) | Subtractive (ink) |
+| **Starting point** | Black (no light) | White (blank paper) |
+| **Color gamut** | Larger | Smaller |
+| **Max colors** | 16.7 million | ~16,000 printable |
+| **White representation** | `rgb(255,255,255)` | Absence of ink |
+| **File formats** | JPEG, PNG, GIF, WebP | PDF, TIFF, EPS |
+
+---
+
+## When to Use RGB
+
+Use RGB when your deliverable will be viewed on a screen:
+
+- **Websites and web apps** — all CSS colors are RGB/HEX
+- **Social media graphics** — Instagram, LinkedIn, Twitter posts
+- **Email marketing** — viewed on email clients and browsers
+- **Digital advertising** — banner ads, display ads
+- **Video and motion graphics** — all video is RGB
+- **Presentations** — PowerPoint, Keynote, Google Slides
+
+Most design software defaults to RGB. If you're creating only for digital output, you never need to think about CMYK.
+
+---
+
+## When to Use CMYK
+
+Use CMYK when your deliverable will be physically printed by a commercial printer:
+
+- **Business cards and stationery**
+- **Brochures, flyers, and leaflets**
+- **Magazines and editorial**
+- **Packaging and product labels**
+- **Large format print (banners, posters)**
+- **Books and catalogs**
+
+<InfoBox type="warning">
+  **Important:** Always set up your document in CMYK from the start for print projects. Converting from RGB to CMYK at the end of your process often produces unexpected color shifts and may require significant redesign.
+</InfoBox>
+
+---
+
+## When to Use Pantone Instead
+
+Both RGB and CMYK mix colors from components. Pantone takes a different approach — pre-mixed spot inks that don't depend on combining channels at all.
+
+Use Pantone when:
+- **Color consistency is critical** — brand colors that must match across multiple suppliers and countries
+- **You need colors outside CMYK's gamut** — Pantone Metallics, fluorescent neons, and certain deep blues (like Pantone Reflex Blue) cannot be reproduced in CMYK
+- **You're printing on unusual substrates** — textiles, plastics, metals
+- **Two-color print jobs** — using two Pantone inks is often more economical than four-color CMYK
+
+The typical professional workflow combines all three:
+
+```
+Design in RGB → Export CMYK for general print → Specify Pantone for brand colors
+```
+
+---
+
+## Converting Between RGB and CMYK
+
+### RGB to CMYK (Mathematical Formula)
+
+```
+R' = R / 255
+G' = G / 255
+B' = B / 255
+
+K = 1 - max(R', G', B')
+C = (1 - R' - K) / (1 - K)
+M = (1 - G' - K) / (1 - K)
+Y = (1 - B' - K) / (1 - K)
+```
+
+Multiply C, M, Y, K by 100 for percentage values.
+
+<InfoBox type="warning">
+  **This formula is approximate.** Professional color management uses ICC profiles, not simple math. The formula above gives a reasonable starting point but won't match what a professional RIP (Raster Image Processor) or color management system produces. For critical print work, convert inside Photoshop or Illustrator with a proper output profile (e.g., Coated FOGRA39 for European print, SWOP for US print).
+</InfoBox>
+
+### CMYK to RGB
+
+```
+R = 255 × (1 - C/100) × (1 - K/100)
+G = 255 × (1 - M/100) × (1 - K/100)
+B = 255 × (1 - Y/100) × (1 - K/100)
+```
+
+### Finding the Pantone Equivalent
+
+Once you have your CMYK or HEX value, use our converters to find the closest Pantone match:
+- [CMYK to Pantone](/cmyk-to-pantone)
+- [HEX to Pantone](/hex-to-pantone)
+- [RGB to Pantone](/rgb-to-pantone)
+
+---
+
+## The Problem with Converting Late
+
+One of the most common workflow mistakes is designing an entire project in RGB and converting to CMYK at the end. Here's what goes wrong:
+
+**Vibrant blues shift purple or navy.** RGB can produce electric blues (`#0000FF`) that CMYK simply cannot reproduce. On conversion, they become darker and duller.
+
+**Neons become muted.** Highly saturated greens, oranges, and pinks in RGB often have no CMYK equivalent within gamut.
+
+**Blacks multiply.** RGB black (`#000000`) converts to rich black CMYK, which can cause ink coverage issues and misregistration on text.
+
+**The fix:** Set up your Photoshop or Illustrator document in CMYK from day one for any print project. If you must convert, do it early and adjust colors manually after the conversion.
+
+---
+
+<FAQSection items={[
+  {
+    question: "Does it matter if I design in RGB for a print project?",
+    answer: "Yes — significantly. RGB has a larger color gamut than CMYK, so many vibrant RGB colors shift noticeably when converted for print. For professional print work, set up your document in CMYK from the start, or be prepared to manually adjust colors after converting."
+  },
+  {
+    question: "Why does my design look different after printing?",
+    answer: "Several reasons: RGB-to-CMYK color shift (screen colors that have no print equivalent), monitor calibration differences, paper stock affecting how ink looks, and printer calibration variation. The safest approach is to request a printed proof before the full print run."
+  },
+  {
+    question: "Can I use RGB files for print?",
+    answer: "Some consumer printers and online print services accept RGB files and convert them internally. However, professional commercial printers expect CMYK files. Sending RGB to a commercial printer means the printer's RIP does the conversion, and you lose control over how colors shift."
+  },
+  {
+    question: "Is CMYK better than RGB?",
+    answer: "Neither is better — they serve different purposes. RGB is correct for digital/screen work; CMYK is correct for commercial print. Using the wrong color mode for your medium will always produce suboptimal results."
+  },
+  {
+    question: "What color mode should I use for social media graphics?",
+    answer: "RGB. All social media platforms display content on screens, which use RGB. Uploading a CMYK image to Instagram or Facebook may cause unexpected color shifts as the platform converts it to RGB."
+  },
+  {
+    question: "Why does my printer have CMYK inks if screens use RGB?",
+    answer: "Home and office inkjet printers simulate RGB output by mixing CMYK inks (and often additional inks like light cyan, light magenta, and grey). The printer driver handles the RGB-to-CMYK conversion internally. Commercial printers used in professional printing don't do this — they expect CMYK input."
+  }
+]} />
+
+---
+
+<RelatedTools tools={[
+  { title: "CMYK to Pantone Converter", href: "/cmyk-to-pantone", description: "Convert CMYK print values to the nearest Pantone PMS color." },
+  { title: "HEX to Pantone Converter", href: "/hex-to-pantone", description: "Find the closest Pantone match for any HEX color code." },
+  { title: "RGB to Pantone Converter", href: "/rgb-to-pantone", description: "Match RGB screen colors to Pantone spot colors." },
+  { title: "What is Pantone?", href: "/learn/what-is-pantone", description: "A complete guide to the Pantone Matching System." }
+]} />

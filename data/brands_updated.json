@@ -1,0 +1,1080 @@
+[
+  {
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
+    "industry": "Food & Beverage",
+    "description": "Coca-Cola's iconic red has been a symbol of the brand since 1886. The color appears on cans, bottles, trucks, and uniforms worldwide.",
+    "colors": [
+      {
+        "name": "Coca-Cola Red",
+        "pantone": "Pantone 484-C",
+        "hex": "#F40009",
+        "rgb": {
+          "r": 244,
+          "g": 0,
+          "b": 9
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 100,
+          "y": 96,
+          "k": 4
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Coca-Cola White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "nike",
+    "name": "Nike",
+    "industry": "Sports & Apparel",
+    "description": "Nike's brand identity is built on black and white simplicity, allowing their products and athletes to take center stage.",
+    "colors": [
+      {
+        "name": "Nike Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#111111",
+        "rgb": {
+          "r": 17,
+          "g": 17,
+          "b": 17
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 93
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Nike White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Nike Orange",
+        "pantone": "Pantone 811-C",
+        "hex": "#FF6600",
+        "rgb": {
+          "r": 255,
+          "g": 102,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 60,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "ikea",
+    "name": "IKEA",
+    "industry": "Retail & Furniture",
+    "description": "IKEA's bold blue and yellow palette is inspired by the Swedish flag and has become one of the most recognizable retail color combinations globally.",
+    "colors": [
+      {
+        "name": "IKEA Blue",
+        "pantone": "Pantone 294-C",
+        "hex": "#0058A3",
+        "rgb": {
+          "r": 0,
+          "g": 88,
+          "b": 163
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 46,
+          "y": 0,
+          "k": 36
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "IKEA Yellow",
+        "pantone": "Pantone 109-C",
+        "hex": "#FFDA1A",
+        "rgb": {
+          "r": 255,
+          "g": 218,
+          "b": 26
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 15,
+          "y": 90,
+          "k": 0
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "industry": "Technology",
+    "description": "Apple's minimalist color palette reflects their design philosophy. Space Gray, Silver, and Gold are the primary hardware colors, with black and white dominating their branding.",
+    "colors": [
+      {
+        "name": "Apple Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#1D1D1F",
+        "rgb": {
+          "r": 29,
+          "g": 29,
+          "b": 31
+        },
+        "cmyk": {
+          "c": 6,
+          "m": 6,
+          "y": 0,
+          "k": 88
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Apple White",
+        "pantone": "Pantone White",
+        "hex": "#F5F5F7",
+        "rgb": {
+          "r": 245,
+          "g": 245,
+          "b": 247
+        },
+        "cmyk": {
+          "c": 1,
+          "m": 1,
+          "y": 0,
+          "k": 3
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Apple Blue",
+        "pantone": "Pantone 2728-C",
+        "hex": "#0071E3",
+        "rgb": {
+          "r": 0,
+          "g": 113,
+          "b": 227
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 50,
+          "y": 0,
+          "k": 11
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "ferrari",
+    "name": "Ferrari",
+    "industry": "Automotive",
+    "description": "Rosso Corsa \u2014 Racing Red \u2014 is Ferrari's signature color, used since the early days of Grand Prix racing when Italian cars were required to race in red.",
+    "colors": [
+      {
+        "name": "Rosso Corsa",
+        "pantone": "Pantone 485-C",
+        "hex": "#D40000",
+        "rgb": {
+          "r": 212,
+          "g": 0,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 100,
+          "y": 100,
+          "k": 17
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Ferrari Yellow",
+        "pantone": "Pantone 116-C",
+        "hex": "#FFCC00",
+        "rgb": {
+          "r": 255,
+          "g": 204,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 20,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Ferrari Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#1A1A1A",
+        "rgb": {
+          "r": 26,
+          "g": 26,
+          "b": 26
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 90
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "tiffany",
+    "name": "Tiffany & Co.",
+    "industry": "Luxury & Jewelry",
+    "description": "Tiffany Blue is one of the most famous brand colors in the world. Officially Pantone 1837 \u2014 the year Tiffany was founded \u2014 it's been trademarked by the company.",
+    "colors": [
+      {
+        "name": "Tiffany Blue",
+        "pantone": "Pantone 1837-C",
+        "hex": "#81D8D0",
+        "rgb": {
+          "r": 129,
+          "g": 216,
+          "b": 208
+        },
+        "cmyk": {
+          "c": 40,
+          "m": 0,
+          "y": 4,
+          "k": 15
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Tiffany Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#1A1A1A",
+        "rgb": {
+          "r": 26,
+          "g": 26,
+          "b": 26
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 90
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Tiffany White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "industry": "Technology",
+    "description": "Spotify's electric green stands out in the crowded music streaming market, projecting energy, youth, and innovation against a dark background.",
+    "colors": [
+      {
+        "name": "Spotify Green",
+        "pantone": "Pantone 802-C",
+        "hex": "#1DB954",
+        "rgb": {
+          "r": 29,
+          "g": 185,
+          "b": 84
+        },
+        "cmyk": {
+          "c": 84,
+          "m": 0,
+          "y": 55,
+          "k": 27
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Spotify Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#191414",
+        "rgb": {
+          "r": 25,
+          "g": 20,
+          "b": 20
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 20,
+          "y": 20,
+          "k": 90
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Spotify White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "industry": "Technology & Entertainment",
+    "description": "Netflix Red is bold, cinematic, and instantly recognizable. The deep red against black mirrors the experience of watching a film in a darkened theater.",
+    "colors": [
+      {
+        "name": "Netflix Red",
+        "pantone": "Pantone 485-C",
+        "hex": "#E50914",
+        "rgb": {
+          "r": 229,
+          "g": 9,
+          "b": 20
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 96,
+          "y": 91,
+          "k": 10
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Netflix Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#141414",
+        "rgb": {
+          "r": 20,
+          "g": 20,
+          "b": 20
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 92
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Netflix White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "starbucks",
+    "name": "Starbucks",
+    "industry": "Food & Beverage",
+    "description": "Starbucks Green is one of the most recognized retail colors globally, evoking nature, freshness, and premium quality.",
+    "colors": [
+      {
+        "name": "Starbucks Green",
+        "pantone": "Pantone 3425-C",
+        "hex": "#00704A",
+        "rgb": {
+          "r": 0,
+          "g": 112,
+          "b": 74
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 0,
+          "y": 34,
+          "k": 56
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Starbucks Light Green",
+        "pantone": "Pantone 346-C",
+        "hex": "#D4E9E2",
+        "rgb": {
+          "r": 212,
+          "g": 233,
+          "b": 226
+        },
+        "cmyk": {
+          "c": 9,
+          "m": 0,
+          "y": 3,
+          "k": 9
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Starbucks Dark",
+        "pantone": "Pantone Black-C",
+        "hex": "#1E3932",
+        "rgb": {
+          "r": 30,
+          "g": 57,
+          "b": 50
+        },
+        "cmyk": {
+          "c": 47,
+          "m": 0,
+          "y": 12,
+          "k": 78
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "ups",
+    "name": "UPS",
+    "industry": "Logistics",
+    "description": "UPS Brown \u2014 officially Pullman Brown \u2014 is one of the few brand colors named after a shade rather than the other way around. It's been UPS's signature since 1916.",
+    "colors": [
+      {
+        "name": "UPS Brown",
+        "pantone": "Pantone 469-C",
+        "hex": "#351C15",
+        "rgb": {
+          "r": 53,
+          "g": 28,
+          "b": 21
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 47,
+          "y": 60,
+          "k": 79
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "UPS Gold",
+        "pantone": "Pantone 1235-C",
+        "hex": "#FFB500",
+        "rgb": {
+          "r": 255,
+          "g": 181,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 29,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "hermes",
+    "name": "Herm\u00e8s",
+    "industry": "Luxury & Fashion",
+    "description": "Herm\u00e8s Orange is arguably the most famous luxury brand color. The signature orange box with brown ribbon has become a universal symbol of luxury gifting.",
+    "colors": [
+      {
+        "name": "Herm\u00e8s Orange",
+        "pantone": "Pantone 021-C",
+        "hex": "#E8600C",
+        "rgb": {
+          "r": 232,
+          "g": 96,
+          "b": 12
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 59,
+          "y": 95,
+          "k": 9
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Herm\u00e8s Brown",
+        "pantone": "Pantone 469-C",
+        "hex": "#4A2C17",
+        "rgb": {
+          "r": 74,
+          "g": 44,
+          "b": 23
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 41,
+          "y": 69,
+          "k": 71
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "rolex",
+    "name": "Rolex",
+    "industry": "Luxury & Watches",
+    "description": "Rolex Green \u2014 known as Evergreen \u2014 is synonymous with prestige and excellence. The distinctive shade has appeared on Rolex packaging and the famous Submariner dial.",
+    "colors": [
+      {
+        "name": "Rolex Green",
+        "pantone": "Pantone 3435-C",
+        "hex": "#006039",
+        "rgb": {
+          "r": 0,
+          "g": 96,
+          "b": 57
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 0,
+          "y": 41,
+          "k": 62
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Rolex Gold",
+        "pantone": "Pantone 871-C",
+        "hex": "#A67C52",
+        "rgb": {
+          "r": 166,
+          "g": 124,
+          "b": 82
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 25,
+          "y": 51,
+          "k": 35
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "louis-vuitton",
+    "name": "Louis Vuitton",
+    "industry": "Luxury & Fashion",
+    "description": "Louis Vuitton's warm brown and gold palette is the epitome of old-world luxury. The monogram canvas pattern in these colors is the most counterfeited design in fashion history.",
+    "colors": [
+      {
+        "name": "LV Brown",
+        "pantone": "Pantone 463-C",
+        "hex": "#8B6337",
+        "rgb": {
+          "r": 139,
+          "g": 99,
+          "b": 55
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 29,
+          "y": 60,
+          "k": 45
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "LV Gold",
+        "pantone": "Pantone 871-C",
+        "hex": "#C8A96E",
+        "rgb": {
+          "r": 200,
+          "g": 169,
+          "b": 110
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 16,
+          "y": 45,
+          "k": 22
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "LV Cream",
+        "pantone": "Pantone 9123-C",
+        "hex": "#F5E6C8",
+        "rgb": {
+          "r": 245,
+          "g": 230,
+          "b": 200
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 6,
+          "y": 18,
+          "k": 4
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "bmw",
+    "name": "BMW",
+    "industry": "Automotive",
+    "description": "BMW's blue and white roundel dates back to 1917. The colors reference the Bavarian Free State flag and have become a global symbol of precision German engineering.",
+    "colors": [
+      {
+        "name": "BMW Blue",
+        "pantone": "Pantone 293-C",
+        "hex": "#0066CC",
+        "rgb": {
+          "r": 0,
+          "g": 102,
+          "b": 204
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 50,
+          "y": 0,
+          "k": 20
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "BMW White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "BMW Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#1C1C1C",
+        "rgb": {
+          "r": 28,
+          "g": 28,
+          "b": 28
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 89
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "chanel",
+    "name": "Chanel",
+    "industry": "Luxury & Fashion",
+    "description": "Coco Chanel revolutionized fashion with black and white \u2014 colors previously considered too stark for haute couture. The timeless monochrome palette remains the ultimate symbol of Parisian elegance.",
+    "colors": [
+      {
+        "name": "Chanel Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 100
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Chanel White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Chanel Gold",
+        "pantone": "Pantone 871-C",
+        "hex": "#C9A84C",
+        "rgb": {
+          "r": 201,
+          "g": 168,
+          "b": 76
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 16,
+          "y": 62,
+          "k": 21
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "industry": "Technology",
+    "description": "Samsung's deep blue projects reliability, trust, and technological innovation. It is one of the most searched brand colors among electronics designers and marketers.",
+    "colors": [
+      {
+        "name": "Samsung Blue",
+        "pantone": "Pantone 2935-C",
+        "hex": "#1428A0",
+        "rgb": {
+          "r": 20,
+          "g": 40,
+          "b": 160
+        },
+        "cmyk": {
+          "c": 100,
+          "m": 75,
+          "y": 0,
+          "k": 37
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Samsung White",
+        "pantone": "Pantone White",
+        "hex": "#FFFFFF",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 0
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "adobe",
+    "name": "Adobe",
+    "industry": "Technology",
+    "description": "Adobe Red is bold and creative, reflecting the company's identity as the world's leading creative software platform used by designers worldwide.",
+    "colors": [
+      {
+        "name": "Adobe Red",
+        "pantone": "Pantone 485-C",
+        "hex": "#FF0000",
+        "rgb": {
+          "r": 255,
+          "g": 0,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 100,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Adobe Dark",
+        "pantone": "Pantone Black-C",
+        "hex": "#1C1C1C",
+        "rgb": {
+          "r": 28,
+          "g": 28,
+          "b": 28
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 89
+        },
+        "role": "Secondary"
+      }
+    ]
+  },
+  {
+    "slug": "lego",
+    "name": "LEGO",
+    "industry": "Toys & Entertainment",
+    "description": "LEGO's bold red and yellow palette mirrors the primary colors of creativity and childhood wonder. The brand's colors are as iconic as the interlocking bricks themselves.",
+    "colors": [
+      {
+        "name": "LEGO Red",
+        "pantone": "Pantone 485-C",
+        "hex": "#DA291C",
+        "rgb": {
+          "r": 218,
+          "g": 41,
+          "b": 28
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 81,
+          "y": 87,
+          "k": 15
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "LEGO Yellow",
+        "pantone": "Pantone 109-C",
+        "hex": "#FFD700",
+        "rgb": {
+          "r": 255,
+          "g": 215,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 16,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "LEGO Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 0,
+          "y": 0,
+          "k": 100
+        },
+        "role": "Accent"
+      }
+    ]
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "industry": "Technology",
+    "description": "Instagram's gradient palette \u2014 transitioning from purple through pink to orange-yellow \u2014 represents creativity, warmth, and the diversity of content on the platform.",
+    "colors": [
+      {
+        "name": "Instagram Purple",
+        "pantone": "Pantone 2597-C",
+        "hex": "#833AB4",
+        "rgb": {
+          "r": 131,
+          "g": 58,
+          "b": 180
+        },
+        "cmyk": {
+          "c": 27,
+          "m": 68,
+          "y": 0,
+          "k": 29
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Instagram Pink",
+        "pantone": "Pantone 812-C",
+        "hex": "#E1306C",
+        "rgb": {
+          "r": 225,
+          "g": 48,
+          "b": 108
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 79,
+          "y": 52,
+          "k": 12
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Instagram Orange",
+        "pantone": "Pantone 021-C",
+        "hex": "#F77737",
+        "rgb": {
+          "r": 247,
+          "g": 119,
+          "b": 55
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 52,
+          "y": 78,
+          "k": 3
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Instagram Yellow",
+        "pantone": "Pantone 1235-C",
+        "hex": "#FCAF45",
+        "rgb": {
+          "r": 252,
+          "g": 175,
+          "b": 69
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 31,
+          "y": 73,
+          "k": 1
+        },
+        "role": "Primary"
+      }
+    ]
+  },
+  {
+    "slug": "pantone",
+    "name": "Pantone",
+    "industry": "Design & Publishing",
+    "description": "Pantone is the global authority on color and creator of the Pantone Matching System (PMS). Their signature colors \u2014 used across branding, packaging, and print worldwide \u2014 are instantly recognizable to every designer.",
+    "colors": [
+      {
+        "name": "Pantone Red",
+        "pantone": "Pantone 485-C",
+        "hex": "#DA291C",
+        "rgb": {
+          "r": 218,
+          "g": 41,
+          "b": 28
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 81,
+          "y": 87,
+          "k": 15
+        },
+        "role": "Primary"
+      },
+      {
+        "name": "Pantone Yellow",
+        "pantone": "Pantone 109-C",
+        "hex": "#FEDB00",
+        "rgb": {
+          "r": 254,
+          "g": 219,
+          "b": 0
+        },
+        "cmyk": {
+          "c": 0,
+          "m": 14,
+          "y": 100,
+          "k": 0
+        },
+        "role": "Secondary"
+      },
+      {
+        "name": "Pantone Black",
+        "pantone": "Pantone Black-C",
+        "hex": "#2B2B2C",
+        "rgb": {
+          "r": 43,
+          "g": 43,
+          "b": 44
+        },
+        "cmyk": {
+          "c": 2,
+          "m": 2,
+          "y": 0,
+          "k": 83
+        },
+        "role": "Accent"
+      }
+    ]
+  }
+]
