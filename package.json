@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap && node -e \"require('fs').copyFileSync('out/sitemap.xml', 'public/sitemap.xml')\"",
     "start": "next start",
     "lint": "eslint"
   },
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "next-sitemap": "^4.2.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

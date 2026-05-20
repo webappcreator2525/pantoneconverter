@@ -10,6 +10,7 @@ schema: "Article"
 keywords: ["pantone coated vs uncoated", "pantone c vs u", "coated vs uncoated pantone", "pantone coated uncoated difference", "which pantone coated or uncoated"]
 ---
 
+import Image from 'next/image'
 import { ColorSwatch } from '@/components/ColorSwatch'
 import { InfoBox } from '@/components/InfoBox'
 import { FAQSection } from '@/components/FAQSection'
@@ -37,6 +38,14 @@ One of the most common sources of confusion in professional print design is the 
 ---
 
 ## What Do Coated and Uncoated Mean?
+
+<Image 
+  src="/images/coated-vs-uncoated.svg"
+  alt="Pantone coated vs uncoated paper print comparison diagram"
+  width={900}
+  height={440}
+  className="w-full rounded-xl my-6"
+/>
 
 The C and U suffixes refer to the **paper stock** the color is designed for, not the color formula itself.
 

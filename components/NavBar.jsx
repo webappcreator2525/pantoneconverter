@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
-import { Menu, X, ChevronDown, Heart, Sliders, ArrowRightLeft, Layers, BookOpen, Home, Info, Shield } from 'lucide-react';
+import { Menu, X, ChevronDown, Bookmark, Sliders, ArrowRightLeft, Layers, BookOpen, Home, Info, Shield } from 'lucide-react';
 import { useFavorites } from '../lib/FavoritesContext';
 
 const PRIMARY_LINKS = [
@@ -225,7 +225,7 @@ export default function NavBar() {
             onMouseEnter={(e) => (e.currentTarget.style.color = '#7c3aed')}
             onMouseLeave={(e) => (e.currentTarget.style.color = '#4b5563')}
           >
-            <Heart size={14} strokeWidth={2} style={{ flexShrink: 0 }} />
+            <Bookmark size={14} strokeWidth={2} style={{ flexShrink: 0 }} />
             Saved
             {favCount > 0 && (
               <span style={{
@@ -240,15 +240,33 @@ export default function NavBar() {
           </Link>
         </div>
 
-        {/* Mobile hamburger */}
-        <button
-          onClick={() => setMobileOpen((o) => !o)}
-          style={{ display: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem' }}
-          className="mobile-nav-btn"
-          aria-label="Toggle menu"
-        >
-          {mobileOpen ? <X size={22} color="#374151" /> : <Menu size={22} color="#374151" />}
-        </button>
+        {/* Mobile icons */}
+        <div className="mobile-nav-container" style={{ display: 'none', alignItems: 'center', gap: '0.25rem' }}>
+          <Link
+            href="/saved"
+            style={{ position: 'relative', display: 'flex', padding: '0.5rem', color: '#374151', textDecoration: 'none' }}
+            aria-label="Saved Colors"
+          >
+            <Bookmark size={20} color={favCount > 0 ? '#ef4444' : '#374151'} fill={favCount > 0 ? '#ef4444' : 'none'} />
+            {favCount > 0 && (
+              <span style={{
+                position: 'absolute', top: '0.1rem', right: '0.1rem',
+                background: '#ef4444', color: '#fff', fontSize: '0.6rem', fontWeight: 800,
+                borderRadius: '9999px', padding: '0.1rem 0.3rem', minWidth: '0.9rem', textAlign: 'center',
+                lineHeight: 1
+              }}>
+                {favCount}
+              </span>
+            )}
+          </Link>
+          <button
+            onClick={() => setMobileOpen((o) => !o)}
+            style={{ background: 'none', border: 'none', cursor: 'pointer', padding: '0.5rem' }}
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? <X size={22} color="#374151" /> : <Menu size={22} color="#374151" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile panel */}
@@ -262,7 +280,7 @@ export default function NavBar() {
         }} className="mobile-nav-panel">
           
           {/* Quick Links Row */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.5rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '0.5rem' }}>
             <Link
               href="/"
               onClick={() => setMobileOpen(false)}
@@ -274,28 +292,6 @@ export default function NavBar() {
             >
               <Home size={18} color="#4b5563" />
               <span>Home</span>
-            </Link>
-            
-            <Link
-              href="/saved"
-              onClick={() => setMobileOpen(false)}
-              style={{
-                display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-                gap: '0.4rem', padding: '0.65rem', borderRadius: '0.6rem', border: '1px solid #f3f4f6',
-                textDecoration: 'none', fontSize: '0.75rem', fontWeight: 700, color: '#4b5563',
-                background: favCount > 0 ? '#fff5f5' : '#f9fafb', borderColor: favCount > 0 ? '#fed7d7' : '#f3f4f6',
-              }}
-            >
-              <Heart size={18} fill={favCount > 0 ? '#ef4444' : 'none'} color={favCount > 0 ? '#ef4444' : '#4b5563'} />
-              <span style={{ display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                Saved
-                {favCount > 0 && (
-                  <span style={{
-                    background: '#ef4444', color: '#fff', fontSize: '0.6rem', fontWeight: 800,
-                    borderRadius: '9999px', padding: '0.05rem 0.3rem', minWidth: '0.85rem', textAlign: 'center'
-                  }}>{favCount}</span>
-                )}
-              </span>
             </Link>
           </div>
 
@@ -335,7 +331,7 @@ export default function NavBar() {
       <style>{`
         @media (max-width: 900px) {
           .desktop-nav    { display: none !important; }
-          .mobile-nav-btn { display: block !important; }
+          .mobile-nav-container { display: flex !important; }
         }
       `}</style>
     </nav>

@@ -10,6 +10,7 @@ schema: "Article"
 keywords: ["what is pantone", "pantone matching system", "PMS colors", "pantone vs cmyk", "pantone color system"]
 ---
 
+import Image from 'next/image'
 import { ColorSwatch } from '@/components/ColorSwatch'
 import { InfoBox } from '@/components/InfoBox'
 import { FAQSection } from '@/components/FAQSection'
@@ -96,6 +97,14 @@ This is only possible with a standardized spot color system.
 ---
 
 ## Pantone vs. CMYK vs. RGB
+
+<Image 
+  src="/images/color-systems-comparison.svg"
+  alt="RGB vs CMYK vs Pantone color systems comparison diagram"
+  width={900}
+  height={520}
+  className="w-full rounded-xl my-6"
+/>
 
 Understanding when to use each system is fundamental design knowledge:
 

@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 
 import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote } from 'next-mdx-remote';
@@ -24,6 +25,7 @@ function remarkStripImports() {
 
 // ── MDX component map ────────────────────────────────────────────────────────
 const components = {
+  Image,
   InfoBox,
   FAQSection,
   RelatedTools,

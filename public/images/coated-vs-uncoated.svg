@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" font-family="system-ui, -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="440" fill="#FAFAFA" rx="16"/>
+
+  <!-- Title -->
+  <text x="450" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#111827">Same Pantone ink — different paper, different result</text>
+  <text x="450" y="64" text-anchor="middle" font-size="12" fill="#6B7280">Pantone 186 printed on coated vs uncoated stock</text>
+
+  <!-- ============ LEFT: COATED ============ -->
+  <rect x="30" y="86" width="380" height="320" rx="12" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Paper texture - coated (smooth, glossy) -->
+  <rect x="30" y="86" width="380" height="320" rx="12" fill="white"/>
+  <!-- Glossy sheen effect -->
+  <rect x="30" y="86" width="380" height="60" rx="12" fill="#F8FAFC" opacity="0.8"/>
+
+  <!-- Coated label -->
+  <rect x="50" y="100" width="120" height="28" rx="14" fill="#1D4ED8"/>
+  <text x="110" y="119" text-anchor="middle" font-size="12" font-weight="700" fill="white">Coated (C)</text>
+
+  <!-- Coated color swatch -->
+  <rect x="70" y="148" width="300" height="140" rx="8" fill="#C8102E"/>
+  <text x="220" y="212" text-anchor="middle" font-size="13" font-weight="700" fill="white">Pantone 186-C</text>
+  <text x="220" y="232" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.85)">#C8102E</text>
+
+  <!-- Ink behavior diagram - coated -->
+  <text x="220" y="316" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Ink behavior on coated paper</text>
+
+  <!-- Paper layers diagram -->
+  <!-- Ink dots sitting on surface -->
+  <rect x="70" y="326" width="300" height="12" rx="3" fill="#C8102E" opacity="0.9"/>
+  <!-- Coating layer -->
+  <rect x="70" y="338" width="300" height="8" rx="0" fill="#E2E8F0"/>
+  <text x="385" y="346" font-size="9" fill="#6B7280">coating</text>
+  <!-- Paper fiber -->
+  <rect x="70" y="346" width="300" height="18" rx="0" fill="#F1F0EB"/>
+  <text x="385" y="358" font-size="9" fill="#6B7280">paper</text>
+  <!-- Paper bottom -->
+  <rect x="70" y="364" width="300" height="8" rx="0" fill="#E8E6DF"/>
+
+  <!-- Result label -->
+  <text x="220" y="398" text-anchor="middle" font-size="11" fill="#374151">Ink stays on surface</text>
+  <text x="220" y="414" text-anchor="middle" font-size="12" font-weight="600" fill="#1D4ED8">Vivid · Saturated · Sharp</text>
+
+  <!-- ============ RIGHT: UNCOATED ============ -->
+  <rect x="490" y="86" width="380" height="320" rx="12" fill="#FFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Uncoated label -->
+  <rect x="510" y="100" width="130" height="28" rx="14" fill="#6B7280"/>
+  <text x="575" y="119" text-anchor="middle" font-size="12" font-weight="700" fill="white">Uncoated (U)</text>
+
+  <!-- Uncoated color swatch - slightly duller -->
+  <rect x="530" y="148" width="300" height="140" rx="8" fill="#D2515E"/>
+  <text x="680" y="212" text-anchor="middle" font-size="13" font-weight="700" fill="white">Pantone 186-U</text>
+  <text x="680" y="232" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.85)">#D2515E</text>
+
+  <!-- Ink behavior diagram - uncoated -->
+  <text x="680" y="316" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">Ink behavior on uncoated paper</text>
+
+  <!-- Paper layers diagram - ink absorbing into fibers -->
+  <!-- Ink absorbed into fibers -->
+  <rect x="530" y="326" width="300" height="8" rx="3" fill="#D2515E" opacity="0.5"/>
+  <!-- Ink spreading into paper -->
+  <rect x="530" y="334" width="300" height="16" rx="0" fill="#E8C0C3" opacity="0.6"/>
+  <!-- Paper fiber with absorbed ink -->
+  <rect x="530" y="334" width="300" height="28" rx="0" fill="#F1F0EB"/>
+  <!-- Absorbed ink dots scattered in fiber -->
+  <circle cx="560" cy="346" r="3" fill="#D2515E" opacity="0.4"/>
+  <circle cx="590" cy="350" r="2" fill="#D2515E" opacity="0.3"/>
+  <circle cx="620" cy="344" r="3" fill="#D2515E" opacity="0.35"/>
+  <circle cx="650" cy="349" r="2" fill="#D2515E" opacity="0.3"/>
+  <circle cx="680" cy="345" r="3" fill="#D2515E" opacity="0.4"/>
+  <circle cx="710" cy="350" r="2" fill="#D2515E" opacity="0.3"/>
+  <circle cx="740" cy="344" r="3" fill="#D2515E" opacity="0.35"/>
+  <circle cx="770" cy="348" r="2" fill="#D2515E" opacity="0.3"/>
+  <circle cx="800" cy="346" r="3" fill="#D2515E" opacity="0.4"/>
+  <text x="845" y="350" font-size="9" fill="#6B7280">paper</text>
+  <!-- Paper bottom -->
+  <rect x="530" y="362" width="300" height="10" rx="0" fill="#E8E6DF"/>
+
+  <!-- Result label -->
+  <text x="680" y="398" text-anchor="middle" font-size="11" fill="#374151">Ink absorbs into fibers</text>
+  <text x="680" y="414" text-anchor="middle" font-size="12" font-weight="600" fill="#6B7280">Softer · Duller · Matte</text>
+
+  <!-- Center arrow / VS -->
+  <text x="450" y="230" text-anchor="middle" font-size="22" font-weight="700" fill="#D1D5DB">vs</text>
+  <line x1="415" y1="210" x2="435" y2="210" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="465" y1="210" x2="485" y2="210" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Bottom note -->
+  <rect x="30" y="416" width="840" height="18" rx="4" fill="transparent"/>
+  <text x="450" y="429" text-anchor="middle" font-size="10" fill="#9CA3AF">Same Pantone number, same ink formula — the paper makes the difference. Always verify against a physical swatch book.</text>
+
+</svg>

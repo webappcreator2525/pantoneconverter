@@ -15,6 +15,11 @@ const nextConfig = withMDX({
   },
   // Treat .md and .mdx files as pages (for /pages-based MDX if ever used)
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
+  experimental: {
+    turbopack: {
+      root: __dirname,
+    },
+  },
 });
 
 module.exports = nextConfig;

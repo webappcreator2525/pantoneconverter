@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="system-ui, -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="420" fill="#FAFAFA" rx="16"/>
+
+  <!-- ============ LEFT: ADDITIVE (RGB) ============ -->
+  <rect x="20" y="20" width="400" height="380" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="220" y="54" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">Additive color — RGB (light)</text>
+  <text x="220" y="74" text-anchor="middle" font-size="11" fill="#3B82F6">Colors add together → white</text>
+
+  <!-- RGB overlapping circles -->
+  <circle cx="193" cy="195" r="78" fill="#FF2200" opacity="0.70"/>
+  <circle cx="247" cy="195" r="78" fill="#00CC00" opacity="0.70"/>
+  <circle cx="220" cy="245" r="78" fill="#0033FF" opacity="0.70"/>
+
+  <!-- Overlap labels -->
+  <!-- R+G = Yellow -->
+  <text x="220" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFF00">Yellow</text>
+  <!-- R+B = Magenta -->
+  <text x="178" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#FF66FF">Magenta</text>
+  <!-- G+B = Cyan -->
+  <text x="262" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#66FFFF">Cyan</text>
+  <!-- R+G+B = White -->
+  <text x="220" y="213" text-anchor="middle" font-size="11" font-weight="700" fill="white">White</text>
+
+  <!-- Pure color labels -->
+  <text x="155" y="180" text-anchor="middle" font-size="12" font-weight="600" fill="#FF4444">R</text>
+  <text x="283" y="180" text-anchor="middle" font-size="12" font-weight="600" fill="#44FF44">G</text>
+  <text x="220" y="310" text-anchor="middle" font-size="12" font-weight="600" fill="#6688FF">B</text>
+
+  <!-- Start: dark / End: light -->
+  <rect x="50" y="340" width="120" height="30" rx="6" fill="#111"/>
+  <text x="110" y="360" text-anchor="middle" font-size="11" fill="white">Starts dark</text>
+  <text x="220" y="360" text-anchor="middle" font-size="18" fill="#555">→</text>
+  <rect x="280" y="340" width="120" height="30" rx="6" fill="white" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="340" y="360" text-anchor="middle" font-size="11" fill="#333">Ends white</text>
+
+  <!-- ============ RIGHT: SUBTRACTIVE (CMYK) ============ -->
+  <rect x="480" y="20" width="400" height="380" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+  <text x="680" y="54" text-anchor="middle" font-size="15" font-weight="700" fill="#15803D">Subtractive color — CMYK (ink)</text>
+  <text x="680" y="74" text-anchor="middle" font-size="11" fill="#22C55E">Colors absorb light → black</text>
+
+  <!-- CMYK overlapping circles -->
+  <circle cx="653" cy="195" r="78" fill="#00CCCC" opacity="0.75"/>
+  <circle cx="707" cy="195" r="78" fill="#FF00AA" opacity="0.75"/>
+  <circle cx="680" cy="245" r="78" fill="#FFDD00" opacity="0.75"/>
+
+  <!-- Overlap labels -->
+  <!-- C+M = Blue -->
+  <text x="680" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#0033FF">Blue</text>
+  <!-- C+Y = Green -->
+  <text x="638" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#006600">Green</text>
+  <!-- M+Y = Red -->
+  <text x="722" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#CC0000">Red</text>
+  <!-- C+M+Y = Black -->
+  <text x="680" y="213" text-anchor="middle" font-size="11" font-weight="700" fill="#111111">Black</text>
+
+  <!-- Pure color labels -->
+  <text x="615" y="180" text-anchor="middle" font-size="12" font-weight="600" fill="#009999">C</text>
+  <text x="743" y="180" text-anchor="middle" font-size="12" font-weight="600" fill="#CC0088">M</text>
+  <text x="680" y="310" text-anchor="middle" font-size="12" font-weight="600" fill="#AA9900">Y</text>
+
+  <!-- Start: white / End: dark -->
+  <rect x="510" y="340" width="120" height="30" rx="6" fill="white" stroke="#BBF7D0" stroke-width="1"/>
+  <text x="570" y="360" text-anchor="middle" font-size="11" fill="#333">Starts white</text>
+  <text x="680" y="360" text-anchor="middle" font-size="18" fill="#555">→</text>
+  <rect x="740" y="340" width="120" height="30" rx="6" fill="#111"/>
+  <text x="800" y="360" text-anchor="middle" font-size="11" fill="white">Ends black</text>
+
+  <!-- Center divider -->
+  <line x1="450" y1="40" x2="450" y2="380" stroke="#D1D5DB" stroke-width="1" stroke-dasharray="6,4"/>
+  <text x="450" y="205" text-anchor="middle" font-size="11" fill="#9CA3AF" transform="rotate(-90, 450, 205)">vs</text>
+
+</svg>

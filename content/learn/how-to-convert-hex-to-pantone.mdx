@@ -10,6 +10,7 @@ schema: "HowTo"
 keywords: ["hex to pantone", "convert hex to pantone", "hex color to pantone", "hex to pms", "how to convert hex to pantone"]
 ---
 
+import Image from 'next/image'
 import { ColorSwatch } from '@/components/ColorSwatch'
 import { InfoBox } from '@/components/InfoBox'
 import { FAQSection } from '@/components/FAQSection'
@@ -93,6 +94,14 @@ Specifying a Pantone color eliminates this guesswork. The printer uses a standar
 ---
 
 ## How the Conversion Works
+
+<Image 
+  src="/images/hex-to-pantone-workflow.svg"
+  alt="HEX to Pantone conversion workflow diagram"
+  width={900}
+  height={300}
+  className="w-full rounded-xl my-6"
+/>
 
 No algorithm can produce a perfect HEX-to-Pantone conversion because they represent fundamentally different color systems. What converters do is find the **closest available Pantone color** using a mathematical distance formula.
 

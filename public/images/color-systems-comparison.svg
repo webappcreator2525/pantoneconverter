@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="system-ui, -apple-system, sans-serif">
+  
+  <!-- Background -->
+  <rect width="900" height="520" fill="#FAFAFA" rx="16"/>
+  
+  <!-- Title -->
+  <text x="450" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="#111827">Three Color Systems — When to Use Each</text>
+
+  <!-- ============ RGB CARD ============ -->
+  <rect x="30" y="70" width="256" height="380" rx="12" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  
+  <!-- RGB Header -->
+  <rect x="30" y="70" width="256" height="56" rx="12" fill="#2563EB"/>
+  <rect x="30" y="102" width="256" height="24" fill="#2563EB"/>
+  <text x="158" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="white">RGB</text>
+  
+  <!-- RGB Additive circles -->
+  <circle cx="130" cy="200" r="52" fill="#FF0000" opacity="0.75"/>
+  <circle cx="186" cy="200" r="52" fill="#00CC00" opacity="0.75"/>
+  <circle cx="158" cy="248" r="52" fill="#0000FF" opacity="0.75"/>
+  <!-- White center -->
+  <ellipse cx="158" cy="210" rx="18" ry="14" fill="white" opacity="0.9"/>
+  
+  <!-- Additive label -->
+  <text x="158" y="215" text-anchor="middle" font-size="9" font-weight="700" fill="#1e3a5f">WHITE</text>
+
+  <!-- RGB description items -->
+  <circle cx="52" cy="308" r="4" fill="#2563EB"/>
+  <text x="64" y="313" font-size="12" fill="#1E40AF" font-weight="600">Additive color (light)</text>
+  
+  <circle cx="52" cy="332" r="4" fill="#2563EB"/>
+  <text x="64" y="337" font-size="12" fill="#374151">Screens &amp; digital design</text>
+  
+  <circle cx="52" cy="356" r="4" fill="#2563EB"/>
+  <text x="64" y="361" font-size="12" fill="#374151">Larger color gamut</text>
+  
+  <circle cx="52" cy="380" r="4" fill="#2563EB"/>
+  <text x="64" y="385" font-size="12" fill="#374151">Values: 0–255 per channel</text>
+
+  <!-- RGB badge -->
+  <rect x="50" y="410" width="155" height="28" rx="14" fill="#DBEAFE"/>
+  <text x="128" y="429" text-anchor="middle" font-size="11" font-weight="700" fill="#1D4ED8">Web · Social · Video</text>
+
+  <!-- ============ CMYK CARD ============ -->
+  <rect x="322" y="70" width="256" height="380" rx="12" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+  
+  <!-- CMYK Header -->
+  <rect x="322" y="70" width="256" height="56" rx="12" fill="#16A34A"/>
+  <rect x="322" y="102" width="256" height="24" fill="#16A34A"/>
+  <text x="450" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="white">CMYK</text>
+  
+  <!-- CMYK Subtractive ink drops -->
+  <!-- Cyan -->
+  <ellipse cx="400" cy="178" rx="34" ry="34" fill="#00B4D8" opacity="0.85"/>
+  <text x="400" y="183" text-anchor="middle" font-size="10" font-weight="700" fill="white">C</text>
+  <!-- Magenta -->
+  <ellipse cx="450" cy="215" rx="34" ry="34" fill="#E040FB" opacity="0.85"/>
+  <text x="450" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="white">M</text>
+  <!-- Yellow -->
+  <ellipse cx="400" cy="252" rx="34" ry="34" fill="#FFD600" opacity="0.85"/>
+  <text x="400" y="257" text-anchor="middle" font-size="10" font-weight="700" fill="#333">Y</text>
+  <!-- Black -->
+  <ellipse cx="450" cy="178" rx="18" ry="18" fill="#111827" opacity="0.9"/>
+  <text x="450" y="183" text-anchor="middle" font-size="10" font-weight="700" fill="white">K</text>
+
+  <!-- Subtractive label -->
+  <text x="450" y="272" text-anchor="middle" font-size="9" fill="#166534" font-weight="600">SUBTRACTIVE</text>
+
+  <!-- CMYK description items -->
+  <circle cx="344" cy="308" r="4" fill="#16A34A"/>
+  <text x="356" y="313" font-size="12" fill="#15803D" font-weight="600">Subtractive color (ink)</text>
+  
+  <circle cx="344" cy="332" r="4" fill="#16A34A"/>
+  <text x="356" y="337" font-size="12" fill="#374151">Commercial print</text>
+  
+  <circle cx="344" cy="356" r="4" fill="#16A34A"/>
+  <text x="356" y="361" font-size="12" fill="#374151">Smaller gamut than RGB</text>
+  
+  <circle cx="344" cy="380" r="4" fill="#16A34A"/>
+  <text x="356" y="385" font-size="12" fill="#374151">Values: 0–100% per channel</text>
+
+  <!-- CMYK badge -->
+  <rect x="342" y="410" width="215" height="28" rx="14" fill="#DCFCE7"/>
+  <text x="450" y="429" text-anchor="middle" font-size="11" font-weight="700" fill="#15803D">Brochures · Packaging · Cards</text>
+
+  <!-- ============ PANTONE CARD ============ -->
+  <rect x="614" y="70" width="256" height="380" rx="12" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1.5"/>
+  
+  <!-- Pantone Header -->
+  <rect x="614" y="70" width="256" height="56" rx="12" fill="#EA580C"/>
+  <rect x="614" y="102" width="256" height="24" fill="#EA580C"/>
+  <text x="742" y="104" text-anchor="middle" font-size="22" font-weight="800" fill="white">PANTONE</text>
+  
+  <!-- Pantone swatch fan -->
+  <rect x="690" y="148" width="48" height="90" rx="4" fill="#C8102E" transform="rotate(-12 714 193)"/>
+  <rect x="705" y="148" width="48" height="90" rx="4" fill="#FF6B35" transform="rotate(-4 729 193)"/>
+  <rect x="720" y="148" width="48" height="90" rx="4" fill="#FFD700" transform="rotate(4 744 193)"/>
+  <rect x="735" y="148" width="48" height="90" rx="4" fill="#00704A" transform="rotate(12 759 193)"/>
+  <rect x="750" y="148" width="48" height="90" rx="4" fill="#003087" transform="rotate(20 774 193)"/>
+  
+  <!-- PMS label -->
+  <text x="742" y="272" text-anchor="middle" font-size="9" fill="#9A3412" font-weight="700">PRE-MIXED SPOT INKS</text>
+
+  <!-- Pantone description items -->
+  <circle cx="636" cy="308" r="4" fill="#EA580C"/>
+  <text x="648" y="313" font-size="12" fill="#C2410C" font-weight="600">Standardized spot inks</text>
+  
+  <circle cx="636" cy="332" r="4" fill="#EA580C"/>
+  <text x="648" y="337" font-size="12" fill="#374151">Brand-critical print work</text>
+  
+  <circle cx="636" cy="356" r="4" fill="#EA580C"/>
+  <text x="648" y="361" font-size="12" fill="#374151">Consistent across printers</text>
+  
+  <circle cx="636" cy="380" r="4" fill="#EA580C"/>
+  <text x="648" y="385" font-size="12" fill="#374151">Includes metallics &amp; neons</text>
+
+  <!-- Pantone badge -->
+  <rect x="634" y="410" width="215" height="28" rx="14" fill="#FFEDD5"/>
+  <text x="742" y="429" text-anchor="middle" font-size="11" font-weight="700" fill="#C2410C">Logos · Brand Colors · Merch</text>
+
+  <!-- ============ ARROWS between cards ============ -->
+  <!-- RGB → CMYK arrow -->
+  <line x1="292" y1="260" x2="316" y2="260" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="316,256 324,260 316,264" fill="#9CA3AF"/>
+  <text x="308" y="252" text-anchor="middle" font-size="9" fill="#6B7280">convert</text>
+
+  <!-- CMYK → Pantone arrow -->
+  <line x1="584" y1="260" x2="608" y2="260" stroke="#9CA3AF" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="608,256 616,260 608,264" fill="#9CA3AF"/>
+  <text x="600" y="252" text-anchor="middle" font-size="9" fill="#6B7280">match</text>
+
+  <!-- ============ Bottom workflow bar ============ -->
+  <rect x="30" y="468" width="840" height="40" rx="8" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="450" y="484" text-anchor="middle" font-size="11" fill="#6B7280">Typical workflow:</text>
+  <text x="450" y="499" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">Design in RGB  →  Export CMYK for print  →  Specify Pantone for brand colors</text>
+
+</svg>

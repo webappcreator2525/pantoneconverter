@@ -10,6 +10,7 @@ schema: "Article"
 keywords: ["cmyk vs rgb", "difference between cmyk and rgb", "rgb vs cmyk", "cmyk vs rgb for print", "when to use cmyk vs rgb"]
 ---
 
+import Image from 'next/image'
 import { ColorSwatch } from '@/components/ColorSwatch'
 import { InfoBox } from '@/components/InfoBox'
 import { FAQSection } from '@/components/FAQSection'
@@ -39,6 +40,14 @@ This guide explains exactly how they differ, when to use each, and how to work w
 ---
 
 ## The Core Difference: Light vs. Ink
+
+<Image 
+  src="/images/additive-vs-subtractive.svg"
+  alt="Additive RGB vs subtractive CMYK color mixing diagram"
+  width={900}
+  height={420}
+  className="w-full rounded-xl my-6"
+/>
 
 The fundamental difference between RGB and CMYK is what they're made of.
 

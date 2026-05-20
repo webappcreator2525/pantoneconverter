@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" font-family="system-ui, -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="#FAFAFA" rx="16"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">How HEX to Pantone conversion works</text>
+
+  <!-- Step 1: HEX input -->
+  <rect x="30" y="64" width="180" height="100" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="30" y="64" width="180" height="36" rx="10" fill="#2563EB"/>
+  <rect x="30" y="88" width="180" height="12" fill="#2563EB"/>
+  <text x="120" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="white">Step 1</text>
+  <text x="120" y="114" text-anchor="middle" font-size="12" font-weight="600" fill="#1E40AF">HEX input</text>
+  <rect x="50" y="126" width="140" height="26" rx="6" fill="white" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="120" y="143" text-anchor="middle" font-size="13" font-weight="700" fill="#1D4ED8">#C8102E</text>
+
+  <!-- Arrow 1 -->
+  <line x1="214" y1="114" x2="254" y2="114" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr1)"/>
+  <defs>
+    <marker id="arr1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <!-- Step 2: Parse to RGB -->
+  <rect x="258" y="64" width="180" height="100" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1.5"/>
+  <rect x="258" y="64" width="180" height="36" rx="10" fill="#16A34A"/>
+  <rect x="258" y="88" width="180" height="12" fill="#16A34A"/>
+  <text x="348" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="white">Step 2</text>
+  <text x="348" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">Parse to RGB</text>
+  <text x="348" y="132" text-anchor="middle" font-size="11" fill="#374151">C8 → 200</text>
+  <text x="348" y="149" text-anchor="middle" font-size="11" fill="#374151">10 → 16  2E → 46</text>
+
+  <!-- Arrow 2 -->
+  <line x1="442" y1="114" x2="482" y2="114" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr1)"/>
+
+  <!-- Step 3: Calculate distance -->
+  <rect x="486" y="64" width="180" height="100" rx="10" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1.5"/>
+  <rect x="486" y="64" width="180" height="36" rx="10" fill="#EA580C"/>
+  <rect x="486" y="88" width="180" height="12" fill="#EA580C"/>
+  <text x="576" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="white">Step 3</text>
+  <text x="576" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#9A3412">Match database</text>
+  <text x="576" y="130" text-anchor="middle" font-size="10" fill="#374151">Weighted RGB distance</text>
+  <text x="576" y="148" text-anchor="middle" font-size="10" fill="#374151">3,200+ Pantone colors</text>
+
+  <!-- Arrow 3 -->
+  <line x1="670" y1="114" x2="710" y2="114" stroke="#9CA3AF" stroke-width="1.5" marker-end="url(#arr1)"/>
+
+  <!-- Step 4: Result -->
+  <rect x="714" y="64" width="160" height="100" rx="10" fill="#FDF4FF" stroke="#E9D5FF" stroke-width="1.5"/>
+  <rect x="714" y="64" width="160" height="36" rx="10" fill="#9333EA"/>
+  <rect x="714" y="88" width="160" height="12" fill="#9333EA"/>
+  <text x="794" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="white">Step 4</text>
+  <text x="794" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#6B21A8">Top 5 matches</text>
+  <rect x="730" y="122" width="128" height="28" rx="6" fill="#C8102E"/>
+  <text x="794" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="white">Pantone 186-C  100%</text>
+
+  <!-- Bottom row: important notes -->
+  <rect x="30" y="188" width="840" height="90" rx="10" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+
+  <circle cx="60" cy="218" r="16" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="60" y="223" text-anchor="middle" font-size="14">💡</text>
+  <text x="88" y="213" font-size="12" font-weight="600" fill="#1E40AF">Coated or Uncoated?</text>
+  <text x="88" y="230" font-size="11" fill="#374151">Choose C for glossy paper, U for matte.</text>
+  <text x="88" y="246" font-size="11" fill="#374151">Same number, different result on press.</text>
+
+  <line x1="370" y1="198" x2="370" y2="268" stroke="#E5E7EB" stroke-width="1"/>
+
+  <circle cx="400" cy="218" r="16" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+  <text x="400" y="223" text-anchor="middle" font-size="14">⚠️</text>
+  <text x="428" y="213" font-size="12" font-weight="600" fill="#9A3412">Not always perfect</text>
+  <text x="428" y="230" font-size="11" fill="#374151">Some digital colors (neons, deep blues)</text>
+  <text x="428" y="246" font-size="11" fill="#374151">have no close Pantone equivalent.</text>
+
+  <line x1="660" y1="198" x2="660" y2="268" stroke="#E5E7EB" stroke-width="1"/>
+
+  <circle cx="690" cy="218" r="16" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+  <text x="690" y="223" text-anchor="middle" font-size="14">✓</text>
+  <text x="718" y="213" font-size="12" font-weight="600" fill="#166534">Always verify</text>
+  <text x="718" y="230" font-size="11" fill="#374151">Confirm against a physical Pantone</text>
+  <text x="718" y="246" font-size="11" fill="#374151">swatch book before final print.</text>
+
+</svg>
