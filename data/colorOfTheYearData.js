@@ -2,6 +2,19 @@
 
 export const colorOfTheYearData = [
   {
+    year: 2026,
+    colors: [
+      {
+        name: "Cloud Dancer",
+        pantone: "PANTONE 11-4201",
+        hex: "#F0EEE9",
+        rgb: { r: 240, g: 238, b: 233 },
+        cmyk: { c: 0, m: 1, y: 3, k: 6 },
+        description: "Cloud Dancer is a soft, airy, near-white selected as the 2026 Color of the Year — the first true white in the program's history since 1999. Pantone describes it as a blank canvas offering clarity and calm in an overstimulated world. Its equal balance of warm and cool undertones gives it exceptional versatility across fashion, interiors, and graphic design."
+      }
+    ]
+  },
+  {
     year: 2025,
     colors: [
       {

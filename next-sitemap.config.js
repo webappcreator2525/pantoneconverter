@@ -33,6 +33,9 @@ module.exports = {
     } else if (path.startsWith('/learn')) {
       priority = 0.6;
       changefreq = 'yearly';
+    } else if (path === '/pantone-color-of-the-year/2026') {
+      priority = 0.8;
+      changefreq = 'yearly';
     } else if (path.startsWith('/pantone-color-of-the-year')) {
       priority = 0.4;
       changefreq = 'yearly';

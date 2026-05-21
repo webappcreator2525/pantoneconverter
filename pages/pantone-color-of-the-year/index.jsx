@@ -37,16 +37,16 @@ export default function ColorOfTheYearIndex() {
   return (
     <>
       <Head>
-        <title>Pantone Color of the Year — All Years Archive</title>
+        <title>Pantone Color of the Year — 2026 Cloud Dancer &amp; Full Archive</title>
         <meta
           name="description"
-          content="Every Pantone Color of the Year from 2000 to 2025 — with Pantone codes, HEX, RGB, and CMYK values."
+          content="Explore Pantone Color of the Year 2026: Cloud Dancer (PANTONE 11-4201) plus the complete archive from 1999 to 2026 with HEX, RGB, and CMYK values."
         />
         <link rel="canonical" href="https://pantoneconverter.com/pantone-color-of-the-year/" />
-        <meta property="og:title" content="Pantone Color of the Year — All Years Archive" />
+        <meta property="og:title" content="Pantone Color of the Year — 2026 Cloud Dancer & Full Archive" />
         <meta
           property="og:description"
-          content="Every Pantone Color of the Year from 2000 to 2025 — with Pantone codes, HEX, RGB, and CMYK values."
+          content="Explore Pantone Color of the Year 2026: Cloud Dancer (PANTONE 11-4201) plus the complete archive from 1999 to 2026 with HEX, RGB, and CMYK values."
         />
       </Head>
 
@@ -75,7 +75,7 @@ export default function ColorOfTheYearIndex() {
             </div>
             <p style={{ color: '#4b5563', fontSize: '1.05rem', margin: '0 0 1.25rem', maxWidth: '48rem', lineHeight: 1.6 }}>
               A historic look back at the shades that shaped design, fashion, and culture. Explore the archive
-              from the inaugural year 2000 to the current 2025 selection.
+              from the inaugural year 2000 to the current 2026 selection.
             </p>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -88,7 +88,7 @@ export default function ColorOfTheYearIndex() {
                 backdropFilter: 'blur(4px)',
               }}>
                 <Sparkles size={11} />
-                26 annual selections
+                27 annual selections
               </span>
             </div>
           </div>
