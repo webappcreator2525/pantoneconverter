@@ -6,7 +6,7 @@ import Head from 'next/head';
  * FAQSection — animated accordion FAQ block for MDX articles.
  * Props: items [{ question, answer }]
  */
-export function FAQSection({ items = [] }) {
+export function FAQSection({ items = [], suppressSchema = false }) {
   const [openIndex, setOpenIndex] = useState(null);
   const toggle = (i) => setOpenIndex((prev) => (prev === i ? null : i));
 
@@ -25,12 +25,14 @@ export function FAQSection({ items = [] }) {
 
   return (
     <>
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      </Head>
+      {!suppressSchema && (
+        <Head>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        </Head>
+      )}
       <section aria-label="Frequently Asked Questions" style={{ margin: '2rem 0' }}>
       <h2 style={{
         fontSize: '1.4rem', fontWeight: 800, color: '#111827',
