@@ -2,6 +2,25 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { ArrowLeft, Copy, Check, Heart, Building2 } from 'lucide-react';
+
+// ─── Color hub links per brand ────────────────────────────────────
+const BRAND_COLOR_LINKS = {
+  netflix:       [{ href: '/pantone-red/',   label: 'Pantone Red',   hex: '#C8102E' }],
+  ferrari:       [{ href: '/pantone-red/',   label: 'Pantone Red',   hex: '#C8102E' }],
+  starbucks:     [{ href: '/pantone-green/', label: 'Pantone Green', hex: '#00A550' }],
+  spotify:       [{ href: '/pantone-green/', label: 'Pantone Green', hex: '#00A550' }],
+  apple:         [{ href: '/pantone-black/', label: 'Pantone Black', hex: '#2D2926' }, { href: '/pantone-white/', label: 'Pantone White', hex: '#F4F5F0' }],
+  chanel:        [{ href: '/pantone-black/', label: 'Pantone Black', hex: '#2D2926' }, { href: '/pantone-gold/',  label: 'Pantone Gold',  hex: '#FFB81C' }],
+  rolex:         [{ href: '/pantone-gold/',  label: 'Pantone Gold',  hex: '#FFB81C' }, { href: '/pantone-green/', label: 'Pantone Green', hex: '#00A550' }],
+  ikea:          [{ href: '/pantone-yellow/', label: 'Pantone Yellow', hex: '#FFED00' }, { href: '/pantone-blue/', label: 'Pantone Blue', hex: '#0032A0' }],
+  lego:          [{ href: '/pantone-yellow/', label: 'Pantone Yellow', hex: '#FFED00' }, { href: '/pantone-red/', label: 'Pantone Red', hex: '#C8102E' }],
+  ups:           [{ href: '/pantone-yellow/', label: 'Pantone Yellow', hex: '#FFED00' }],
+  samsung:       [{ href: '/pantone-blue/',  label: 'Pantone Blue',  hex: '#0032A0' }],
+  instagram:     [{ href: '/pantone-blue/',  label: 'Pantone Blue',  hex: '#0032A0' }, { href: '/pantone-pink/', label: 'Pantone Pink', hex: '#FF3EB5' }],
+  'louis-vuitton': [{ href: '/pantone-gold/', label: 'Pantone Gold', hex: '#FFB81C' }],
+  hermes:        [{ href: '/pantone-orange/', label: 'Pantone Orange', hex: '#FE5000' }],
+  nike:          [{ href: '/pantone-black/', label: 'Pantone Black', hex: '#2D2926' }],
+};
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 import brands from '../../data/brands.json';
@@ -369,6 +388,35 @@ export default function BrandPage({ brand }) {
               <ColorCard key={color.name} color={color} rank={i} />
             ))}
           </div>
+
+          {/* Related Color Guides */}
+          {BRAND_COLOR_LINKS[brand.slug] && (
+            <div style={{ marginTop: '3.5rem', background: '#fff', borderRadius: '1.25rem', border: '1.5px solid #f3f4f6', padding: '2rem', boxShadow: '0 1px 4px rgba(0,0,0,0.04)' }}>
+              <h2 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Related Color Guides</h2>
+              <p style={{ color: '#4b5563', fontSize: '0.9rem', marginBottom: '1.25rem' }}>Explore comprehensive Pantone guides for {brand.name}'s primary color families:</p>
+              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                {BRAND_COLOR_LINKS[brand.slug].map(link => {
+                  const isLight = (() => {
+                    const c = link.hex.replace('#', '');
+                    const r = parseInt(c.substr(0,2),16), g = parseInt(c.substr(2,2),16), b = parseInt(c.substr(4,2),16);
+                    return (r*299 + g*587 + b*114) / 1000 > 128;
+                  })();
+                  return (
+                    <Link key={link.href} href={link.href} style={{
+                      display: 'flex', alignItems: 'center', gap: '0.75rem', padding: '0.5rem 1rem 0.5rem 0.5rem',
+                      background: '#f9fafb', borderRadius: '0.75rem', border: '1px solid #e5e7eb',
+                      textDecoration: 'none', transition: 'all 0.15s'
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.borderColor = link.hex; e.currentTarget.style.background = '#fff'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.06)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.borderColor = '#e5e7eb'; e.currentTarget.style.background = '#f9fafb'; e.currentTarget.style.boxShadow = 'none'; }}>
+                      <div style={{ width: '1.5rem', height: '1.5rem', borderRadius: '0.35rem', background: link.hex, border: '1px solid rgba(0,0,0,0.1)' }} />
+                      <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#111827' }}>{link.label}</span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Back link at bottom */}
           <div style={{ marginTop: '2.5rem', textAlign: 'center' }}>

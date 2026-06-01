@@ -222,6 +222,19 @@ export default function RgbToPantone() {
               channel — where human vision is most sensitive — giving you more accurate color matches than
               standard Euclidean distance methods.
             </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              Explore by color family — browse{' '}
+              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</a>,{' '}
+              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</a>,{' '}
+              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</a>,{' '}
+              <a href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Yellow</a>,{' '}
+              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</a>,{' '}
+              <a href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Pink</a>,{' '}
+              <a href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Purple</a>,{' '}
+              <a href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Gold</a>,{' '}
+              <a href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Black</a>, and{' '}
+              <a href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone White</a>.
+            </p>
           </div>
         </div>
       </main>

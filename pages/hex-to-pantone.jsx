@@ -304,6 +304,13 @@ export default function HexToPantone() {
               <a href="/pantone-to-hex/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to HEX converter</a>{' '}
               to find the digital HEX, RGB, and CMYK values for any PMS color name.
             </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              Explore our color family guides for quick reference — browse{' '}
+              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</a>,{' '}
+              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</a>,{' '}
+              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</a>,{' '}
+              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</a>, and more.
+            </p>
           </div>
 
           {/* SEO: How to Convert — Step by Step */}

@@ -191,7 +191,65 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── Value Props ─────────────────────────────────────────── */}
+        {/* ── Color Families Grid ──────────────────────────────── */}
+        <section className="section" style={{ background: '#f9fafb' }}>
+          <div className="container-xl">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Explore Pantone Colors by Family</h2>
+              <p className="text-gray-500 text-lg">Browse our in-depth color guides — complete with HEX, RGB, CMYK values, brand examples, and conversion tools.</p>
+            </div>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.875rem' }} className="color-family-grid">
+              {[
+                { href: '/pantone-red/', label: 'Pantone Red', hex: '#C8102E' },
+                { href: '/pantone-blue/', label: 'Pantone Blue', hex: '#0032A0' },
+                { href: '/pantone-green/', label: 'Pantone Green', hex: '#00A550' },
+                { href: '/pantone-yellow/', label: 'Pantone Yellow', hex: '#FFED00' },
+                { href: '/pantone-orange/', label: 'Pantone Orange', hex: '#FE5000' },
+                { href: '/pantone-pink/', label: 'Pantone Pink', hex: '#FF3EB5' },
+                { href: '/pantone-purple/', label: 'Pantone Purple', hex: '#440099' },
+                { href: '/pantone-gold/', label: 'Pantone Gold', hex: '#FFB81C' },
+                { href: '/pantone-black/', label: 'Pantone Black', hex: '#2D2926' },
+                { href: '/pantone-white/', label: 'Pantone White', hex: '#F4F5F0' },
+              ].map((color) => {
+                const isLight = (() => {
+                  const c = color.hex.replace('#', '');
+                  const r = parseInt(c.substr(0,2),16), g = parseInt(c.substr(2,2),16), b = parseInt(c.substr(4,2),16);
+                  return (r*299 + g*587 + b*114) / 1000 > 128;
+                })();
+                return (
+                  <Link
+                    key={color.href}
+                    href={color.href}
+                    style={{
+                      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+                      height: '5.5rem', borderRadius: '1rem', background: color.hex,
+                      textDecoration: 'none', border: '1px solid rgba(0,0,0,0.08)',
+                      boxShadow: '0 1px 4px rgba(0,0,0,0.08)', transition: 'all 0.18s ease',
+                      position: 'relative', overflow: 'hidden',
+                    }}
+                    onMouseEnter={e => {
+                      e.currentTarget.style.transform = 'translateY(-3px)';
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(0,0,0,0.15)';
+                      e.currentTarget.querySelector('.color-overlay').style.opacity = '1';
+                    }}
+                    onMouseLeave={e => {
+                      e.currentTarget.style.transform = 'none';
+                      e.currentTarget.style.boxShadow = '0 1px 4px rgba(0,0,0,0.08)';
+                      e.currentTarget.querySelector('.color-overlay').style.opacity = '0';
+                    }}
+                  >
+                    <div className="color-overlay" style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.15)', opacity: 0, transition: 'opacity 0.18s ease' }} />
+                    <span style={{ fontSize: '0.78rem', fontWeight: 800, color: isLight ? '#1a1a1a' : '#ffffff', textAlign: 'center', padding: '0 0.5rem', position: 'relative', zIndex: 1, textShadow: isLight ? 'none' : '0 1px 2px rgba(0,0,0,0.3)' }}>
+                      {color.label}
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+
         <section className="section" style={{ background: 'linear-gradient(135deg, #f5f3ff 0%, #eff6ff 100%)' }}>
           <div className="container-xl">
             <div className="text-center mb-12">

@@ -323,3 +323,20 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+/* ── Color Family Grid ──────────────────────────────────────────── */
+.color-family-grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 768px) {
+  .color-family-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .color-family-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

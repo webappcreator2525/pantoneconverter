@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
-import { Menu, X, ChevronDown, Bookmark, Sliders, ArrowRightLeft, Layers, BookOpen, Home, Info, Shield } from 'lucide-react';
+import { Menu, X, ChevronDown, Bookmark, Sliders, ArrowRightLeft, Layers, BookOpen, Home, Info, Shield, Palette } from 'lucide-react';
 import { useFavorites } from '../lib/FavoritesContext';
 
 const PRIMARY_LINKS = [
@@ -21,6 +21,19 @@ const MORE_LINKS = [
   { href: '/image-to-pantone',           label: 'Image to Pantone'  },
   { href: '/brands',                     label: 'Brand Colors'       },
   { href: '/pantone-color-of-the-year',  label: 'Color of the Year'  },
+];
+
+const COLOR_LINKS = [
+  { href: '/pantone-red/',    label: 'Pantone Red'    },
+  { href: '/pantone-blue/',   label: 'Pantone Blue'   },
+  { href: '/pantone-green/',  label: 'Pantone Green'  },
+  { href: '/pantone-yellow/', label: 'Pantone Yellow' },
+  { href: '/pantone-orange/', label: 'Pantone Orange' },
+  { href: '/pantone-pink/',   label: 'Pantone Pink'   },
+  { href: '/pantone-purple/', label: 'Pantone Purple' },
+  { href: '/pantone-gold/',   label: 'Pantone Gold'   },
+  { href: '/pantone-black/',  label: 'Pantone Black'  },
+  { href: '/pantone-white/',  label: 'Pantone White'  },
 ];
 
 const LEARN_LINKS = [
@@ -69,6 +82,23 @@ const MOBILE_SECTIONS = [
       { href: '/image-to-pantone', label: 'Image to Pantone' },
       { href: '/brands', label: 'Brand Colors' },
       { href: '/pantone-color-of-the-year', label: 'Color of the Year' },
+    ]
+  },
+  {
+    title: 'Color Families',
+    icon: Palette,
+    color: '#C8102E',
+    links: [
+      { href: '/pantone-red/',    label: 'Pantone Red'    },
+      { href: '/pantone-blue/',   label: 'Pantone Blue'   },
+      { href: '/pantone-green/',  label: 'Pantone Green'  },
+      { href: '/pantone-yellow/', label: 'Pantone Yellow' },
+      { href: '/pantone-orange/', label: 'Pantone Orange' },
+      { href: '/pantone-pink/',   label: 'Pantone Pink'   },
+      { href: '/pantone-purple/', label: 'Pantone Purple' },
+      { href: '/pantone-gold/',   label: 'Pantone Gold'   },
+      { href: '/pantone-black/',  label: 'Pantone Black'  },
+      { href: '/pantone-white/',  label: 'Pantone White'  },
     ]
   },
   {
@@ -142,15 +172,18 @@ export default function NavBar() {
   const [mobileOpen,    setMobileOpen]    = useState(false);
   const [moreOpen,      setMoreOpen]      = useState(false);
   const [learnOpen,     setLearnOpen]     = useState(false);
+  const [colorsOpen,    setColorsOpen]    = useState(false);
   const { count: favCount }              = useFavorites();
 
-  const moreRef  = useRef(null);
-  const learnRef = useRef(null);
+  const moreRef   = useRef(null);
+  const learnRef  = useRef(null);
+  const colorsRef = useRef(null);
 
   useEffect(() => {
     const handler = (e) => {
-      if (moreRef.current  && !moreRef.current.contains(e.target))  setMoreOpen(false);
-      if (learnRef.current && !learnRef.current.contains(e.target)) setLearnOpen(false);
+      if (moreRef.current   && !moreRef.current.contains(e.target))   setMoreOpen(false);
+      if (learnRef.current  && !learnRef.current.contains(e.target))  setLearnOpen(false);
+      if (colorsRef.current && !colorsRef.current.contains(e.target)) setColorsOpen(false);
     };
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
@@ -195,6 +228,15 @@ export default function NavBar() {
               {label}
             </Link>
           ))}
+
+          {/* Colors dropdown */}
+          <NavDropdown
+            label="Colors"
+            links={COLOR_LINKS}
+            isOpen={colorsOpen}
+            onToggle={() => setColorsOpen((o) => !o)}
+            dropRef={colorsRef}
+          />
 
           {/* Learn dropdown */}
           <NavDropdown

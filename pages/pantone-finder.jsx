@@ -256,6 +256,19 @@ export default function PantoneFinder() {
               technician verifying ink specifications, or a product developer sourcing a finish, the Pantone
               Finder gives you the reference data you need in seconds.
             </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              Looking for a specific color family?{' '}Browse our dedicated guides:{' '}
+              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Red</a> ·{' '}
+              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Blue</a> ·{' '}
+              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Green</a> ·{' '}
+              <a href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Yellow</a> ·{' '}
+              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Orange</a> ·{' '}
+              <a href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pink</a> ·{' '}
+              <a href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Purple</a> ·{' '}
+              <a href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Gold</a> ·{' '}
+              <a href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Black</a> ·{' '}
+              <a href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>White</a>
+            </p>
           </div>
         </div>
       </main>
