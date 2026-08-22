@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone 812 C', hex: '#FF3EB5', rgb: '255, 62, 181', cmyk: '0, 85, 0, 0', use: 'Fluorescent hot pink used in bold fashion and pop culture branding' },
@@ -357,6 +358,22 @@ export default function PantonePinkPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Pink in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this pink is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-dmc/',
+              '/pantone-to-copic/',
+              '/pantone-to-siser-htv/',
+              '/pantone-c-to-tcx/',
+              '/pantone-to-ncs/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

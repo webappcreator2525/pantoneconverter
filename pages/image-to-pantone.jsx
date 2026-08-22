@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
 import { useState, useRef, useCallback, useEffect, useMemo } from 'react';
 import {
@@ -1008,6 +1009,24 @@ export default function ImageToPantone() {
               in photography, artwork, or existing design files — without manually eyedropping and converting values.
               Results work best on images with a clear dominant color palette; highly detailed or photographic images
               with thousands of similar shades may produce less distinct groupings.
+            </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, marginTop: '0.75rem', marginBottom: 0 }}>
+              Pulled a colour out of a photo and now need to make something with it? Carry the Pantone
+              result straight into a material: find the matching{' '}
+              <Link href="/pantone-to-dmc/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>DMC embroidery floss</Link>{' '}
+              for stitching,{' '}
+              <Link href="/pantone-to-copic/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Copic marker</Link>{' '}
+              for illustration,{' '}
+              <Link href="/pantone-to-oracal/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>ORACAL 651 vinyl</Link>{' '}
+              for cutting, or{' '}
+              <Link href="/pantone-to-siser-htv/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Siser HTV</Link>{' '}
+              for garment printing. For walls, the same colour maps onto{' '}
+              <Link href="/pantone-to-sherwin-williams/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Sherwin-Williams</Link>,{' '}
+              <Link href="/pantone-to-benjamin-moore/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Benjamin Moore</Link>,{' '}
+              <Link href="/pantone-to-dulux/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Dulux</Link>,{' '}
+              <Link href="/pantone-to-farrow-and-ball/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Farrow &amp; Ball</Link>{' '}
+              and{' '}
+              <Link href="/pantone-to-behr/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Behr</Link> paint colours.
             </p>
           </div>
 

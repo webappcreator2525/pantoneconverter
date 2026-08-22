@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
 import { useState, useMemo, useCallback } from 'react';
 import { Search, X } from 'lucide-react';
@@ -260,16 +261,46 @@ export default function PantoneFinder() {
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Looking for a specific color family?{' '}Browse our dedicated guides:{' '}
-              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Red</a> ·{' '}
-              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Blue</a> ·{' '}
-              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Green</a> ·{' '}
-              <a href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Yellow</a> ·{' '}
-              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Orange</a> ·{' '}
-              <a href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pink</a> ·{' '}
-              <a href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Purple</a> ·{' '}
-              <a href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Gold</a> ·{' '}
-              <a href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Black</a> ·{' '}
-              <a href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>White</a>
+              <Link href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Red</Link> ·{' '}
+              <Link href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Blue</Link> ·{' '}
+              <Link href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Green</Link> ·{' '}
+              <Link href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Yellow</Link> ·{' '}
+              <Link href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Orange</Link> ·{' '}
+              <Link href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pink</Link> ·{' '}
+              <Link href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Purple</Link> ·{' '}
+              <Link href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Gold</Link> ·{' '}
+              <Link href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Black</Link> ·{' '}
+              <Link href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>White</Link>
+            </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              Working outside print? A Pantone number often has to be carried into another colour standard
+              before it can be manufactured. Cross-reference any PMS colour against{' '}
+              <Link href="/pantone-to-ral/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>RAL</Link>{' '}
+              for paint and powder coating,{' '}
+              <Link href="/pantone-to-ncs/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>NCS</Link>{' '}
+              for Scandinavian architecture,{' '}
+              <Link href="/pantone-to-hks/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>HKS</Link>{' '}
+              or{' '}
+              <Link href="/pantone-to-toyo/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>TOYO</Link>{' '}
+              for regional offset printing,{' '}
+              <Link href="/pantone-to-federal-standard-595/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Federal Standard 595</Link>{' '}
+              for defence work, or{' '}
+              <Link href="/pantone-to-lab/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>CIELAB</Link>{' '}
+              for measurement and ΔE tolerance.
+            </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              Making something physical with the colour you just found? The craft and paint converters
+              take a PMS number to a material you can buy —{' '}
+              <Link href="/pantone-to-dmc/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>DMC floss</Link>,{' '}
+              <Link href="/pantone-to-copic/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Copic markers</Link>,{' '}
+              <Link href="/pantone-to-oracal/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>ORACAL 651 vinyl</Link>,{' '}
+              <Link href="/pantone-to-siser-htv/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Siser HTV</Link>, and house paint from{' '}
+              <Link href="/pantone-to-sherwin-williams/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Sherwin-Williams</Link>,{' '}
+              <Link href="/pantone-to-benjamin-moore/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Benjamin Moore</Link>,{' '}
+              <Link href="/pantone-to-dulux/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Dulux</Link>,{' '}
+              <Link href="/pantone-to-farrow-and-ball/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Farrow &amp; Ball</Link>{' '}
+              or{' '}
+              <Link href="/pantone-to-behr/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Behr</Link>.
             </p>
           </div>
         </div>

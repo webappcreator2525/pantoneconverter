@@ -340,3 +340,19 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ── Accessibility ──────────────────────────────────────────────── */
+/* Visually hidden but still announced — used for table <caption>s on the
+   converter comparison tables, where a visible caption would duplicate the
+   heading directly above it. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

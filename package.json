@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap && node scripts/sync-sitemap.mjs",
     "start": "next start",
     "lint": "eslint",
     "assets:icons": "node scripts/generate-icons.mjs",
     "assets:og": "node scripts/generate-og.mjs",
     "assets:verify": "node scripts/verify-og.mjs",
-    "assets": "npm run assets:icons && npm run assets:og"
+    "assets": "npm run assets:icons && npm run assets:og",
+    "data:industrial": "node scripts/generate-palettes.mjs",
+    "data:brands": "node scripts/generate-brand-palettes.mjs",
+    "data:tcx": "node scripts/generate-tcx-palette.mjs",
+    "data": "npm run data:industrial && npm run data:brands && npm run data:tcx"
   },
   "dependencies": {
     "@next/mdx": "^16.2.6",

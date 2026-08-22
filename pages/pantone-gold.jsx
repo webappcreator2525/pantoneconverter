@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone 871 C (Metallic)', hex: '#85754E', rgb: '133, 117, 78', cmyk: '0, 12, 41, 48', use: 'Classic metallic gold used in luxury packaging and certificates' },
@@ -354,6 +355,22 @@ export default function PantoneGoldPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Gold in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this gold is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-dmc/',
+              '/pantone-to-oracal/',
+              '/pantone-to-dulux/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

@@ -1,0 +1,1307 @@
+{
+ "system": "TOYO Color Finder",
+ "owner": "TOYO INK SC HOLDINGS CO., LTD.",
+ "accuracy": "low",
+ "count": 59,
+ "generatedBy": "scripts/generate-palettes.mjs",
+ "colors": [
+  {
+   "code": "TOYO CF0001",
+   "name": "TOYO CF0001",
+   "localName": "Pale yellow",
+   "hex": "#FDF3B4",
+   "rgb": {
+    "r": 253,
+    "g": 243,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 29,
+    "k": 1
+   },
+   "lab": {
+    "l": 95.28,
+    "a": -6,
+    "b": 31.66
+   }
+  },
+  {
+   "code": "TOYO CF0022",
+   "name": "TOYO CF0022",
+   "localName": "Light yellow",
+   "hex": "#FCEC8A",
+   "rgb": {
+    "r": 252,
+    "g": 236,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 45,
+    "k": 1
+   },
+   "lab": {
+    "l": 92.81,
+    "a": -7.51,
+    "b": 49.26
+   }
+  },
+  {
+   "code": "TOYO CF0045",
+   "name": "TOYO CF0045",
+   "localName": "Yellow",
+   "hex": "#FBE449",
+   "rgb": {
+    "r": 251,
+    "g": 228,
+    "b": 73
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 71,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.08,
+    "a": -8.46,
+    "b": 74.28
+   }
+  },
+  {
+   "code": "TOYO CF0064",
+   "name": "TOYO CF0064",
+   "localName": "Vivid yellow",
+   "hex": "#FFE100",
+   "rgb": {
+    "r": 255,
+    "g": 225,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.45,
+    "a": -6.95,
+    "b": 88.92
+   }
+  },
+  {
+   "code": "TOYO CF0085",
+   "name": "TOYO CF0085",
+   "localName": "Golden yellow",
+   "hex": "#FBCE00",
+   "rgb": {
+    "r": 251,
+    "g": 206,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 18,
+    "y": 100,
+    "k": 2
+   },
+   "lab": {
+    "l": 84.31,
+    "a": 0.95,
+    "b": 85.11
+   }
+  },
+  {
+   "code": "TOYO CF0102",
+   "name": "TOYO CF0102",
+   "localName": "Deep yellow",
+   "hex": "#F7B500",
+   "rgb": {
+    "r": 247,
+    "g": 181,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 100,
+    "k": 3
+   },
+   "lab": {
+    "l": 77.77,
+    "a": 12.18,
+    "b": 80.41
+   }
+  },
+  {
+   "code": "TOYO CF0124",
+   "name": "TOYO CF0124",
+   "localName": "Amber",
+   "hex": "#F5A200",
+   "rgb": {
+    "r": 245,
+    "g": 162,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 34,
+    "y": 100,
+    "k": 4
+   },
+   "lab": {
+    "l": 73.06,
+    "a": 21.3,
+    "b": 77.14
+   }
+  },
+  {
+   "code": "TOYO CF0146",
+   "name": "TOYO CF0146",
+   "localName": "Light orange",
+   "hex": "#F39100",
+   "rgb": {
+    "r": 243,
+    "g": 145,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 40,
+    "y": 100,
+    "k": 5
+   },
+   "lab": {
+    "l": 68.98,
+    "a": 29.37,
+    "b": 74.38
+   }
+  },
+  {
+   "code": "TOYO CF0168",
+   "name": "TOYO CF0168",
+   "localName": "Orange",
+   "hex": "#EF7F00",
+   "rgb": {
+    "r": 239,
+    "g": 127,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 47,
+    "y": 100,
+    "k": 6
+   },
+   "lab": {
+    "l": 64.59,
+    "a": 37.02,
+    "b": 71.38
+   }
+  },
+  {
+   "code": "TOYO CF0190",
+   "name": "TOYO CF0190",
+   "localName": "Deep orange",
+   "hex": "#EB6D00",
+   "rgb": {
+    "r": 235,
+    "g": 109,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 54,
+    "y": 100,
+    "k": 8
+   },
+   "lab": {
+    "l": 60.43,
+    "a": 44.42,
+    "b": 68.62
+   }
+  },
+  {
+   "code": "TOYO CF0212",
+   "name": "TOYO CF0212",
+   "localName": "Vermilion",
+   "hex": "#E85C11",
+   "rgb": {
+    "r": 232,
+    "g": 92,
+    "b": 17
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 93,
+    "k": 9
+   },
+   "lab": {
+    "l": 56.93,
+    "a": 51.4,
+    "b": 62.96
+   }
+  },
+  {
+   "code": "TOYO CF0234",
+   "name": "TOYO CF0234",
+   "localName": "Red orange",
+   "hex": "#E64A19",
+   "rgb": {
+    "r": 230,
+    "g": 74,
+    "b": 25
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 68,
+    "y": 89,
+    "k": 10
+   },
+   "lab": {
+    "l": 53.81,
+    "a": 58.37,
+    "b": 58.2
+   }
+  },
+  {
+   "code": "TOYO CF0256",
+   "name": "TOYO CF0256",
+   "localName": "Scarlet",
+   "hex": "#E23A28",
+   "rgb": {
+    "r": 226,
+    "g": 58,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 74,
+    "y": 82,
+    "k": 11
+   },
+   "lab": {
+    "l": 51.1,
+    "a": 63.14,
+    "b": 49.25
+   }
+  },
+  {
+   "code": "TOYO CF0278",
+   "name": "TOYO CF0278",
+   "localName": "Red",
+   "hex": "#DF2A32",
+   "rgb": {
+    "r": 223,
+    "g": 42,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 81,
+    "y": 78,
+    "k": 13
+   },
+   "lab": {
+    "l": 48.98,
+    "a": 67.16,
+    "b": 41.71
+   }
+  },
+  {
+   "code": "TOYO CF0300",
+   "name": "TOYO CF0300",
+   "localName": "Vivid red",
+   "hex": "#E60039",
+   "rgb": {
+    "r": 230,
+    "g": 0,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 75,
+    "k": 10
+   },
+   "lab": {
+    "l": 48.42,
+    "a": 75.1,
+    "b": 37.5
+   }
+  },
+  {
+   "code": "TOYO CF0322",
+   "name": "TOYO CF0322",
+   "localName": "Crimson",
+   "hex": "#D30040",
+   "rgb": {
+    "r": 211,
+    "g": 0,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 70,
+    "k": 17
+   },
+   "lab": {
+    "l": 44.55,
+    "a": 70.87,
+    "b": 27.74
+   }
+  },
+  {
+   "code": "TOYO CF0344",
+   "name": "TOYO CF0344",
+   "localName": "Carmine",
+   "hex": "#C30048",
+   "rgb": {
+    "r": 195,
+    "g": 0,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 63,
+    "k": 24
+   },
+   "lab": {
+    "l": 41.33,
+    "a": 67.48,
+    "b": 17.92
+   }
+  },
+  {
+   "code": "TOYO CF0366",
+   "name": "TOYO CF0366",
+   "localName": "Deep carmine",
+   "hex": "#B4004F",
+   "rgb": {
+    "r": 180,
+    "g": 0,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 56,
+    "k": 29
+   },
+   "lab": {
+    "l": 38.32,
+    "a": 64.4,
+    "b": 8.82
+   }
+  },
+  {
+   "code": "TOYO CF0388",
+   "name": "TOYO CF0388",
+   "localName": "Magenta",
+   "hex": "#A50057",
+   "rgb": {
+    "r": 165,
+    "g": 0,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 47,
+    "k": 35
+   },
+   "lab": {
+    "l": 35.38,
+    "a": 61.56,
+    "b": -1
+   }
+  },
+  {
+   "code": "TOYO CF0410",
+   "name": "TOYO CF0410",
+   "localName": "Rose",
+   "hex": "#E85298",
+   "rgb": {
+    "r": 232,
+    "g": 82,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 65,
+    "y": 34,
+    "k": 9
+   },
+   "lab": {
+    "l": 57.52,
+    "a": 63.83,
+    "b": -6.77
+   }
+  },
+  {
+   "code": "TOYO CF0432",
+   "name": "TOYO CF0432",
+   "localName": "Pink",
+   "hex": "#EF87AF",
+   "rgb": {
+    "r": 239,
+    "g": 135,
+    "b": 175
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 27,
+    "k": 6
+   },
+   "lab": {
+    "l": 68.59,
+    "a": 44.33,
+    "b": -3.46
+   }
+  },
+  {
+   "code": "TOYO CF0454",
+   "name": "TOYO CF0454",
+   "localName": "Pale pink",
+   "hex": "#F6B3C8",
+   "rgb": {
+    "r": 246,
+    "g": 179,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 19,
+    "k": 4
+   },
+   "lab": {
+    "l": 79.62,
+    "a": 27.36,
+    "b": -0.95
+   }
+  },
+  {
+   "code": "TOYO CF0476",
+   "name": "TOYO CF0476",
+   "localName": "Light purple",
+   "hex": "#C7A2CB",
+   "rgb": {
+    "r": 199,
+    "g": 162,
+    "b": 203
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 20,
+    "y": 0,
+    "k": 20
+   },
+   "lab": {
+    "l": 71.07,
+    "a": 20.77,
+    "b": -15.79
+   }
+  },
+  {
+   "code": "TOYO CF0498",
+   "name": "TOYO CF0498",
+   "localName": "Purple",
+   "hex": "#9B5FA8",
+   "rgb": {
+    "r": 155,
+    "g": 95,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 43,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 49.47,
+    "a": 36.76,
+    "b": -29.4
+   }
+  },
+  {
+   "code": "TOYO CF0520",
+   "name": "TOYO CF0520",
+   "localName": "Deep purple",
+   "hex": "#7B3F98",
+   "rgb": {
+    "r": 123,
+    "g": 63,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 19,
+    "m": 59,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 37.9,
+    "a": 41.49,
+    "b": -38.37
+   }
+  },
+  {
+   "code": "TOYO CF0542",
+   "name": "TOYO CF0542",
+   "localName": "Violet",
+   "hex": "#63308C",
+   "rgb": {
+    "r": 99,
+    "g": 48,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 66,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 31.02,
+    "a": 40.51,
+    "b": -42.23
+   }
+  },
+  {
+   "code": "TOYO CF0564",
+   "name": "TOYO CF0564",
+   "localName": "Blue violet",
+   "hex": "#4B2A83",
+   "rgb": {
+    "r": 75,
+    "g": 42,
+    "b": 131
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 68,
+    "y": 0,
+    "k": 49
+   },
+   "lab": {
+    "l": 26.13,
+    "a": 35.93,
+    "b": -44.69
+   }
+  },
+  {
+   "code": "TOYO CF0586",
+   "name": "TOYO CF0586",
+   "localName": "Indigo",
+   "hex": "#3A2D7E",
+   "rgb": {
+    "r": 58,
+    "g": 45,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 54,
+    "m": 64,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 24.58,
+    "a": 28.99,
+    "b": -44.14
+   }
+  },
+  {
+   "code": "TOYO CF0608",
+   "name": "TOYO CF0608",
+   "localName": "Ultramarine",
+   "hex": "#2C3B87",
+   "rgb": {
+    "r": 44,
+    "g": 59,
+    "b": 135
+   },
+   "cmyk": {
+    "c": 67,
+    "m": 56,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 27.88,
+    "a": 20.2,
+    "b": -44.48
+   }
+  },
+  {
+   "code": "TOYO CF0630",
+   "name": "TOYO CF0630",
+   "localName": "Blue",
+   "hex": "#1D4E9C",
+   "rgb": {
+    "r": 29,
+    "g": 78,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 81,
+    "m": 50,
+    "y": 0,
+    "k": 39
+   },
+   "lab": {
+    "l": 34.21,
+    "a": 13.4,
+    "b": -47.13
+   }
+  },
+  {
+   "code": "TOYO CF0652",
+   "name": "TOYO CF0652",
+   "localName": "Deep blue",
+   "hex": "#0F5FAD",
+   "rgb": {
+    "r": 15,
+    "g": 95,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 91,
+    "m": 45,
+    "y": 0,
+    "k": 32
+   },
+   "lab": {
+    "l": 40.08,
+    "a": 7.9,
+    "b": -47.83
+   }
+  },
+  {
+   "code": "TOYO CF0674",
+   "name": "TOYO CF0674",
+   "localName": "Azure",
+   "hex": "#0070BC",
+   "rgb": {
+    "r": 0,
+    "g": 112,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 45.93,
+    "a": 2.46,
+    "b": -47.24
+   }
+  },
+  {
+   "code": "TOYO CF0696",
+   "name": "TOYO CF0696",
+   "localName": "Sky blue",
+   "hex": "#0081C8",
+   "rgb": {
+    "r": 0,
+    "g": 129,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 36,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 51.69,
+    "a": -3.19,
+    "b": -44.96
+   }
+  },
+  {
+   "code": "TOYO CF0718",
+   "name": "TOYO CF0718",
+   "localName": "Light blue",
+   "hex": "#4FA6D9",
+   "rgb": {
+    "r": 79,
+    "g": 166,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 24,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 64.92,
+    "a": -10.7,
+    "b": -33.62
+   }
+  },
+  {
+   "code": "TOYO CF0740",
+   "name": "TOYO CF0740",
+   "localName": "Pale blue",
+   "hex": "#8EC6E7",
+   "rgb": {
+    "r": 142,
+    "g": 198,
+    "b": 231
+   },
+   "cmyk": {
+    "c": 39,
+    "m": 14,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 77.22,
+    "a": -9.93,
+    "b": -22.11
+   }
+  },
+  {
+   "code": "TOYO CF0762",
+   "name": "TOYO CF0762",
+   "localName": "Cyan",
+   "hex": "#009FD9",
+   "rgb": {
+    "r": 0,
+    "g": 159,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 27,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 61.48,
+    "a": -13.98,
+    "b": -39.08
+   }
+  },
+  {
+   "code": "TOYO CF0784",
+   "name": "TOYO CF0784",
+   "localName": "Turquoise",
+   "hex": "#00A6B4",
+   "rgb": {
+    "r": 0,
+    "g": 166,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 8,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 62.14,
+    "a": -30.41,
+    "b": -17.41
+   }
+  },
+  {
+   "code": "TOYO CF0806",
+   "name": "TOYO CF0806",
+   "localName": "Teal",
+   "hex": "#00A19A",
+   "rgb": {
+    "r": 0,
+    "g": 161,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 4,
+    "k": 37
+   },
+   "lab": {
+    "l": 59.73,
+    "a": -36.25,
+    "b": -6.38
+   }
+  },
+  {
+   "code": "TOYO CF0828",
+   "name": "TOYO CF0828",
+   "localName": "Sea green",
+   "hex": "#009B7D",
+   "rgb": {
+    "r": 0,
+    "g": 155,
+    "b": 125
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 19,
+    "k": 39
+   },
+   "lab": {
+    "l": 57,
+    "a": -41.94,
+    "b": 6.07
+   }
+  },
+  {
+   "code": "TOYO CF0850",
+   "name": "TOYO CF0850",
+   "localName": "Green",
+   "hex": "#00954F",
+   "rgb": {
+    "r": 0,
+    "g": 149,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 47,
+    "k": 42
+   },
+   "lab": {
+    "l": 54.09,
+    "a": -50.18,
+    "b": 27.66
+   }
+  },
+  {
+   "code": "TOYO CF0872",
+   "name": "TOYO CF0872",
+   "localName": "Deep green",
+   "hex": "#008C3E",
+   "rgb": {
+    "r": 0,
+    "g": 140,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 56,
+    "k": 45
+   },
+   "lab": {
+    "l": 50.81,
+    "a": -49.99,
+    "b": 32.46
+   }
+  },
+  {
+   "code": "TOYO CF0894",
+   "name": "TOYO CF0894",
+   "localName": "Grass green",
+   "hex": "#3F9C35",
+   "rgb": {
+    "r": 63,
+    "g": 156,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 66,
+    "k": 39
+   },
+   "lab": {
+    "l": 57.16,
+    "a": -47.7,
+    "b": 44.37
+   }
+  },
+  {
+   "code": "TOYO CF0916",
+   "name": "TOYO CF0916",
+   "localName": "Light green",
+   "hex": "#7FBE45",
+   "rgb": {
+    "r": 127,
+    "g": 190,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 0,
+    "y": 64,
+    "k": 25
+   },
+   "lab": {
+    "l": 70.71,
+    "a": -40.11,
+    "b": 53.07
+   }
+  },
+  {
+   "code": "TOYO CF0938",
+   "name": "TOYO CF0938",
+   "localName": "Lime",
+   "hex": "#B0CB3F",
+   "rgb": {
+    "r": 176,
+    "g": 203,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 0,
+    "y": 69,
+    "k": 20
+   },
+   "lab": {
+    "l": 77.46,
+    "a": -27.66,
+    "b": 63.47
+   }
+  },
+  {
+   "code": "TOYO CF0960",
+   "name": "TOYO CF0960",
+   "localName": "Olive",
+   "hex": "#8C8C3A",
+   "rgb": {
+    "r": 140,
+    "g": 140,
+    "b": 58
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 59,
+    "k": 45
+   },
+   "lab": {
+    "l": 56.72,
+    "a": -11.38,
+    "b": 42.84
+   }
+  },
+  {
+   "code": "TOYO CF0972",
+   "name": "TOYO CF0972",
+   "localName": "Dark olive",
+   "hex": "#5F6136",
+   "rgb": {
+    "r": 95,
+    "g": 97,
+    "b": 54
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 44,
+    "k": 62
+   },
+   "lab": {
+    "l": 40,
+    "a": -8.03,
+    "b": 24.21
+   }
+  },
+  {
+   "code": "TOYO CF0984",
+   "name": "TOYO CF0984",
+   "localName": "Forest green",
+   "hex": "#2C5A3E",
+   "rgb": {
+    "r": 44,
+    "g": 90,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 51,
+    "m": 0,
+    "y": 31,
+    "k": 65
+   },
+   "lab": {
+    "l": 34.39,
+    "a": -23.04,
+    "b": 11.43
+   }
+  },
+  {
+   "code": "TOYO CF0996",
+   "name": "TOYO CF0996",
+   "localName": "Bottle green",
+   "hex": "#1E4437",
+   "rgb": {
+    "r": 30,
+    "g": 68,
+    "b": 55
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 0,
+    "y": 19,
+    "k": 73
+   },
+   "lab": {
+    "l": 25.82,
+    "a": -17.28,
+    "b": 3.76
+   }
+  },
+  {
+   "code": "TOYO CF1002",
+   "name": "TOYO CF1002",
+   "localName": "Beige",
+   "hex": "#DCC9A6",
+   "rgb": {
+    "r": 220,
+    "g": 201,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 25,
+    "k": 14
+   },
+   "lab": {
+    "l": 81.7,
+    "a": 1.23,
+    "b": 19.93
+   }
+  },
+  {
+   "code": "TOYO CF1008",
+   "name": "TOYO CF1008",
+   "localName": "Tan",
+   "hex": "#C29A63",
+   "rgb": {
+    "r": 194,
+    "g": 154,
+    "b": 99
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 49,
+    "k": 24
+   },
+   "lab": {
+    "l": 66.12,
+    "a": 7.98,
+    "b": 34.42
+   }
+  },
+  {
+   "code": "TOYO CF1014",
+   "name": "TOYO CF1014",
+   "localName": "Brown",
+   "hex": "#96613C",
+   "rgb": {
+    "r": 150,
+    "g": 97,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 35,
+    "y": 60,
+    "k": 41
+   },
+   "lab": {
+    "l": 46.12,
+    "a": 17.58,
+    "b": 29.72
+   }
+  },
+  {
+   "code": "TOYO CF1020",
+   "name": "TOYO CF1020",
+   "localName": "Deep brown",
+   "hex": "#6E432B",
+   "rgb": {
+    "r": 110,
+    "g": 67,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 61,
+    "k": 57
+   },
+   "lab": {
+    "l": 32.93,
+    "a": 15.93,
+    "b": 22.22
+   }
+  },
+  {
+   "code": "TOYO CF1026",
+   "name": "TOYO CF1026",
+   "localName": "Dark brown",
+   "hex": "#4B2E20",
+   "rgb": {
+    "r": 75,
+    "g": 46,
+    "b": 32
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 57,
+    "k": 71
+   },
+   "lab": {
+    "l": 22.14,
+    "a": 11.52,
+    "b": 14.49
+   }
+  },
+  {
+   "code": "TOYO CF1032",
+   "name": "TOYO CF1032",
+   "localName": "Warm grey",
+   "hex": "#9B9189",
+   "rgb": {
+    "r": 155,
+    "g": 145,
+    "b": 137
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 12,
+    "k": 39
+   },
+   "lab": {
+    "l": 60.8,
+    "a": 2.26,
+    "b": 5.57
+   }
+  },
+  {
+   "code": "TOYO CF1036",
+   "name": "TOYO CF1036",
+   "localName": "Grey",
+   "hex": "#868686",
+   "rgb": {
+    "r": 134,
+    "g": 134,
+    "b": 134
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 55.93,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TOYO CF1040",
+   "name": "TOYO CF1040",
+   "localName": "Cool grey",
+   "hex": "#767B7F",
+   "rgb": {
+    "r": 118,
+    "g": 123,
+    "b": 127
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 3,
+    "y": 0,
+    "k": 50
+   },
+   "lab": {
+    "l": 51.32,
+    "a": -1.03,
+    "b": -2.83
+   }
+  },
+  {
+   "code": "TOYO CF1044",
+   "name": "TOYO CF1044",
+   "localName": "Dark grey",
+   "hex": "#4D5052",
+   "rgb": {
+    "r": 77,
+    "g": 80,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 2,
+    "y": 0,
+    "k": 68
+   },
+   "lab": {
+    "l": 33.82,
+    "a": -0.76,
+    "b": -1.6
+   }
+  },
+  {
+   "code": "TOYO CF1047",
+   "name": "TOYO CF1047",
+   "localName": "Charcoal",
+   "hex": "#2E3132",
+   "rgb": {
+    "r": 46,
+    "g": 49,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 2,
+    "y": 0,
+    "k": 80
+   },
+   "lab": {
+    "l": 20.07,
+    "a": -1.06,
+    "b": -1.09
+   }
+  },
+  {
+   "code": "TOYO CF1050",
+   "name": "TOYO CF1050",
+   "localName": "Black",
+   "hex": "#1A1A1A",
+   "rgb": {
+    "r": 26,
+    "g": 26,
+    "b": 26
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 90
+   },
+   "lab": {
+    "l": 9.26,
+    "a": 0,
+    "b": 0
+   }
+  }
+ ]
+}

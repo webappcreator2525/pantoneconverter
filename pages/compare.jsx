@@ -1,10 +1,12 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
 import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { GitCompare, Copy, Check, X, Share2 } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 import pantoneDb from '../data/pantone.json';
 import { isLightColor } from '../lib/colorUtils';
 
@@ -717,7 +719,36 @@ export default function ComparePage() {
               that are nearly indistinguishable to the naked eye, while values above 60 represent very different hues. Use this
               comparison to verify substitutions, validate brand color alternatives, or simply explore the Pantone library.
             </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, marginTop: '0.75rem', marginBottom: 0 }}>
+              If you need a difference score that industry actually writes tolerances in, the cross-standard
+              converters rank every match by ΔE*00 (CIEDE2000) rather than RGB distance — see{' '}
+              <Link href="/pantone-to-lab/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to LAB</Link>{' '}
+              for the underlying colour space, or compare a Pantone colour against another standard entirely with{' '}
+              <Link href="/pantone-to-ral/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to RAL</Link>,{' '}
+              <Link href="/pantone-to-ncs/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to NCS</Link>{' '}
+              and{' '}
+              <Link href="/pantone-to-hks/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to HKS</Link>.
+            </p>
           </div>
+
+          {/* This tool compares two Pantone colours to each other. Comparing a
+              Pantone colour against a different standard is a different job,
+              and the cross-system converters are where that happens. */}
+          <CrossSystemLinks
+            heading="Comparing Colours Across Different Systems"
+            intro="The tool above compares two colours inside the Pantone library. Comparing a Pantone colour against a different standard — RAL against NCS, a lab measurement against a PMS number, a screen colour against a textile code — is a cross-system question, and each of these converters answers it with a ΔE*00 figure rather than a yes or no."
+            routes={[
+              '/ral-to-pantone/',
+              '/lab-to-pantone/',
+              '/hsv-to-pantone/',
+              '/pantone-to-hsv/',
+              '/pantone-to-ncs/',
+              '/pantone-to-behr/',
+              '/tcx-to-hex/',
+              '/pantone-textile-to-cmyk/',
+            ]}
+            accentColor="#c44eed"
+          />
 
         </div>
       </main>

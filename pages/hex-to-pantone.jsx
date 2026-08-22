@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
 import { useState, useEffect, useCallback } from 'react';
 import { Hash, RefreshCw } from 'lucide-react';
@@ -178,6 +179,30 @@ export default function HexToPantone() {
 
         <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1.5rem 4rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
 
+          {/* Fashion and textile users land here by mistake constantly: this
+              converter searches the graphic-arts PMS library, not the TCX one. */}
+          <aside
+            aria-label="Note for fashion and textile users"
+            style={{
+              display: 'flex', gap: '0.7rem', alignItems: 'flex-start',
+              padding: '0.9rem 1.1rem', borderRadius: '0.875rem',
+              background: '#fdf2f8', border: '1.5px solid #fbcfe8',
+            }}
+          >
+            <span aria-hidden="true" style={{ fontSize: '1rem', lineHeight: 1.4, flexShrink: 0 }}>✂️</span>
+            <p style={{ fontSize: '0.85rem', color: '#831843', lineHeight: 1.65, margin: 0 }}>
+              <strong>Working in fashion or textiles?</strong> This tool searches the Pantone Matching
+              System — the graphic-arts library used for print. Apparel, home textiles and interiors use a{' '}
+              separate Pantone library, Fashion, Home + Interiors, whose codes look like
+              “19-4052 TCX”. The two are not interchangeable. Use the{' '}
+              <Link href="/hex-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>HEX to TCX converter</Link>,{' '}
+              <Link href="/pantone-c-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>Pantone C to TCX</Link>{' '}
+              or the{' '}
+              <Link href="/tcx-vs-tpx-vs-tpg/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>TCX vs TPX vs TPG guide</Link>{' '}
+              instead.
+            </p>
+          </aside>
+
           {/* Input + Preview row */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -303,15 +328,15 @@ export default function HexToPantone() {
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               This tool also supports the reverse workflow — use the{' '}
-              <a href="/pantone-to-hex/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to HEX converter</a>{' '}
+              <Link href="/pantone-to-hex/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to HEX converter</Link>{' '}
               to find the digital HEX, RGB, and CMYK values for any PMS color name.
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Explore our color family guides for quick reference — browse{' '}
-              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</a>,{' '}
-              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</a>,{' '}
-              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</a>,{' '}
-              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</a>, and more.
+              <Link href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</Link>,{' '}
+              <Link href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</Link>,{' '}
+              <Link href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</Link>,{' '}
+              <Link href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</Link>, and more.
             </p>
           </div>
 

@@ -1,0 +1,1109 @@
+{
+ "system": "Siser EasyWeed",
+ "owner": "Siser S.r.l.",
+ "accuracy": "medium",
+ "count": 50,
+ "generatedBy": "scripts/generate-brand-palettes.mjs",
+ "colors": [
+  {
+   "code": "Siser EasyWeed White",
+   "name": "Siser EasyWeed White",
+   "localName": "EasyWeed",
+   "hex": "#FFFFFF",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 100,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Siser EasyWeed Black",
+   "name": "Siser EasyWeed Black",
+   "localName": "EasyWeed",
+   "hex": "#0A0A0A",
+   "rgb": {
+    "r": 10,
+    "g": 10,
+    "b": 10
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 96
+   },
+   "lab": {
+    "l": 2.74,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Siser EasyWeed Red",
+   "name": "Siser EasyWeed Red",
+   "localName": "EasyWeed",
+   "hex": "#C8102E",
+   "rgb": {
+    "r": 200,
+    "g": 16,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 92,
+    "y": 77,
+    "k": 22
+   },
+   "lab": {
+    "l": 42.54,
+    "a": 65.89,
+    "b": 35.71
+   }
+  },
+  {
+   "code": "Siser EasyWeed Bright Red",
+   "name": "Siser EasyWeed Bright Red",
+   "localName": "EasyWeed",
+   "hex": "#E03C31",
+   "rgb": {
+    "r": 224,
+    "g": 60,
+    "b": 49
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 73,
+    "y": 78,
+    "k": 12
+   },
+   "lab": {
+    "l": 51.04,
+    "a": 62.14,
+    "b": 44.46
+   }
+  },
+  {
+   "code": "Siser EasyWeed Cardinal",
+   "name": "Siser EasyWeed Cardinal",
+   "localName": "EasyWeed",
+   "hex": "#9B2743",
+   "rgb": {
+    "r": 155,
+    "g": 39,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 75,
+    "y": 57,
+    "k": 39
+   },
+   "lab": {
+    "l": 35.65,
+    "a": 49.11,
+    "b": 12.07
+   }
+  },
+  {
+   "code": "Siser EasyWeed Maroon",
+   "name": "Siser EasyWeed Maroon",
+   "localName": "EasyWeed",
+   "hex": "#6C2432",
+   "rgb": {
+    "r": 108,
+    "g": 36,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 67,
+    "y": 54,
+    "k": 58
+   },
+   "lab": {
+    "l": 25.81,
+    "a": 33.22,
+    "b": 8.3
+   }
+  },
+  {
+   "code": "Siser EasyWeed Burgundy",
+   "name": "Siser EasyWeed Burgundy",
+   "localName": "EasyWeed",
+   "hex": "#6E2639",
+   "rgb": {
+    "r": 110,
+    "g": 38,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 65,
+    "y": 48,
+    "k": 57
+   },
+   "lab": {
+    "l": 26.73,
+    "a": 33.69,
+    "b": 4.93
+   }
+  },
+  {
+   "code": "Siser EasyWeed Passion Pink",
+   "name": "Siser EasyWeed Passion Pink",
+   "localName": "EasyWeed",
+   "hex": "#E24585",
+   "rgb": {
+    "r": 226,
+    "g": 69,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 69,
+    "y": 41,
+    "k": 11
+   },
+   "lab": {
+    "l": 54.16,
+    "a": 65.06,
+    "b": -0.63
+   }
+  },
+  {
+   "code": "Siser EasyWeed Pink",
+   "name": "Siser EasyWeed Pink",
+   "localName": "EasyWeed",
+   "hex": "#EF7EA8",
+   "rgb": {
+    "r": 239,
+    "g": 126,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 47,
+    "y": 30,
+    "k": 6
+   },
+   "lab": {
+    "l": 66.6,
+    "a": 47.94,
+    "b": -2.44
+   }
+  },
+  {
+   "code": "Siser EasyWeed Light Pink",
+   "name": "Siser EasyWeed Light Pink",
+   "localName": "EasyWeed",
+   "hex": "#F5B8CB",
+   "rgb": {
+    "r": 245,
+    "g": 184,
+    "b": 203
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 25,
+    "y": 17,
+    "k": 4
+   },
+   "lab": {
+    "l": 80.74,
+    "a": 24.82,
+    "b": -0.94
+   }
+  },
+  {
+   "code": "Siser EasyWeed Fluorescent Pink",
+   "name": "Siser EasyWeed Fluorescent Pink",
+   "localName": "EasyWeed",
+   "hex": "#FF3C87",
+   "rgb": {
+    "r": 255,
+    "g": 60,
+    "b": 135
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 76,
+    "y": 47,
+    "k": 0
+   },
+   "lab": {
+    "l": 58.27,
+    "a": 75.91,
+    "b": 4.78
+   }
+  },
+  {
+   "code": "Siser EasyWeed Hot Pink",
+   "name": "Siser EasyWeed Hot Pink",
+   "localName": "EasyWeed",
+   "hex": "#E5326E",
+   "rgb": {
+    "r": 229,
+    "g": 50,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 78,
+    "y": 52,
+    "k": 10
+   },
+   "lab": {
+    "l": 51.92,
+    "a": 69.93,
+    "b": 10.01
+   }
+  },
+  {
+   "code": "Siser EasyWeed Purple",
+   "name": "Siser EasyWeed Purple",
+   "localName": "EasyWeed",
+   "hex": "#5B2C86",
+   "rgb": {
+    "r": 91,
+    "g": 44,
+    "b": 134
+   },
+   "cmyk": {
+    "c": 32,
+    "m": 67,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 28.76,
+    "a": 39.23,
+    "b": -42.2
+   }
+  },
+  {
+   "code": "Siser EasyWeed Lilac",
+   "name": "Siser EasyWeed Lilac",
+   "localName": "EasyWeed",
+   "hex": "#B49BC8",
+   "rgb": {
+    "r": 180,
+    "g": 155,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 23,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 67.51,
+    "a": 17.72,
+    "b": -19.68
+   }
+  },
+  {
+   "code": "Siser EasyWeed Lavender",
+   "name": "Siser EasyWeed Lavender",
+   "localName": "EasyWeed",
+   "hex": "#C5B4D8",
+   "rgb": {
+    "r": 197,
+    "g": 180,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 17,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 75.74,
+    "a": 12.81,
+    "b": -15.88
+   }
+  },
+  {
+   "code": "Siser EasyWeed Deep Blue",
+   "name": "Siser EasyWeed Deep Blue",
+   "localName": "EasyWeed",
+   "hex": "#12345B",
+   "rgb": {
+    "r": 18,
+    "g": 52,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 80,
+    "m": 43,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 21.36,
+    "a": 3.17,
+    "b": -26.91
+   }
+  },
+  {
+   "code": "Siser EasyWeed Navy Blue",
+   "name": "Siser EasyWeed Navy Blue",
+   "localName": "EasyWeed",
+   "hex": "#1B2B4B",
+   "rgb": {
+    "r": 27,
+    "g": 43,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 43,
+    "y": 0,
+    "k": 71
+   },
+   "lab": {
+    "l": 17.78,
+    "a": 4.79,
+    "b": -21.87
+   }
+  },
+  {
+   "code": "Siser EasyWeed Royal Blue",
+   "name": "Siser EasyWeed Royal Blue",
+   "localName": "EasyWeed",
+   "hex": "#1B4B9B",
+   "rgb": {
+    "r": 27,
+    "g": 75,
+    "b": 155
+   },
+   "cmyk": {
+    "c": 83,
+    "m": 52,
+    "y": 0,
+    "k": 39
+   },
+   "lab": {
+    "l": 33.2,
+    "a": 14.82,
+    "b": -48.15
+   }
+  },
+  {
+   "code": "Siser EasyWeed Brilliant Blue",
+   "name": "Siser EasyWeed Brilliant Blue",
+   "localName": "EasyWeed",
+   "hex": "#0071BC",
+   "rgb": {
+    "r": 0,
+    "g": 113,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 46.23,
+    "a": 1.84,
+    "b": -46.76
+   }
+  },
+  {
+   "code": "Siser EasyWeed Columbia Blue",
+   "name": "Siser EasyWeed Columbia Blue",
+   "localName": "EasyWeed",
+   "hex": "#8AB8DC",
+   "rgb": {
+    "r": 138,
+    "g": 184,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 16,
+    "y": 0,
+    "k": 14
+   },
+   "lab": {
+    "l": 72.79,
+    "a": -6.37,
+    "b": -22.92
+   }
+  },
+  {
+   "code": "Siser EasyWeed Pale Blue",
+   "name": "Siser EasyWeed Pale Blue",
+   "localName": "EasyWeed",
+   "hex": "#B7D3E8",
+   "rgb": {
+    "r": 183,
+    "g": 211,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 9,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 83.17,
+    "a": -4.86,
+    "b": -13.44
+   }
+  },
+  {
+   "code": "Siser EasyWeed Turquoise",
+   "name": "Siser EasyWeed Turquoise",
+   "localName": "EasyWeed",
+   "hex": "#00A5B5",
+   "rgb": {
+    "r": 0,
+    "g": 165,
+    "b": 181
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 9,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 61.86,
+    "a": -29.6,
+    "b": -18.38
+   }
+  },
+  {
+   "code": "Siser EasyWeed Aqua",
+   "name": "Siser EasyWeed Aqua",
+   "localName": "EasyWeed",
+   "hex": "#5FC8D0",
+   "rgb": {
+    "r": 95,
+    "g": 200,
+    "b": 208
+   },
+   "cmyk": {
+    "c": 54,
+    "m": 4,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 75.01,
+    "a": -28.01,
+    "b": -13.24
+   }
+  },
+  {
+   "code": "Siser EasyWeed Mint",
+   "name": "Siser EasyWeed Mint",
+   "localName": "EasyWeed",
+   "hex": "#9BD4C0",
+   "rgb": {
+    "r": 155,
+    "g": 212,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 27,
+    "m": 0,
+    "y": 9,
+    "k": 17
+   },
+   "lab": {
+    "l": 80.66,
+    "a": -22.45,
+    "b": 4
+   }
+  },
+  {
+   "code": "Siser EasyWeed Green",
+   "name": "Siser EasyWeed Green",
+   "localName": "EasyWeed",
+   "hex": "#1E7B45",
+   "rgb": {
+    "r": 30,
+    "g": 123,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 0,
+    "y": 44,
+    "k": 52
+   },
+   "lab": {
+    "l": 45.46,
+    "a": -39.63,
+    "b": 22.05
+   }
+  },
+  {
+   "code": "Siser EasyWeed Kelly Green",
+   "name": "Siser EasyWeed Kelly Green",
+   "localName": "EasyWeed",
+   "hex": "#2E9B4E",
+   "rgb": {
+    "r": 46,
+    "g": 155,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 70,
+    "m": 0,
+    "y": 50,
+    "k": 39
+   },
+   "lab": {
+    "l": 56.66,
+    "a": -47.73,
+    "b": 31.56
+   }
+  },
+  {
+   "code": "Siser EasyWeed Grass Green",
+   "name": "Siser EasyWeed Grass Green",
+   "localName": "EasyWeed",
+   "hex": "#4C9C2E",
+   "rgb": {
+    "r": 76,
+    "g": 156,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 51,
+    "m": 0,
+    "y": 71,
+    "k": 39
+   },
+   "lab": {
+    "l": 57.57,
+    "a": -44.75,
+    "b": 47.89
+   }
+  },
+  {
+   "code": "Siser EasyWeed Forest Green",
+   "name": "Siser EasyWeed Forest Green",
+   "localName": "EasyWeed",
+   "hex": "#1F4E32",
+   "rgb": {
+    "r": 31,
+    "g": 78,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 36,
+    "k": 69
+   },
+   "lab": {
+    "l": 29.34,
+    "a": -23.48,
+    "b": 11.87
+   }
+  },
+  {
+   "code": "Siser EasyWeed Apple Green",
+   "name": "Siser EasyWeed Apple Green",
+   "localName": "EasyWeed",
+   "hex": "#8CC63E",
+   "rgb": {
+    "r": 140,
+    "g": 198,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 0,
+    "y": 69,
+    "k": 22
+   },
+   "lab": {
+    "l": 73.75,
+    "a": -39.44,
+    "b": 59.34
+   }
+  },
+  {
+   "code": "Siser EasyWeed Fluorescent Green",
+   "name": "Siser EasyWeed Fluorescent Green",
+   "localName": "EasyWeed",
+   "hex": "#6EE13C",
+   "rgb": {
+    "r": 110,
+    "g": 225,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 51,
+    "m": 0,
+    "y": 73,
+    "k": 12
+   },
+   "lab": {
+    "l": 80.45,
+    "a": -60.22,
+    "b": 66.4
+   }
+  },
+  {
+   "code": "Siser EasyWeed Yellow",
+   "name": "Siser EasyWeed Yellow",
+   "localName": "EasyWeed",
+   "hex": "#FFD400",
+   "rgb": {
+    "r": 255,
+    "g": 212,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 86.18,
+    "a": -0.4,
+    "b": 86.6
+   }
+  },
+  {
+   "code": "Siser EasyWeed Lemon",
+   "name": "Siser EasyWeed Lemon",
+   "localName": "EasyWeed",
+   "hex": "#F5E04A",
+   "rgb": {
+    "r": 245,
+    "g": 224,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 70,
+    "k": 4
+   },
+   "lab": {
+    "l": 88.55,
+    "a": -8.9,
+    "b": 72.24
+   }
+  },
+  {
+   "code": "Siser EasyWeed Gold",
+   "name": "Siser EasyWeed Gold",
+   "localName": "EasyWeed",
+   "hex": "#C8A24A",
+   "rgb": {
+    "r": 200,
+    "g": 162,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 19,
+    "y": 63,
+    "k": 22
+   },
+   "lab": {
+    "l": 68.47,
+    "a": 4.16,
+    "b": 49.94
+   }
+  },
+  {
+   "code": "Siser EasyWeed Old Gold",
+   "name": "Siser EasyWeed Old Gold",
+   "localName": "EasyWeed",
+   "hex": "#B08A3E",
+   "rgb": {
+    "r": 176,
+    "g": 138,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 65,
+    "k": 31
+   },
+   "lab": {
+    "l": 59.67,
+    "a": 6,
+    "b": 45.17
+   }
+  },
+  {
+   "code": "Siser EasyWeed Orange",
+   "name": "Siser EasyWeed Orange",
+   "localName": "EasyWeed",
+   "hex": "#F26522",
+   "rgb": {
+    "r": 242,
+    "g": 101,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 86,
+    "k": 5
+   },
+   "lab": {
+    "l": 60.16,
+    "a": 51.22,
+    "b": 60.72
+   }
+  },
+  {
+   "code": "Siser EasyWeed Bright Orange",
+   "name": "Siser EasyWeed Bright Orange",
+   "localName": "EasyWeed",
+   "hex": "#FF6A13",
+   "rgb": {
+    "r": 255,
+    "g": 106,
+    "b": 19
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 93,
+    "k": 0
+   },
+   "lab": {
+    "l": 63.03,
+    "a": 53.39,
+    "b": 68.31
+   }
+  },
+  {
+   "code": "Siser EasyWeed Fluorescent Orange",
+   "name": "Siser EasyWeed Fluorescent Orange",
+   "localName": "EasyWeed",
+   "hex": "#FF5C25",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 37
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 85,
+    "k": 0
+   },
+   "lab": {
+    "l": 60.83,
+    "a": 59.7,
+    "b": 61
+   }
+  },
+  {
+   "code": "Siser EasyWeed Texas Orange",
+   "name": "Siser EasyWeed Texas Orange",
+   "localName": "EasyWeed",
+   "hex": "#BF5700",
+   "rgb": {
+    "r": 191,
+    "g": 87,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 54,
+    "y": 100,
+    "k": 25
+   },
+   "lab": {
+    "l": 49.37,
+    "a": 38.15,
+    "b": 58.71
+   }
+  },
+  {
+   "code": "Siser EasyWeed Brown",
+   "name": "Siser EasyWeed Brown",
+   "localName": "EasyWeed",
+   "hex": "#5A3A22",
+   "rgb": {
+    "r": 90,
+    "g": 58,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 62,
+    "k": 65
+   },
+   "lab": {
+    "l": 27.62,
+    "a": 11.29,
+    "b": 20.54
+   }
+  },
+  {
+   "code": "Siser EasyWeed Tan",
+   "name": "Siser EasyWeed Tan",
+   "localName": "EasyWeed",
+   "hex": "#C8A882",
+   "rgb": {
+    "r": 200,
+    "g": 168,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 35,
+    "k": 22
+   },
+   "lab": {
+    "l": 70.8,
+    "a": 6.25,
+    "b": 24.01
+   }
+  },
+  {
+   "code": "Siser EasyWeed Beige",
+   "name": "Siser EasyWeed Beige",
+   "localName": "EasyWeed",
+   "hex": "#D8C4A8",
+   "rgb": {
+    "r": 216,
+    "g": 196,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 22,
+    "k": 15
+   },
+   "lab": {
+    "l": 80.13,
+    "a": 2.63,
+    "b": 16.63
+   }
+  },
+  {
+   "code": "Siser EasyWeed Cream",
+   "name": "Siser EasyWeed Cream",
+   "localName": "EasyWeed",
+   "hex": "#EFE4CE",
+   "rgb": {
+    "r": 239,
+    "g": 228,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 14,
+    "k": 6
+   },
+   "lab": {
+    "l": 90.91,
+    "a": 0.13,
+    "b": 12.08
+   }
+  },
+  {
+   "code": "Siser EasyWeed Grey",
+   "name": "Siser EasyWeed Grey",
+   "localName": "EasyWeed",
+   "hex": "#8A8D8F",
+   "rgb": {
+    "r": 138,
+    "g": 141,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 1,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 58.45,
+    "a": -0.7,
+    "b": -1.45
+   }
+  },
+  {
+   "code": "Siser EasyWeed Charcoal",
+   "name": "Siser EasyWeed Charcoal",
+   "localName": "EasyWeed",
+   "hex": "#4A4E51",
+   "rgb": {
+    "r": 74,
+    "g": 78,
+    "b": 81
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 4,
+    "y": 0,
+    "k": 68
+   },
+   "lab": {
+    "l": 32.92,
+    "a": -0.93,
+    "b": -2.33
+   }
+  },
+  {
+   "code": "Siser EasyWeed Silver",
+   "name": "Siser EasyWeed Silver",
+   "localName": "EasyWeed",
+   "hex": "#BEC0C2",
+   "rgb": {
+    "r": 190,
+    "g": 192,
+    "b": 194
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 1,
+    "y": 0,
+    "k": 24
+   },
+   "lab": {
+    "l": 77.6,
+    "a": -0.32,
+    "b": -1.25
+   }
+  },
+  {
+   "code": "Siser EasyWeed Light Grey",
+   "name": "Siser EasyWeed Light Grey",
+   "localName": "EasyWeed",
+   "hex": "#C9CBCC",
+   "rgb": {
+    "r": 201,
+    "g": 203,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 0,
+    "k": 20
+   },
+   "lab": {
+    "l": 81.56,
+    "a": -0.5,
+    "b": -0.74
+   }
+  },
+  {
+   "code": "Siser EasyWeed Antique Silver",
+   "name": "Siser EasyWeed Antique Silver",
+   "localName": "EasyWeed",
+   "hex": "#A6A8AB",
+   "rgb": {
+    "r": 166,
+    "g": 168,
+    "b": 171
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 2,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 68.79,
+    "a": -0.13,
+    "b": -1.79
+   }
+  },
+  {
+   "code": "Siser EasyWeed Sun Yellow",
+   "name": "Siser EasyWeed Sun Yellow",
+   "localName": "EasyWeed",
+   "hex": "#FFC72C",
+   "rgb": {
+    "r": 255,
+    "g": 199,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 83,
+    "k": 0
+   },
+   "lab": {
+    "l": 83.07,
+    "a": 6.89,
+    "b": 77.28
+   }
+  },
+  {
+   "code": "Siser EasyWeed Cherry Red",
+   "name": "Siser EasyWeed Cherry Red",
+   "localName": "EasyWeed",
+   "hex": "#B22234",
+   "rgb": {
+    "r": 178,
+    "g": 34,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 81,
+    "y": 71,
+    "k": 30
+   },
+   "lab": {
+    "l": 39.34,
+    "a": 56.62,
+    "b": 27.23
+   }
+  },
+  {
+   "code": "Siser EasyWeed Sapphire",
+   "name": "Siser EasyWeed Sapphire",
+   "localName": "EasyWeed",
+   "hex": "#26547C",
+   "rgb": {
+    "r": 38,
+    "g": 84,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 69,
+    "m": 32,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 34.41,
+    "a": -1.82,
+    "b": -27.24
+   }
+  }
+ ]
+}

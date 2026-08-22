@@ -348,6 +348,30 @@ export default function CmykToPantone() {
         {/* ── Main content ───────────────────────────────────── */}
         <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1.5rem 4rem', display: 'grid', gridTemplateColumns: '1fr', gap: '1.5rem' }}>
 
+          {/* Fashion and textile users land here by mistake constantly: this
+              converter searches the graphic-arts PMS library, not the TCX one. */}
+          <aside
+            aria-label="Note for fashion and textile users"
+            style={{
+              display: 'flex', gap: '0.7rem', alignItems: 'flex-start',
+              padding: '0.9rem 1.1rem', borderRadius: '0.875rem',
+              background: '#fdf2f8', border: '1.5px solid #fbcfe8',
+            }}
+          >
+            <span aria-hidden="true" style={{ fontSize: '1rem', lineHeight: 1.4, flexShrink: 0 }}>✂️</span>
+            <p style={{ fontSize: '0.85rem', color: '#831843', lineHeight: 1.65, margin: 0 }}>
+              <strong>Working in fashion or textiles?</strong> This tool searches the Pantone Matching
+              System — the graphic-arts library used for print. Apparel, home textiles and interiors use a{' '}
+              separate Pantone library, Fashion, Home + Interiors, whose codes look like
+              “19-4052 TCX”. The two are not interchangeable. Use the{' '}
+              <Link href="/hex-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>HEX to TCX converter</Link>,{' '}
+              <Link href="/pantone-c-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>Pantone C to TCX</Link>{' '}
+              or the{' '}
+              <Link href="/tcx-vs-tpx-vs-tpg/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>TCX vs TPX vs TPG guide</Link>{' '}
+              instead.
+            </p>
+          </aside>
+
           {/* Top row: Inputs + Preview */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -637,6 +661,11 @@ export default function CmykToPantone() {
                 { href: '/rgb-to-pantone/', label: 'RGB → Pantone' },
                 { href: '/pantone-to-hex/', label: 'Pantone → HEX' },
                 { href: '/pantone-finder/', label: 'Browse Pantone Colors' },
+                { href: '/pantone-to-ral/', label: 'Pantone → RAL' },
+                { href: '/pantone-to-ncs/', label: 'Pantone → NCS' },
+                { href: '/pantone-to-hks/', label: 'Pantone → HKS' },
+                { href: '/pantone-to-trumatch/', label: 'Pantone → Trumatch' },
+                { href: '/pantone-to-lab/', label: 'Pantone → LAB' },
               ].map(({ href, label }) => (
                 <Link
                   key={href}

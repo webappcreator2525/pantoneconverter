@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone Black C', hex: '#2D2926', rgb: '45, 41, 38', cmyk: '0, 0, 0, 100', use: 'Standard neutral black used as default in most brand specifications' },
@@ -358,6 +359,22 @@ export default function PantoneBlackPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Black in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this black is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-federal-standard-595/',
+              '/pantone-to-siser-htv/',
+              '/pantone-to-benjamin-moore/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

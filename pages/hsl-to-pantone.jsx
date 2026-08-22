@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { Sun, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 import MatchCard from '../components/MatchCard';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
 import pantoneDb from '../data/pantone.json';
@@ -187,6 +188,20 @@ export default function HslToPantone() {
               the gap between screen-based color design and professional print production.
             </p>
           </div>
+
+          <CrossSystemLinks
+            heading="Beyond HSL: Other Colour Models and Systems"
+            intro="HSL is one of several ways to describe a screen colour, and print is one of several places a colour can end up. These converters cover the neighbouring models and the physical systems a Pantone match may need to reach."
+            routes={[
+              '/pantone-to-hsv/',
+              '/hsv-to-pantone/',
+              '/pantone-to-lab/',
+              '/lab-to-pantone/',
+              '/pantone-to-ral/',
+              '/hex-to-tcx/',
+            ]}
+            accentColor="#0d9488"
+          />
         </div>
       </main>
 

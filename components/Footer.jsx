@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CONVERTER_GROUPS, groupLinks } from '../lib/converterLinks';
 
 const FOOTER_LINK_STYLE = {
   color: '#9ca3af', textDecoration: 'none', fontSize: '0.82rem',
@@ -31,6 +32,25 @@ function FooterColumn({ heading, links }) {
   );
 }
 
+// Footer columns mirror the navigation groups exactly, so every converter on the
+// site has a crawlable link from every page. Labels are shortened where the nav
+// label would wrap awkwardly in a narrow footer column.
+const SHORT_LABEL = {
+  '/pantone-to-federal-standard-595/': 'Pantone → FS 595',
+  '/pantone-to-sherwin-williams/': 'Pantone → Sherwin',
+  '/pantone-to-benjamin-moore/': 'Pantone → Ben Moore',
+  '/pantone-to-farrow-and-ball/': 'Pantone → Farrow & Ball',
+  '/pantone-textile-to-cmyk/': 'Textile → CMYK',
+  '/image-to-pantone/': 'Image → Pantone',
+  '/pantone-finder/': 'Pantone Finder',
+  '/compare/': 'Compare Colours',
+};
+
+const CONVERTER_COLUMNS = CONVERTER_GROUPS.map((group) => ({
+  heading: group.title,
+  links: groupLinks(group).map(({ href, label }) => [href, SHORT_LABEL[href] || label]),
+}));
+
 export default function Footer() {
   return (
     <footer style={{ background: '#111827', color: '#9ca3af', padding: '3rem 1.5rem 2rem' }}>
@@ -48,43 +68,50 @@ export default function Footer() {
               PantoneConverter
             </div>
             <p style={{ fontSize: '0.8rem', lineHeight: 1.6 }}>
-              Free instant Pantone color conversion tools for designers and print professionals.
+              Free instant Pantone color conversion tools for designers, printers,
+              manufacturers and makers.
             </p>
           </div>
 
-          <FooterColumn heading="To Pantone" links={[
-            ['/cmyk-to-pantone', 'CMYK → Pantone'],
-            ['/hex-to-pantone',  'HEX → Pantone' ],
-            ['/rgb-to-pantone',  'RGB → Pantone' ],
-            ['/hsl-to-pantone',  'HSL → Pantone' ],
-          ]} />
+          {CONVERTER_COLUMNS.map((col) => (
+            <FooterColumn key={col.heading} heading={col.heading} links={col.links} />
+          ))}
 
-          <FooterColumn heading="From Pantone" links={[
-            ['/pantone-to-cmyk', 'Pantone → CMYK'],
-            ['/pantone-to-hex',  'Pantone → HEX' ],
-            ['/pantone-to-rgb',  'Pantone → RGB' ],
+          <FooterColumn heading="Colour Families" links={[
+            ['/pantone-red/',    'Pantone Red'    ],
+            ['/pantone-blue/',   'Pantone Blue'   ],
+            ['/pantone-green/',  'Pantone Green'  ],
+            ['/pantone-yellow/', 'Pantone Yellow' ],
+            ['/pantone-orange/', 'Pantone Orange' ],
+            ['/pantone-pink/',   'Pantone Pink'   ],
+            ['/pantone-purple/', 'Pantone Purple' ],
+            ['/pantone-gold/',   'Pantone Gold'   ],
+            ['/pantone-black/',  'Pantone Black'  ],
+            ['/pantone-white/',  'Pantone White'  ],
           ]} />
 
           <FooterColumn heading="Learn" links={[
-            ['/learn',                               'All Articles'           ],
-            ['/learn/what-is-pantone',               'What is Pantone?'       ],
-            ['/learn/how-to-convert-hex-to-pantone', 'HEX to Pantone Guide'   ],
-            ['/learn/cmyk-vs-rgb',                   'CMYK vs RGB'            ],
-            ['/learn/coated-vs-uncoated',            'Coated vs Uncoated'     ],
+            ['/learn',                               'All Articles'         ],
+            ['/learn/what-is-pantone',               'What is Pantone?'     ],
+            ['/learn/pantone-for-beginners',         'Pantone for Beginners'],
+            ['/learn/coated-vs-uncoated',            'Coated vs Uncoated'   ],
+            ['/learn/cmyk-vs-rgb',                   'CMYK vs RGB'          ],
+            ['/brands',                              'Brand Colours'        ],
+            ['/pantone-color-of-the-year',           'Colour of the Year'   ],
           ]} />
 
-          <FooterColumn heading="More" links={[
-            ['/pantone-finder', 'Pantone Finder' ],
-            ['/saved',          'Saved Colors'   ],
-            ['/about',          'About'          ],
-            ['/privacy',        'Privacy Policy' ],
-            ['/',               'Home'           ],
+          <FooterColumn heading="Site" links={[
+            ['/',        'Home'          ],
+            ['/saved',   'Saved Colors'  ],
+            ['/about',   'About'         ],
+            ['/privacy', 'Privacy Policy'],
           ]} />
         </div>
 
         <div style={{ borderTop: '1px solid #1f2937', paddingTop: '1.5rem', textAlign: 'center', fontSize: '0.78rem' }}>
           © {new Date().getFullYear()} PantoneConverter.com — Free color tools for designers.{' '}
-          Pantone® is a registered trademark of Pantone LLC.
+          Pantone® is a registered trademark of Pantone LLC. All other colour system names and
+          codes are trademarks of their respective owners.
         </div>
       </div>
     </footer>

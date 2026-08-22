@@ -27,7 +27,35 @@ module.exports = {
       path === '/pantone-to-rgb' ||
       path === '/pantone-to-cmyk' ||
       path === '/pantone-finder' ||
-      path === '/compare'
+      path === '/compare' ||
+      // Industrial colour-system converters — same tier as the core tools.
+      path === '/pantone-to-ral' ||
+      path === '/ral-to-pantone' ||
+      path === '/pantone-to-ncs' ||
+      path === '/pantone-to-hks' ||
+      path === '/pantone-to-toyo' ||
+      path === '/pantone-to-trumatch' ||
+      path === '/pantone-to-federal-standard-595' ||
+      path === '/pantone-to-lab' ||
+      path === '/lab-to-pantone' ||
+      path === '/pantone-to-hsv' ||
+      path === '/hsv-to-pantone' ||
+      // Craft-material and paint-brand converters.
+      path === '/pantone-to-dmc' ||
+      path === '/pantone-to-copic' ||
+      path === '/pantone-to-oracal' ||
+      path === '/pantone-to-siser-htv' ||
+      path === '/pantone-to-sherwin-williams' ||
+      path === '/pantone-to-benjamin-moore' ||
+      path === '/pantone-to-dulux' ||
+      path === '/pantone-to-farrow-and-ball' ||
+      path === '/pantone-to-behr' ||
+      // Fashion and textile Pantone (TCX) converters.
+      path === '/tcx-to-hex' ||
+      path === '/hex-to-tcx' ||
+      path === '/pantone-c-to-tcx' ||
+      path === '/tcx-vs-tpx-vs-tpg' ||
+      path === '/pantone-textile-to-cmyk'
     ) {
       priority = 0.9;
       changefreq = 'weekly';

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
 import { useState, useEffect, useCallback } from 'react';
 import { Circle, RefreshCw } from 'lucide-react';
@@ -116,6 +117,30 @@ export default function RgbToPantone() {
 
         <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1.5rem 4rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
 
+          {/* Fashion and textile users land here by mistake constantly: this
+              converter searches the graphic-arts PMS library, not the TCX one. */}
+          <aside
+            aria-label="Note for fashion and textile users"
+            style={{
+              display: 'flex', gap: '0.7rem', alignItems: 'flex-start',
+              padding: '0.9rem 1.1rem', borderRadius: '0.875rem',
+              background: '#fdf2f8', border: '1.5px solid #fbcfe8',
+            }}
+          >
+            <span aria-hidden="true" style={{ fontSize: '1rem', lineHeight: 1.4, flexShrink: 0 }}>✂️</span>
+            <p style={{ fontSize: '0.85rem', color: '#831843', lineHeight: 1.65, margin: 0 }}>
+              <strong>Working in fashion or textiles?</strong> This tool searches the Pantone Matching
+              System — the graphic-arts library used for print. Apparel, home textiles and interiors use a{' '}
+              separate Pantone library, Fashion, Home + Interiors, whose codes look like
+              “19-4052 TCX”. The two are not interchangeable. Use the{' '}
+              <Link href="/hex-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>HEX to TCX converter</Link>,{' '}
+              <Link href="/pantone-c-to-tcx/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>Pantone C to TCX</Link>{' '}
+              or the{' '}
+              <Link href="/tcx-vs-tpx-vs-tpg/" style={{ color: '#be185d', fontWeight: 700, textDecoration: 'underline' }}>TCX vs TPX vs TPG guide</Link>{' '}
+              instead.
+            </p>
+          </aside>
+
           {/* Inputs + Preview */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
@@ -226,16 +251,28 @@ export default function RgbToPantone() {
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Explore by color family — browse{' '}
-              <a href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</a>,{' '}
-              <a href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</a>,{' '}
-              <a href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</a>,{' '}
-              <a href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Yellow</a>,{' '}
-              <a href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</a>,{' '}
-              <a href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Pink</a>,{' '}
-              <a href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Purple</a>,{' '}
-              <a href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Gold</a>,{' '}
-              <a href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Black</a>, and{' '}
-              <a href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone White</a>.
+              <Link href="/pantone-red/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Red</Link>,{' '}
+              <Link href="/pantone-blue/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Blue</Link>,{' '}
+              <Link href="/pantone-green/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Green</Link>,{' '}
+              <Link href="/pantone-yellow/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Yellow</Link>,{' '}
+              <Link href="/pantone-orange/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Orange</Link>,{' '}
+              <Link href="/pantone-pink/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Pink</Link>,{' '}
+              <Link href="/pantone-purple/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Purple</Link>,{' '}
+              <Link href="/pantone-gold/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Gold</Link>,{' '}
+              <Link href="/pantone-black/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone Black</Link>, and{' '}
+              <Link href="/pantone-white/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone White</Link>.
+            </p>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
+              RGB is a screen model, so if your design is heading somewhere other than paper you may need a
+              different standard again. Convert the resulting Pantone colour to{' '}
+              <Link href="/pantone-to-ral/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>RAL</Link>{' '}
+              for paint and powder coating, to{' '}
+              <Link href="/pantone-to-lab/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>CIELAB</Link>{' '}
+              for measurement and ΔE tolerance, or to{' '}
+              <Link href="/pantone-to-hsv/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>HSV / HSB</Link>{' '}
+              for design-tool colour pickers. You can also go straight from{' '}
+              <Link href="/hsv-to-pantone/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>HSV to Pantone</Link>{' '}
+              if you picked your colour by eye rather than by RGB values.
             </p>
           </div>
         </div>

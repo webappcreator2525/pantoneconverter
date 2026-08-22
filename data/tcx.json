@@ -1,0 +1,4695 @@
+{
+ "system": "Pantone TCX",
+ "owner": "Pantone LLC",
+ "accuracy": "low",
+ "count": 213,
+ "generatedBy": "scripts/generate-tcx-palette.mjs",
+ "colors": [
+  {
+   "code": "PANTONE 11-4201 TCX",
+   "name": "PANTONE 11-4201 TCX",
+   "localName": "Cloud Dancer",
+   "hex": "#F0EEE9",
+   "rgb": {
+    "r": 240,
+    "g": 238,
+    "b": 233
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 3,
+    "k": 6
+   },
+   "lab": {
+    "l": 94.12,
+    "a": -0.2,
+    "b": 2.65
+   }
+  },
+  {
+   "code": "PANTONE 17-1230 TCX",
+   "name": "PANTONE 17-1230 TCX",
+   "localName": "Mocha Mousse",
+   "hex": "#A47764",
+   "rgb": {
+    "r": 164,
+    "g": 119,
+    "b": 100
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 39,
+    "k": 36
+   },
+   "lab": {
+    "l": 54.04,
+    "a": 15.06,
+    "b": 17.39
+   }
+  },
+  {
+   "code": "PANTONE 13-1023 TCX",
+   "name": "PANTONE 13-1023 TCX",
+   "localName": "Peach Fuzz",
+   "hex": "#FFBE98",
+   "rgb": {
+    "r": 255,
+    "g": 190,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 25,
+    "y": 40,
+    "k": 0
+   },
+   "lab": {
+    "l": 82.03,
+    "a": 18.69,
+    "b": 28.32
+   }
+  },
+  {
+   "code": "PANTONE 18-1750 TCX",
+   "name": "PANTONE 18-1750 TCX",
+   "localName": "Viva Magenta",
+   "hex": "#BB2649",
+   "rgb": {
+    "r": 187,
+    "g": 38,
+    "b": 73
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 80,
+    "y": 61,
+    "k": 27
+   },
+   "lab": {
+    "l": 41.9,
+    "a": 59.24,
+    "b": 17.76
+   }
+  },
+  {
+   "code": "PANTONE 17-3938 TCX",
+   "name": "PANTONE 17-3938 TCX",
+   "localName": "Very Peri",
+   "hex": "#6667AB",
+   "rgb": {
+    "r": 102,
+    "g": 103,
+    "b": 171
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 40,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 46.26,
+    "a": 17.03,
+    "b": -36.57
+   }
+  },
+  {
+   "code": "PANTONE 17-5104 TCX",
+   "name": "PANTONE 17-5104 TCX",
+   "localName": "Ultimate Gray",
+   "hex": "#939597",
+   "rgb": {
+    "r": 147,
+    "g": 149,
+    "b": 151
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 1,
+    "y": 0,
+    "k": 41
+   },
+   "lab": {
+    "l": 61.6,
+    "a": -0.33,
+    "b": -1.31
+   }
+  },
+  {
+   "code": "PANTONE 13-0647 TCX",
+   "name": "PANTONE 13-0647 TCX",
+   "localName": "Illuminating",
+   "hex": "#F5DF4D",
+   "rgb": {
+    "r": 245,
+    "g": 223,
+    "b": 77
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 69,
+    "k": 4
+   },
+   "lab": {
+    "l": 88.32,
+    "a": -8.26,
+    "b": 70.88
+   }
+  },
+  {
+   "code": "PANTONE 19-4052 TCX",
+   "name": "PANTONE 19-4052 TCX",
+   "localName": "Classic Blue",
+   "hex": "#0F4C81",
+   "rgb": {
+    "r": 15,
+    "g": 76,
+    "b": 129
+   },
+   "cmyk": {
+    "c": 88,
+    "m": 41,
+    "y": 0,
+    "k": 49
+   },
+   "lab": {
+    "l": 31.47,
+    "a": 2.35,
+    "b": -35.03
+   }
+  },
+  {
+   "code": "PANTONE 16-1546 TCX",
+   "name": "PANTONE 16-1546 TCX",
+   "localName": "Living Coral",
+   "hex": "#FF6F61",
+   "rgb": {
+    "r": 255,
+    "g": 111,
+    "b": 97
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 56,
+    "y": 62,
+    "k": 0
+   },
+   "lab": {
+    "l": 64.56,
+    "a": 53.9,
+    "b": 35.18
+   }
+  },
+  {
+   "code": "PANTONE 18-3838 TCX",
+   "name": "PANTONE 18-3838 TCX",
+   "localName": "Ultra Violet",
+   "hex": "#5F4B8B",
+   "rgb": {
+    "r": 95,
+    "g": 75,
+    "b": 139
+   },
+   "cmyk": {
+    "c": 32,
+    "m": 46,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 36.61,
+    "a": 23.33,
+    "b": -32.73
+   }
+  },
+  {
+   "code": "PANTONE 15-0343 TCX",
+   "name": "PANTONE 15-0343 TCX",
+   "localName": "Greenery",
+   "hex": "#88B04B",
+   "rgb": {
+    "r": 136,
+    "g": 176,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 0,
+    "y": 57,
+    "k": 31
+   },
+   "lab": {
+    "l": 67.12,
+    "a": -29.81,
+    "b": 46.53
+   }
+  },
+  {
+   "code": "PANTONE 13-1520 TCX",
+   "name": "PANTONE 13-1520 TCX",
+   "localName": "Rose Quartz",
+   "hex": "#F7CAC9",
+   "rgb": {
+    "r": 247,
+    "g": 202,
+    "b": 201
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 18,
+    "y": 19,
+    "k": 3
+   },
+   "lab": {
+    "l": 85.12,
+    "a": 15.73,
+    "b": 6.5
+   }
+  },
+  {
+   "code": "PANTONE 15-3919 TCX",
+   "name": "PANTONE 15-3919 TCX",
+   "localName": "Serenity",
+   "hex": "#92A8D1",
+   "rgb": {
+    "r": 146,
+    "g": 168,
+    "b": 209
+   },
+   "cmyk": {
+    "c": 30,
+    "m": 20,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 68.55,
+    "a": 1.84,
+    "b": -23.33
+   }
+  },
+  {
+   "code": "PANTONE 18-1438 TCX",
+   "name": "PANTONE 18-1438 TCX",
+   "localName": "Marsala",
+   "hex": "#955251",
+   "rgb": {
+    "r": 149,
+    "g": 82,
+    "b": 81
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 46,
+    "k": 42
+   },
+   "lab": {
+    "l": 42.79,
+    "a": 27.73,
+    "b": 12.95
+   }
+  },
+  {
+   "code": "PANTONE 18-3224 TCX",
+   "name": "PANTONE 18-3224 TCX",
+   "localName": "Radiant Orchid",
+   "hex": "#B163A3",
+   "rgb": {
+    "r": 177,
+    "g": 99,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 8,
+    "k": 31
+   },
+   "lab": {
+    "l": 52.86,
+    "a": 40.59,
+    "b": -21.02
+   }
+  },
+  {
+   "code": "PANTONE 17-5641 TCX",
+   "name": "PANTONE 17-5641 TCX",
+   "localName": "Emerald",
+   "hex": "#009473",
+   "rgb": {
+    "r": 0,
+    "g": 148,
+    "b": 115
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 22,
+    "k": 42
+   },
+   "lab": {
+    "l": 54.47,
+    "a": -41.68,
+    "b": 8.14
+   }
+  },
+  {
+   "code": "PANTONE 17-1463 TCX",
+   "name": "PANTONE 17-1463 TCX",
+   "localName": "Tangerine Tango",
+   "hex": "#DD4124",
+   "rgb": {
+    "r": 221,
+    "g": 65,
+    "b": 36
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 71,
+    "y": 84,
+    "k": 13
+   },
+   "lab": {
+    "l": 51.02,
+    "a": 59.07,
+    "b": 50.74
+   }
+  },
+  {
+   "code": "PANTONE 18-2120 TCX",
+   "name": "PANTONE 18-2120 TCX",
+   "localName": "Honeysuckle",
+   "hex": "#D94F70",
+   "rgb": {
+    "r": 217,
+    "g": 79,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 48,
+    "k": 15
+   },
+   "lab": {
+    "l": 53.51,
+    "a": 56.49,
+    "b": 10.75
+   }
+  },
+  {
+   "code": "PANTONE 15-5519 TCX",
+   "name": "PANTONE 15-5519 TCX",
+   "localName": "Turquoise",
+   "hex": "#45B5AA",
+   "rgb": {
+    "r": 69,
+    "g": 181,
+    "b": 170
+   },
+   "cmyk": {
+    "c": 62,
+    "m": 0,
+    "y": 6,
+    "k": 29
+   },
+   "lab": {
+    "l": 67.44,
+    "a": -34.11,
+    "b": -3.81
+   }
+  },
+  {
+   "code": "PANTONE 14-0848 TCX",
+   "name": "PANTONE 14-0848 TCX",
+   "localName": "Mimosa",
+   "hex": "#F0C05A",
+   "rgb": {
+    "r": 240,
+    "g": 192,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 62,
+    "k": 6
+   },
+   "lab": {
+    "l": 80.16,
+    "a": 6.26,
+    "b": 56.68
+   }
+  },
+  {
+   "code": "PANTONE 18-3943 TCX",
+   "name": "PANTONE 18-3943 TCX",
+   "localName": "Blue Iris",
+   "hex": "#5A5B9F",
+   "rgb": {
+    "r": 90,
+    "g": 91,
+    "b": 159
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 43,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 41.47,
+    "a": 17.69,
+    "b": -37.13
+   }
+  },
+  {
+   "code": "PANTONE 19-1557 TCX",
+   "name": "PANTONE 19-1557 TCX",
+   "localName": "Chili Pepper",
+   "hex": "#9B1B30",
+   "rgb": {
+    "r": 155,
+    "g": 27,
+    "b": 48
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 83,
+    "y": 69,
+    "k": 39
+   },
+   "lab": {
+    "l": 33.92,
+    "a": 51.67,
+    "b": 22.03
+   }
+  },
+  {
+   "code": "PANTONE 13-1106 TCX",
+   "name": "PANTONE 13-1106 TCX",
+   "localName": "Sand Dollar",
+   "hex": "#DECDBE",
+   "rgb": {
+    "r": 222,
+    "g": 205,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 14,
+    "k": 13
+   },
+   "lab": {
+    "l": 83.4,
+    "a": 3.45,
+    "b": 9.6
+   }
+  },
+  {
+   "code": "PANTONE 15-5217 TCX",
+   "name": "PANTONE 15-5217 TCX",
+   "localName": "Blue Turquoise",
+   "hex": "#53B0AE",
+   "rgb": {
+    "r": 83,
+    "g": 176,
+    "b": 174
+   },
+   "cmyk": {
+    "c": 53,
+    "m": 0,
+    "y": 1,
+    "k": 31
+   },
+   "lab": {
+    "l": 66.48,
+    "a": -27.92,
+    "b": -7.4
+   }
+  },
+  {
+   "code": "PANTONE 17-1456 TCX",
+   "name": "PANTONE 17-1456 TCX",
+   "localName": "Tigerlily",
+   "hex": "#E2583E",
+   "rgb": {
+    "r": 226,
+    "g": 88,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 73,
+    "k": 11
+   },
+   "lab": {
+    "l": 55.58,
+    "a": 52.29,
+    "b": 42.5
+   }
+  },
+  {
+   "code": "PANTONE 14-4811 TCX",
+   "name": "PANTONE 14-4811 TCX",
+   "localName": "Aqua Sky",
+   "hex": "#7BC4C4",
+   "rgb": {
+    "r": 123,
+    "g": 196,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 0,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 74.62,
+    "a": -22.68,
+    "b": -7.2
+   }
+  },
+  {
+   "code": "PANTONE 19-1664 TCX",
+   "name": "PANTONE 19-1664 TCX",
+   "localName": "True Red",
+   "hex": "#BF1932",
+   "rgb": {
+    "r": 191,
+    "g": 25,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 87,
+    "y": 74,
+    "k": 25
+   },
+   "lab": {
+    "l": 41.23,
+    "a": 62.24,
+    "b": 31.33
+   }
+  },
+  {
+   "code": "PANTONE 17-2031 TCX",
+   "name": "PANTONE 17-2031 TCX",
+   "localName": "Fuchsia Rose",
+   "hex": "#C74375",
+   "rgb": {
+    "r": 199,
+    "g": 67,
+    "b": 117
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 66,
+    "y": 41,
+    "k": 22
+   },
+   "lab": {
+    "l": 48.81,
+    "a": 56.35,
+    "b": 0.62
+   }
+  },
+  {
+   "code": "PANTONE 15-4020 TCX",
+   "name": "PANTONE 15-4020 TCX",
+   "localName": "Cerulean",
+   "hex": "#9BB7D4",
+   "rgb": {
+    "r": 155,
+    "g": 183,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 27,
+    "m": 14,
+    "y": 0,
+    "k": 17
+   },
+   "lab": {
+    "l": 73.28,
+    "a": -2.98,
+    "b": -17.73
+   }
+  },
+  {
+   "code": "PANTONE 11-0601 TCX",
+   "name": "PANTONE 11-0601 TCX",
+   "localName": "Bright White",
+   "hex": "#F4F5F0",
+   "rgb": {
+    "r": 244,
+    "g": 245,
+    "b": 240
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 2,
+    "k": 4
+   },
+   "lab": {
+    "l": 96.34,
+    "a": -1.21,
+    "b": 2.28
+   }
+  },
+  {
+   "code": "PANTONE 11-0602 TCX",
+   "name": "PANTONE 11-0602 TCX",
+   "localName": "Snow White",
+   "hex": "#F2F0EB",
+   "rgb": {
+    "r": 242,
+    "g": 240,
+    "b": 235
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 3,
+    "k": 5
+   },
+   "lab": {
+    "l": 94.82,
+    "a": -0.2,
+    "b": 2.65
+   }
+  },
+  {
+   "code": "PANTONE 11-4001 TCX",
+   "name": "PANTONE 11-4001 TCX",
+   "localName": "Brilliant White",
+   "hex": "#EDF1FE",
+   "rgb": {
+    "r": 237,
+    "g": 241,
+    "b": 254
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 5,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 95.19,
+    "a": 1.06,
+    "b": -6.7
+   }
+  },
+  {
+   "code": "PANTONE 11-0103 TCX",
+   "name": "PANTONE 11-0103 TCX",
+   "localName": "Egret",
+   "hex": "#F2EFE6",
+   "rgb": {
+    "r": 242,
+    "g": 239,
+    "b": 230
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 5
+   },
+   "lab": {
+    "l": 94.45,
+    "a": -0.55,
+    "b": 4.7
+   }
+  },
+  {
+   "code": "PANTONE 11-1001 TCX",
+   "name": "PANTONE 11-1001 TCX",
+   "localName": "White Alyssum",
+   "hex": "#EFE9E3",
+   "rgb": {
+    "r": 239,
+    "g": 233,
+    "b": 227
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 5,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.65,
+    "a": 0.98,
+    "b": 3.63
+   }
+  },
+  {
+   "code": "PANTONE 11-0107 TCX",
+   "name": "PANTONE 11-0107 TCX",
+   "localName": "Antique White",
+   "hex": "#F0EADC",
+   "rgb": {
+    "r": 240,
+    "g": 234,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 8,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.81,
+    "a": -0.35,
+    "b": 7.51
+   }
+  },
+  {
+   "code": "PANTONE 11-4800 TCX",
+   "name": "PANTONE 11-4800 TCX",
+   "localName": "Blanc de Blanc",
+   "hex": "#E7E9E6",
+   "rgb": {
+    "r": 231,
+    "g": 233,
+    "b": 230
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 1,
+    "k": 9
+   },
+   "lab": {
+    "l": 92.12,
+    "a": -1.2,
+    "b": 1.22
+   }
+  },
+  {
+   "code": "PANTONE 11-4300 TCX",
+   "name": "PANTONE 11-4300 TCX",
+   "localName": "Cloud Blue",
+   "hex": "#E4E7E6",
+   "rgb": {
+    "r": 228,
+    "g": 231,
+    "b": 230
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 91.4,
+    "a": -1.18,
+    "b": 0.13
+   }
+  },
+  {
+   "code": "PANTONE 12-0704 TCX",
+   "name": "PANTONE 12-0704 TCX",
+   "localName": "Sheer Bliss",
+   "hex": "#EDE0D2",
+   "rgb": {
+    "r": 237,
+    "g": 224,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 11,
+    "k": 7
+   },
+   "lab": {
+    "l": 89.85,
+    "a": 2.11,
+    "b": 8.44
+   }
+  },
+  {
+   "code": "PANTONE 12-0605 TCX",
+   "name": "PANTONE 12-0605 TCX",
+   "localName": "White Swan",
+   "hex": "#EDE3D2",
+   "rgb": {
+    "r": 237,
+    "g": 227,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 11,
+    "k": 7
+   },
+   "lab": {
+    "l": 90.6,
+    "a": 0.57,
+    "b": 9.51
+   }
+  },
+  {
+   "code": "PANTONE 12-0713 TCX",
+   "name": "PANTONE 12-0713 TCX",
+   "localName": "Transparent Yellow",
+   "hex": "#F5E9C4",
+   "rgb": {
+    "r": 245,
+    "g": 233,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 20,
+    "k": 4
+   },
+   "lab": {
+    "l": 92.43,
+    "a": -1.76,
+    "b": 19.47
+   }
+  },
+  {
+   "code": "PANTONE 12-0806 TCX",
+   "name": "PANTONE 12-0806 TCX",
+   "localName": "Cream",
+   "hex": "#EEDFC8",
+   "rgb": {
+    "r": 238,
+    "g": 223,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 16,
+    "k": 7
+   },
+   "lab": {
+    "l": 89.45,
+    "a": 1.42,
+    "b": 13.12
+   }
+  },
+  {
+   "code": "PANTONE 12-1108 TCX",
+   "name": "PANTONE 12-1108 TCX",
+   "localName": "Bleached Sand",
+   "hex": "#E4D5C3",
+   "rgb": {
+    "r": 228,
+    "g": 213,
+    "b": 195
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 14,
+    "k": 11
+   },
+   "lab": {
+    "l": 86.02,
+    "a": 2.22,
+    "b": 10.76
+   }
+  },
+  {
+   "code": "PANTONE 12-2903 TCX",
+   "name": "PANTONE 12-2903 TCX",
+   "localName": "Mauve Morn",
+   "hex": "#EBD3D7",
+   "rgb": {
+    "r": 235,
+    "g": 211,
+    "b": 215
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 9,
+    "k": 8
+   },
+   "lab": {
+    "l": 86.58,
+    "a": 8.98,
+    "b": 1.07
+   }
+  },
+  {
+   "code": "PANTONE 12-1206 TCX",
+   "name": "PANTONE 12-1206 TCX",
+   "localName": "Rose Dust",
+   "hex": "#E6D0C8",
+   "rgb": {
+    "r": 230,
+    "g": 208,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 13,
+    "k": 10
+   },
+   "lab": {
+    "l": 85.05,
+    "a": 6.34,
+    "b": 6.75
+   }
+  },
+  {
+   "code": "PANTONE 12-1310 TCX",
+   "name": "PANTONE 12-1310 TCX",
+   "localName": "Pale Dogwood",
+   "hex": "#EDCDC2",
+   "rgb": {
+    "r": 237,
+    "g": 205,
+    "b": 194
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 18,
+    "k": 7
+   },
+   "lab": {
+    "l": 84.77,
+    "a": 9.5,
+    "b": 9.61
+   }
+  },
+  {
+   "code": "PANTONE 12-4306 TCX",
+   "name": "PANTONE 12-4306 TCX",
+   "localName": "Ballad Blue",
+   "hex": "#D3DDE4",
+   "rgb": {
+    "r": 211,
+    "g": 221,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 3,
+    "y": 0,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.56,
+    "a": -2.03,
+    "b": -4.58
+   }
+  },
+  {
+   "code": "PANTONE 12-4609 TCX",
+   "name": "PANTONE 12-4609 TCX",
+   "localName": "Clearwater",
+   "hex": "#B9DCE0",
+   "rgb": {
+    "r": 185,
+    "g": 220,
+    "b": 224
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 2,
+    "y": 0,
+    "k": 12
+   },
+   "lab": {
+    "l": 85.44,
+    "a": -10.61,
+    "b": -5.8
+   }
+  },
+  {
+   "code": "PANTONE 12-5209 TCX",
+   "name": "PANTONE 12-5209 TCX",
+   "localName": "Bleached Aqua",
+   "hex": "#C4E0DC",
+   "rgb": {
+    "r": 196,
+    "g": 224,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 2,
+    "k": 12
+   },
+   "lab": {
+    "l": 87.1,
+    "a": -9.99,
+    "b": -1.17
+   }
+  },
+  {
+   "code": "PANTONE 12-0106 TCX",
+   "name": "PANTONE 12-0106 TCX",
+   "localName": "Canary Green",
+   "hex": "#DDE3C6",
+   "rgb": {
+    "r": 221,
+    "g": 227,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 0,
+    "y": 13,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.11,
+    "a": -6.99,
+    "b": 13.49
+   }
+  },
+  {
+   "code": "PANTONE 12-5303 TCX",
+   "name": "PANTONE 12-5303 TCX",
+   "localName": "Whisper Green",
+   "hex": "#DDE2DA",
+   "rgb": {
+    "r": 221,
+    "g": 226,
+    "b": 218
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 4,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.31,
+    "a": -3.11,
+    "b": 3.32
+   }
+  },
+  {
+   "code": "PANTONE 13-0850 TCX",
+   "name": "PANTONE 13-0850 TCX",
+   "localName": "Aspen Gold",
+   "hex": "#FFD662",
+   "rgb": {
+    "r": 255,
+    "g": 214,
+    "b": 98
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 62,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.11,
+    "a": 1.62,
+    "b": 61.22
+   }
+  },
+  {
+   "code": "PANTONE 13-0755 TCX",
+   "name": "PANTONE 13-0755 TCX",
+   "localName": "Lemon Chrome",
+   "hex": "#FFC300",
+   "rgb": {
+    "r": 255,
+    "g": 195,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 82,
+    "a": 8.31,
+    "b": 83.69
+   }
+  },
+  {
+   "code": "PANTONE 13-0640 TCX",
+   "name": "PANTONE 13-0640 TCX",
+   "localName": "Limelight",
+   "hex": "#F0E87D",
+   "rgb": {
+    "r": 240,
+    "g": 232,
+    "b": 125
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 48,
+    "k": 6
+   },
+   "lab": {
+    "l": 90.65,
+    "a": -11.43,
+    "b": 52.61
+   }
+  },
+  {
+   "code": "PANTONE 13-0331 TCX",
+   "name": "PANTONE 13-0331 TCX",
+   "localName": "Sharp Green",
+   "hex": "#C6E67C",
+   "rgb": {
+    "r": 198,
+    "g": 230,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 46,
+    "k": 10
+   },
+   "lab": {
+    "l": 87.02,
+    "a": -26.85,
+    "b": 47.95
+   }
+  },
+  {
+   "code": "PANTONE 13-0442 TCX",
+   "name": "PANTONE 13-0442 TCX",
+   "localName": "Wild Lime",
+   "hex": "#C3D363",
+   "rgb": {
+    "r": 195,
+    "g": 211,
+    "b": 99
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 0,
+    "y": 53,
+    "k": 17
+   },
+   "lab": {
+    "l": 81.34,
+    "a": -21.26,
+    "b": 52.87
+   }
+  },
+  {
+   "code": "PANTONE 13-4308 TCX",
+   "name": "PANTONE 13-4308 TCX",
+   "localName": "Skylight",
+   "hex": "#D9E4E8",
+   "rgb": {
+    "r": 217,
+    "g": 228,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 2,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.89,
+    "a": -2.91,
+    "b": -3.21
+   }
+  },
+  {
+   "code": "PANTONE 13-4411 TCX",
+   "name": "PANTONE 13-4411 TCX",
+   "localName": "Cool Blue",
+   "hex": "#A5C6D6",
+   "rgb": {
+    "r": 165,
+    "g": 198,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 7,
+    "y": 0,
+    "k": 16
+   },
+   "lab": {
+    "l": 78.02,
+    "a": -7.5,
+    "b": -11.63
+   }
+  },
+  {
+   "code": "PANTONE 13-4103 TCX",
+   "name": "PANTONE 13-4103 TCX",
+   "localName": "Glacier Gray",
+   "hex": "#C5C6C7",
+   "rgb": {
+    "r": 197,
+    "g": 198,
+    "b": 199
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 1,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 79.83,
+    "a": -0.16,
+    "b": -0.62
+   }
+  },
+  {
+   "code": "PANTONE 13-3801 TCX",
+   "name": "PANTONE 13-3801 TCX",
+   "localName": "Silver Gray",
+   "hex": "#D8CFCA",
+   "rgb": {
+    "r": 216,
+    "g": 207,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 6,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.7,
+    "a": 2.23,
+    "b": 3.59
+   }
+  },
+  {
+   "code": "PANTONE 13-1404 TCX",
+   "name": "PANTONE 13-1404 TCX",
+   "localName": "Peachskin",
+   "hex": "#DFB8B4",
+   "rgb": {
+    "r": 223,
+    "g": 184,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 19,
+    "k": 13
+   },
+   "lab": {
+    "l": 78.03,
+    "a": 13.38,
+    "b": 7.3
+   }
+  },
+  {
+   "code": "PANTONE 13-2807 TCX",
+   "name": "PANTONE 13-2807 TCX",
+   "localName": "Pink Lady",
+   "hex": "#E4BCC5",
+   "rgb": {
+    "r": 228,
+    "g": 188,
+    "b": 197
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 18,
+    "y": 14,
+    "k": 11
+   },
+   "lab": {
+    "l": 79.89,
+    "a": 15.72,
+    "b": 0.86
+   }
+  },
+  {
+   "code": "PANTONE 13-2806 TCX",
+   "name": "PANTONE 13-2806 TCX",
+   "localName": "Lilac Snow",
+   "hex": "#E3C6D4",
+   "rgb": {
+    "r": 227,
+    "g": 198,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 7,
+    "k": 11
+   },
+   "lab": {
+    "l": 82.63,
+    "a": 12.54,
+    "b": -3.2
+   }
+  },
+  {
+   "code": "PANTONE 13-3405 TCX",
+   "name": "PANTONE 13-3405 TCX",
+   "localName": "Orchid Tint",
+   "hex": "#DCD1DE",
+   "rgb": {
+    "r": 220,
+    "g": 209,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 6,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 85.04,
+    "a": 6.11,
+    "b": -5.05
+   }
+  },
+  {
+   "code": "PANTONE 13-4110 TCX",
+   "name": "PANTONE 13-4110 TCX",
+   "localName": "Cerulean Blue",
+   "hex": "#B7CEE0",
+   "rgb": {
+    "r": 183,
+    "g": 206,
+    "b": 224
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 8,
+    "y": 0,
+    "k": 12
+   },
+   "lab": {
+    "l": 81.62,
+    "a": -3.97,
+    "b": -11.5
+   }
+  },
+  {
+   "code": "PANTONE 14-4318 TCX",
+   "name": "PANTONE 14-4318 TCX",
+   "localName": "Blue Topaz",
+   "hex": "#68C5D9",
+   "rgb": {
+    "r": 104,
+    "g": 197,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 9,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 74.75,
+    "a": -22.2,
+    "b": -18.47
+   }
+  },
+  {
+   "code": "PANTONE 14-4522 TCX",
+   "name": "PANTONE 14-4522 TCX",
+   "localName": "Blue Atoll",
+   "hex": "#00B1D2",
+   "rgb": {
+    "r": 0,
+    "g": 177,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 16,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 66.59,
+    "a": -25.9,
+    "b": -27.28
+   }
+  },
+  {
+   "code": "PANTONE 14-4816 TCX",
+   "name": "PANTONE 14-4816 TCX",
+   "localName": "Blue Radiance",
+   "hex": "#5DC1D6",
+   "rgb": {
+    "r": 93,
+    "g": 193,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 57,
+    "m": 10,
+    "y": 0,
+    "k": 16
+   },
+   "lab": {
+    "l": 73.1,
+    "a": -23.24,
+    "b": -19.38
+   }
+  },
+  {
+   "code": "PANTONE 14-4106 TCX",
+   "name": "PANTONE 14-4106 TCX",
+   "localName": "Pearl Blue",
+   "hex": "#C0C4C8",
+   "rgb": {
+    "r": 192,
+    "g": 196,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 2,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 78.96,
+    "a": -0.62,
+    "b": -2.48
+   }
+  },
+  {
+   "code": "PANTONE 14-1907 TCX",
+   "name": "PANTONE 14-1907 TCX",
+   "localName": "Quartz Pink",
+   "hex": "#EBBFC0",
+   "rgb": {
+    "r": 235,
+    "g": 191,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 19,
+    "y": 18,
+    "k": 8
+   },
+   "lab": {
+    "l": 81.14,
+    "a": 15.85,
+    "b": 5.45
+   }
+  },
+  {
+   "code": "PANTONE 14-1911 TCX",
+   "name": "PANTONE 14-1911 TCX",
+   "localName": "Candy Pink",
+   "hex": "#F5B0B8",
+   "rgb": {
+    "r": 245,
+    "g": 176,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 28,
+    "y": 25,
+    "k": 4
+   },
+   "lab": {
+    "l": 78.42,
+    "a": 26.27,
+    "b": 5.97
+   }
+  },
+  {
+   "code": "PANTONE 14-2311 TCX",
+   "name": "PANTONE 14-2311 TCX",
+   "localName": "Prism Pink",
+   "hex": "#F0A1BF",
+   "rgb": {
+    "r": 240,
+    "g": 161,
+    "b": 191
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 20,
+    "k": 6
+   },
+   "lab": {
+    "l": 74.69,
+    "a": 33.42,
+    "b": -3.35
+   }
+  },
+  {
+   "code": "PANTONE 14-1220 TCX",
+   "name": "PANTONE 14-1220 TCX",
+   "localName": "Peach Nougat",
+   "hex": "#E5B48D",
+   "rgb": {
+    "r": 229,
+    "g": 180,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 38,
+    "k": 10
+   },
+   "lab": {
+    "l": 76.82,
+    "a": 12.62,
+    "b": 26.69
+   }
+  },
+  {
+   "code": "PANTONE 14-1064 TCX",
+   "name": "PANTONE 14-1064 TCX",
+   "localName": "Saffron",
+   "hex": "#FFA500",
+   "rgb": {
+    "r": 255,
+    "g": 165,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 35,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 74.94,
+    "a": 23.93,
+    "b": 78.95
+   }
+  },
+  {
+   "code": "PANTONE 14-0760 TCX",
+   "name": "PANTONE 14-0760 TCX",
+   "localName": "Buttercup",
+   "hex": "#FAE03C",
+   "rgb": {
+    "r": 250,
+    "g": 224,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 76,
+    "k": 2
+   },
+   "lab": {
+    "l": 88.91,
+    "a": -7.42,
+    "b": 77.52
+   }
+  },
+  {
+   "code": "PANTONE 14-0446 TCX",
+   "name": "PANTONE 14-0446 TCX",
+   "localName": "Acid Lime",
+   "hex": "#C0D725",
+   "rgb": {
+    "r": 192,
+    "g": 215,
+    "b": 37
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 83,
+    "k": 16
+   },
+   "lab": {
+    "l": 81.81,
+    "a": -27.96,
+    "b": 75.83
+   }
+  },
+  {
+   "code": "PANTONE 14-0452 TCX",
+   "name": "PANTONE 14-0452 TCX",
+   "localName": "Lime Punch",
+   "hex": "#C0D725",
+   "rgb": {
+    "r": 192,
+    "g": 215,
+    "b": 37
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 83,
+    "k": 16
+   },
+   "lab": {
+    "l": 81.81,
+    "a": -27.96,
+    "b": 75.83
+   }
+  },
+  {
+   "code": "PANTONE 14-6340 TCX",
+   "name": "PANTONE 14-6340 TCX",
+   "localName": "Poison Green",
+   "hex": "#3CBB8E",
+   "rgb": {
+    "r": 60,
+    "g": 187,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 68,
+    "m": 0,
+    "y": 24,
+    "k": 27
+   },
+   "lab": {
+    "l": 68.35,
+    "a": -45.32,
+    "b": 12.86
+   }
+  },
+  {
+   "code": "PANTONE 14-4809 TCX",
+   "name": "PANTONE 14-4809 TCX",
+   "localName": "Aquatic",
+   "hex": "#7BB5C6",
+   "rgb": {
+    "r": 123,
+    "g": 181,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 38,
+    "m": 9,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 70.41,
+    "a": -14.47,
+    "b": -14.58
+   }
+  },
+  {
+   "code": "PANTONE 14-0223 TCX",
+   "name": "PANTONE 14-0223 TCX",
+   "localName": "Bright Chartreuse",
+   "hex": "#B4C74B",
+   "rgb": {
+    "r": 180,
+    "g": 199,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 62,
+    "k": 22
+   },
+   "lab": {
+    "l": 76.71,
+    "a": -23.33,
+    "b": 58.01
+   }
+  },
+  {
+   "code": "PANTONE 14-1050 TCX",
+   "name": "PANTONE 14-1050 TCX",
+   "localName": "Artisan Gold",
+   "hex": "#E4A73F",
+   "rgb": {
+    "r": 228,
+    "g": 167,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 72,
+    "k": 11
+   },
+   "lab": {
+    "l": 72.56,
+    "a": 12.87,
+    "b": 60.02
+   }
+  },
+  {
+   "code": "PANTONE 15-1247 TCX",
+   "name": "PANTONE 15-1247 TCX",
+   "localName": "Tangerine",
+   "hex": "#F19B54",
+   "rgb": {
+    "r": 241,
+    "g": 155,
+    "b": 84
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 65,
+    "k": 5
+   },
+   "lab": {
+    "l": 71.41,
+    "a": 25.78,
+    "b": 49.69
+   }
+  },
+  {
+   "code": "PANTONE 15-1264 TCX",
+   "name": "PANTONE 15-1264 TCX",
+   "localName": "Orange Peel",
+   "hex": "#FA7A35",
+   "rgb": {
+    "r": 250,
+    "g": 122,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 79,
+    "k": 2
+   },
+   "lab": {
+    "l": 65.36,
+    "a": 44.78,
+    "b": 58.11
+   }
+  },
+  {
+   "code": "PANTONE 15-1157 TCX",
+   "name": "PANTONE 15-1157 TCX",
+   "localName": "Golden Oak",
+   "hex": "#D69C2F",
+   "rgb": {
+    "r": 214,
+    "g": 156,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 78,
+    "k": 16
+   },
+   "lab": {
+    "l": 68.23,
+    "a": 12.07,
+    "b": 61.58
+   }
+  },
+  {
+   "code": "PANTONE 15-0955 TCX",
+   "name": "PANTONE 15-0955 TCX",
+   "localName": "Golden Glow",
+   "hex": "#DDA641",
+   "rgb": {
+    "r": 221,
+    "g": 166,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 25,
+    "y": 71,
+    "k": 13
+   },
+   "lab": {
+    "l": 71.58,
+    "a": 10.51,
+    "b": 57.94
+   }
+  },
+  {
+   "code": "PANTONE 15-1150 TCX",
+   "name": "PANTONE 15-1150 TCX",
+   "localName": "Golden Orange",
+   "hex": "#D18B41",
+   "rgb": {
+    "r": 209,
+    "g": 139,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 69,
+    "k": 18
+   },
+   "lab": {
+    "l": 63.68,
+    "a": 19.94,
+    "b": 49.19
+   }
+  },
+  {
+   "code": "PANTONE 15-1054 TCX",
+   "name": "PANTONE 15-1054 TCX",
+   "localName": "Golden Yellow",
+   "hex": "#E09E43",
+   "rgb": {
+    "r": 224,
+    "g": 158,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 29,
+    "y": 70,
+    "k": 12
+   },
+   "lab": {
+    "l": 69.97,
+    "a": 16.17,
+    "b": 55.5
+   }
+  },
+  {
+   "code": "PANTONE 15-0146 TCX",
+   "name": "PANTONE 15-0146 TCX",
+   "localName": "Green Flash",
+   "hex": "#79C753",
+   "rgb": {
+    "r": 121,
+    "g": 199,
+    "b": 83
+   },
+   "cmyk": {
+    "c": 39,
+    "m": 0,
+    "y": 58,
+    "k": 22
+   },
+   "lab": {
+    "l": 73.24,
+    "a": -44.73,
+    "b": 49.67
+   }
+  },
+  {
+   "code": "PANTONE 15-0332 TCX",
+   "name": "PANTONE 15-0332 TCX",
+   "localName": "Bright Lime Green",
+   "hex": "#9AB33A",
+   "rgb": {
+    "r": 154,
+    "g": 179,
+    "b": 58
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 68,
+    "k": 30
+   },
+   "lab": {
+    "l": 69.05,
+    "a": -25.37,
+    "b": 56.35
+   }
+  },
+  {
+   "code": "PANTONE 15-5534 TCX",
+   "name": "PANTONE 15-5534 TCX",
+   "localName": "Bright Aqua",
+   "hex": "#00A99D",
+   "rgb": {
+    "r": 0,
+    "g": 169,
+    "b": 157
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 7,
+    "k": 34
+   },
+   "lab": {
+    "l": 62.34,
+    "a": -38.96,
+    "b": -4.2
+   }
+  },
+  {
+   "code": "PANTONE 15-4825 TCX",
+   "name": "PANTONE 15-4825 TCX",
+   "localName": "Blue Curacao",
+   "hex": "#33BECC",
+   "rgb": {
+    "r": 51,
+    "g": 190,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 75,
+    "m": 7,
+    "y": 0,
+    "k": 20
+   },
+   "lab": {
+    "l": 70.79,
+    "a": -31.15,
+    "b": -17.53
+   }
+  },
+  {
+   "code": "PANTONE 15-3817 TCX",
+   "name": "PANTONE 15-3817 TCX",
+   "localName": "Sweet Lavender",
+   "hex": "#9C9EC3",
+   "rgb": {
+    "r": 156,
+    "g": 158,
+    "b": 195
+   },
+   "cmyk": {
+    "c": 20,
+    "m": 19,
+    "y": 0,
+    "k": 24
+   },
+   "lab": {
+    "l": 66.11,
+    "a": 7.14,
+    "b": -19.23
+   }
+  },
+  {
+   "code": "PANTONE 15-1621 TCX",
+   "name": "PANTONE 15-1621 TCX",
+   "localName": "Peach Blossom",
+   "hex": "#DE8286",
+   "rgb": {
+    "r": 222,
+    "g": 130,
+    "b": 134
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 41,
+    "y": 40,
+    "k": 13
+   },
+   "lab": {
+    "l": 64.34,
+    "a": 35.79,
+    "b": 13.29
+   }
+  },
+  {
+   "code": "PANTONE 15-1626 TCX",
+   "name": "PANTONE 15-1626 TCX",
+   "localName": "Dubarry",
+   "hex": "#F1868D",
+   "rgb": {
+    "r": 241,
+    "g": 134,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 41,
+    "k": 5
+   },
+   "lab": {
+    "l": 67.78,
+    "a": 41.44,
+    "b": 14.52
+   }
+  },
+  {
+   "code": "PANTONE 15-1435 TCX",
+   "name": "PANTONE 15-1435 TCX",
+   "localName": "Muted Clay",
+   "hex": "#D08B72",
+   "rgb": {
+    "r": 208,
+    "g": 139,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 45,
+    "k": 18
+   },
+   "lab": {
+    "l": 64.24,
+    "a": 23.41,
+    "b": 24.11
+   }
+  },
+  {
+   "code": "PANTONE 15-1242 TCX",
+   "name": "PANTONE 15-1242 TCX",
+   "localName": "Golden Apricot",
+   "hex": "#D8A05E",
+   "rgb": {
+    "r": 216,
+    "g": 160,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 56,
+    "k": 15
+   },
+   "lab": {
+    "l": 69.86,
+    "a": 13.49,
+    "b": 42.16
+   }
+  },
+  {
+   "code": "PANTONE 15-1116 TCX",
+   "name": "PANTONE 15-1116 TCX",
+   "localName": "Curds and Whey",
+   "hex": "#BB9D6D",
+   "rgb": {
+    "r": 187,
+    "g": 157,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 42,
+    "k": 27
+   },
+   "lab": {
+    "l": 66.35,
+    "a": 4.47,
+    "b": 29.23
+   }
+  },
+  {
+   "code": "PANTONE 15-1225 TCX",
+   "name": "PANTONE 15-1225 TCX",
+   "localName": "Sandstorm",
+   "hex": "#D5A167",
+   "rgb": {
+    "r": 213,
+    "g": 161,
+    "b": 103
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 52,
+    "k": 16
+   },
+   "lab": {
+    "l": 69.91,
+    "a": 12.46,
+    "b": 37.5
+   }
+  },
+  {
+   "code": "PANTONE 16-1548 TCX",
+   "name": "PANTONE 16-1548 TCX",
+   "localName": "Burnt Sienna",
+   "hex": "#E1613C",
+   "rgb": {
+    "r": 225,
+    "g": 97,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 57,
+    "y": 73,
+    "k": 12
+   },
+   "lab": {
+    "l": 56.97,
+    "a": 47.74,
+    "b": 45.02
+   }
+  },
+  {
+   "code": "PANTONE 16-1364 TCX",
+   "name": "PANTONE 16-1364 TCX",
+   "localName": "Vibrant Orange",
+   "hex": "#FF7420",
+   "rgb": {
+    "r": 255,
+    "g": 116,
+    "b": 32
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 55,
+    "y": 87,
+    "k": 0
+   },
+   "lab": {
+    "l": 64.85,
+    "a": 48.98,
+    "b": 65.98
+   }
+  },
+  {
+   "code": "PANTONE 16-1462 TCX",
+   "name": "PANTONE 16-1462 TCX",
+   "localName": "Orangeade",
+   "hex": "#F26D5B",
+   "rgb": {
+    "r": 242,
+    "g": 109,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 55,
+    "y": 62,
+    "k": 5
+   },
+   "lab": {
+    "l": 62.15,
+    "a": 49.89,
+    "b": 35.05
+   }
+  },
+  {
+   "code": "PANTONE 16-1454 TCX",
+   "name": "PANTONE 16-1454 TCX",
+   "localName": "Nectarine",
+   "hex": "#F97B5B",
+   "rgb": {
+    "r": 249,
+    "g": 123,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 63,
+    "k": 2
+   },
+   "lab": {
+    "l": 65.8,
+    "a": 45.7,
+    "b": 39.77
+   }
+  },
+  {
+   "code": "PANTONE 16-1435 TCX",
+   "name": "PANTONE 16-1435 TCX",
+   "localName": "Autumn Sunset",
+   "hex": "#DE8C4F",
+   "rgb": {
+    "r": 222,
+    "g": 140,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 37,
+    "y": 64,
+    "k": 13
+   },
+   "lab": {
+    "l": 65.63,
+    "a": 25.66,
+    "b": 44.95
+   }
+  },
+  {
+   "code": "PANTONE 16-0952 TCX",
+   "name": "PANTONE 16-0952 TCX",
+   "localName": "Amber Gold",
+   "hex": "#C29B4C",
+   "rgb": {
+    "r": 194,
+    "g": 155,
+    "b": 76
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 61,
+    "k": 24
+   },
+   "lab": {
+    "l": 66.09,
+    "a": 5.5,
+    "b": 46.13
+   }
+  },
+  {
+   "code": "PANTONE 16-0836 TCX",
+   "name": "PANTONE 16-0836 TCX",
+   "localName": "Ceylon Yellow",
+   "hex": "#D6A461",
+   "rgb": {
+    "r": 214,
+    "g": 164,
+    "b": 97
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 23,
+    "y": 55,
+    "k": 16
+   },
+   "lab": {
+    "l": 70.67,
+    "a": 10.74,
+    "b": 41.56
+   }
+  },
+  {
+   "code": "PANTONE 16-0439 TCX",
+   "name": "PANTONE 16-0439 TCX",
+   "localName": "Fern",
+   "hex": "#8A9B4A",
+   "rgb": {
+    "r": 138,
+    "g": 155,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 52,
+    "k": 39
+   },
+   "lab": {
+    "l": 61.08,
+    "a": -18.7,
+    "b": 40.02
+   }
+  },
+  {
+   "code": "PANTONE 16-0642 TCX",
+   "name": "PANTONE 16-0642 TCX",
+   "localName": "Golden Lime",
+   "hex": "#9A9738",
+   "rgb": {
+    "r": 154,
+    "g": 151,
+    "b": 56
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 64,
+    "k": 40
+   },
+   "lab": {
+    "l": 61.04,
+    "a": -11.23,
+    "b": 48.81
+   }
+  },
+  {
+   "code": "PANTONE 16-5533 TCX",
+   "name": "PANTONE 16-5533 TCX",
+   "localName": "Biscay Green",
+   "hex": "#00A28A",
+   "rgb": {
+    "r": 0,
+    "g": 162,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 15,
+    "k": 36
+   },
+   "lab": {
+    "l": 59.59,
+    "a": -41.35,
+    "b": 2.46
+   }
+  },
+  {
+   "code": "PANTONE 16-5121 TCX",
+   "name": "PANTONE 16-5121 TCX",
+   "localName": "Arcadia",
+   "hex": "#00A28A",
+   "rgb": {
+    "r": 0,
+    "g": 162,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 15,
+    "k": 36
+   },
+   "lab": {
+    "l": 59.59,
+    "a": -41.35,
+    "b": 2.46
+   }
+  },
+  {
+   "code": "PANTONE 16-4132 TCX",
+   "name": "PANTONE 16-4132 TCX",
+   "localName": "Little Boy Blue",
+   "hex": "#6D9BC3",
+   "rgb": {
+    "r": 109,
+    "g": 155,
+    "b": 195
+   },
+   "cmyk": {
+    "c": 44,
+    "m": 21,
+    "y": 0,
+    "k": 24
+   },
+   "lab": {
+    "l": 62.2,
+    "a": -4.85,
+    "b": -25.48
+   }
+  },
+  {
+   "code": "PANTONE 16-4127 TCX",
+   "name": "PANTONE 16-4127 TCX",
+   "localName": "Niagara",
+   "hex": "#5487A4",
+   "rgb": {
+    "r": 84,
+    "g": 135,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 18,
+    "y": 0,
+    "k": 36
+   },
+   "lab": {
+    "l": 53.91,
+    "a": -8.9,
+    "b": -20.69
+   }
+  },
+  {
+   "code": "PANTONE 16-4535 TCX",
+   "name": "PANTONE 16-4535 TCX",
+   "localName": "Blue Grotto",
+   "hex": "#3EA3C9",
+   "rgb": {
+    "r": 62,
+    "g": 163,
+    "b": 201
+   },
+   "cmyk": {
+    "c": 69,
+    "m": 19,
+    "y": 0,
+    "k": 21
+   },
+   "lab": {
+    "l": 62.87,
+    "a": -16.97,
+    "b": -27.95
+   }
+  },
+  {
+   "code": "PANTONE 16-3520 TCX",
+   "name": "PANTONE 16-3520 TCX",
+   "localName": "Sheer Lilac",
+   "hex": "#B793C0",
+   "rgb": {
+    "r": 183,
+    "g": 147,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 23,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 65.55,
+    "a": 21.55,
+    "b": -18.18
+   }
+  },
+  {
+   "code": "PANTONE 16-3823 TCX",
+   "name": "PANTONE 16-3823 TCX",
+   "localName": "Lavender Violet",
+   "hex": "#7C6E9F",
+   "rgb": {
+    "r": 124,
+    "g": 110,
+    "b": 159
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 31,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 49.42,
+    "a": 16.11,
+    "b": -24.46
+   }
+  },
+  {
+   "code": "PANTONE 16-1720 TCX",
+   "name": "PANTONE 16-1720 TCX",
+   "localName": "Confetti",
+   "hex": "#E4869B",
+   "rgb": {
+    "r": 228,
+    "g": 134,
+    "b": 155
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 41,
+    "y": 32,
+    "k": 11
+   },
+   "lab": {
+    "l": 66.45,
+    "a": 38.4,
+    "b": 4.52
+   }
+  },
+  {
+   "code": "PANTONE 16-2120 TCX",
+   "name": "PANTONE 16-2120 TCX",
+   "localName": "Sachet Pink",
+   "hex": "#F18AAD",
+   "rgb": {
+    "r": 241,
+    "g": 138,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 43,
+    "y": 28,
+    "k": 5
+   },
+   "lab": {
+    "l": 69.4,
+    "a": 43.21,
+    "b": -1.12
+   }
+  },
+  {
+   "code": "PANTONE 16-1349 TCX",
+   "name": "PANTONE 16-1349 TCX",
+   "localName": "Coral Gold",
+   "hex": "#DC793E",
+   "rgb": {
+    "r": 220,
+    "g": 121,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 72,
+    "k": 14
+   },
+   "lab": {
+    "l": 60.99,
+    "a": 33.95,
+    "b": 48.15
+   }
+  },
+  {
+   "code": "PANTONE 16-1220 TCX",
+   "name": "PANTONE 16-1220 TCX",
+   "localName": "Cafe Creme",
+   "hex": "#BC9A79",
+   "rgb": {
+    "r": 188,
+    "g": 154,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 18,
+    "y": 36,
+    "k": 26
+   },
+   "lab": {
+    "l": 65.89,
+    "a": 7.93,
+    "b": 22.09
+   }
+  },
+  {
+   "code": "PANTONE 16-1332 TCX",
+   "name": "PANTONE 16-1332 TCX",
+   "localName": "Almond Buff",
+   "hex": "#C39B77",
+   "rgb": {
+    "r": 195,
+    "g": 155,
+    "b": 119
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 39,
+    "k": 24
+   },
+   "lab": {
+    "l": 66.81,
+    "a": 9.98,
+    "b": 24.54
+   }
+  },
+  {
+   "code": "PANTONE 16-0110 TCX",
+   "name": "PANTONE 16-0110 TCX",
+   "localName": "Seagrass",
+   "hex": "#A0A08D",
+   "rgb": {
+    "r": 160,
+    "g": 160,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 12,
+    "k": 37
+   },
+   "lab": {
+    "l": 65.39,
+    "a": -3.43,
+    "b": 9.92
+   }
+  },
+  {
+   "code": "PANTONE 16-5106 TCX",
+   "name": "PANTONE 16-5106 TCX",
+   "localName": "Green Bay",
+   "hex": "#9BAAA0",
+   "rgb": {
+    "r": 155,
+    "g": 170,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 0,
+    "y": 6,
+    "k": 33
+   },
+   "lab": {
+    "l": 68.21,
+    "a": -7.21,
+    "b": 3.36
+   }
+  },
+  {
+   "code": "PANTONE 16-3905 TCX",
+   "name": "PANTONE 16-3905 TCX",
+   "localName": "Lilac Gray",
+   "hex": "#9895A4",
+   "rgb": {
+    "r": 152,
+    "g": 149,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 9,
+    "y": 0,
+    "k": 36
+   },
+   "lab": {
+    "l": 62.38,
+    "a": 4.07,
+    "b": -7.46
+   }
+  },
+  {
+   "code": "PANTONE 17-1564 TCX",
+   "name": "PANTONE 17-1564 TCX",
+   "localName": "Fiesta",
+   "hex": "#DD4132",
+   "rgb": {
+    "r": 221,
+    "g": 65,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 71,
+    "y": 77,
+    "k": 13
+   },
+   "lab": {
+    "l": 51.14,
+    "a": 59.49,
+    "b": 43.85
+   }
+  },
+  {
+   "code": "PANTONE 17-1462 TCX",
+   "name": "PANTONE 17-1462 TCX",
+   "localName": "Flame",
+   "hex": "#F2552C",
+   "rgb": {
+    "r": 242,
+    "g": 85,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 65,
+    "y": 82,
+    "k": 5
+   },
+   "lab": {
+    "l": 57.62,
+    "a": 58.39,
+    "b": 54.4
+   }
+  },
+  {
+   "code": "PANTONE 17-1449 TCX",
+   "name": "PANTONE 17-1449 TCX",
+   "localName": "Koi",
+   "hex": "#D15837",
+   "rgb": {
+    "r": 209,
+    "g": 88,
+    "b": 55
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 74,
+    "k": 18
+   },
+   "lab": {
+    "l": 52.75,
+    "a": 45.91,
+    "b": 42.31
+   }
+  },
+  {
+   "code": "PANTONE 17-1360 TCX",
+   "name": "PANTONE 17-1360 TCX",
+   "localName": "Exuberance",
+   "hex": "#E4691E",
+   "rgb": {
+    "r": 228,
+    "g": 105,
+    "b": 30
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 54,
+    "y": 87,
+    "k": 11
+   },
+   "lab": {
+    "l": 58.69,
+    "a": 44.07,
+    "b": 60.06
+   }
+  },
+  {
+   "code": "PANTONE 17-1145 TCX",
+   "name": "PANTONE 17-1145 TCX",
+   "localName": "Autumn Blaze",
+   "hex": "#B87333",
+   "rgb": {
+    "r": 184,
+    "g": 115,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 38,
+    "y": 72,
+    "k": 28
+   },
+   "lab": {
+    "l": 54.76,
+    "a": 21.65,
+    "b": 45.4
+   }
+  },
+  {
+   "code": "PANTONE 17-1048 TCX",
+   "name": "PANTONE 17-1048 TCX",
+   "localName": "Golden Brown",
+   "hex": "#A67B4A",
+   "rgb": {
+    "r": 166,
+    "g": 123,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 55,
+    "k": 35
+   },
+   "lab": {
+    "l": 54.83,
+    "a": 10.91,
+    "b": 33.09
+   }
+  },
+  {
+   "code": "PANTONE 17-1052 TCX",
+   "name": "PANTONE 17-1052 TCX",
+   "localName": "Amber",
+   "hex": "#B77B48",
+   "rgb": {
+    "r": 183,
+    "g": 123,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 61,
+    "k": 28
+   },
+   "lab": {
+    "l": 56.79,
+    "a": 18.1,
+    "b": 36.99
+   }
+  },
+  {
+   "code": "PANTONE 17-0839 TCX",
+   "name": "PANTONE 17-0839 TCX",
+   "localName": "Bronze Mist",
+   "hex": "#A08A55",
+   "rgb": {
+    "r": 160,
+    "g": 138,
+    "b": 85
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 47,
+    "k": 37
+   },
+   "lab": {
+    "l": 58.33,
+    "a": 0.94,
+    "b": 31.36
+   }
+  },
+  {
+   "code": "PANTONE 17-0636 TCX",
+   "name": "PANTONE 17-0636 TCX",
+   "localName": "Golden Olive",
+   "hex": "#8F8135",
+   "rgb": {
+    "r": 143,
+    "g": 129,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 63,
+    "k": 44
+   },
+   "lab": {
+    "l": 53.81,
+    "a": -4.41,
+    "b": 42.08
+   }
+  },
+  {
+   "code": "PANTONE 17-0330 TCX",
+   "name": "PANTONE 17-0330 TCX",
+   "localName": "Treetop",
+   "hex": "#5F7245",
+   "rgb": {
+    "r": 95,
+    "g": 114,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 0,
+    "y": 39,
+    "k": 55
+   },
+   "lab": {
+    "l": 45.49,
+    "a": -15.55,
+    "b": 22.67
+   }
+  },
+  {
+   "code": "PANTONE 17-0145 TCX",
+   "name": "PANTONE 17-0145 TCX",
+   "localName": "Kelly Green",
+   "hex": "#339C5E",
+   "rgb": {
+    "r": 51,
+    "g": 156,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 67,
+    "m": 0,
+    "y": 40,
+    "k": 39
+   },
+   "lab": {
+    "l": 57.35,
+    "a": -44.35,
+    "b": 23.96
+   }
+  },
+  {
+   "code": "PANTONE 17-5126 TCX",
+   "name": "PANTONE 17-5126 TCX",
+   "localName": "Bright Green",
+   "hex": "#00A776",
+   "rgb": {
+    "r": 0,
+    "g": 167,
+    "b": 118
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 29,
+    "k": 35
+   },
+   "lab": {
+    "l": 60.73,
+    "a": -48.55,
+    "b": 15.25
+   }
+  },
+  {
+   "code": "PANTONE 17-5330 TCX",
+   "name": "PANTONE 17-5330 TCX",
+   "localName": "Spectra Green",
+   "hex": "#00A78E",
+   "rgb": {
+    "r": 0,
+    "g": 167,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 15,
+    "k": 35
+   },
+   "lab": {
+    "l": 61.3,
+    "a": -42.38,
+    "b": 2.68
+   }
+  },
+  {
+   "code": "PANTONE 17-4919 TCX",
+   "name": "PANTONE 17-4919 TCX",
+   "localName": "Teal",
+   "hex": "#31859B",
+   "rgb": {
+    "r": 49,
+    "g": 133,
+    "b": 155
+   },
+   "cmyk": {
+    "c": 68,
+    "m": 14,
+    "y": 0,
+    "k": 39
+   },
+   "lab": {
+    "l": 51.6,
+    "a": -17.82,
+    "b": -19.14
+   }
+  },
+  {
+   "code": "PANTONE 17-4247 TCX",
+   "name": "PANTONE 17-4247 TCX",
+   "localName": "Mykonos Blue",
+   "hex": "#005780",
+   "rgb": {
+    "r": 0,
+    "g": 87,
+    "b": 128
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 32,
+    "y": 0,
+    "k": 50
+   },
+   "lab": {
+    "l": 34.75,
+    "a": -6.19,
+    "b": -29.23
+   }
+  },
+  {
+   "code": "PANTONE 17-4041 TCX",
+   "name": "PANTONE 17-4041 TCX",
+   "localName": "Marina",
+   "hex": "#4F84C4",
+   "rgb": {
+    "r": 79,
+    "g": 132,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 33,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 54.18,
+    "a": 1.83,
+    "b": -38.62
+   }
+  },
+  {
+   "code": "PANTONE 17-3924 TCX",
+   "name": "PANTONE 17-3924 TCX",
+   "localName": "Vista Blue",
+   "hex": "#8290B8",
+   "rgb": {
+    "r": 130,
+    "g": 144,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 22,
+    "y": 0,
+    "k": 28
+   },
+   "lab": {
+    "l": 60.03,
+    "a": 4.31,
+    "b": -22.5
+   }
+  },
+  {
+   "code": "PANTONE 17-3628 TCX",
+   "name": "PANTONE 17-3628 TCX",
+   "localName": "Bellflower",
+   "hex": "#785094",
+   "rgb": {
+    "r": 120,
+    "g": 80,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 19,
+    "m": 46,
+    "y": 0,
+    "k": 42
+   },
+   "lab": {
+    "l": 41.01,
+    "a": 30.12,
+    "b": -31.07
+   }
+  },
+  {
+   "code": "PANTONE 17-3323 TCX",
+   "name": "PANTONE 17-3323 TCX",
+   "localName": "Amethyst Orchid",
+   "hex": "#9F79B0",
+   "rgb": {
+    "r": 159,
+    "g": 121,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 31,
+    "y": 0,
+    "k": 31
+   },
+   "lab": {
+    "l": 56.27,
+    "a": 24.99,
+    "b": -23.49
+   }
+  },
+  {
+   "code": "PANTONE 17-2624 TCX",
+   "name": "PANTONE 17-2624 TCX",
+   "localName": "Purple Orchid",
+   "hex": "#A8578D",
+   "rgb": {
+    "r": 168,
+    "g": 87,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 16,
+    "k": 34
+   },
+   "lab": {
+    "l": 48.34,
+    "a": 40.28,
+    "b": -15.03
+   }
+  },
+  {
+   "code": "PANTONE 17-2227 TCX",
+   "name": "PANTONE 17-2227 TCX",
+   "localName": "Very Berry",
+   "hex": "#B33E7C",
+   "rgb": {
+    "r": 179,
+    "g": 62,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 65,
+    "y": 31,
+    "k": 30
+   },
+   "lab": {
+    "l": 44.92,
+    "a": 53.22,
+    "b": -9.77
+   }
+  },
+  {
+   "code": "PANTONE 17-1937 TCX",
+   "name": "PANTONE 17-1937 TCX",
+   "localName": "Hot Pink",
+   "hex": "#E55982",
+   "rgb": {
+    "r": 229,
+    "g": 89,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 43,
+    "k": 10
+   },
+   "lab": {
+    "l": 57.48,
+    "a": 57.71,
+    "b": 6.02
+   }
+  },
+  {
+   "code": "PANTONE 17-1755 TCX",
+   "name": "PANTONE 17-1755 TCX",
+   "localName": "Paradise Pink",
+   "hex": "#E4445E",
+   "rgb": {
+    "r": 228,
+    "g": 68,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 70,
+    "y": 59,
+    "k": 11
+   },
+   "lab": {
+    "l": 53.43,
+    "a": 62.79,
+    "b": 21.67
+   }
+  },
+  {
+   "code": "PANTONE 17-1663 TCX",
+   "name": "PANTONE 17-1663 TCX",
+   "localName": "Poppy Red",
+   "hex": "#D8232E",
+   "rgb": {
+    "r": 216,
+    "g": 35,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 79,
+    "k": 15
+   },
+   "lab": {
+    "l": 46.98,
+    "a": 66.75,
+    "b": 41.42
+   }
+  },
+  {
+   "code": "PANTONE 17-1330 TCX",
+   "name": "PANTONE 17-1330 TCX",
+   "localName": "Mocha Bisque",
+   "hex": "#8B5B3E",
+   "rgb": {
+    "r": 139,
+    "g": 91,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 35,
+    "y": 55,
+    "k": 45
+   },
+   "lab": {
+    "l": 43.24,
+    "a": 16.39,
+    "b": 24.69
+   }
+  },
+  {
+   "code": "PANTONE 17-1224 TCX",
+   "name": "PANTONE 17-1224 TCX",
+   "localName": "Tawny Birch",
+   "hex": "#9C6B4E",
+   "rgb": {
+    "r": 156,
+    "g": 107,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 50,
+    "k": 39
+   },
+   "lab": {
+    "l": 49.66,
+    "a": 16.08,
+    "b": 24.08
+   }
+  },
+  {
+   "code": "PANTONE 17-1147 TCX",
+   "name": "PANTONE 17-1147 TCX",
+   "localName": "Sudan Brown",
+   "hex": "#996B3D",
+   "rgb": {
+    "r": 153,
+    "g": 107,
+    "b": 61
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 60,
+    "k": 40
+   },
+   "lab": {
+    "l": 49.04,
+    "a": 13.23,
+    "b": 32.78
+   }
+  },
+  {
+   "code": "PANTONE 17-0000 TCX",
+   "name": "PANTONE 17-0000 TCX",
+   "localName": "Frost Gray",
+   "hex": "#8D8D8D",
+   "rgb": {
+    "r": 141,
+    "g": 141,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 58.64,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "PANTONE 17-4402 TCX",
+   "name": "PANTONE 17-4402 TCX",
+   "localName": "Neutral Gray",
+   "hex": "#8B8C8E",
+   "rgb": {
+    "r": 139,
+    "g": 140,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 1,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 58.22,
+    "a": 0.03,
+    "b": -1.19
+   }
+  },
+  {
+   "code": "PANTONE 17-1502 TCX",
+   "name": "PANTONE 17-1502 TCX",
+   "localName": "Cloudburst",
+   "hex": "#8C8279",
+   "rgb": {
+    "r": 140,
+    "g": 130,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 14,
+    "k": 45
+   },
+   "lab": {
+    "l": 54.99,
+    "a": 2.15,
+    "b": 6.23
+   }
+  },
+  {
+   "code": "PANTONE 18-1662 TCX",
+   "name": "PANTONE 18-1662 TCX",
+   "localName": "Flame Scarlet",
+   "hex": "#CD212A",
+   "rgb": {
+    "r": 205,
+    "g": 33,
+    "b": 42
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 80,
+    "k": 20
+   },
+   "lab": {
+    "l": 44.57,
+    "a": 64.07,
+    "b": 40.47
+   }
+  },
+  {
+   "code": "PANTONE 18-1664 TCX",
+   "name": "PANTONE 18-1664 TCX",
+   "localName": "Fiery Red",
+   "hex": "#D2373F",
+   "rgb": {
+    "r": 210,
+    "g": 55,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 74,
+    "y": 70,
+    "k": 18
+   },
+   "lab": {
+    "l": 48,
+    "a": 60.13,
+    "b": 32.49
+   }
+  },
+  {
+   "code": "PANTONE 18-1550 TCX",
+   "name": "PANTONE 18-1550 TCX",
+   "localName": "Aurora Red",
+   "hex": "#C6362E",
+   "rgb": {
+    "r": 198,
+    "g": 54,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 73,
+    "y": 77,
+    "k": 22
+   },
+   "lab": {
+    "l": 45.42,
+    "a": 56.05,
+    "b": 38.71
+   }
+  },
+  {
+   "code": "PANTONE 18-1763 TCX",
+   "name": "PANTONE 18-1763 TCX",
+   "localName": "Raspberry",
+   "hex": "#D32E5E",
+   "rgb": {
+    "r": 211,
+    "g": 46,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 78,
+    "y": 55,
+    "k": 17
+   },
+   "lab": {
+    "l": 47.77,
+    "a": 65.04,
+    "b": 13.47
+   }
+  },
+  {
+   "code": "PANTONE 18-2043 TCX",
+   "name": "PANTONE 18-2043 TCX",
+   "localName": "Pink Peacock",
+   "hex": "#C62168",
+   "rgb": {
+    "r": 198,
+    "g": 33,
+    "b": 104
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 83,
+    "y": 47,
+    "k": 22
+   },
+   "lab": {
+    "l": 44.37,
+    "a": 65.74,
+    "b": 2.12
+   }
+  },
+  {
+   "code": "PANTONE 18-2436 TCX",
+   "name": "PANTONE 18-2436 TCX",
+   "localName": "Festival Fuchsia",
+   "hex": "#A5195E",
+   "rgb": {
+    "r": 165,
+    "g": 25,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 85,
+    "y": 43,
+    "k": 35
+   },
+   "lab": {
+    "l": 36.94,
+    "a": 58.34,
+    "b": -3.21
+   }
+  },
+  {
+   "code": "PANTONE 18-3949 TCX",
+   "name": "PANTONE 18-3949 TCX",
+   "localName": "Dazzling Blue",
+   "hex": "#3850A0",
+   "rgb": {
+    "r": 56,
+    "g": 80,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 65,
+    "m": 50,
+    "y": 0,
+    "k": 37
+   },
+   "lab": {
+    "l": 36.21,
+    "a": 17.47,
+    "b": -46.26
+   }
+  },
+  {
+   "code": "PANTONE 18-4045 TCX",
+   "name": "PANTONE 18-4045 TCX",
+   "localName": "Strong Blue",
+   "hex": "#1F5DA0",
+   "rgb": {
+    "r": 31,
+    "g": 93,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 81,
+    "m": 42,
+    "y": 0,
+    "k": 37
+   },
+   "lab": {
+    "l": 39,
+    "a": 5.29,
+    "b": -41.84
+   }
+  },
+  {
+   "code": "PANTONE 18-4141 TCX",
+   "name": "PANTONE 18-4141 TCX",
+   "localName": "Deep Water",
+   "hex": "#1C6280",
+   "rgb": {
+    "r": 28,
+    "g": 98,
+    "b": 128
+   },
+   "cmyk": {
+    "c": 78,
+    "m": 23,
+    "y": 0,
+    "k": 50
+   },
+   "lab": {
+    "l": 38.79,
+    "a": -10.49,
+    "b": -22.87
+   }
+  },
+  {
+   "code": "PANTONE 18-4525 TCX",
+   "name": "PANTONE 18-4525 TCX",
+   "localName": "Blue Danube",
+   "hex": "#0087A6",
+   "rgb": {
+    "r": 0,
+    "g": 135,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 19,
+    "y": 0,
+    "k": 35
+   },
+   "lab": {
+    "l": 51.93,
+    "a": -19.36,
+    "b": -25.07
+   }
+  },
+  {
+   "code": "PANTONE 18-5121 TCX",
+   "name": "PANTONE 18-5121 TCX",
+   "localName": "Deep Sea",
+   "hex": "#00776D",
+   "rgb": {
+    "r": 0,
+    "g": 119,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 8,
+    "k": 53
+   },
+   "lab": {
+    "l": 44.66,
+    "a": -30.58,
+    "b": -2.55
+   }
+  },
+  {
+   "code": "PANTONE 18-6320 TCX",
+   "name": "PANTONE 18-6320 TCX",
+   "localName": "Jelly Bean",
+   "hex": "#2C7A57",
+   "rgb": {
+    "r": 44,
+    "g": 122,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 29,
+    "k": 52
+   },
+   "lab": {
+    "l": 45.83,
+    "a": -32.7,
+    "b": 12.27
+   }
+  },
+  {
+   "code": "PANTONE 18-0135 TCX",
+   "name": "PANTONE 18-0135 TCX",
+   "localName": "Online Lime",
+   "hex": "#4F7A28",
+   "rgb": {
+    "r": 79,
+    "g": 122,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 35,
+    "m": 0,
+    "y": 67,
+    "k": 52
+   },
+   "lab": {
+    "l": 46.62,
+    "a": -29.51,
+    "b": 38.89
+   }
+  },
+  {
+   "code": "PANTONE 18-0426 TCX",
+   "name": "PANTONE 18-0426 TCX",
+   "localName": "Cedar Green",
+   "hex": "#5F6F45",
+   "rgb": {
+    "r": 95,
+    "g": 111,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 38,
+    "k": 56
+   },
+   "lab": {
+    "l": 44.56,
+    "a": -13.91,
+    "b": 21.46
+   }
+  },
+  {
+   "code": "PANTONE 18-0625 TCX",
+   "name": "PANTONE 18-0625 TCX",
+   "localName": "Dried Herb",
+   "hex": "#7A7048",
+   "rgb": {
+    "r": 122,
+    "g": 112,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 41,
+    "k": 52
+   },
+   "lab": {
+    "l": 47.23,
+    "a": -2.39,
+    "b": 23.65
+   }
+  },
+  {
+   "code": "PANTONE 18-0928 TCX",
+   "name": "PANTONE 18-0928 TCX",
+   "localName": "Bone Brown",
+   "hex": "#8A6F48",
+   "rgb": {
+    "r": 138,
+    "g": 111,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 48,
+    "k": 46
+   },
+   "lab": {
+    "l": 48.56,
+    "a": 5.27,
+    "b": 25.69
+   }
+  },
+  {
+   "code": "PANTONE 18-1029 TCX",
+   "name": "PANTONE 18-1029 TCX",
+   "localName": "Bison",
+   "hex": "#7C5C43",
+   "rgb": {
+    "r": 124,
+    "g": 92,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 46,
+    "k": 51
+   },
+   "lab": {
+    "l": 41.76,
+    "a": 9.66,
+    "b": 19.47
+   }
+  },
+  {
+   "code": "PANTONE 18-1142 TCX",
+   "name": "PANTONE 18-1142 TCX",
+   "localName": "Cathay Spice",
+   "hex": "#96502F",
+   "rgb": {
+    "r": 150,
+    "g": 80,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 47,
+    "y": 69,
+    "k": 41
+   },
+   "lab": {
+    "l": 41.89,
+    "a": 26.33,
+    "b": 31.98
+   }
+  },
+  {
+   "code": "PANTONE 18-1246 TCX",
+   "name": "PANTONE 18-1246 TCX",
+   "localName": "Umber",
+   "hex": "#98552E",
+   "rgb": {
+    "r": 152,
+    "g": 85,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 70,
+    "k": 40
+   },
+   "lab": {
+    "l": 43.32,
+    "a": 24.32,
+    "b": 34.24
+   }
+  },
+  {
+   "code": "PANTONE 18-1355 TCX",
+   "name": "PANTONE 18-1355 TCX",
+   "localName": "Rooibos Tea",
+   "hex": "#A64123",
+   "rgb": {
+    "r": 166,
+    "g": 65,
+    "b": 35
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 79,
+    "k": 35
+   },
+   "lab": {
+    "l": 41.23,
+    "a": 40.01,
+    "b": 38.51
+   }
+  },
+  {
+   "code": "PANTONE 18-1443 TCX",
+   "name": "PANTONE 18-1443 TCX",
+   "localName": "Redwood",
+   "hex": "#A0522D",
+   "rgb": {
+    "r": 160,
+    "g": 82,
+    "b": 45
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 49,
+    "y": 72,
+    "k": 37
+   },
+   "lab": {
+    "l": 43.8,
+    "a": 29.32,
+    "b": 35.64
+   }
+  },
+  {
+   "code": "PANTONE 18-1531 TCX",
+   "name": "PANTONE 18-1531 TCX",
+   "localName": "Marsala Brown",
+   "hex": "#96513C",
+   "rgb": {
+    "r": 150,
+    "g": 81,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 60,
+    "k": 41
+   },
+   "lab": {
+    "l": 42.3,
+    "a": 26.7,
+    "b": 24.99
+   }
+  },
+  {
+   "code": "PANTONE 18-1630 TCX",
+   "name": "PANTONE 18-1630 TCX",
+   "localName": "Dusty Cedar",
+   "hex": "#AD5D5D",
+   "rgb": {
+    "r": 173,
+    "g": 93,
+    "b": 93
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 46,
+    "k": 32
+   },
+   "lab": {
+    "l": 48.89,
+    "a": 32.44,
+    "b": 14.64
+   }
+  },
+  {
+   "code": "PANTONE 18-3945 TCX",
+   "name": "PANTONE 18-3945 TCX",
+   "localName": "Baja Blue",
+   "hex": "#5A6CA9",
+   "rgb": {
+    "r": 90,
+    "g": 108,
+    "b": 169
+   },
+   "cmyk": {
+    "c": 47,
+    "m": 36,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 46.66,
+    "a": 10.17,
+    "b": -34.83
+   }
+  },
+  {
+   "code": "PANTONE 18-4148 TCX",
+   "name": "PANTONE 18-4148 TCX",
+   "localName": "Directoire Blue",
+   "hex": "#0061A3",
+   "rgb": {
+    "r": 0,
+    "g": 97,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 36
+   },
+   "lab": {
+    "l": 39.9,
+    "a": 1.84,
+    "b": -42.21
+   }
+  },
+  {
+   "code": "PANTONE 18-3963 TCX",
+   "name": "PANTONE 18-3963 TCX",
+   "localName": "Clematis Blue",
+   "hex": "#3B4B9E",
+   "rgb": {
+    "r": 59,
+    "g": 75,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 63,
+    "m": 53,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 34.86,
+    "a": 20.6,
+    "b": -47.21
+   }
+  },
+  {
+   "code": "PANTONE 18-0000 TCX",
+   "name": "PANTONE 18-0000 TCX",
+   "localName": "Sedona Sage",
+   "hex": "#77746B",
+   "rgb": {
+    "r": 119,
+    "g": 116,
+    "b": 107
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 10,
+    "k": 53
+   },
+   "lab": {
+    "l": 48.85,
+    "a": -0.57,
+    "b": 5.38
+   }
+  },
+  {
+   "code": "PANTONE 18-5102 TCX",
+   "name": "PANTONE 18-5102 TCX",
+   "localName": "Brushed Nickel",
+   "hex": "#75736E",
+   "rgb": {
+    "r": 117,
+    "g": 115,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 6,
+    "k": 54
+   },
+   "lab": {
+    "l": 48.47,
+    "a": -0.22,
+    "b": 3.03
+   }
+  },
+  {
+   "code": "PANTONE 18-3905 TCX",
+   "name": "PANTONE 18-3905 TCX",
+   "localName": "Excalibur",
+   "hex": "#6C6674",
+   "rgb": {
+    "r": 108,
+    "g": 102,
+    "b": 116
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 12,
+    "y": 0,
+    "k": 55
+   },
+   "lab": {
+    "l": 44.16,
+    "a": 5.28,
+    "b": -6.98
+   }
+  },
+  {
+   "code": "PANTONE 18-1404 TCX",
+   "name": "PANTONE 18-1404 TCX",
+   "localName": "Deauville Mauve",
+   "hex": "#8E7772",
+   "rgb": {
+    "r": 142,
+    "g": 119,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 20,
+    "k": 44
+   },
+   "lab": {
+    "l": 52.02,
+    "a": 8.08,
+    "b": 6.08
+   }
+  },
+  {
+   "code": "PANTONE 18-1210 TCX",
+   "name": "PANTONE 18-1210 TCX",
+   "localName": "Peppercorn",
+   "hex": "#6D5C55",
+   "rgb": {
+    "r": 109,
+    "g": 92,
+    "b": 85
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 22,
+    "k": 57
+   },
+   "lab": {
+    "l": 40.51,
+    "a": 5.66,
+    "b": 6.59
+   }
+  },
+  {
+   "code": "PANTONE 19-0303 TCX",
+   "name": "PANTONE 19-0303 TCX",
+   "localName": "Jet Black",
+   "hex": "#2B2B2B",
+   "rgb": {
+    "r": 43,
+    "g": 43,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 83
+   },
+   "lab": {
+    "l": 17.53,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "PANTONE 19-4005 TCX",
+   "name": "PANTONE 19-4005 TCX",
+   "localName": "Stretch Limo",
+   "hex": "#2B2C30",
+   "rgb": {
+    "r": 43,
+    "g": 44,
+    "b": 48
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 8,
+    "y": 0,
+    "k": 81
+   },
+   "lab": {
+    "l": 18.05,
+    "a": 0.55,
+    "b": -2.73
+   }
+  },
+  {
+   "code": "PANTONE 19-4007 TCX",
+   "name": "PANTONE 19-4007 TCX",
+   "localName": "Anthracite",
+   "hex": "#28282D",
+   "rgb": {
+    "r": 40,
+    "g": 40,
+    "b": 45
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 11,
+    "y": 0,
+    "k": 82
+   },
+   "lab": {
+    "l": 16.3,
+    "a": 1.26,
+    "b": -3.26
+   }
+  },
+  {
+   "code": "PANTONE 19-3911 TCX",
+   "name": "PANTONE 19-3911 TCX",
+   "localName": "Nine Iron",
+   "hex": "#3E3A3B",
+   "rgb": {
+    "r": 62,
+    "g": 58,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 5,
+    "k": 76
+   },
+   "lab": {
+    "l": 24.85,
+    "a": 1.95,
+    "b": 0
+   }
+  },
+  {
+   "code": "PANTONE 19-3906 TCX",
+   "name": "PANTONE 19-3906 TCX",
+   "localName": "Nightshade",
+   "hex": "#4E464F",
+   "rgb": {
+    "r": 78,
+    "g": 70,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 11,
+    "y": 0,
+    "k": 69
+   },
+   "lab": {
+    "l": 30.79,
+    "a": 5.29,
+    "b": -4.15
+   }
+  },
+  {
+   "code": "PANTONE 19-4013 TCX",
+   "name": "PANTONE 19-4013 TCX",
+   "localName": "India Ink",
+   "hex": "#3C4252",
+   "rgb": {
+    "r": 60,
+    "g": 66,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 27,
+    "m": 20,
+    "y": 0,
+    "k": 68
+   },
+   "lab": {
+    "l": 28.02,
+    "a": 1.68,
+    "b": -10.42
+   }
+  },
+  {
+   "code": "PANTONE 19-4024 TCX",
+   "name": "PANTONE 19-4024 TCX",
+   "localName": "Blue Wing Teal",
+   "hex": "#31485B",
+   "rgb": {
+    "r": 49,
+    "g": 72,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 21,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 29.52,
+    "a": -3.14,
+    "b": -14.02
+   }
+  },
+  {
+   "code": "PANTONE 19-4028 TCX",
+   "name": "PANTONE 19-4028 TCX",
+   "localName": "Ensign Blue",
+   "hex": "#25476A",
+   "rgb": {
+    "r": 37,
+    "g": 71,
+    "b": 106
+   },
+   "cmyk": {
+    "c": 65,
+    "m": 33,
+    "y": 0,
+    "k": 58
+   },
+   "lab": {
+    "l": 29.26,
+    "a": -0.33,
+    "b": -24.06
+   }
+  },
+  {
+   "code": "PANTONE 19-3832 TCX",
+   "name": "PANTONE 19-3832 TCX",
+   "localName": "Navy Blue",
+   "hex": "#403F6F",
+   "rgb": {
+    "r": 64,
+    "g": 63,
+    "b": 111
+   },
+   "cmyk": {
+    "c": 42,
+    "m": 43,
+    "y": 0,
+    "k": 56
+   },
+   "lab": {
+    "l": 28.88,
+    "a": 13.7,
+    "b": -27.71
+   }
+  },
+  {
+   "code": "PANTONE 19-3938 TCX",
+   "name": "PANTONE 19-3938 TCX",
+   "localName": "Deep Wisteria",
+   "hex": "#453F78",
+   "rgb": {
+    "r": 69,
+    "g": 63,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 48,
+    "y": 0,
+    "k": 53
+   },
+   "lab": {
+    "l": 29.85,
+    "a": 17.97,
+    "b": -31.83
+   }
+  },
+  {
+   "code": "PANTONE 19-3536 TCX",
+   "name": "PANTONE 19-3536 TCX",
+   "localName": "Gloxinia",
+   "hex": "#553B69",
+   "rgb": {
+    "r": 85,
+    "g": 59,
+    "b": 105
+   },
+   "cmyk": {
+    "c": 19,
+    "m": 44,
+    "y": 0,
+    "k": 59
+   },
+   "lab": {
+    "l": 29.61,
+    "a": 21.23,
+    "b": -22.6
+   }
+  },
+  {
+   "code": "PANTONE 19-2434 TCX",
+   "name": "PANTONE 19-2434 TCX",
+   "localName": "Purple Potion",
+   "hex": "#5F2A5C",
+   "rgb": {
+    "r": 95,
+    "g": 42,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 56,
+    "y": 3,
+    "k": 63
+   },
+   "lab": {
+    "l": 26.34,
+    "a": 31.77,
+    "b": -19.2
+   }
+  },
+  {
+   "code": "PANTONE 19-2047 TCX",
+   "name": "PANTONE 19-2047 TCX",
+   "localName": "Boysenberry",
+   "hex": "#8C3159",
+   "rgb": {
+    "r": 140,
+    "g": 49,
+    "b": 89
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 65,
+    "y": 36,
+    "k": 45
+   },
+   "lab": {
+    "l": 34.99,
+    "a": 42.47,
+    "b": -3.41
+   }
+  },
+  {
+   "code": "PANTONE 19-1862 TCX",
+   "name": "PANTONE 19-1862 TCX",
+   "localName": "Jester Red",
+   "hex": "#9E1030",
+   "rgb": {
+    "r": 158,
+    "g": 16,
+    "b": 48
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 90,
+    "y": 70,
+    "k": 38
+   },
+   "lab": {
+    "l": 33.68,
+    "a": 54.98,
+    "b": 21.87
+   }
+  },
+  {
+   "code": "PANTONE 19-1763 TCX",
+   "name": "PANTONE 19-1763 TCX",
+   "localName": "Ribbon Red",
+   "hex": "#CE0F3D",
+   "rgb": {
+    "r": 206,
+    "g": 15,
+    "b": 61
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 93,
+    "y": 70,
+    "k": 19
+   },
+   "lab": {
+    "l": 43.95,
+    "a": 68.11,
+    "b": 28.61
+   }
+  },
+  {
+   "code": "PANTONE 19-1762 TCX",
+   "name": "PANTONE 19-1762 TCX",
+   "localName": "Racing Red",
+   "hex": "#CE2939",
+   "rgb": {
+    "r": 206,
+    "g": 41,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 80,
+    "y": 72,
+    "k": 19
+   },
+   "lab": {
+    "l": 45.64,
+    "a": 62.93,
+    "b": 33.05
+   }
+  },
+  {
+   "code": "PANTONE 19-1543 TCX",
+   "name": "PANTONE 19-1543 TCX",
+   "localName": "Burnt Brick",
+   "hex": "#89392B",
+   "rgb": {
+    "r": 137,
+    "g": 57,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 69,
+    "k": 46
+   },
+   "lab": {
+    "l": 34.84,
+    "a": 33.18,
+    "b": 25.51
+   }
+  },
+  {
+   "code": "PANTONE 19-1531 TCX",
+   "name": "PANTONE 19-1531 TCX",
+   "localName": "Fired Brick",
+   "hex": "#7A3B2E",
+   "rgb": {
+    "r": 122,
+    "g": 59,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 52,
+    "y": 62,
+    "k": 52
+   },
+   "lab": {
+    "l": 32.84,
+    "a": 26.18,
+    "b": 20.65
+   }
+  },
+  {
+   "code": "PANTONE 19-1420 TCX",
+   "name": "PANTONE 19-1420 TCX",
+   "localName": "Rocky Road",
+   "hex": "#5C4033",
+   "rgb": {
+    "r": 92,
+    "g": 64,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 45,
+    "k": 64
+   },
+   "lab": {
+    "l": 29.87,
+    "a": 10.32,
+    "b": 12.79
+   }
+  },
+  {
+   "code": "PANTONE 19-1218 TCX",
+   "name": "PANTONE 19-1218 TCX",
+   "localName": "Chocolate Brown",
+   "hex": "#5A4335",
+   "rgb": {
+    "r": 90,
+    "g": 67,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 41,
+    "k": 65
+   },
+   "lab": {
+    "l": 30.51,
+    "a": 7.77,
+    "b": 12.35
+   }
+  },
+  {
+   "code": "PANTONE 19-1015 TCX",
+   "name": "PANTONE 19-1015 TCX",
+   "localName": "Chocolate Plum",
+   "hex": "#4A3427",
+   "rgb": {
+    "r": 74,
+    "g": 52,
+    "b": 39
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 47,
+    "k": 71
+   },
+   "lab": {
+    "l": 23.86,
+    "a": 7.95,
+    "b": 12.12
+   }
+  },
+  {
+   "code": "PANTONE 19-0840 TCX",
+   "name": "PANTONE 19-0840 TCX",
+   "localName": "Dark Earth",
+   "hex": "#674E3C",
+   "rgb": {
+    "r": 103,
+    "g": 78,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 42,
+    "k": 60
+   },
+   "lab": {
+    "l": 35.32,
+    "a": 7.82,
+    "b": 14.71
+   }
+  },
+  {
+   "code": "PANTONE 19-0618 TCX",
+   "name": "PANTONE 19-0618 TCX",
+   "localName": "Olive Night",
+   "hex": "#535040",
+   "rgb": {
+    "r": 83,
+    "g": 80,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 23,
+    "k": 67
+   },
+   "lab": {
+    "l": 33.87,
+    "a": -1.83,
+    "b": 9.9
+   }
+  },
+  {
+   "code": "PANTONE 19-0414 TCX",
+   "name": "PANTONE 19-0414 TCX",
+   "localName": "Rifle Green",
+   "hex": "#454B42",
+   "rgb": {
+    "r": 69,
+    "g": 75,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 0,
+    "y": 12,
+    "k": 71
+   },
+   "lab": {
+    "l": 31.09,
+    "a": -4.41,
+    "b": 4.54
+   }
+  },
+  {
+   "code": "PANTONE 19-5220 TCX",
+   "name": "PANTONE 19-5220 TCX",
+   "localName": "Botanical Garden",
+   "hex": "#264A41",
+   "rgb": {
+    "r": 38,
+    "g": 74,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 0,
+    "y": 12,
+    "k": 71
+   },
+   "lab": {
+    "l": 28.62,
+    "a": -15.53,
+    "b": 1.35
+   }
+  },
+  {
+   "code": "PANTONE 19-5511 TCX",
+   "name": "PANTONE 19-5511 TCX",
+   "localName": "Sea Moss",
+   "hex": "#254445",
+   "rgb": {
+    "r": 37,
+    "g": 68,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 1,
+    "y": 0,
+    "k": 73
+   },
+   "lab": {
+    "l": 26.61,
+    "a": -11.16,
+    "b": -4.21
+   }
+  },
+  {
+   "code": "PANTONE 19-4726 TCX",
+   "name": "PANTONE 19-4726 TCX",
+   "localName": "Shaded Spruce",
+   "hex": "#005A5B",
+   "rgb": {
+    "r": 0,
+    "g": 90,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 1,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 34.12,
+    "a": -22.14,
+    "b": -7.18
+   }
+  },
+  {
+   "code": "PANTONE 19-4922 TCX",
+   "name": "PANTONE 19-4922 TCX",
+   "localName": "Deep Teal",
+   "hex": "#18454D",
+   "rgb": {
+    "r": 24,
+    "g": 69,
+    "b": 77
+   },
+   "cmyk": {
+    "c": 69,
+    "m": 10,
+    "y": 0,
+    "k": 70
+   },
+   "lab": {
+    "l": 26.69,
+    "a": -12.4,
+    "b": -9.38
+   }
+  },
+  {
+   "code": "PANTONE 19-4110 TCX",
+   "name": "PANTONE 19-4110 TCX",
+   "localName": "Total Eclipse",
+   "hex": "#2C3849",
+   "rgb": {
+    "r": 44,
+    "g": 56,
+    "b": 73
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 23,
+    "y": 0,
+    "k": 71
+   },
+   "lab": {
+    "l": 23.15,
+    "a": 0.01,
+    "b": -12.05
+   }
+  },
+  {
+   "code": "PANTONE 19-3810 TCX",
+   "name": "PANTONE 19-3810 TCX",
+   "localName": "Deep Well",
+   "hex": "#36333F",
+   "rgb": {
+    "r": 54,
+    "g": 51,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 19,
+    "y": 0,
+    "k": 75
+   },
+   "lab": {
+    "l": 21.98,
+    "a": 4.23,
+    "b": -7.03
+   }
+  },
+  {
+   "code": "PANTONE 19-0000 TCX",
+   "name": "PANTONE 19-0000 TCX",
+   "localName": "Pirate Black",
+   "hex": "#373838",
+   "rgb": {
+    "r": 55,
+    "g": 56,
+    "b": 56
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 0,
+    "k": 78
+   },
+   "lab": {
+    "l": 23.43,
+    "a": -0.43,
+    "b": -0.15
+   }
+  }
+ ]
+}

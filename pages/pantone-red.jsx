@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone Red C (032 C)', hex: '#EF3340', rgb: '239, 51, 64', cmyk: '0, 89, 64, 0', use: 'Standard bright red, used in national flags and bold branding' },
@@ -357,6 +358,22 @@ export default function PantoneRedPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Red in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this red is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-ncs/',
+              '/pantone-to-dmc/',
+              '/pantone-to-siser-htv/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

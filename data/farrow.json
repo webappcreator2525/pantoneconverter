@@ -1,0 +1,2847 @@
+{
+ "system": "Farrow & Ball",
+ "owner": "Farrow & Ball Limited",
+ "accuracy": "medium",
+ "count": 129,
+ "generatedBy": "scripts/generate-brand-palettes.mjs",
+ "colors": [
+  {
+   "code": "F&B 1",
+   "name": "Farrow & Ball Lime White",
+   "localName": "No. 1",
+   "hex": "#E5E1D2",
+   "rgb": {
+    "r": 229,
+    "g": 225,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 8,
+    "k": 10
+   },
+   "lab": {
+    "l": 89.47,
+    "a": -1.21,
+    "b": 7.81
+   }
+  },
+  {
+   "code": "F&B 2",
+   "name": "Farrow & Ball Hound Lemon",
+   "localName": "No. 2",
+   "hex": "#EDE2BC",
+   "rgb": {
+    "r": 237,
+    "g": 226,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 21,
+    "k": 7
+   },
+   "lab": {
+    "l": 89.87,
+    "a": -2.25,
+    "b": 19.96
+   }
+  },
+  {
+   "code": "F&B 3",
+   "name": "Farrow & Ball Off-White",
+   "localName": "No. 3",
+   "hex": "#E3DECA",
+   "rgb": {
+    "r": 227,
+    "g": 222,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 11,
+    "k": 11
+   },
+   "lab": {
+    "l": 88.37,
+    "a": -1.68,
+    "b": 10.42
+   }
+  },
+  {
+   "code": "F&B 4",
+   "name": "Farrow & Ball Print Room Yellow",
+   "localName": "No. 4",
+   "hex": "#E8C88A",
+   "rgb": {
+    "r": 232,
+    "g": 200,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 41,
+    "k": 9
+   },
+   "lab": {
+    "l": 82,
+    "a": 2.94,
+    "b": 35.18
+   }
+  },
+  {
+   "code": "F&B 5",
+   "name": "Farrow & Ball Hardwick White",
+   "localName": "No. 5",
+   "hex": "#C8C4B4",
+   "rgb": {
+    "r": 200,
+    "g": 196,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 10,
+    "k": 22
+   },
+   "lab": {
+    "l": 79.07,
+    "a": -1.39,
+    "b": 8.53
+   }
+  },
+  {
+   "code": "F&B 6",
+   "name": "Farrow & Ball Ointment Pink",
+   "localName": "No. 6",
+   "hex": "#DCC2B4",
+   "rgb": {
+    "r": 220,
+    "g": 194,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 18,
+    "k": 14
+   },
+   "lab": {
+    "l": 80.23,
+    "a": 6.96,
+    "b": 10.41
+   }
+  },
+  {
+   "code": "F&B 9",
+   "name": "Farrow & Ball Lulworth Blue",
+   "localName": "No. 89",
+   "hex": "#A4B8CC",
+   "rgb": {
+    "r": 164,
+    "g": 184,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 20,
+    "m": 10,
+    "y": 0,
+    "k": 20
+   },
+   "lab": {
+    "l": 73.89,
+    "a": -2.59,
+    "b": -12.39
+   }
+  },
+  {
+   "code": "F&B 11",
+   "name": "Farrow & Ball Stone White",
+   "localName": "No. 11",
+   "hex": "#DCD8C4",
+   "rgb": {
+    "r": 220,
+    "g": 216,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 11,
+    "k": 14
+   },
+   "lab": {
+    "l": 86.16,
+    "a": -2.04,
+    "b": 10.35
+   }
+  },
+  {
+   "code": "F&B 15",
+   "name": "Farrow & Ball Bone",
+   "localName": "No. 15",
+   "hex": "#D8CFB8",
+   "rgb": {
+    "r": 216,
+    "g": 207,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 15,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.28,
+    "a": -0.72,
+    "b": 12.55
+   }
+  },
+  {
+   "code": "F&B 16",
+   "name": "Farrow & Ball Cord",
+   "localName": "No. 16",
+   "hex": "#D4C4A0",
+   "rgb": {
+    "r": 212,
+    "g": 196,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 25,
+    "k": 17
+   },
+   "lab": {
+    "l": 79.62,
+    "a": -0.01,
+    "b": 20.14
+   }
+  },
+  {
+   "code": "F&B 17",
+   "name": "Farrow & Ball Light Gray",
+   "localName": "No. 17",
+   "hex": "#C4C0AC",
+   "rgb": {
+    "r": 196,
+    "g": 192,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 12,
+    "k": 23
+   },
+   "lab": {
+    "l": 77.53,
+    "a": -2.05,
+    "b": 10.58
+   }
+  },
+  {
+   "code": "F&B 18",
+   "name": "Farrow & Ball French Gray",
+   "localName": "No. 18",
+   "hex": "#BCBCA4",
+   "rgb": {
+    "r": 188,
+    "g": 188,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 13,
+    "k": 26
+   },
+   "lab": {
+    "l": 75.66,
+    "a": -4.18,
+    "b": 12.17
+   }
+  },
+  {
+   "code": "F&B 20",
+   "name": "Farrow & Ball Lichen",
+   "localName": "No. 19",
+   "hex": "#A8AA90",
+   "rgb": {
+    "r": 168,
+    "g": 170,
+    "b": 144
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 15,
+    "k": 33
+   },
+   "lab": {
+    "l": 68.82,
+    "a": -5.31,
+    "b": 13.19
+   }
+  },
+  {
+   "code": "F&B 22",
+   "name": "Farrow & Ball Light Blue",
+   "localName": "No. 22",
+   "hex": "#C4CCC0",
+   "rgb": {
+    "r": 196,
+    "g": 204,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 6,
+    "k": 20
+   },
+   "lab": {
+    "l": 81.14,
+    "a": -4.93,
+    "b": 5.03
+   }
+  },
+  {
+   "code": "F&B 24",
+   "name": "Farrow & Ball Green Blue",
+   "localName": "No. 84",
+   "hex": "#AEBCB0",
+   "rgb": {
+    "r": 174,
+    "g": 188,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 6,
+    "k": 26
+   },
+   "lab": {
+    "l": 74.89,
+    "a": -7.11,
+    "b": 4.41
+   }
+  },
+  {
+   "code": "F&B 26",
+   "name": "Farrow & Ball Down Pipe",
+   "localName": "No. 26",
+   "hex": "#5E6362",
+   "rgb": {
+    "r": 94,
+    "g": 99,
+    "b": 98
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 1,
+    "k": 61
+   },
+   "lab": {
+    "l": 41.51,
+    "a": -2.16,
+    "b": -0.11
+   }
+  },
+  {
+   "code": "F&B 27",
+   "name": "Farrow & Ball Parma Gray",
+   "localName": "No. 27",
+   "hex": "#B4C0C4",
+   "rgb": {
+    "r": 180,
+    "g": 192,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 2,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 76.91,
+    "a": -3.33,
+    "b": -3.43
+   }
+  },
+  {
+   "code": "F&B 28",
+   "name": "Farrow & Ball Dead Salmon",
+   "localName": "No. 28",
+   "hex": "#BCA093",
+   "rgb": {
+    "r": 188,
+    "g": 160,
+    "b": 147
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 22,
+    "k": 26
+   },
+   "lab": {
+    "l": 67.98,
+    "a": 8.23,
+    "b": 10.6
+   }
+  },
+  {
+   "code": "F&B 30",
+   "name": "Farrow & Ball Hague Blue",
+   "localName": "No. 30",
+   "hex": "#333F48",
+   "rgb": {
+    "r": 51,
+    "g": 63,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 12,
+    "y": 0,
+    "k": 72
+   },
+   "lab": {
+    "l": 25.94,
+    "a": -2.45,
+    "b": -7.1
+   }
+  },
+  {
+   "code": "F&B 31",
+   "name": "Farrow & Ball Railings",
+   "localName": "No. 31",
+   "hex": "#43474C",
+   "rgb": {
+    "r": 67,
+    "g": 71,
+    "b": 76
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 7,
+    "y": 0,
+    "k": 70
+   },
+   "lab": {
+    "l": 29.96,
+    "a": -0.46,
+    "b": -3.56
+   }
+  },
+  {
+   "code": "F&B 32",
+   "name": "Farrow & Ball Cooking Apple Green",
+   "localName": "No. 32",
+   "hex": "#C0C4A4",
+   "rgb": {
+    "r": 192,
+    "g": 196,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 16,
+    "k": 23
+   },
+   "lab": {
+    "l": 78.09,
+    "a": -6.9,
+    "b": 15.63
+   }
+  },
+  {
+   "code": "F&B 33",
+   "name": "Farrow & Ball Sand",
+   "localName": "No. 45",
+   "hex": "#D4C0A0",
+   "rgb": {
+    "r": 212,
+    "g": 192,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 25,
+    "k": 17
+   },
+   "lab": {
+    "l": 78.6,
+    "a": 2.09,
+    "b": 18.72
+   }
+  },
+  {
+   "code": "F&B 36",
+   "name": "Farrow & Ball String",
+   "localName": "No. 8",
+   "hex": "#D8CBAE",
+   "rgb": {
+    "r": 216,
+    "g": 203,
+    "b": 174
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 19,
+    "k": 15
+   },
+   "lab": {
+    "l": 82.04,
+    "a": -0.16,
+    "b": 16.11
+   }
+  },
+  {
+   "code": "F&B 38",
+   "name": "Farrow & Ball Biscuit",
+   "localName": "No. 38",
+   "hex": "#C8B294",
+   "rgb": {
+    "r": 200,
+    "g": 178,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 26,
+    "k": 22
+   },
+   "lab": {
+    "l": 73.71,
+    "a": 3.25,
+    "b": 18.24
+   }
+  },
+  {
+   "code": "F&B 40",
+   "name": "Farrow & Ball Mouse’s Back",
+   "localName": "No. 40",
+   "hex": "#948A72",
+   "rgb": {
+    "r": 148,
+    "g": 138,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 23,
+    "k": 42
+   },
+   "lab": {
+    "l": 57.74,
+    "a": -0.34,
+    "b": 14.23
+   }
+  },
+  {
+   "code": "F&B 41",
+   "name": "Farrow & Ball Drab",
+   "localName": "No. 41",
+   "hex": "#867C64",
+   "rgb": {
+    "r": 134,
+    "g": 124,
+    "b": 100
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 25,
+    "k": 47
+   },
+   "lab": {
+    "l": 52.29,
+    "a": -0.27,
+    "b": 14.51
+   }
+  },
+  {
+   "code": "F&B 42",
+   "name": "Farrow & Ball Picture Gallery Red",
+   "localName": "No. 42",
+   "hex": "#8E4A44",
+   "rgb": {
+    "r": 142,
+    "g": 74,
+    "b": 68
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 52,
+    "k": 44
+   },
+   "lab": {
+    "l": 39.69,
+    "a": 28.02,
+    "b": 16.55
+   }
+  },
+  {
+   "code": "F&B 43",
+   "name": "Farrow & Ball Eating Room Red",
+   "localName": "No. 43",
+   "hex": "#7E4444",
+   "rgb": {
+    "r": 126,
+    "g": 68,
+    "b": 68
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 46,
+    "k": 51
+   },
+   "lab": {
+    "l": 35.96,
+    "a": 24.86,
+    "b": 11.08
+   }
+  },
+  {
+   "code": "F&B 46",
+   "name": "Farrow & Ball Pitch Black",
+   "localName": "No. 256",
+   "hex": "#2E2E2C",
+   "rgb": {
+    "r": 46,
+    "g": 46,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 4,
+    "k": 82
+   },
+   "lab": {
+    "l": 18.87,
+    "a": -0.46,
+    "b": 1.29
+   }
+  },
+  {
+   "code": "F&B 47",
+   "name": "Farrow & Ball Green Smoke",
+   "localName": "No. 47",
+   "hex": "#71807C",
+   "rgb": {
+    "r": 113,
+    "g": 128,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 3,
+    "k": 50
+   },
+   "lab": {
+    "l": 52.29,
+    "a": -6.34,
+    "b": 0.3
+   }
+  },
+  {
+   "code": "F&B 48",
+   "name": "Farrow & Ball Pigeon",
+   "localName": "No. 25",
+   "hex": "#A4A89C",
+   "rgb": {
+    "r": 164,
+    "g": 168,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 7,
+    "k": 34
+   },
+   "lab": {
+    "l": 68.24,
+    "a": -3.66,
+    "b": 5.7
+   }
+  },
+  {
+   "code": "F&B 49",
+   "name": "Farrow & Ball Oxford Stone",
+   "localName": "No. 264",
+   "hex": "#BCAE96",
+   "rgb": {
+    "r": 188,
+    "g": 174,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 20,
+    "k": 26
+   },
+   "lab": {
+    "l": 71.67,
+    "a": 1.08,
+    "b": 14.15
+   }
+  },
+  {
+   "code": "F&B 51",
+   "name": "Farrow & Ball Sudbury Yellow",
+   "localName": "No. 51",
+   "hex": "#E0C088",
+   "rgb": {
+    "r": 224,
+    "g": 192,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 39,
+    "k": 12
+   },
+   "lab": {
+    "l": 79.23,
+    "a": 3.74,
+    "b": 32.45
+   }
+  },
+  {
+   "code": "F&B 53",
+   "name": "Farrow & Ball Farrow’s Cream",
+   "localName": "No. 67",
+   "hex": "#E8DCB8",
+   "rgb": {
+    "r": 232,
+    "g": 220,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 21,
+    "k": 9
+   },
+   "lab": {
+    "l": 87.87,
+    "a": -1.59,
+    "b": 19.2
+   }
+  },
+  {
+   "code": "F&B 56",
+   "name": "Farrow & Ball Etruscan Red",
+   "localName": "No. 56",
+   "hex": "#8A4A3E",
+   "rgb": {
+    "r": 138,
+    "g": 74,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 55,
+    "k": 46
+   },
+   "lab": {
+    "l": 38.98,
+    "a": 25.8,
+    "b": 19.18
+   }
+  },
+  {
+   "code": "F&B 57",
+   "name": "Farrow & Ball Fowler Pink",
+   "localName": "No. 39",
+   "hex": "#DCC0B4",
+   "rgb": {
+    "r": 220,
+    "g": 192,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 18,
+    "k": 14
+   },
+   "lab": {
+    "l": 79.73,
+    "a": 8.02,
+    "b": 9.7
+   }
+  },
+  {
+   "code": "F&B 58",
+   "name": "Farrow & Ball Ball Green",
+   "localName": "No. 75",
+   "hex": "#B4B49C",
+   "rgb": {
+    "r": 180,
+    "g": 180,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 13,
+    "k": 29
+   },
+   "lab": {
+    "l": 72.72,
+    "a": -4.2,
+    "b": 12.27
+   }
+  },
+  {
+   "code": "F&B 59",
+   "name": "Farrow & Ball New White",
+   "localName": "No. 59",
+   "hex": "#EDE6D2",
+   "rgb": {
+    "r": 237,
+    "g": 230,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.35,
+    "a": -0.97,
+    "b": 10.59
+   }
+  },
+  {
+   "code": "F&B 60",
+   "name": "Farrow & Ball Smoked Trout",
+   "localName": "No. 60",
+   "hex": "#C8AC9C",
+   "rgb": {
+    "r": 200,
+    "g": 172,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 22,
+    "k": 22
+   },
+   "lab": {
+    "l": 72.35,
+    "a": 7.63,
+    "b": 11.98
+   }
+  },
+  {
+   "code": "F&B 61",
+   "name": "Farrow & Ball House White",
+   "localName": "No. 2012",
+   "hex": "#E8E2D0",
+   "rgb": {
+    "r": 232,
+    "g": 226,
+    "b": 208
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 10,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.91,
+    "a": -1,
+    "b": 9.52
+   }
+  },
+  {
+   "code": "F&B 64",
+   "name": "Farrow & Ball Red Earth",
+   "localName": "No. 64",
+   "hex": "#BC8A6E",
+   "rgb": {
+    "r": 188,
+    "g": 138,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 41,
+    "k": 26
+   },
+   "lab": {
+    "l": 61.65,
+    "a": 15.45,
+    "b": 22.47
+   }
+  },
+  {
+   "code": "F&B 66",
+   "name": "Farrow & Ball India Yellow",
+   "localName": "No. 66",
+   "hex": "#CE9E52",
+   "rgb": {
+    "r": 206,
+    "g": 158,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 23,
+    "y": 60,
+    "k": 19
+   },
+   "lab": {
+    "l": 68.16,
+    "a": 9.45,
+    "b": 45.9
+   }
+  },
+  {
+   "code": "F&B 68",
+   "name": "Farrow & Ball Dorset Cream",
+   "localName": "No. 68",
+   "hex": "#EBD8AC",
+   "rgb": {
+    "r": 235,
+    "g": 216,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 27,
+    "k": 8
+   },
+   "lab": {
+    "l": 86.88,
+    "a": -0.08,
+    "b": 24.11
+   }
+  },
+  {
+   "code": "F&B 69",
+   "name": "Farrow & Ball Cane",
+   "localName": "No. 53",
+   "hex": "#D8C49C",
+   "rgb": {
+    "r": 216,
+    "g": 196,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 28,
+    "k": 15
+   },
+   "lab": {
+    "l": 79.89,
+    "a": 0.97,
+    "b": 22.68
+   }
+  },
+  {
+   "code": "F&B 71",
+   "name": "Farrow & Ball Pale Hound",
+   "localName": "No. 71",
+   "hex": "#E8DCB0",
+   "rgb": {
+    "r": 232,
+    "g": 220,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 24,
+    "k": 9
+   },
+   "lab": {
+    "l": 87.72,
+    "a": -2.71,
+    "b": 23.15
+   }
+  },
+  {
+   "code": "F&B 74",
+   "name": "Farrow & Ball Citron",
+   "localName": "No. 74",
+   "hex": "#DCCE8A",
+   "rgb": {
+    "r": 220,
+    "g": 206,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 37,
+    "k": 14
+   },
+   "lab": {
+    "l": 82.48,
+    "a": -4.89,
+    "b": 35.6
+   }
+  },
+  {
+   "code": "F&B 76",
+   "name": "Farrow & Ball Folly Green",
+   "localName": "No. 76",
+   "hex": "#8C9A82",
+   "rgb": {
+    "r": 140,
+    "g": 154,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 0,
+    "y": 16,
+    "k": 40
+   },
+   "lab": {
+    "l": 61.91,
+    "a": -9.59,
+    "b": 10.93
+   }
+  },
+  {
+   "code": "F&B 79",
+   "name": "Farrow & Ball Joa’s White",
+   "localName": "No. 226",
+   "hex": "#E0D6C0",
+   "rgb": {
+    "r": 224,
+    "g": 214,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 14,
+    "k": 12
+   },
+   "lab": {
+    "l": 85.88,
+    "a": -0.21,
+    "b": 12.1
+   }
+  },
+  {
+   "code": "F&B 81",
+   "name": "Farrow & Ball Blue Gray",
+   "localName": "No. 91",
+   "hex": "#A4AA9E",
+   "rgb": {
+    "r": 164,
+    "g": 170,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 7,
+    "k": 33
+   },
+   "lab": {
+    "l": 68.83,
+    "a": -4.37,
+    "b": 5.45
+   }
+  },
+  {
+   "code": "F&B 82",
+   "name": "Farrow & Ball Dix Blue",
+   "localName": "No. 82",
+   "hex": "#A4B4B0",
+   "rgb": {
+    "r": 164,
+    "g": 180,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 0,
+    "y": 2,
+    "k": 29
+   },
+   "lab": {
+    "l": 72.01,
+    "a": -6.32,
+    "b": 0.14
+   }
+  },
+  {
+   "code": "F&B 83",
+   "name": "Farrow & Ball Card Room Green",
+   "localName": "No. 79",
+   "hex": "#7C8078",
+   "rgb": {
+    "r": 124,
+    "g": 128,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 0,
+    "y": 6,
+    "k": 50
+   },
+   "lab": {
+    "l": 53.04,
+    "a": -3.07,
+    "b": 3.82
+   }
+  },
+  {
+   "code": "F&B 85",
+   "name": "Farrow & Ball Oval Room Blue",
+   "localName": "No. 85",
+   "hex": "#8A9A9E",
+   "rgb": {
+    "r": 138,
+    "g": 154,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 3,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 62.49,
+    "a": -4.82,
+    "b": -4.03
+   }
+  },
+  {
+   "code": "F&B 86",
+   "name": "Farrow & Ball Stone Blue",
+   "localName": "No. 86",
+   "hex": "#6E8894",
+   "rgb": {
+    "r": 110,
+    "g": 136,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 26,
+    "m": 8,
+    "y": 0,
+    "k": 42
+   },
+   "lab": {
+    "l": 55.13,
+    "a": -6.38,
+    "b": -9.46
+   }
+  },
+  {
+   "code": "F&B 88",
+   "name": "Farrow & Ball Lamp Room Gray",
+   "localName": "No. 88",
+   "hex": "#BCBCB4",
+   "rgb": {
+    "r": 188,
+    "g": 188,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 4,
+    "k": 26
+   },
+   "lab": {
+    "l": 76.04,
+    "a": -1.45,
+    "b": 4.04
+   }
+  },
+  {
+   "code": "F&B 90",
+   "name": "Farrow & Ball Cook’s Blue",
+   "localName": "No. 237",
+   "hex": "#4E7494",
+   "rgb": {
+    "r": 78,
+    "g": 116,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 47,
+    "m": 22,
+    "y": 0,
+    "k": 42
+   },
+   "lab": {
+    "l": 47.3,
+    "a": -4.26,
+    "b": -21.54
+   }
+  },
+  {
+   "code": "F&B 92",
+   "name": "Farrow & Ball Slipper Satin",
+   "localName": "No. 2004",
+   "hex": "#E8E0CC",
+   "rgb": {
+    "r": 232,
+    "g": 224,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 12,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.31,
+    "a": -0.62,
+    "b": 10.76
+   }
+  },
+  {
+   "code": "F&B 93",
+   "name": "Farrow & Ball Old White",
+   "localName": "No. 4",
+   "hex": "#DCD6BC",
+   "rgb": {
+    "r": 220,
+    "g": 214,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 15,
+    "k": 14
+   },
+   "lab": {
+    "l": 85.47,
+    "a": -2.27,
+    "b": 13.59
+   }
+  },
+  {
+   "code": "F&B 94",
+   "name": "Farrow & Ball Pointing",
+   "localName": "No. 2003",
+   "hex": "#EDE6D4",
+   "rgb": {
+    "r": 237,
+    "g": 230,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.39,
+    "a": -0.65,
+    "b": 9.61
+   }
+  },
+  {
+   "code": "F&B 95",
+   "name": "Farrow & Ball Blackened",
+   "localName": "No. 2011",
+   "hex": "#DCDCD8",
+   "rgb": {
+    "r": 220,
+    "g": 220,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 2,
+    "k": 14
+   },
+   "lab": {
+    "l": 87.66,
+    "a": -0.71,
+    "b": 1.96
+   }
+  },
+  {
+   "code": "F&B 97",
+   "name": "Farrow & Ball Wimborne White",
+   "localName": "No. 239",
+   "hex": "#EDE7D6",
+   "rgb": {
+    "r": 237,
+    "g": 231,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 10,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.69,
+    "a": -0.84,
+    "b": 8.99
+   }
+  },
+  {
+   "code": "F&B 98",
+   "name": "Farrow & Ball Tallow",
+   "localName": "No. 203",
+   "hex": "#E8DEC4",
+   "rgb": {
+    "r": 232,
+    "g": 222,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 16,
+    "k": 9
+   },
+   "lab": {
+    "l": 88.63,
+    "a": -0.84,
+    "b": 13.98
+   }
+  },
+  {
+   "code": "F&B 99",
+   "name": "Farrow & Ball Matchstick",
+   "localName": "No. 2013",
+   "hex": "#E4DCC4",
+   "rgb": {
+    "r": 228,
+    "g": 220,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 14,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.81,
+    "a": -1.24,
+    "b": 12.77
+   }
+  },
+  {
+   "code": "F&B 201",
+   "name": "Farrow & Ball Shaded White",
+   "localName": "No. 201",
+   "hex": "#D4CEBC",
+   "rgb": {
+    "r": 212,
+    "g": 206,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 17
+   },
+   "lab": {
+    "l": 82.79,
+    "a": -1,
+    "b": 9.69
+   }
+  },
+  {
+   "code": "F&B 202",
+   "name": "Farrow & Ball Pink Ground",
+   "localName": "No. 202",
+   "hex": "#E4D2C4",
+   "rgb": {
+    "r": 228,
+    "g": 210,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 14,
+    "k": 11
+   },
+   "lab": {
+    "l": 85.29,
+    "a": 3.94,
+    "b": 9.19
+   }
+  },
+  {
+   "code": "F&B 204",
+   "name": "Farrow & Ball Clunch",
+   "localName": "No. 2009",
+   "hex": "#E0D8C4",
+   "rgb": {
+    "r": 224,
+    "g": 216,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 12,
+    "k": 12
+   },
+   "lab": {
+    "l": 86.48,
+    "a": -0.61,
+    "b": 10.84
+   }
+  },
+  {
+   "code": "F&B 205",
+   "name": "Farrow & Ball Cream",
+   "localName": "No. 44",
+   "hex": "#EBDCB4",
+   "rgb": {
+    "r": 235,
+    "g": 220,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 23,
+    "k": 8
+   },
+   "lab": {
+    "l": 88.04,
+    "a": -1.05,
+    "b": 21.55
+   }
+  },
+  {
+   "code": "F&B 206",
+   "name": "Farrow & Ball Green Ground",
+   "localName": "No. 206",
+   "hex": "#DCDCBE",
+   "rgb": {
+    "r": 220,
+    "g": 220,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 14,
+    "k": 14
+   },
+   "lab": {
+    "l": 87.06,
+    "a": -5.05,
+    "b": 14.77
+   }
+  },
+  {
+   "code": "F&B 207",
+   "name": "Farrow & Ball Vert de Terre",
+   "localName": "No. 234",
+   "hex": "#C0C0A4",
+   "rgb": {
+    "r": 192,
+    "g": 192,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 15,
+    "k": 25
+   },
+   "lab": {
+    "l": 77.03,
+    "a": -4.81,
+    "b": 14.15
+   }
+  },
+  {
+   "code": "F&B 209",
+   "name": "Farrow & Ball Skimming Stone",
+   "localName": "No. 241",
+   "hex": "#D8D0C0",
+   "rgb": {
+    "r": 216,
+    "g": 208,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 11,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.71,
+    "a": 0.04,
+    "b": 8.93
+   }
+  },
+  {
+   "code": "F&B 210",
+   "name": "Farrow & Ball Bone China Blue",
+   "localName": "No. 27",
+   "hex": "#B0BCC0",
+   "rgb": {
+    "r": 176,
+    "g": 188,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 2,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 75.45,
+    "a": -3.34,
+    "b": -3.44
+   }
+  },
+  {
+   "code": "F&B 211",
+   "name": "Farrow & Ball Stiffkey Blue",
+   "localName": "No. 281",
+   "hex": "#3E4A5C",
+   "rgb": {
+    "r": 62,
+    "g": 74,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 20,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 31.1,
+    "a": 0.04,
+    "b": -12.17
+   }
+  },
+  {
+   "code": "F&B 212",
+   "name": "Farrow & Ball Elephant’s Breath",
+   "localName": "No. 229",
+   "hex": "#C4B8AC",
+   "rgb": {
+    "r": 196,
+    "g": 184,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 12,
+    "k": 23
+   },
+   "lab": {
+    "l": 75.45,
+    "a": 2.19,
+    "b": 7.62
+   }
+  },
+  {
+   "code": "F&B 213",
+   "name": "Farrow & Ball Charleston Gray",
+   "localName": "No. 243",
+   "hex": "#8A8074",
+   "rgb": {
+    "r": 138,
+    "g": 128,
+    "b": 116
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 16,
+    "k": 46
+   },
+   "lab": {
+    "l": 54.14,
+    "a": 1.64,
+    "b": 7.88
+   }
+  },
+  {
+   "code": "F&B 214",
+   "name": "Farrow & Ball Cornforth White",
+   "localName": "No. 228",
+   "hex": "#D4D0C8",
+   "rgb": {
+    "r": 212,
+    "g": 208,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 6,
+    "k": 17
+   },
+   "lab": {
+    "l": 83.59,
+    "a": -0.03,
+    "b": 4.45
+   }
+  },
+  {
+   "code": "F&B 215",
+   "name": "Farrow & Ball Purbeck Stone",
+   "localName": "No. 275",
+   "hex": "#C4BEB2",
+   "rgb": {
+    "r": 196,
+    "g": 190,
+    "b": 178
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 9,
+    "k": 23
+   },
+   "lab": {
+    "l": 77.15,
+    "a": 0,
+    "b": 6.8
+   }
+  },
+  {
+   "code": "F&B 216",
+   "name": "Farrow & Ball Ammonite",
+   "localName": "No. 274",
+   "hex": "#CECAC0",
+   "rgb": {
+    "r": 206,
+    "g": 202,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 7,
+    "k": 19
+   },
+   "lab": {
+    "l": 81.38,
+    "a": -0.38,
+    "b": 5.48
+   }
+  },
+  {
+   "code": "F&B 217",
+   "name": "Farrow & Ball Strong White",
+   "localName": "No. 2001",
+   "hex": "#E2E0D6",
+   "rgb": {
+    "r": 226,
+    "g": 224,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.08,
+    "a": -1.07,
+    "b": 5.13
+   }
+  },
+  {
+   "code": "F&B 218",
+   "name": "Farrow & Ball All White",
+   "localName": "No. 2005",
+   "hex": "#EFEDE4",
+   "rgb": {
+    "r": 239,
+    "g": 237,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 6
+   },
+   "lab": {
+    "l": 93.68,
+    "a": -0.89,
+    "b": 4.59
+   }
+  },
+  {
+   "code": "F&B 219",
+   "name": "Farrow & Ball Great White",
+   "localName": "No. 2006",
+   "hex": "#E4E2D8",
+   "rgb": {
+    "r": 228,
+    "g": 226,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.79,
+    "a": -1.07,
+    "b": 5.12
+   }
+  },
+  {
+   "code": "F&B 220",
+   "name": "Farrow & Ball Dimity",
+   "localName": "No. 2008",
+   "hex": "#E4DACA",
+   "rgb": {
+    "r": 228,
+    "g": 218,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 11,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.44,
+    "a": 0.74,
+    "b": 9.09
+   }
+  },
+  {
+   "code": "F&B 221",
+   "name": "Farrow & Ball Setting Plaster",
+   "localName": "No. 231",
+   "hex": "#E2CEC0",
+   "rgb": {
+    "r": 226,
+    "g": 206,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 15,
+    "k": 11
+   },
+   "lab": {
+    "l": 84.03,
+    "a": 4.68,
+    "b": 9.48
+   }
+  },
+  {
+   "code": "F&B 222",
+   "name": "Farrow & Ball Calamine",
+   "localName": "No. 230",
+   "hex": "#E4D4D2",
+   "rgb": {
+    "r": 228,
+    "g": 212,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 8,
+    "k": 11
+   },
+   "lab": {
+    "l": 86.12,
+    "a": 5.18,
+    "b": 2.98
+   }
+  },
+  {
+   "code": "F&B 223",
+   "name": "Farrow & Ball Middleton Pink",
+   "localName": "No. 245",
+   "hex": "#E4CCC0",
+   "rgb": {
+    "r": 228,
+    "g": 204,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 16,
+    "k": 11
+   },
+   "lab": {
+    "l": 83.7,
+    "a": 6.45,
+    "b": 9.04
+   }
+  },
+  {
+   "code": "F&B 224",
+   "name": "Farrow & Ball Blue Ground",
+   "localName": "No. 210",
+   "hex": "#B8CCCE",
+   "rgb": {
+    "r": 184,
+    "g": 204,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 1,
+    "y": 0,
+    "k": 19
+   },
+   "lab": {
+    "l": 80.64,
+    "a": -6.33,
+    "b": -3.29
+   }
+  },
+  {
+   "code": "F&B 225",
+   "name": "Farrow & Ball Borrowed Light",
+   "localName": "No. 235",
+   "hex": "#D8E0DE",
+   "rgb": {
+    "r": 216,
+    "g": 224,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 1,
+    "k": 12
+   },
+   "lab": {
+    "l": 88.54,
+    "a": -3.05,
+    "b": 0.04
+   }
+  },
+  {
+   "code": "F&B 227",
+   "name": "Farrow & Ball Pavilion Blue",
+   "localName": "No. 252",
+   "hex": "#B0C4C4",
+   "rgb": {
+    "r": 176,
+    "g": 196,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 77.69,
+    "a": -6.78,
+    "b": -2.31
+   }
+  },
+  {
+   "code": "F&B 232",
+   "name": "Farrow & Ball Pale Powder",
+   "localName": "No. 204",
+   "hex": "#D8E0D4",
+   "rgb": {
+    "r": 216,
+    "g": 224,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 5,
+    "k": 12
+   },
+   "lab": {
+    "l": 88.29,
+    "a": -4.84,
+    "b": 4.94
+   }
+  },
+  {
+   "code": "F&B 233",
+   "name": "Farrow & Ball Teresa’s Green",
+   "localName": "No. 236",
+   "hex": "#C4D0C0",
+   "rgb": {
+    "r": 196,
+    "g": 208,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 8,
+    "k": 18
+   },
+   "lab": {
+    "l": 82.19,
+    "a": -7,
+    "b": 6.54
+   }
+  },
+  {
+   "code": "F&B 238",
+   "name": "Farrow & Ball Babouche",
+   "localName": "No. 223",
+   "hex": "#EBC45E",
+   "rgb": {
+    "r": 235,
+    "g": 196,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 60,
+    "k": 8
+   },
+   "lab": {
+    "l": 80.71,
+    "a": 2.36,
+    "b": 55.33
+   }
+  },
+  {
+   "code": "F&B 240",
+   "name": "Farrow & Ball Calke Green",
+   "localName": "No. 34",
+   "hex": "#727A62",
+   "rgb": {
+    "r": 114,
+    "g": 122,
+    "b": 98
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 20,
+    "k": 52
+   },
+   "lab": {
+    "l": 49.95,
+    "a": -7.6,
+    "b": 12.16
+   }
+  },
+  {
+   "code": "F&B 242",
+   "name": "Farrow & Ball Pale Hound",
+   "localName": "No. 71",
+   "hex": "#E8DEB4",
+   "rgb": {
+    "r": 232,
+    "g": 222,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 22,
+    "k": 9
+   },
+   "lab": {
+    "l": 88.3,
+    "a": -3.18,
+    "b": 21.87
+   }
+  },
+  {
+   "code": "F&B 244",
+   "name": "Farrow & Ball London Clay",
+   "localName": "No. 244",
+   "hex": "#6E5E52",
+   "rgb": {
+    "r": 110,
+    "g": 94,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 25,
+    "k": 57
+   },
+   "lab": {
+    "l": 41.1,
+    "a": 4.39,
+    "b": 9.27
+   }
+  },
+  {
+   "code": "F&B 246",
+   "name": "Farrow & Ball Cinder Rose",
+   "localName": "No. 246",
+   "hex": "#BCA4A0",
+   "rgb": {
+    "r": 188,
+    "g": 164,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 15,
+    "k": 26
+   },
+   "lab": {
+    "l": 69.31,
+    "a": 8.08,
+    "b": 5.3
+   }
+  },
+  {
+   "code": "F&B 247",
+   "name": "Farrow & Ball Brinjal",
+   "localName": "No. 222",
+   "hex": "#5A4448",
+   "rgb": {
+    "r": 90,
+    "g": 68,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 20,
+    "k": 65
+   },
+   "lab": {
+    "l": 31.29,
+    "a": 10.17,
+    "b": 1.25
+   }
+  },
+  {
+   "code": "F&B 248",
+   "name": "Farrow & Ball Mahogany",
+   "localName": "No. 36",
+   "hex": "#4E3E38",
+   "rgb": {
+    "r": 78,
+    "g": 62,
+    "b": 56
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 28,
+    "k": 69
+   },
+   "lab": {
+    "l": 27.71,
+    "a": 5.9,
+    "b": 6.32
+   }
+  },
+  {
+   "code": "F&B 249",
+   "name": "Farrow & Ball Sudbury Yellow",
+   "localName": "No. 51",
+   "hex": "#E0C088",
+   "rgb": {
+    "r": 224,
+    "g": 192,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 39,
+    "k": 12
+   },
+   "lab": {
+    "l": 79.23,
+    "a": 3.74,
+    "b": 32.45
+   }
+  },
+  {
+   "code": "F&B 251",
+   "name": "Farrow & Ball Radicchio",
+   "localName": "No. 96",
+   "hex": "#8E4448",
+   "rgb": {
+    "r": 142,
+    "g": 68,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 52,
+    "y": 49,
+    "k": 44
+   },
+   "lab": {
+    "l": 38.47,
+    "a": 31.72,
+    "b": 12.41
+   }
+  },
+  {
+   "code": "F&B 253",
+   "name": "Farrow & Ball Blazer",
+   "localName": "No. 212",
+   "hex": "#A84A42",
+   "rgb": {
+    "r": 168,
+    "g": 74,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 56,
+    "y": 61,
+    "k": 34
+   },
+   "lab": {
+    "l": 43.68,
+    "a": 38.07,
+    "b": 23.74
+   }
+  },
+  {
+   "code": "F&B 254",
+   "name": "Farrow & Ball Rectory Red",
+   "localName": "No. 217",
+   "hex": "#8E4440",
+   "rgb": {
+    "r": 142,
+    "g": 68,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 52,
+    "y": 55,
+    "k": 44
+   },
+   "lab": {
+    "l": 38.3,
+    "a": 30.94,
+    "b": 17.16
+   }
+  },
+  {
+   "code": "F&B 255",
+   "name": "Farrow & Ball Deep Reddish Brown",
+   "localName": "No. 253",
+   "hex": "#4E3834",
+   "rgb": {
+    "r": 78,
+    "g": 56,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 28,
+    "y": 33,
+    "k": 69
+   },
+   "lab": {
+    "l": 25.85,
+    "a": 9.13,
+    "b": 6.33
+   }
+  },
+  {
+   "code": "F&B 257",
+   "name": "Farrow & Ball Studio Green",
+   "localName": "No. 93",
+   "hex": "#38423C",
+   "rgb": {
+    "r": 56,
+    "g": 66,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 15,
+    "m": 0,
+    "y": 9,
+    "k": 74
+   },
+   "lab": {
+    "l": 26.91,
+    "a": -5.52,
+    "b": 2.28
+   }
+  },
+  {
+   "code": "F&B 258",
+   "name": "Farrow & Ball Black Blue",
+   "localName": "No. 95",
+   "hex": "#3A3E42",
+   "rgb": {
+    "r": 58,
+    "g": 62,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 6,
+    "y": 0,
+    "k": 74
+   },
+   "lab": {
+    "l": 25.98,
+    "a": -0.71,
+    "b": -3.02
+   }
+  },
+  {
+   "code": "F&B 259",
+   "name": "Farrow & Ball Off-Black",
+   "localName": "No. 57",
+   "hex": "#3E3E3C",
+   "rgb": {
+    "r": 62,
+    "g": 62,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 3,
+    "k": 76
+   },
+   "lab": {
+    "l": 26.14,
+    "a": -0.44,
+    "b": 1.23
+   }
+  },
+  {
+   "code": "F&B 260",
+   "name": "Farrow & Ball Down Pipe",
+   "localName": "No. 26",
+   "hex": "#5E6362",
+   "rgb": {
+    "r": 94,
+    "g": 99,
+    "b": 98
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 1,
+    "k": 61
+   },
+   "lab": {
+    "l": 41.51,
+    "a": -2.16,
+    "b": -0.11
+   }
+  },
+  {
+   "code": "F&B 262",
+   "name": "Farrow & Ball Mole’s Breath",
+   "localName": "No. 276",
+   "hex": "#8E8A84",
+   "rgb": {
+    "r": 142,
+    "g": 138,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 7,
+    "k": 44
+   },
+   "lab": {
+    "l": 57.65,
+    "a": 0.36,
+    "b": 3.74
+   }
+  },
+  {
+   "code": "F&B 263",
+   "name": "Farrow & Ball Plummett",
+   "localName": "No. 272",
+   "hex": "#A8ACAA",
+   "rgb": {
+    "r": 168,
+    "g": 172,
+    "b": 170
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 1,
+    "k": 33
+   },
+   "lab": {
+    "l": 69.99,
+    "a": -1.79,
+    "b": 0.53
+   }
+  },
+  {
+   "code": "F&B 265",
+   "name": "Farrow & Ball Manor House Gray",
+   "localName": "No. 265",
+   "hex": "#9EA2A0",
+   "rgb": {
+    "r": 158,
+    "g": 162,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 1,
+    "k": 36
+   },
+   "lab": {
+    "l": 66.25,
+    "a": -1.81,
+    "b": 0.54
+   }
+  },
+  {
+   "code": "F&B 266",
+   "name": "Farrow & Ball Worsted",
+   "localName": "No. 284",
+   "hex": "#A49E94",
+   "rgb": {
+    "r": 164,
+    "g": 158,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 10,
+    "k": 36
+   },
+   "lab": {
+    "l": 65.35,
+    "a": 0.37,
+    "b": 6
+   }
+  },
+  {
+   "code": "F&B 267",
+   "name": "Farrow & Ball Dove Tale",
+   "localName": "No. 267",
+   "hex": "#B4ACA0",
+   "rgb": {
+    "r": 180,
+    "g": 172,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 11,
+    "k": 29
+   },
+   "lab": {
+    "l": 70.7,
+    "a": 0.75,
+    "b": 7.19
+   }
+  },
+  {
+   "code": "F&B 268",
+   "name": "Farrow & Ball Light Blue",
+   "localName": "No. 22",
+   "hex": "#C4CCC0",
+   "rgb": {
+    "r": 196,
+    "g": 204,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 6,
+    "k": 20
+   },
+   "lab": {
+    "l": 81.14,
+    "a": -4.93,
+    "b": 5.03
+   }
+  },
+  {
+   "code": "F&B 269",
+   "name": "Farrow & Ball Cabbage White",
+   "localName": "No. 269",
+   "hex": "#DCE2DE",
+   "rgb": {
+    "r": 220,
+    "g": 226,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 0,
+    "y": 2,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.34,
+    "a": -2.74,
+    "b": 1.25
+   }
+  },
+  {
+   "code": "F&B 270",
+   "name": "Farrow & Ball Calluna",
+   "localName": "No. 270",
+   "hex": "#C4BCC0",
+   "rgb": {
+    "r": 196,
+    "g": 188,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 2,
+    "k": 23
+   },
+   "lab": {
+    "l": 76.99,
+    "a": 3.53,
+    "b": -1.01
+   }
+  },
+  {
+   "code": "F&B 271",
+   "name": "Farrow & Ball Peignoir",
+   "localName": "No. 286",
+   "hex": "#C8BCBC",
+   "rgb": {
+    "r": 200,
+    "g": 188,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 6,
+    "k": 22
+   },
+   "lab": {
+    "l": 77.21,
+    "a": 4.22,
+    "b": 1.52
+   }
+  },
+  {
+   "code": "F&B 273",
+   "name": "Farrow & Ball Wevet",
+   "localName": "No. 273",
+   "hex": "#E4E2DA",
+   "rgb": {
+    "r": 228,
+    "g": 226,
+    "b": 218
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 4,
+    "k": 11
+   },
+   "lab": {
+    "l": 89.84,
+    "a": -0.72,
+    "b": 4.14
+   }
+  },
+  {
+   "code": "F&B 277",
+   "name": "Farrow & Ball Drop Cloth",
+   "localName": "No. 283",
+   "hex": "#C4BCAC",
+   "rgb": {
+    "r": 196,
+    "g": 188,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 12,
+    "k": 23
+   },
+   "lab": {
+    "l": 76.49,
+    "a": 0.06,
+    "b": 9.1
+   }
+  },
+  {
+   "code": "F&B 278",
+   "name": "Farrow & Ball Salon Drab",
+   "localName": "No. 290",
+   "hex": "#7E7060",
+   "rgb": {
+    "r": 126,
+    "g": 112,
+    "b": 96
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 24,
+    "k": 51
+   },
+   "lab": {
+    "l": 48.09,
+    "a": 2.71,
+    "b": 10.9
+   }
+  },
+  {
+   "code": "F&B 279",
+   "name": "Farrow & Ball Broccoli Brown",
+   "localName": "No. 108",
+   "hex": "#84765E",
+   "rgb": {
+    "r": 132,
+    "g": 118,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 29,
+    "k": 48
+   },
+   "lab": {
+    "l": 50.3,
+    "a": 1.43,
+    "b": 15.22
+   }
+  },
+  {
+   "code": "F&B 280",
+   "name": "Farrow & Ball Stony Ground",
+   "localName": "No. 211",
+   "hex": "#D4C8B0",
+   "rgb": {
+    "r": 212,
+    "g": 200,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 17,
+    "k": 17
+   },
+   "lab": {
+    "l": 80.98,
+    "a": 0.24,
+    "b": 13.52
+   }
+  },
+  {
+   "code": "F&B 282",
+   "name": "Farrow & Ball Inchyra Blue",
+   "localName": "No. 289",
+   "hex": "#4E5A5C",
+   "rgb": {
+    "r": 78,
+    "g": 90,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 15,
+    "m": 2,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 37.31,
+    "a": -4.18,
+    "b": -2.73
+   }
+  },
+  {
+   "code": "F&B 285",
+   "name": "Farrow & Ball Nancy’s Blushes",
+   "localName": "No. 278",
+   "hex": "#EAC4CA",
+   "rgb": {
+    "r": 234,
+    "g": 196,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 14,
+    "k": 8
+   },
+   "lab": {
+    "l": 82.51,
+    "a": 14.4,
+    "b": 2.05
+   }
+  },
+  {
+   "code": "F&B 287",
+   "name": "Farrow & Ball Yeabridge Green",
+   "localName": "No. 287",
+   "hex": "#7E8E5A",
+   "rgb": {
+    "r": 126,
+    "g": 142,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 37,
+    "k": 44
+   },
+   "lab": {
+    "l": 56.6,
+    "a": -14.95,
+    "b": 25.84
+   }
+  },
+  {
+   "code": "F&B 288",
+   "name": "Farrow & Ball Arsenic",
+   "localName": "No. 214",
+   "hex": "#8CBCA8",
+   "rgb": {
+    "r": 140,
+    "g": 188,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 26,
+    "m": 0,
+    "y": 11,
+    "k": 26
+   },
+   "lab": {
+    "l": 72.47,
+    "a": -20.04,
+    "b": 5
+   }
+  },
+  {
+   "code": "F&B 291",
+   "name": "Farrow & Ball Preference Red",
+   "localName": "No. 297",
+   "hex": "#9E4A42",
+   "rgb": {
+    "r": 158,
+    "g": 74,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 53,
+    "y": 58,
+    "k": 38
+   },
+   "lab": {
+    "l": 42.1,
+    "a": 34.22,
+    "b": 21.39
+   }
+  },
+  {
+   "code": "F&B 292",
+   "name": "Farrow & Ball Bancha",
+   "localName": "No. 298",
+   "hex": "#5E5E44",
+   "rgb": {
+    "r": 94,
+    "g": 94,
+    "b": 68
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 28,
+    "k": 63
+   },
+   "lab": {
+    "l": 39.25,
+    "a": -4.77,
+    "b": 14.96
+   }
+  },
+  {
+   "code": "F&B 293",
+   "name": "Farrow & Ball De Nimes",
+   "localName": "No. 299",
+   "hex": "#7C8E9A",
+   "rgb": {
+    "r": 124,
+    "g": 142,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 19,
+    "m": 8,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 58,
+    "a": -3.75,
+    "b": -8.52
+   }
+  },
+  {
+   "code": "F&B 294",
+   "name": "Farrow & Ball Jitney",
+   "localName": "No. 293",
+   "hex": "#D2C8B8",
+   "rgb": {
+    "r": 210,
+    "g": 200,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 12,
+    "k": 18
+   },
+   "lab": {
+    "l": 81,
+    "a": 0.77,
+    "b": 9.25
+   }
+  },
+  {
+   "code": "F&B 295",
+   "name": "Farrow & Ball School House White",
+   "localName": "No. 291",
+   "hex": "#E4DECC",
+   "rgb": {
+    "r": 228,
+    "g": 222,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 11
+   },
+   "lab": {
+    "l": 88.49,
+    "a": -1,
+    "b": 9.55
+   }
+  },
+  {
+   "code": "F&B 296",
+   "name": "Farrow & Ball Sulking Room Pink",
+   "localName": "No. 295",
+   "hex": "#B49690",
+   "rgb": {
+    "r": 180,
+    "g": 150,
+    "b": 144
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 20,
+    "k": 29
+   },
+   "lab": {
+    "l": 64.59,
+    "a": 10.21,
+    "b": 7.34
+   }
+  },
+  {
+   "code": "F&B 300",
+   "name": "Farrow & Ball Treron",
+   "localName": "No. 292",
+   "hex": "#6E7268",
+   "rgb": {
+    "r": 110,
+    "g": 114,
+    "b": 104
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 9,
+    "k": 55
+   },
+   "lab": {
+    "l": 47.43,
+    "a": -3.52,
+    "b": 5.02
+   }
+  }
+ ]
+}

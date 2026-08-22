@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+/* eslint-disable @typescript-eslint/no-require-imports -- this file is
+   loaded by Node as CommonJS, so require() is the correct form here. */
 
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,

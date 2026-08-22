@@ -46,3 +46,15 @@ scripts/.fontcache/
 # generated at build time by next-sitemap (written into out/)
 /public/sitemap.xml
 /public/robots.txt
+
+# editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# build output (other bundlers)
+/dist
+
+# local overrides
+*.local

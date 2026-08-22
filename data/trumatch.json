@@ -1,0 +1,7973 @@
+{
+ "system": "Trumatch",
+ "owner": "Trumatch Inc.",
+ "accuracy": "derived",
+ "count": 362,
+ "generatedBy": "scripts/generate-palettes.mjs",
+ "colors": [
+  {
+   "code": "TRUMATCH 1-a",
+   "name": "TRUMATCH 1-a",
+   "localName": "C0 M0 Y100 K0",
+   "hex": "#FFFF00",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 97.14,
+    "a": -21.55,
+    "b": 94.48
+   }
+  },
+  {
+   "code": "TRUMATCH 1-b",
+   "name": "TRUMATCH 1-b",
+   "localName": "C0 M0 Y82 K0",
+   "hex": "#FFFF2E",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 97.22,
+    "a": -20.91,
+    "b": 88.69
+   }
+  },
+  {
+   "code": "TRUMATCH 1-c",
+   "name": "TRUMATCH 1-c",
+   "localName": "C0 M0 Y64 K0",
+   "hex": "#FFFF5C",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 97.45,
+    "a": -19.04,
+    "b": 74.76
+   }
+  },
+  {
+   "code": "TRUMATCH 1-d",
+   "name": "TRUMATCH 1-d",
+   "localName": "C0 M0 Y46 K0",
+   "hex": "#FFFF8A",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 97.88,
+    "a": -15.67,
+    "b": 55.53
+   }
+  },
+  {
+   "code": "TRUMATCH 1-e",
+   "name": "TRUMATCH 1-e",
+   "localName": "C0 M0 Y100 K15",
+   "hex": "#D9D900",
+   "rgb": {
+    "r": 217,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 84.16,
+    "a": -19.08,
+    "b": 83.64
+   }
+  },
+  {
+   "code": "TRUMATCH 1-f",
+   "name": "TRUMATCH 1-f",
+   "localName": "C0 M0 Y100 K30",
+   "hex": "#B3B300",
+   "rgb": {
+    "r": 179,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 70.75,
+    "a": -16.53,
+    "b": 72.44
+   }
+  },
+  {
+   "code": "TRUMATCH 1-g",
+   "name": "TRUMATCH 1-g",
+   "localName": "C0 M0 Y100 K48",
+   "hex": "#858500",
+   "rgb": {
+    "r": 133,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 53.77,
+    "a": -13.29,
+    "b": 58.27
+   }
+  },
+  {
+   "code": "TRUMATCH 2-a",
+   "name": "TRUMATCH 2-a",
+   "localName": "C12 M0 Y100 K0",
+   "hex": "#E0FF00",
+   "rgb": {
+    "r": 224,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 94.89,
+    "a": -34.11,
+    "b": 91.81
+   }
+  },
+  {
+   "code": "TRUMATCH 2-b",
+   "name": "TRUMATCH 2-b",
+   "localName": "C10 M0 Y82 K0",
+   "hex": "#E6FF2E",
+   "rgb": {
+    "r": 230,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 95.39,
+    "a": -30.99,
+    "b": 86.41
+   }
+  },
+  {
+   "code": "TRUMATCH 2-c",
+   "name": "TRUMATCH 2-c",
+   "localName": "C8 M0 Y64 K0",
+   "hex": "#EBFF5C",
+   "rgb": {
+    "r": 235,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 95.98,
+    "a": -26.97,
+    "b": 72.77
+   }
+  },
+  {
+   "code": "TRUMATCH 2-d",
+   "name": "TRUMATCH 2-d",
+   "localName": "C6 M0 Y46 K0",
+   "hex": "#F0FF8A",
+   "rgb": {
+    "r": 240,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 96.77,
+    "a": -21.43,
+    "b": 53.92
+   }
+  },
+  {
+   "code": "TRUMATCH 2-e",
+   "name": "TRUMATCH 2-e",
+   "localName": "C12 M0 Y100 K15",
+   "hex": "#BFD900",
+   "rgb": {
+    "r": 191,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 82.22,
+    "a": -29.94,
+    "b": 81.33
+   }
+  },
+  {
+   "code": "TRUMATCH 2-f",
+   "name": "TRUMATCH 2-f",
+   "localName": "C12 M0 Y100 K30",
+   "hex": "#9DB300",
+   "rgb": {
+    "r": 157,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 69.05,
+    "a": -26.05,
+    "b": 70.42
+   }
+  },
+  {
+   "code": "TRUMATCH 2-g",
+   "name": "TRUMATCH 2-g",
+   "localName": "C12 M0 Y100 K48",
+   "hex": "#758500",
+   "rgb": {
+    "r": 117,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 52.46,
+    "a": -20.61,
+    "b": 56.71
+   }
+  },
+  {
+   "code": "TRUMATCH 3-a",
+   "name": "TRUMATCH 3-a",
+   "localName": "C24 M0 Y100 K0",
+   "hex": "#C2FF00",
+   "rgb": {
+    "r": 194,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.01,
+    "a": -45.75,
+    "b": 89.56
+   }
+  },
+  {
+   "code": "TRUMATCH 3-b",
+   "name": "TRUMATCH 3-b",
+   "localName": "C20 M0 Y82 K0",
+   "hex": "#CCFF2E",
+   "rgb": {
+    "r": 204,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 20,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.69,
+    "a": -41.15,
+    "b": 84.28
+   }
+  },
+  {
+   "code": "TRUMATCH 3-c",
+   "name": "TRUMATCH 3-c",
+   "localName": "C15 M0 Y64 K0",
+   "hex": "#D9FF5C",
+   "rgb": {
+    "r": 217,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 15,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 94.76,
+    "a": -33.95,
+    "b": 71.11
+   }
+  },
+  {
+   "code": "TRUMATCH 3-d",
+   "name": "TRUMATCH 3-d",
+   "localName": "C11 M0 Y46 K0",
+   "hex": "#E3FF8A",
+   "rgb": {
+    "r": 227,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 95.87,
+    "a": -26.33,
+    "b": 52.61
+   }
+  },
+  {
+   "code": "TRUMATCH 3-e",
+   "name": "TRUMATCH 3-e",
+   "localName": "C24 M0 Y100 K15",
+   "hex": "#A5D900",
+   "rgb": {
+    "r": 165,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 80.53,
+    "a": -40.35,
+    "b": 79.32
+   }
+  },
+  {
+   "code": "TRUMATCH 3-f",
+   "name": "TRUMATCH 3-f",
+   "localName": "C24 M0 Y100 K30",
+   "hex": "#88B300",
+   "rgb": {
+    "r": 136,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 67.63,
+    "a": -34.77,
+    "b": 68.73
+   }
+  },
+  {
+   "code": "TRUMATCH 3-g",
+   "name": "TRUMATCH 3-g",
+   "localName": "C24 M0 Y100 K48",
+   "hex": "#658500",
+   "rgb": {
+    "r": 101,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 51.31,
+    "a": -27.64,
+    "b": 55.34
+   }
+  },
+  {
+   "code": "TRUMATCH 4-a",
+   "name": "TRUMATCH 4-a",
+   "localName": "C36 M0 Y100 K0",
+   "hex": "#A3FF00",
+   "rgb": {
+    "r": 163,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 36,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.37,
+    "a": -56.87,
+    "b": 87.59
+   }
+  },
+  {
+   "code": "TRUMATCH 4-b",
+   "name": "TRUMATCH 4-b",
+   "localName": "C30 M0 Y82 K0",
+   "hex": "#B3FF2E",
+   "rgb": {
+    "r": 179,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 30,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.26,
+    "a": -50.4,
+    "b": 82.49
+   }
+  },
+  {
+   "code": "TRUMATCH 4-c",
+   "name": "TRUMATCH 4-c",
+   "localName": "C23 M0 Y64 K0",
+   "hex": "#C4FF5C",
+   "rgb": {
+    "r": 196,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.46,
+    "a": -41.82,
+    "b": 69.35
+   }
+  },
+  {
+   "code": "TRUMATCH 4-d",
+   "name": "TRUMATCH 4-d",
+   "localName": "C17 M0 Y46 K0",
+   "hex": "#D4FF8A",
+   "rgb": {
+    "r": 212,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 94.89,
+    "a": -31.87,
+    "b": 51.19
+   }
+  },
+  {
+   "code": "TRUMATCH 4-e",
+   "name": "TRUMATCH 4-e",
+   "localName": "C36 M0 Y100 K15",
+   "hex": "#8BD900",
+   "rgb": {
+    "r": 139,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 36,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 79.11,
+    "a": -50,
+    "b": 77.61
+   }
+  },
+  {
+   "code": "TRUMATCH 4-f",
+   "name": "TRUMATCH 4-f",
+   "localName": "C36 M0 Y100 K30",
+   "hex": "#72B300",
+   "rgb": {
+    "r": 114,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 36,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 66.38,
+    "a": -43.24,
+    "b": 67.22
+   }
+  },
+  {
+   "code": "TRUMATCH 4-g",
+   "name": "TRUMATCH 4-g",
+   "localName": "C36 M0 Y100 K48",
+   "hex": "#558500",
+   "rgb": {
+    "r": 85,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 36,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 50.34,
+    "a": -34.19,
+    "b": 54.17
+   }
+  },
+  {
+   "code": "TRUMATCH 5-a",
+   "name": "TRUMATCH 5-a",
+   "localName": "C48 M0 Y100 K0",
+   "hex": "#85FF00",
+   "rgb": {
+    "r": 133,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.09,
+    "a": -66.36,
+    "b": 86.05
+   }
+  },
+  {
+   "code": "TRUMATCH 5-b",
+   "name": "TRUMATCH 5-b",
+   "localName": "C39 M0 Y82 K0",
+   "hex": "#9CFF2E",
+   "rgb": {
+    "r": 156,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 39,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.14,
+    "a": -58.27,
+    "b": 81.06
+   }
+  },
+  {
+   "code": "TRUMATCH 5-c",
+   "name": "TRUMATCH 5-c",
+   "localName": "C31 M0 Y64 K0",
+   "hex": "#B0FF5C",
+   "rgb": {
+    "r": 176,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 31,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.36,
+    "a": -48.93,
+    "b": 67.84
+   }
+  },
+  {
+   "code": "TRUMATCH 5-d",
+   "name": "TRUMATCH 5-d",
+   "localName": "C22 M0 Y46 K0",
+   "hex": "#C7FF8A",
+   "rgb": {
+    "r": 199,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 94.1,
+    "a": -36.54,
+    "b": 50.04
+   }
+  },
+  {
+   "code": "TRUMATCH 5-e",
+   "name": "TRUMATCH 5-e",
+   "localName": "C48 M0 Y100 K15",
+   "hex": "#71D900",
+   "rgb": {
+    "r": 113,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 77.95,
+    "a": -58.51,
+    "b": 76.21
+   }
+  },
+  {
+   "code": "TRUMATCH 5-f",
+   "name": "TRUMATCH 5-f",
+   "localName": "C48 M0 Y100 K30",
+   "hex": "#5DB300",
+   "rgb": {
+    "r": 93,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 65.41,
+    "a": -50.4,
+    "b": 66.05
+   }
+  },
+  {
+   "code": "TRUMATCH 5-g",
+   "name": "TRUMATCH 5-g",
+   "localName": "C48 M0 Y100 K48",
+   "hex": "#458500",
+   "rgb": {
+    "r": 69,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 49.54,
+    "a": -40.03,
+    "b": 53.21
+   }
+  },
+  {
+   "code": "TRUMATCH 6-a",
+   "name": "TRUMATCH 6-a",
+   "localName": "C60 M0 Y100 K0",
+   "hex": "#66FF00",
+   "rgb": {
+    "r": 102,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.08,
+    "a": -74.43,
+    "b": 84.82
+   }
+  },
+  {
+   "code": "TRUMATCH 6-b",
+   "name": "TRUMATCH 6-b",
+   "localName": "C49 M0 Y82 K0",
+   "hex": "#82FF2E",
+   "rgb": {
+    "r": 130,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.07,
+    "a": -66.19,
+    "b": 79.71
+   }
+  },
+  {
+   "code": "TRUMATCH 6-c",
+   "name": "TRUMATCH 6-c",
+   "localName": "C38 M0 Y64 K0",
+   "hex": "#9EFF5C",
+   "rgb": {
+    "r": 158,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 38,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.49,
+    "a": -54.91,
+    "b": 66.64
+   }
+  },
+  {
+   "code": "TRUMATCH 6-d",
+   "name": "TRUMATCH 6-d",
+   "localName": "C28 M0 Y46 K0",
+   "hex": "#B8FF8A",
+   "rgb": {
+    "r": 184,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.25,
+    "a": -41.73,
+    "b": 48.8
+   }
+  },
+  {
+   "code": "TRUMATCH 6-e",
+   "name": "TRUMATCH 6-e",
+   "localName": "C60 M0 Y100 K15",
+   "hex": "#57D900",
+   "rgb": {
+    "r": 87,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 77.07,
+    "a": -65.56,
+    "b": 75.14
+   }
+  },
+  {
+   "code": "TRUMATCH 6-f",
+   "name": "TRUMATCH 6-f",
+   "localName": "C60 M0 Y100 K30",
+   "hex": "#47B300",
+   "rgb": {
+    "r": 71,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 64.63,
+    "a": -56.63,
+    "b": 65.1
+   }
+  },
+  {
+   "code": "TRUMATCH 6-g",
+   "name": "TRUMATCH 6-g",
+   "localName": "C60 M0 Y100 K48",
+   "hex": "#358500",
+   "rgb": {
+    "r": 53,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.92,
+    "a": -44.94,
+    "b": 52.45
+   }
+  },
+  {
+   "code": "TRUMATCH 7-a",
+   "name": "TRUMATCH 7-a",
+   "localName": "C72 M0 Y100 K0",
+   "hex": "#47FF00",
+   "rgb": {
+    "r": 71,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 72,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.38,
+    "a": -80.42,
+    "b": 83.96
+   }
+  },
+  {
+   "code": "TRUMATCH 7-b",
+   "name": "TRUMATCH 7-b",
+   "localName": "C59 M0 Y82 K0",
+   "hex": "#69FF2E",
+   "rgb": {
+    "r": 105,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 59,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.26,
+    "a": -72.64,
+    "b": 78.68
+   }
+  },
+  {
+   "code": "TRUMATCH 7-c",
+   "name": "TRUMATCH 7-c",
+   "localName": "C46 M0 Y64 K0",
+   "hex": "#8AFF5C",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.64,
+    "a": -61.01,
+    "b": 65.48
+   }
+  },
+  {
+   "code": "TRUMATCH 7-d",
+   "name": "TRUMATCH 7-d",
+   "localName": "C33 M0 Y46 K0",
+   "hex": "#ABFF8A",
+   "rgb": {
+    "r": 171,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.58,
+    "a": -46.02,
+    "b": 47.82
+   }
+  },
+  {
+   "code": "TRUMATCH 7-e",
+   "name": "TRUMATCH 7-e",
+   "localName": "C72 M0 Y100 K15",
+   "hex": "#3DD900",
+   "rgb": {
+    "r": 61,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 72,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.45,
+    "a": -70.86,
+    "b": 74.38
+   }
+  },
+  {
+   "code": "TRUMATCH 7-f",
+   "name": "TRUMATCH 7-f",
+   "localName": "C72 M0 Y100 K30",
+   "hex": "#32B300",
+   "rgb": {
+    "r": 50,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 72,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 64.09,
+    "a": -61.14,
+    "b": 64.45
+   }
+  },
+  {
+   "code": "TRUMATCH 7-g",
+   "name": "TRUMATCH 7-g",
+   "localName": "C72 M0 Y100 K48",
+   "hex": "#258500",
+   "rgb": {
+    "r": 37,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 72,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.47,
+    "a": -48.73,
+    "b": 51.9
+   }
+  },
+  {
+   "code": "TRUMATCH 8-a",
+   "name": "TRUMATCH 8-a",
+   "localName": "C84 M0 Y100 K0",
+   "hex": "#29FF00",
+   "rgb": {
+    "r": 41,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 84,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.96,
+    "a": -84.11,
+    "b": 83.46
+   }
+  },
+  {
+   "code": "TRUMATCH 8-b",
+   "name": "TRUMATCH 8-b",
+   "localName": "C69 M0 Y82 K0",
+   "hex": "#4FFF2E",
+   "rgb": {
+    "r": 79,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 69,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.63,
+    "a": -77.93,
+    "b": 77.87
+   }
+  },
+  {
+   "code": "TRUMATCH 8-c",
+   "name": "TRUMATCH 8-c",
+   "localName": "C54 M0 Y64 K0",
+   "hex": "#75FF5C",
+   "rgb": {
+    "r": 117,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 54,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.89,
+    "a": -66.66,
+    "b": 64.45
+   }
+  },
+  {
+   "code": "TRUMATCH 8-d",
+   "name": "TRUMATCH 8-d",
+   "localName": "C39 M0 Y46 K0",
+   "hex": "#9CFF8A",
+   "rgb": {
+    "r": 156,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 39,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.87,
+    "a": -50.71,
+    "b": 46.78
+   }
+  },
+  {
+   "code": "TRUMATCH 8-e",
+   "name": "TRUMATCH 8-e",
+   "localName": "C84 M0 Y100 K15",
+   "hex": "#23D900",
+   "rgb": {
+    "r": 35,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 84,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.06,
+    "a": -74.3,
+    "b": 73.91
+   }
+  },
+  {
+   "code": "TRUMATCH 8-f",
+   "name": "TRUMATCH 8-f",
+   "localName": "C84 M0 Y100 K30",
+   "hex": "#1DB300",
+   "rgb": {
+    "r": 29,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 84,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.75,
+    "a": -64.13,
+    "b": 64.04
+   }
+  },
+  {
+   "code": "TRUMATCH 8-g",
+   "name": "TRUMATCH 8-g",
+   "localName": "C84 M0 Y100 K48",
+   "hex": "#158500",
+   "rgb": {
+    "r": 21,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 84,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.18,
+    "a": -51.32,
+    "b": 51.54
+   }
+  },
+  {
+   "code": "TRUMATCH 9-a",
+   "name": "TRUMATCH 9-a",
+   "localName": "C96 M0 Y100 K0",
+   "hex": "#0AFF00",
+   "rgb": {
+    "r": 10,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 96,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.77,
+    "a": -85.9,
+    "b": 83.22
+   }
+  },
+  {
+   "code": "TRUMATCH 9-b",
+   "name": "TRUMATCH 9-b",
+   "localName": "C79 M0 Y82 K0",
+   "hex": "#36FF2E",
+   "rgb": {
+    "r": 54,
+    "g": 255,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 79,
+    "m": 0,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.21,
+    "a": -81.56,
+    "b": 77.33
+   }
+  },
+  {
+   "code": "TRUMATCH 9-c",
+   "name": "TRUMATCH 9-c",
+   "localName": "C61 M0 Y64 K0",
+   "hex": "#63FF5C",
+   "rgb": {
+    "r": 99,
+    "g": 255,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 61,
+    "m": 0,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.37,
+    "a": -70.82,
+    "b": 63.72
+   }
+  },
+  {
+   "code": "TRUMATCH 9-d",
+   "name": "TRUMATCH 9-d",
+   "localName": "C44 M0 Y46 K0",
+   "hex": "#8FFF8A",
+   "rgb": {
+    "r": 143,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 44,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.32,
+    "a": -54.51,
+    "b": 45.97
+   }
+  },
+  {
+   "code": "TRUMATCH 9-e",
+   "name": "TRUMATCH 9-e",
+   "localName": "C96 M0 Y100 K15",
+   "hex": "#09D900",
+   "rgb": {
+    "r": 9,
+    "g": 217,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 96,
+    "m": 0,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 75.87,
+    "a": -75.97,
+    "b": 73.68
+   }
+  },
+  {
+   "code": "TRUMATCH 9-f",
+   "name": "TRUMATCH 9-f",
+   "localName": "C96 M0 Y100 K30",
+   "hex": "#07B300",
+   "rgb": {
+    "r": 7,
+    "g": 179,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 96,
+    "m": 0,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.58,
+    "a": -65.74,
+    "b": 63.82
+   }
+  },
+  {
+   "code": "TRUMATCH 9-g",
+   "name": "TRUMATCH 9-g",
+   "localName": "C96 M0 Y100 K48",
+   "hex": "#058500",
+   "rgb": {
+    "r": 5,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 96,
+    "m": 0,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.01,
+    "a": -52.77,
+    "b": 51.35
+   }
+  },
+  {
+   "code": "TRUMATCH 10-a",
+   "name": "TRUMATCH 10-a",
+   "localName": "C100 M0 Y92 K0",
+   "hex": "#00FF14",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 20
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 92,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.76,
+    "a": -85.86,
+    "b": 81.47
+   }
+  },
+  {
+   "code": "TRUMATCH 10-b",
+   "name": "TRUMATCH 10-b",
+   "localName": "C82 M0 Y75 K0",
+   "hex": "#2EFF40",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 75,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.19,
+    "a": -81.38,
+    "b": 72.28
+   }
+  },
+  {
+   "code": "TRUMATCH 10-c",
+   "name": "TRUMATCH 10-c",
+   "localName": "C64 M0 Y59 K0",
+   "hex": "#5CFF69",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 105
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 59,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.3,
+    "a": -70.89,
+    "b": 58.2
+   }
+  },
+  {
+   "code": "TRUMATCH 10-d",
+   "name": "TRUMATCH 10-d",
+   "localName": "C46 M0 Y42 K0",
+   "hex": "#8AFF94",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 42,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.26,
+    "a": -54.48,
+    "b": 41.04
+   }
+  },
+  {
+   "code": "TRUMATCH 10-e",
+   "name": "TRUMATCH 10-e",
+   "localName": "C100 M0 Y92 K15",
+   "hex": "#00D911",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 17
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 92,
+    "k": 15
+   },
+   "lab": {
+    "l": 75.86,
+    "a": -75.97,
+    "b": 71.9
+   }
+  },
+  {
+   "code": "TRUMATCH 10-f",
+   "name": "TRUMATCH 10-f",
+   "localName": "C100 M0 Y92 K30",
+   "hex": "#00B30E",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 14
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 92,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.57,
+    "a": -65.74,
+    "b": 61.97
+   }
+  },
+  {
+   "code": "TRUMATCH 10-g",
+   "name": "TRUMATCH 10-g",
+   "localName": "C100 M0 Y92 K48",
+   "hex": "#00850B",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 11
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 92,
+    "k": 48
+   },
+   "lab": {
+    "l": 48,
+    "a": -52.75,
+    "b": 49.19
+   }
+  },
+  {
+   "code": "TRUMATCH 11-a",
+   "name": "TRUMATCH 11-a",
+   "localName": "C100 M0 Y80 K0",
+   "hex": "#00FF33",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 80,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.85,
+    "a": -84.68,
+    "b": 75.61
+   }
+  },
+  {
+   "code": "TRUMATCH 11-b",
+   "name": "TRUMATCH 11-b",
+   "localName": "C82 M0 Y66 K0",
+   "hex": "#2EFF57",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 66,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.34,
+    "a": -79.48,
+    "b": 64.3
+   }
+  },
+  {
+   "code": "TRUMATCH 11-c",
+   "name": "TRUMATCH 11-c",
+   "localName": "C64 M0 Y51 K0",
+   "hex": "#5CFF7D",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 125
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 51,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.52,
+    "a": -68.41,
+    "b": 49.49
+   }
+  },
+  {
+   "code": "TRUMATCH 11-d",
+   "name": "TRUMATCH 11-d",
+   "localName": "C46 M0 Y37 K0",
+   "hex": "#8AFFA1",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 161
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 37,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.46,
+    "a": -52.49,
+    "b": 34.9
+   }
+  },
+  {
+   "code": "TRUMATCH 11-e",
+   "name": "TRUMATCH 11-e",
+   "localName": "C100 M0 Y80 K15",
+   "hex": "#00D92B",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 80,
+    "k": 15
+   },
+   "lab": {
+    "l": 75.94,
+    "a": -74.9,
+    "b": 66.62
+   }
+  },
+  {
+   "code": "TRUMATCH 11-f",
+   "name": "TRUMATCH 11-f",
+   "localName": "C100 M0 Y80 K30",
+   "hex": "#00B324",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 36
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 80,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.64,
+    "a": -64.72,
+    "b": 57.01
+   }
+  },
+  {
+   "code": "TRUMATCH 11-g",
+   "name": "TRUMATCH 11-g",
+   "localName": "C100 M0 Y80 K48",
+   "hex": "#00851B",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 27
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 80,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.07,
+    "a": -51.85,
+    "b": 44.9
+   }
+  },
+  {
+   "code": "TRUMATCH 12-a",
+   "name": "TRUMATCH 12-a",
+   "localName": "C100 M0 Y68 K0",
+   "hex": "#00FF52",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 68,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.03,
+    "a": -82.4,
+    "b": 65.79
+   }
+  },
+  {
+   "code": "TRUMATCH 12-b",
+   "name": "TRUMATCH 12-b",
+   "localName": "C82 M0 Y56 K0",
+   "hex": "#2EFF70",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 56,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.57,
+    "a": -76.66,
+    "b": 54.08
+   }
+  },
+  {
+   "code": "TRUMATCH 12-c",
+   "name": "TRUMATCH 12-c",
+   "localName": "C64 M0 Y44 K0",
+   "hex": "#5CFF8F",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 44,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.75,
+    "a": -65.77,
+    "b": 41.24
+   }
+  },
+  {
+   "code": "TRUMATCH 12-d",
+   "name": "TRUMATCH 12-d",
+   "localName": "C46 M0 Y31 K0",
+   "hex": "#8AFFB0",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 31,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.71,
+    "a": -49.96,
+    "b": 27.72
+   }
+  },
+  {
+   "code": "TRUMATCH 12-e",
+   "name": "TRUMATCH 12-e",
+   "localName": "C100 M0 Y68 K15",
+   "hex": "#00D945",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 68,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.1,
+    "a": -72.89,
+    "b": 58.03
+   }
+  },
+  {
+   "code": "TRUMATCH 12-f",
+   "name": "TRUMATCH 12-f",
+   "localName": "C100 M0 Y68 K30",
+   "hex": "#00B339",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 68,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.78,
+    "a": -62.96,
+    "b": 49.6
+   }
+  },
+  {
+   "code": "TRUMATCH 12-g",
+   "name": "TRUMATCH 12-g",
+   "localName": "C100 M0 Y68 K48",
+   "hex": "#00852A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 42
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 68,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.19,
+    "a": -50.43,
+    "b": 39.06
+   }
+  },
+  {
+   "code": "TRUMATCH 13-a",
+   "name": "TRUMATCH 13-a",
+   "localName": "C100 M0 Y56 K0",
+   "hex": "#00FF70",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 56,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.3,
+    "a": -79.03,
+    "b": 53.68
+   }
+  },
+  {
+   "code": "TRUMATCH 13-b",
+   "name": "TRUMATCH 13-b",
+   "localName": "C82 M0 Y46 K0",
+   "hex": "#2EFF8A",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.89,
+    "a": -72.88,
+    "b": 42.39
+   }
+  },
+  {
+   "code": "TRUMATCH 13-c",
+   "name": "TRUMATCH 13-c",
+   "localName": "C64 M0 Y36 K0",
+   "hex": "#5CFFA3",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 36,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.06,
+    "a": -62.39,
+    "b": 31.79
+   }
+  },
+  {
+   "code": "TRUMATCH 13-d",
+   "name": "TRUMATCH 13-d",
+   "localName": "C46 M0 Y26 K0",
+   "hex": "#8AFFBD",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 189
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 26,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.95,
+    "a": -47.58,
+    "b": 21.45
+   }
+  },
+  {
+   "code": "TRUMATCH 13-e",
+   "name": "TRUMATCH 13-e",
+   "localName": "C100 M0 Y56 K15",
+   "hex": "#00D95F",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 95
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 56,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.34,
+    "a": -69.85,
+    "b": 47.17
+   }
+  },
+  {
+   "code": "TRUMATCH 13-f",
+   "name": "TRUMATCH 13-f",
+   "localName": "C100 M0 Y56 K30",
+   "hex": "#00B34F",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 56,
+    "k": 30
+   },
+   "lab": {
+    "l": 64,
+    "a": -60.22,
+    "b": 39.95
+   }
+  },
+  {
+   "code": "TRUMATCH 13-g",
+   "name": "TRUMATCH 13-g",
+   "localName": "C100 M0 Y56 K48",
+   "hex": "#00853A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 58
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 56,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.36,
+    "a": -48.25,
+    "b": 31.55
+   }
+  },
+  {
+   "code": "TRUMATCH 14-a",
+   "name": "TRUMATCH 14-a",
+   "localName": "C100 M0 Y44 K0",
+   "hex": "#00FF8F",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 44,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.68,
+    "a": -74.32,
+    "b": 39.65
+   }
+  },
+  {
+   "code": "TRUMATCH 14-b",
+   "name": "TRUMATCH 14-b",
+   "localName": "C82 M0 Y36 K0",
+   "hex": "#2EFFA3",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 36,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.27,
+    "a": -68.46,
+    "b": 30.59
+   }
+  },
+  {
+   "code": "TRUMATCH 14-c",
+   "name": "TRUMATCH 14-c",
+   "localName": "C64 M0 Y28 K0",
+   "hex": "#5CFFB8",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 28,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.44,
+    "a": -58.35,
+    "b": 21.69
+   }
+  },
+  {
+   "code": "TRUMATCH 14-d",
+   "name": "TRUMATCH 14-d",
+   "localName": "C46 M0 Y20 K0",
+   "hex": "#8AFFCC",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.26,
+    "a": -44.64,
+    "b": 14.2
+   }
+  },
+  {
+   "code": "TRUMATCH 14-e",
+   "name": "TRUMATCH 14-e",
+   "localName": "C100 M0 Y44 K15",
+   "hex": "#00D979",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 44,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.68,
+    "a": -65.76,
+    "b": 35.02
+   }
+  },
+  {
+   "code": "TRUMATCH 14-f",
+   "name": "TRUMATCH 14-f",
+   "localName": "C100 M0 Y44 K30",
+   "hex": "#00B364",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 100
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 44,
+    "k": 30
+   },
+   "lab": {
+    "l": 64.29,
+    "a": -56.73,
+    "b": 29.72
+   }
+  },
+  {
+   "code": "TRUMATCH 14-g",
+   "name": "TRUMATCH 14-g",
+   "localName": "C100 M0 Y44 K48",
+   "hex": "#00854A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 44,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.6,
+    "a": -45.4,
+    "b": 23.28
+   }
+  },
+  {
+   "code": "TRUMATCH 15-a",
+   "name": "TRUMATCH 15-a",
+   "localName": "C100 M0 Y32 K0",
+   "hex": "#00FFAD",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 32,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.17,
+    "a": -68.61,
+    "b": 25.37
+   }
+  },
+  {
+   "code": "TRUMATCH 15-b",
+   "name": "TRUMATCH 15-b",
+   "localName": "C82 M0 Y26 K0",
+   "hex": "#2EFFBD",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 189
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 26,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.75,
+    "a": -63.07,
+    "b": 18.06
+   }
+  },
+  {
+   "code": "TRUMATCH 15-c",
+   "name": "TRUMATCH 15-c",
+   "localName": "C64 M0 Y20 K0",
+   "hex": "#5CFFCC",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.85,
+    "a": -54.07,
+    "b": 12.01
+   }
+  },
+  {
+   "code": "TRUMATCH 15-d",
+   "name": "TRUMATCH 15-d",
+   "localName": "C46 M0 Y15 K0",
+   "hex": "#8AFFD9",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 15,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.54,
+    "a": -41.92,
+    "b": 7.92
+   }
+  },
+  {
+   "code": "TRUMATCH 15-e",
+   "name": "TRUMATCH 15-e",
+   "localName": "C100 M0 Y32 K15",
+   "hex": "#00D993",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 147
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 32,
+    "k": 15
+   },
+   "lab": {
+    "l": 77.12,
+    "a": -60.65,
+    "b": 22.26
+   }
+  },
+  {
+   "code": "TRUMATCH 15-f",
+   "name": "TRUMATCH 15-f",
+   "localName": "C100 M0 Y32 K30",
+   "hex": "#00B379",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 32,
+    "k": 30
+   },
+   "lab": {
+    "l": 64.66,
+    "a": -52.42,
+    "b": 19.02
+   }
+  },
+  {
+   "code": "TRUMATCH 15-g",
+   "name": "TRUMATCH 15-g",
+   "localName": "C100 M0 Y32 K48",
+   "hex": "#00855A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 32,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.9,
+    "a": -41.88,
+    "b": 14.66
+   }
+  },
+  {
+   "code": "TRUMATCH 16-a",
+   "name": "TRUMATCH 16-a",
+   "localName": "C100 M0 Y20 K0",
+   "hex": "#00FFCC",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.8,
+    "a": -61.62,
+    "b": 10.38
+   }
+  },
+  {
+   "code": "TRUMATCH 16-b",
+   "name": "TRUMATCH 16-b",
+   "localName": "C82 M0 Y16 K0",
+   "hex": "#2EFFD6",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 16,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.3,
+    "a": -57.22,
+    "b": 5.96
+   }
+  },
+  {
+   "code": "TRUMATCH 16-c",
+   "name": "TRUMATCH 16-c",
+   "localName": "C64 M0 Y13 K0",
+   "hex": "#5CFFDE",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 13,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.26,
+    "a": -49.89,
+    "b": 3.31
+   }
+  },
+  {
+   "code": "TRUMATCH 16-d",
+   "name": "TRUMATCH 16-d",
+   "localName": "C46 M0 Y9 K0",
+   "hex": "#8AFFE8",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 9,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.9,
+    "a": -38.59,
+    "b": 0.7
+   }
+  },
+  {
+   "code": "TRUMATCH 16-e",
+   "name": "TRUMATCH 16-e",
+   "localName": "C100 M0 Y20 K15",
+   "hex": "#00D9AD",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 20,
+    "k": 15
+   },
+   "lab": {
+    "l": 77.66,
+    "a": -54.61,
+    "b": 9.29
+   }
+  },
+  {
+   "code": "TRUMATCH 16-f",
+   "name": "TRUMATCH 16-f",
+   "localName": "C100 M0 Y20 K30",
+   "hex": "#00B38F",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 20,
+    "k": 30
+   },
+   "lab": {
+    "l": 65.14,
+    "a": -47.1,
+    "b": 7.65
+   }
+  },
+  {
+   "code": "TRUMATCH 16-g",
+   "name": "TRUMATCH 16-g",
+   "localName": "C100 M0 Y20 K48",
+   "hex": "#00856A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 106
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 20,
+    "k": 48
+   },
+   "lab": {
+    "l": 49.27,
+    "a": -37.77,
+    "b": 5.92
+   }
+  },
+  {
+   "code": "TRUMATCH 17-a",
+   "name": "TRUMATCH 17-a",
+   "localName": "C100 M0 Y8 K0",
+   "hex": "#00FFEB",
+   "rgb": {
+    "r": 0,
+    "g": 255,
+    "b": 235
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 8,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.56,
+    "a": -53.67,
+    "b": -4.58
+   }
+  },
+  {
+   "code": "TRUMATCH 17-b",
+   "name": "TRUMATCH 17-b",
+   "localName": "C82 M0 Y7 K0",
+   "hex": "#2EFFED",
+   "rgb": {
+    "r": 46,
+    "g": 255,
+    "b": 237
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 0,
+    "y": 7,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.87,
+    "a": -51.3,
+    "b": -5.12
+   }
+  },
+  {
+   "code": "TRUMATCH 17-c",
+   "name": "TRUMATCH 17-c",
+   "localName": "C64 M0 Y5 K0",
+   "hex": "#5CFFF2",
+   "rgb": {
+    "r": 92,
+    "g": 255,
+    "b": 242
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 0,
+    "y": 5,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.77,
+    "a": -44.9,
+    "b": -6.3
+   }
+  },
+  {
+   "code": "TRUMATCH 17-d",
+   "name": "TRUMATCH 17-d",
+   "localName": "C46 M0 Y4 K0",
+   "hex": "#8AFFF5",
+   "rgb": {
+    "r": 138,
+    "g": 255,
+    "b": 245
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 0,
+    "y": 4,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.24,
+    "a": -35.56,
+    "b": -5.53
+   }
+  },
+  {
+   "code": "TRUMATCH 17-e",
+   "name": "TRUMATCH 17-e",
+   "localName": "C100 M0 Y8 K15",
+   "hex": "#00D9C7",
+   "rgb": {
+    "r": 0,
+    "g": 217,
+    "b": 199
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 8,
+    "k": 15
+   },
+   "lab": {
+    "l": 78.31,
+    "a": -47.74,
+    "b": -3.65
+   }
+  },
+  {
+   "code": "TRUMATCH 17-f",
+   "name": "TRUMATCH 17-f",
+   "localName": "C100 M0 Y8 K30",
+   "hex": "#00B3A4",
+   "rgb": {
+    "r": 0,
+    "g": 179,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 8,
+    "k": 30
+   },
+   "lab": {
+    "l": 65.68,
+    "a": -41.34,
+    "b": -3.18
+   }
+  },
+  {
+   "code": "TRUMATCH 17-g",
+   "name": "TRUMATCH 17-g",
+   "localName": "C100 M0 Y8 K48",
+   "hex": "#00857A",
+   "rgb": {
+    "r": 0,
+    "g": 133,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 8,
+    "k": 48
+   },
+   "lab": {
+    "l": 49.71,
+    "a": -33.12,
+    "b": -2.79
+   }
+  },
+  {
+   "code": "TRUMATCH 18-a",
+   "name": "TRUMATCH 18-a",
+   "localName": "C100 M4 Y0 K0",
+   "hex": "#00F5FF",
+   "rgb": {
+    "r": 0,
+    "g": 245,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 4,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.22,
+    "a": -43.73,
+    "b": -18.48
+   }
+  },
+  {
+   "code": "TRUMATCH 18-b",
+   "name": "TRUMATCH 18-b",
+   "localName": "C82 M3 Y0 K0",
+   "hex": "#2EF7FF",
+   "rgb": {
+    "r": 46,
+    "g": 247,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 3,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.07,
+    "a": -42.83,
+    "b": -17.17
+   }
+  },
+  {
+   "code": "TRUMATCH 18-c",
+   "name": "TRUMATCH 18-c",
+   "localName": "C64 M3 Y0 K0",
+   "hex": "#5CF7FF",
+   "rgb": {
+    "r": 92,
+    "g": 247,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 3,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.86,
+    "a": -37.85,
+    "b": -15.9
+   }
+  },
+  {
+   "code": "TRUMATCH 18-d",
+   "name": "TRUMATCH 18-d",
+   "localName": "C46 M2 Y0 K0",
+   "hex": "#8AFAFF",
+   "rgb": {
+    "r": 138,
+    "g": 250,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 2,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.13,
+    "a": -30.78,
+    "b": -12.36
+   }
+  },
+  {
+   "code": "TRUMATCH 18-e",
+   "name": "TRUMATCH 18-e",
+   "localName": "C100 M4 Y0 K15",
+   "hex": "#00D0D9",
+   "rgb": {
+    "r": 0,
+    "g": 208,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 4,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 76.14,
+    "a": -38.52,
+    "b": -16.55
+   }
+  },
+  {
+   "code": "TRUMATCH 18-f",
+   "name": "TRUMATCH 18-f",
+   "localName": "C100 M4 Y0 K30",
+   "hex": "#00ABB3",
+   "rgb": {
+    "r": 0,
+    "g": 171,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 4,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 63.65,
+    "a": -33.14,
+    "b": -14.56
+   }
+  },
+  {
+   "code": "TRUMATCH 18-g",
+   "name": "TRUMATCH 18-g",
+   "localName": "C100 M4 Y0 K48",
+   "hex": "#007F85",
+   "rgb": {
+    "r": 0,
+    "g": 127,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 4,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.1,
+    "a": -26.7,
+    "b": -11.66
+   }
+  },
+  {
+   "code": "TRUMATCH 19-a",
+   "name": "TRUMATCH 19-a",
+   "localName": "C100 M16 Y0 K0",
+   "hex": "#00D6FF",
+   "rgb": {
+    "r": 0,
+    "g": 214,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 16,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 79.22,
+    "a": -29.32,
+    "b": -32.19
+   }
+  },
+  {
+   "code": "TRUMATCH 19-b",
+   "name": "TRUMATCH 19-b",
+   "localName": "C82 M13 Y0 K0",
+   "hex": "#2EDEFF",
+   "rgb": {
+    "r": 46,
+    "g": 222,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 13,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 81.86,
+    "a": -31.27,
+    "b": -28.11
+   }
+  },
+  {
+   "code": "TRUMATCH 19-c",
+   "name": "TRUMATCH 19-c",
+   "localName": "C64 M10 Y0 K0",
+   "hex": "#5CE6FF",
+   "rgb": {
+    "r": 92,
+    "g": 230,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 10,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 85.04,
+    "a": -29.87,
+    "b": -23.18
+   }
+  },
+  {
+   "code": "TRUMATCH 19-d",
+   "name": "TRUMATCH 19-d",
+   "localName": "C46 M7 Y0 K0",
+   "hex": "#8AEDFF",
+   "rgb": {
+    "r": 138,
+    "g": 237,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 7,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.54,
+    "a": -24.53,
+    "b": -17.74
+   }
+  },
+  {
+   "code": "TRUMATCH 19-e",
+   "name": "TRUMATCH 19-e",
+   "localName": "C100 M16 Y0 K15",
+   "hex": "#00B6D9",
+   "rgb": {
+    "r": 0,
+    "g": 182,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 16,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 68.36,
+    "a": -26.06,
+    "b": -28.4
+   }
+  },
+  {
+   "code": "TRUMATCH 19-f",
+   "name": "TRUMATCH 19-f",
+   "localName": "C100 M16 Y0 K30",
+   "hex": "#0096B3",
+   "rgb": {
+    "r": 0,
+    "g": 150,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 16,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 57.14,
+    "a": -22.7,
+    "b": -24.48
+   }
+  },
+  {
+   "code": "TRUMATCH 19-g",
+   "name": "TRUMATCH 19-g",
+   "localName": "C100 M16 Y0 K48",
+   "hex": "#006F85",
+   "rgb": {
+    "r": 0,
+    "g": 111,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 16,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 42.85,
+    "a": -18.3,
+    "b": -19.65
+   }
+  },
+  {
+   "code": "TRUMATCH 20-a",
+   "name": "TRUMATCH 20-a",
+   "localName": "C100 M28 Y0 K0",
+   "hex": "#00B8FF",
+   "rgb": {
+    "r": 0,
+    "g": 184,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 28,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 70.52,
+    "a": -13.93,
+    "b": -45.71
+   }
+  },
+  {
+   "code": "TRUMATCH 20-b",
+   "name": "TRUMATCH 20-b",
+   "localName": "C82 M23 Y0 K0",
+   "hex": "#2EC4FF",
+   "rgb": {
+    "r": 46,
+    "g": 196,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 23,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 74.37,
+    "a": -18.25,
+    "b": -39.67
+   }
+  },
+  {
+   "code": "TRUMATCH 20-c",
+   "name": "TRUMATCH 20-c",
+   "localName": "C64 M18 Y0 K0",
+   "hex": "#5CD1FF",
+   "rgb": {
+    "r": 92,
+    "g": 209,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 18,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 79.09,
+    "a": -19.45,
+    "b": -32.27
+   }
+  },
+  {
+   "code": "TRUMATCH 20-d",
+   "name": "TRUMATCH 20-d",
+   "localName": "C46 M13 Y0 K0",
+   "hex": "#8ADEFF",
+   "rgb": {
+    "r": 138,
+    "g": 222,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 13,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 84.41,
+    "a": -17.05,
+    "b": -23.98
+   }
+  },
+  {
+   "code": "TRUMATCH 20-e",
+   "name": "TRUMATCH 20-e",
+   "localName": "C100 M28 Y0 K15",
+   "hex": "#009CD9",
+   "rgb": {
+    "r": 0,
+    "g": 156,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 28,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 60.59,
+    "a": -12.32,
+    "b": -40.48
+   }
+  },
+  {
+   "code": "TRUMATCH 20-f",
+   "name": "TRUMATCH 20-f",
+   "localName": "C100 M28 Y0 K30",
+   "hex": "#0081B3",
+   "rgb": {
+    "r": 0,
+    "g": 129,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 28,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 50.63,
+    "a": -11.22,
+    "b": -34.59
+   }
+  },
+  {
+   "code": "TRUMATCH 20-g",
+   "name": "TRUMATCH 20-g",
+   "localName": "C100 M28 Y0 K48",
+   "hex": "#005F85",
+   "rgb": {
+    "r": 0,
+    "g": 95,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 28,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 37.62,
+    "a": -9.08,
+    "b": -27.78
+   }
+  },
+  {
+   "code": "TRUMATCH 21-a",
+   "name": "TRUMATCH 21-a",
+   "localName": "C100 M40 Y0 K0",
+   "hex": "#0099FF",
+   "rgb": {
+    "r": 0,
+    "g": 153,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 61.65,
+    "a": 3.57,
+    "b": -59.76
+   }
+  },
+  {
+   "code": "TRUMATCH 21-b",
+   "name": "TRUMATCH 21-b",
+   "localName": "C82 M33 Y0 K0",
+   "hex": "#2EABFF",
+   "rgb": {
+    "r": 46,
+    "g": 171,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 33,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 67.22,
+    "a": -4.7,
+    "b": -50.88
+   }
+  },
+  {
+   "code": "TRUMATCH 21-c",
+   "name": "TRUMATCH 21-c",
+   "localName": "C64 M26 Y0 K0",
+   "hex": "#5CBDFF",
+   "rgb": {
+    "r": 92,
+    "g": 189,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 26,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.47,
+    "a": -8.93,
+    "b": -40.99
+   }
+  },
+  {
+   "code": "TRUMATCH 21-d",
+   "name": "TRUMATCH 21-d",
+   "localName": "C46 M18 Y0 K0",
+   "hex": "#8AD1FF",
+   "rgb": {
+    "r": 138,
+    "g": 209,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 18,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 80.86,
+    "a": -10.34,
+    "b": -29.41
+   }
+  },
+  {
+   "code": "TRUMATCH 21-e",
+   "name": "TRUMATCH 21-e",
+   "localName": "C100 M40 Y0 K15",
+   "hex": "#0082D9",
+   "rgb": {
+    "r": 0,
+    "g": 130,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 52.92,
+    "a": 2.8,
+    "b": -52.63
+   }
+  },
+  {
+   "code": "TRUMATCH 21-f",
+   "name": "TRUMATCH 21-f",
+   "localName": "C100 M40 Y0 K30",
+   "hex": "#006BB3",
+   "rgb": {
+    "r": 0,
+    "g": 107,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 43.9,
+    "a": 1.99,
+    "b": -45.25
+   }
+  },
+  {
+   "code": "TRUMATCH 21-g",
+   "name": "TRUMATCH 21-g",
+   "localName": "C100 M40 Y0 K48",
+   "hex": "#005085",
+   "rgb": {
+    "r": 0,
+    "g": 80,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 32.77,
+    "a": 0.38,
+    "b": -35.45
+   }
+  },
+  {
+   "code": "TRUMATCH 22-a",
+   "name": "TRUMATCH 22-a",
+   "localName": "C100 M52 Y0 K0",
+   "hex": "#007AFF",
+   "rgb": {
+    "r": 0,
+    "g": 122,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 52,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.1,
+    "a": 22.54,
+    "b": -73.54
+   }
+  },
+  {
+   "code": "TRUMATCH 22-b",
+   "name": "TRUMATCH 22-b",
+   "localName": "C82 M43 Y0 K0",
+   "hex": "#2E91FF",
+   "rgb": {
+    "r": 46,
+    "g": 145,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 43,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 59.93,
+    "a": 10.45,
+    "b": -62.48
+   }
+  },
+  {
+   "code": "TRUMATCH 22-c",
+   "name": "TRUMATCH 22-c",
+   "localName": "C64 M33 Y0 K0",
+   "hex": "#5CABFF",
+   "rgb": {
+    "r": 92,
+    "g": 171,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 33,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 68.47,
+    "a": 1.04,
+    "b": -48.82
+   }
+  },
+  {
+   "code": "TRUMATCH 22-d",
+   "name": "TRUMATCH 22-d",
+   "localName": "C46 M24 Y0 K0",
+   "hex": "#8AC2FF",
+   "rgb": {
+    "r": 138,
+    "g": 194,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 24,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 76.8,
+    "a": -2.34,
+    "b": -35.66
+   }
+  },
+  {
+   "code": "TRUMATCH 22-e",
+   "name": "TRUMATCH 22-e",
+   "localName": "C100 M52 Y0 K15",
+   "hex": "#0068D9",
+   "rgb": {
+    "r": 0,
+    "g": 104,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 52,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.51,
+    "a": 19.17,
+    "b": -64.56
+   }
+  },
+  {
+   "code": "TRUMATCH 22-f",
+   "name": "TRUMATCH 22-f",
+   "localName": "C100 M52 Y0 K30",
+   "hex": "#0056B3",
+   "rgb": {
+    "r": 0,
+    "g": 86,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 52,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.68,
+    "a": 15.65,
+    "b": -55.26
+   }
+  },
+  {
+   "code": "TRUMATCH 22-g",
+   "name": "TRUMATCH 22-g",
+   "localName": "C100 M52 Y0 K48",
+   "hex": "#004085",
+   "rgb": {
+    "r": 0,
+    "g": 64,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 52,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 27.74,
+    "a": 11.29,
+    "b": -43.53
+   }
+  },
+  {
+   "code": "TRUMATCH 23-a",
+   "name": "TRUMATCH 23-a",
+   "localName": "C100 M64 Y0 K0",
+   "hex": "#005CFF",
+   "rgb": {
+    "r": 0,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 45.46,
+    "a": 41.49,
+    "b": -86.02
+   }
+  },
+  {
+   "code": "TRUMATCH 23-b",
+   "name": "TRUMATCH 23-b",
+   "localName": "C82 M52 Y0 K0",
+   "hex": "#2E7AFF",
+   "rgb": {
+    "r": 46,
+    "g": 122,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 52,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.73,
+    "a": 24.57,
+    "b": -72.49
+   }
+  },
+  {
+   "code": "TRUMATCH 23-c",
+   "name": "TRUMATCH 23-c",
+   "localName": "C64 M41 Y0 K0",
+   "hex": "#5C96FF",
+   "rgb": {
+    "r": 92,
+    "g": 150,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 41,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.76,
+    "a": 13.21,
+    "b": -57.87
+   }
+  },
+  {
+   "code": "TRUMATCH 23-d",
+   "name": "TRUMATCH 23-d",
+   "localName": "C46 M29 Y0 K0",
+   "hex": "#8AB5FF",
+   "rgb": {
+    "r": 138,
+    "g": 181,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 29,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.33,
+    "a": 4.8,
+    "b": -41.05
+   }
+  },
+  {
+   "code": "TRUMATCH 23-e",
+   "name": "TRUMATCH 23-e",
+   "localName": "C100 M64 Y0 K15",
+   "hex": "#004ED9",
+   "rgb": {
+    "r": 0,
+    "g": 78,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 64,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 38.65,
+    "a": 36.1,
+    "b": -75.76
+   }
+  },
+  {
+   "code": "TRUMATCH 23-f",
+   "name": "TRUMATCH 23-f",
+   "localName": "C100 M64 Y0 K30",
+   "hex": "#0040B3",
+   "rgb": {
+    "r": 0,
+    "g": 64,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 64,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 31.62,
+    "a": 30.51,
+    "b": -65.13
+   }
+  },
+  {
+   "code": "TRUMATCH 23-g",
+   "name": "TRUMATCH 23-g",
+   "localName": "C100 M64 Y0 K48",
+   "hex": "#003085",
+   "rgb": {
+    "r": 0,
+    "g": 48,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 64,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 23.02,
+    "a": 22.69,
+    "b": -51.21
+   }
+  },
+  {
+   "code": "TRUMATCH 24-a",
+   "name": "TRUMATCH 24-a",
+   "localName": "C100 M76 Y0 K0",
+   "hex": "#003DFF",
+   "rgb": {
+    "r": 0,
+    "g": 61,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 76,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 38.82,
+    "a": 59.67,
+    "b": -96.99
+   }
+  },
+  {
+   "code": "TRUMATCH 24-b",
+   "name": "TRUMATCH 24-b",
+   "localName": "C82 M62 Y0 K0",
+   "hex": "#2E61FF",
+   "rgb": {
+    "r": 46,
+    "g": 97,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 62,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 47.43,
+    "a": 40.18,
+    "b": -82.76
+   }
+  },
+  {
+   "code": "TRUMATCH 24-c",
+   "name": "TRUMATCH 24-c",
+   "localName": "C64 M49 Y0 K0",
+   "hex": "#5C82FF",
+   "rgb": {
+    "r": 92,
+    "g": 130,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 49,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.52,
+    "a": 25.2,
+    "b": -66.28
+   }
+  },
+  {
+   "code": "TRUMATCH 24-d",
+   "name": "TRUMATCH 24-d",
+   "localName": "C46 M35 Y0 K0",
+   "hex": "#8AA6FF",
+   "rgb": {
+    "r": 138,
+    "g": 166,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 35,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 69.39,
+    "a": 13.25,
+    "b": -47.22
+   }
+  },
+  {
+   "code": "TRUMATCH 24-e",
+   "name": "TRUMATCH 24-e",
+   "localName": "C100 M76 Y0 K15",
+   "hex": "#0034D9",
+   "rgb": {
+    "r": 0,
+    "g": 52,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 76,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 32.84,
+    "a": 51.95,
+    "b": -85.35
+   }
+  },
+  {
+   "code": "TRUMATCH 24-f",
+   "name": "TRUMATCH 24-f",
+   "localName": "C100 M76 Y0 K30",
+   "hex": "#002BB3",
+   "rgb": {
+    "r": 0,
+    "g": 43,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 76,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 26.68,
+    "a": 43.91,
+    "b": -73.29
+   }
+  },
+  {
+   "code": "TRUMATCH 24-g",
+   "name": "TRUMATCH 24-g",
+   "localName": "C100 M76 Y0 K48",
+   "hex": "#002085",
+   "rgb": {
+    "r": 0,
+    "g": 32,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 76,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 18.91,
+    "a": 33.68,
+    "b": -57.98
+   }
+  },
+  {
+   "code": "TRUMATCH 25-a",
+   "name": "TRUMATCH 25-a",
+   "localName": "C100 M88 Y0 K0",
+   "hex": "#001FFF",
+   "rgb": {
+    "r": 0,
+    "g": 31,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 88,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 34.39,
+    "a": 72.74,
+    "b": -104.36
+   }
+  },
+  {
+   "code": "TRUMATCH 25-b",
+   "name": "TRUMATCH 25-b",
+   "localName": "C82 M72 Y0 K0",
+   "hex": "#2E47FF",
+   "rgb": {
+    "r": 46,
+    "g": 71,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 72,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 41.7,
+    "a": 55.6,
+    "b": -92.19
+   }
+  },
+  {
+   "code": "TRUMATCH 25-c",
+   "name": "TRUMATCH 25-c",
+   "localName": "C64 M56 Y0 K0",
+   "hex": "#5C70FF",
+   "rgb": {
+    "r": 92,
+    "g": 112,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 56,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.04,
+    "a": 36.11,
+    "b": -73.52
+   }
+  },
+  {
+   "code": "TRUMATCH 25-d",
+   "name": "TRUMATCH 25-d",
+   "localName": "C46 M40 Y0 K0",
+   "hex": "#8A99FF",
+   "rgb": {
+    "r": 138,
+    "g": 153,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 40,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 66.06,
+    "a": 20.72,
+    "b": -52.48
+   }
+  },
+  {
+   "code": "TRUMATCH 25-e",
+   "name": "TRUMATCH 25-e",
+   "localName": "C100 M88 Y0 K15",
+   "hex": "#001AD9",
+   "rgb": {
+    "r": 0,
+    "g": 26,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 88,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 28.76,
+    "a": 63.93,
+    "b": -92.13
+   }
+  },
+  {
+   "code": "TRUMATCH 25-f",
+   "name": "TRUMATCH 25-f",
+   "localName": "C100 M88 Y0 K30",
+   "hex": "#0015B3",
+   "rgb": {
+    "r": 0,
+    "g": 21,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 88,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 22.96,
+    "a": 54.78,
+    "b": -79.47
+   }
+  },
+  {
+   "code": "TRUMATCH 25-g",
+   "name": "TRUMATCH 25-g",
+   "localName": "C100 M88 Y0 K48",
+   "hex": "#001085",
+   "rgb": {
+    "r": 0,
+    "g": 16,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 88,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 15.82,
+    "a": 42.63,
+    "b": -63.12
+   }
+  },
+  {
+   "code": "TRUMATCH 26-a",
+   "name": "TRUMATCH 26-a",
+   "localName": "C100 M100 Y0 K0",
+   "hex": "#0000FF",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 32.3,
+    "a": 79.19,
+    "b": -107.86
+   }
+  },
+  {
+   "code": "TRUMATCH 26-b",
+   "name": "TRUMATCH 26-b",
+   "localName": "C82 M82 Y0 K0",
+   "hex": "#2E2EFF",
+   "rgb": {
+    "r": 46,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 82,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 37.39,
+    "a": 67.98,
+    "b": -99.33
+   }
+  },
+  {
+   "code": "TRUMATCH 26-c",
+   "name": "TRUMATCH 26-c",
+   "localName": "C64 M64 Y0 K0",
+   "hex": "#5C5CFF",
+   "rgb": {
+    "r": 92,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 48.45,
+    "a": 47.98,
+    "b": -81.01
+   }
+  },
+  {
+   "code": "TRUMATCH 26-d",
+   "name": "TRUMATCH 26-d",
+   "localName": "C46 M46 Y0 K0",
+   "hex": "#8A8AFF",
+   "rgb": {
+    "r": 138,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.34,
+    "a": 29.43,
+    "b": -58.4
+   }
+  },
+  {
+   "code": "TRUMATCH 26-e",
+   "name": "TRUMATCH 26-e",
+   "localName": "C100 M100 Y0 K15",
+   "hex": "#0000D9",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 26.76,
+    "a": 70.11,
+    "b": -95.49
+   }
+  },
+  {
+   "code": "TRUMATCH 26-f",
+   "name": "TRUMATCH 26-f",
+   "localName": "C100 M100 Y0 K30",
+   "hex": "#0000B3",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 21.03,
+    "a": 60.72,
+    "b": -82.7
+   }
+  },
+  {
+   "code": "TRUMATCH 26-g",
+   "name": "TRUMATCH 26-g",
+   "localName": "C100 M100 Y0 K48",
+   "hex": "#000085",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 13.79,
+    "a": 48.84,
+    "b": -66.52
+   }
+  },
+  {
+   "code": "TRUMATCH 27-a",
+   "name": "TRUMATCH 27-a",
+   "localName": "C88 M100 Y0 K0",
+   "hex": "#1F00FF",
+   "rgb": {
+    "r": 31,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 88,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 32.94,
+    "a": 79.39,
+    "b": -106.77
+   }
+  },
+  {
+   "code": "TRUMATCH 27-b",
+   "name": "TRUMATCH 27-b",
+   "localName": "C72 M82 Y0 K0",
+   "hex": "#472EFF",
+   "rgb": {
+    "r": 71,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 72,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 38.75,
+    "a": 69.25,
+    "b": -97.04
+   }
+  },
+  {
+   "code": "TRUMATCH 27-c",
+   "name": "TRUMATCH 27-c",
+   "localName": "C56 M64 Y0 K0",
+   "hex": "#705CFF",
+   "rgb": {
+    "r": 112,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 49.88,
+    "a": 50.91,
+    "b": -78.61
+   }
+  },
+  {
+   "code": "TRUMATCH 27-d",
+   "name": "TRUMATCH 27-d",
+   "localName": "C40 M46 Y0 K0",
+   "hex": "#998AFF",
+   "rgb": {
+    "r": 153,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 63.48,
+    "a": 32.94,
+    "b": -56.51
+   }
+  },
+  {
+   "code": "TRUMATCH 27-e",
+   "name": "TRUMATCH 27-e",
+   "localName": "C88 M100 Y0 K15",
+   "hex": "#1A00D9",
+   "rgb": {
+    "r": 26,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 88,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 27.37,
+    "a": 70.3,
+    "b": -94.44
+   }
+  },
+  {
+   "code": "TRUMATCH 27-f",
+   "name": "TRUMATCH 27-f",
+   "localName": "C88 M100 Y0 K30",
+   "hex": "#1500B3",
+   "rgb": {
+    "r": 21,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 88,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 21.63,
+    "a": 60.91,
+    "b": -81.69
+   }
+  },
+  {
+   "code": "TRUMATCH 27-g",
+   "name": "TRUMATCH 27-g",
+   "localName": "C88 M100 Y0 K48",
+   "hex": "#100085",
+   "rgb": {
+    "r": 16,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 88,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 14.42,
+    "a": 49.04,
+    "b": -65.44
+   }
+  },
+  {
+   "code": "TRUMATCH 28-a",
+   "name": "TRUMATCH 28-a",
+   "localName": "C76 M100 Y0 K0",
+   "hex": "#3D00FF",
+   "rgb": {
+    "r": 61,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 34.42,
+    "a": 79.93,
+    "b": -104.27
+   }
+  },
+  {
+   "code": "TRUMATCH 28-b",
+   "name": "TRUMATCH 28-b",
+   "localName": "C62 M82 Y0 K0",
+   "hex": "#612EFF",
+   "rgb": {
+    "r": 97,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 62,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 40.76,
+    "a": 71.17,
+    "b": -93.65
+   }
+  },
+  {
+   "code": "TRUMATCH 28-c",
+   "name": "TRUMATCH 28-c",
+   "localName": "C49 M64 Y0 K0",
+   "hex": "#825CFF",
+   "rgb": {
+    "r": 130,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 51.4,
+    "a": 53.93,
+    "b": -76.06
+   }
+  },
+  {
+   "code": "TRUMATCH 28-d",
+   "name": "TRUMATCH 28-d",
+   "localName": "C35 M46 Y0 K0",
+   "hex": "#A68AFF",
+   "rgb": {
+    "r": 166,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 35,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 64.57,
+    "a": 36.15,
+    "b": -54.72
+   }
+  },
+  {
+   "code": "TRUMATCH 28-e",
+   "name": "TRUMATCH 28-e",
+   "localName": "C76 M100 Y0 K15",
+   "hex": "#3400D9",
+   "rgb": {
+    "r": 52,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 28.74,
+    "a": 70.8,
+    "b": -92.12
+   }
+  },
+  {
+   "code": "TRUMATCH 28-f",
+   "name": "TRUMATCH 28-f",
+   "localName": "C76 M100 Y0 K30",
+   "hex": "#2B00B3",
+   "rgb": {
+    "r": 43,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 22.89,
+    "a": 61.38,
+    "b": -79.56
+   }
+  },
+  {
+   "code": "TRUMATCH 28-g",
+   "name": "TRUMATCH 28-g",
+   "localName": "C76 M100 Y0 K48",
+   "hex": "#200085",
+   "rgb": {
+    "r": 32,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 15.49,
+    "a": 49.45,
+    "b": -63.63
+   }
+  },
+  {
+   "code": "TRUMATCH 29-a",
+   "name": "TRUMATCH 29-a",
+   "localName": "C64 M100 Y0 K0",
+   "hex": "#5C00FF",
+   "rgb": {
+    "r": 92,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 36.92,
+    "a": 81.02,
+    "b": -100.03
+   }
+  },
+  {
+   "code": "TRUMATCH 29-b",
+   "name": "TRUMATCH 29-b",
+   "localName": "C52 M82 Y0 K0",
+   "hex": "#7A2EFF",
+   "rgb": {
+    "r": 122,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 43.23,
+    "a": 73.59,
+    "b": -89.48
+   }
+  },
+  {
+   "code": "TRUMATCH 29-c",
+   "name": "TRUMATCH 29-c",
+   "localName": "C41 M64 Y0 K0",
+   "hex": "#965CFF",
+   "rgb": {
+    "r": 150,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 41,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.34,
+    "a": 57.62,
+    "b": -72.82
+   }
+  },
+  {
+   "code": "TRUMATCH 29-d",
+   "name": "TRUMATCH 29-d",
+   "localName": "C29 M46 Y0 K0",
+   "hex": "#B58AFF",
+   "rgb": {
+    "r": 181,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 65.92,
+    "a": 40,
+    "b": -52.48
+   }
+  },
+  {
+   "code": "TRUMATCH 29-e",
+   "name": "TRUMATCH 29-e",
+   "localName": "C64 M100 Y0 K15",
+   "hex": "#4E00D9",
+   "rgb": {
+    "r": 78,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 30.95,
+    "a": 71.77,
+    "b": -88.4
+   }
+  },
+  {
+   "code": "TRUMATCH 29-f",
+   "name": "TRUMATCH 29-f",
+   "localName": "C64 M100 Y0 K30",
+   "hex": "#4000B3",
+   "rgb": {
+    "r": 64,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 24.78,
+    "a": 62.22,
+    "b": -76.36
+   }
+  },
+  {
+   "code": "TRUMATCH 29-g",
+   "name": "TRUMATCH 29-g",
+   "localName": "C64 M100 Y0 K48",
+   "hex": "#300085",
+   "rgb": {
+    "r": 48,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 17.09,
+    "a": 50.19,
+    "b": -60.92
+   }
+  },
+  {
+   "code": "TRUMATCH 30-a",
+   "name": "TRUMATCH 30-a",
+   "localName": "C52 M100 Y0 K0",
+   "hex": "#7A00FF",
+   "rgb": {
+    "r": 122,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 40.17,
+    "a": 82.74,
+    "b": -94.53
+   }
+  },
+  {
+   "code": "TRUMATCH 30-b",
+   "name": "TRUMATCH 30-b",
+   "localName": "C43 M82 Y0 K0",
+   "hex": "#912EFF",
+   "rgb": {
+    "r": 145,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 45.9,
+    "a": 76.26,
+    "b": -84.99
+   }
+  },
+  {
+   "code": "TRUMATCH 30-c",
+   "name": "TRUMATCH 30-c",
+   "localName": "C33 M64 Y0 K0",
+   "hex": "#AB5CFF",
+   "rgb": {
+    "r": 171,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 55.62,
+    "a": 61.8,
+    "b": -69.03
+   }
+  },
+  {
+   "code": "TRUMATCH 30-d",
+   "name": "TRUMATCH 30-d",
+   "localName": "C24 M46 Y0 K0",
+   "hex": "#C28AFF",
+   "rgb": {
+    "r": 194,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 67.18,
+    "a": 43.44,
+    "b": -50.41
+   }
+  },
+  {
+   "code": "TRUMATCH 30-e",
+   "name": "TRUMATCH 30-e",
+   "localName": "C52 M100 Y0 K15",
+   "hex": "#6800D9",
+   "rgb": {
+    "r": 104,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 33.88,
+    "a": 73.34,
+    "b": -83.43
+   }
+  },
+  {
+   "code": "TRUMATCH 30-f",
+   "name": "TRUMATCH 30-f",
+   "localName": "C52 M100 Y0 K30",
+   "hex": "#5600B3",
+   "rgb": {
+    "r": 86,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 27.39,
+    "a": 63.62,
+    "b": -71.95
+   }
+  },
+  {
+   "code": "TRUMATCH 30-g",
+   "name": "TRUMATCH 30-g",
+   "localName": "C52 M100 Y0 K48",
+   "hex": "#400085",
+   "rgb": {
+    "r": 64,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 52,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 19.15,
+    "a": 51.32,
+    "b": -57.44
+   }
+  },
+  {
+   "code": "TRUMATCH 31-a",
+   "name": "TRUMATCH 31-a",
+   "localName": "C40 M100 Y0 K0",
+   "hex": "#9900FF",
+   "rgb": {
+    "r": 153,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 44.22,
+    "a": 85.27,
+    "b": -87.71
+   }
+  },
+  {
+   "code": "TRUMATCH 31-b",
+   "name": "TRUMATCH 31-b",
+   "localName": "C33 M82 Y0 K0",
+   "hex": "#AB2EFF",
+   "rgb": {
+    "r": 171,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 49.29,
+    "a": 79.72,
+    "b": -79.3
+   }
+  },
+  {
+   "code": "TRUMATCH 31-c",
+   "name": "TRUMATCH 31-c",
+   "localName": "C26 M64 Y0 K0",
+   "hex": "#BD5CFF",
+   "rgb": {
+    "r": 189,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 26,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.75,
+    "a": 65.55,
+    "b": -65.49
+   }
+  },
+  {
+   "code": "TRUMATCH 31-d",
+   "name": "TRUMATCH 31-d",
+   "localName": "C18 M46 Y0 K0",
+   "hex": "#D18AFF",
+   "rgb": {
+    "r": 209,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 68.72,
+    "a": 47.49,
+    "b": -47.88
+   }
+  },
+  {
+   "code": "TRUMATCH 31-e",
+   "name": "TRUMATCH 31-e",
+   "localName": "C40 M100 Y0 K15",
+   "hex": "#8200D9",
+   "rgb": {
+    "r": 130,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 37.4,
+    "a": 75.55,
+    "b": -77.51
+   }
+  },
+  {
+   "code": "TRUMATCH 31-f",
+   "name": "TRUMATCH 31-f",
+   "localName": "C40 M100 Y0 K30",
+   "hex": "#6B00B3",
+   "rgb": {
+    "r": 107,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 30.35,
+    "a": 65.5,
+    "b": -66.96
+   }
+  },
+  {
+   "code": "TRUMATCH 31-g",
+   "name": "TRUMATCH 31-g",
+   "localName": "C40 M100 Y0 K48",
+   "hex": "#500085",
+   "rgb": {
+    "r": 80,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 21.58,
+    "a": 52.88,
+    "b": -53.36
+   }
+  },
+  {
+   "code": "TRUMATCH 32-a",
+   "name": "TRUMATCH 32-a",
+   "localName": "C28 M100 Y0 K0",
+   "hex": "#B800FF",
+   "rgb": {
+    "r": 184,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 48.77,
+    "a": 88.54,
+    "b": -80.07
+   }
+  },
+  {
+   "code": "TRUMATCH 32-b",
+   "name": "TRUMATCH 32-b",
+   "localName": "C23 M82 Y0 K0",
+   "hex": "#C42EFF",
+   "rgb": {
+    "r": 196,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 52.85,
+    "a": 83.42,
+    "b": -73.35
+   }
+  },
+  {
+   "code": "TRUMATCH 32-c",
+   "name": "TRUMATCH 32-c",
+   "localName": "C18 M64 Y0 K0",
+   "hex": "#D15CFF",
+   "rgb": {
+    "r": 209,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 60.28,
+    "a": 69.86,
+    "b": -61.29
+   }
+  },
+  {
+   "code": "TRUMATCH 32-d",
+   "name": "TRUMATCH 32-d",
+   "localName": "C13 M46 Y0 K0",
+   "hex": "#DE8AFF",
+   "rgb": {
+    "r": 222,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 70.13,
+    "a": 51.06,
+    "b": -45.57
+   }
+  },
+  {
+   "code": "TRUMATCH 32-e",
+   "name": "TRUMATCH 32-e",
+   "localName": "C28 M100 Y0 K15",
+   "hex": "#9C00D9",
+   "rgb": {
+    "r": 156,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 41.34,
+    "a": 78.38,
+    "b": -70.89
+   }
+  },
+  {
+   "code": "TRUMATCH 32-f",
+   "name": "TRUMATCH 32-f",
+   "localName": "C28 M100 Y0 K30",
+   "hex": "#8100B3",
+   "rgb": {
+    "r": 129,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 33.82,
+    "a": 68.01,
+    "b": -61.14
+   }
+  },
+  {
+   "code": "TRUMATCH 32-g",
+   "name": "TRUMATCH 32-g",
+   "localName": "C28 M100 Y0 K48",
+   "hex": "#5F0085",
+   "rgb": {
+    "r": 95,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 24.09,
+    "a": 54.71,
+    "b": -49.15
+   }
+  },
+  {
+   "code": "TRUMATCH 33-a",
+   "name": "TRUMATCH 33-a",
+   "localName": "C16 M100 Y0 K0",
+   "hex": "#D600FF",
+   "rgb": {
+    "r": 214,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.51,
+    "a": 92.31,
+    "b": -72.15
+   }
+  },
+  {
+   "code": "TRUMATCH 33-b",
+   "name": "TRUMATCH 33-b",
+   "localName": "C13 M82 Y0 K0",
+   "hex": "#DE2EFF",
+   "rgb": {
+    "r": 222,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 56.79,
+    "a": 87.58,
+    "b": -66.79
+   }
+  },
+  {
+   "code": "TRUMATCH 33-c",
+   "name": "TRUMATCH 33-c",
+   "localName": "C10 M64 Y0 K0",
+   "hex": "#E65CFF",
+   "rgb": {
+    "r": 230,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 63.09,
+    "a": 74.49,
+    "b": -56.62
+   }
+  },
+  {
+   "code": "TRUMATCH 33-d",
+   "name": "TRUMATCH 33-d",
+   "localName": "C7 M46 Y0 K0",
+   "hex": "#ED8AFF",
+   "rgb": {
+    "r": 237,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 71.83,
+    "a": 55.2,
+    "b": -42.78
+   }
+  },
+  {
+   "code": "TRUMATCH 33-e",
+   "name": "TRUMATCH 33-e",
+   "localName": "C16 M100 Y0 K15",
+   "hex": "#B600D9",
+   "rgb": {
+    "r": 182,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.57,
+    "a": 81.75,
+    "b": -63.82
+   }
+  },
+  {
+   "code": "TRUMATCH 33-f",
+   "name": "TRUMATCH 33-f",
+   "localName": "C16 M100 Y0 K30",
+   "hex": "#9600B3",
+   "rgb": {
+    "r": 150,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.37,
+    "a": 70.84,
+    "b": -55.2
+   }
+  },
+  {
+   "code": "TRUMATCH 33-g",
+   "name": "TRUMATCH 33-g",
+   "localName": "C16 M100 Y0 K48",
+   "hex": "#6F0085",
+   "rgb": {
+    "r": 111,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 26.94,
+    "a": 56.99,
+    "b": -44.37
+   }
+  },
+  {
+   "code": "TRUMATCH 34-a",
+   "name": "TRUMATCH 34-a",
+   "localName": "C4 M100 Y0 K0",
+   "hex": "#F500FF",
+   "rgb": {
+    "r": 245,
+    "g": 0,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 100,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 58.64,
+    "a": 96.72,
+    "b": -63.62
+   }
+  },
+  {
+   "code": "TRUMATCH 34-b",
+   "name": "TRUMATCH 34-b",
+   "localName": "C3 M82 Y0 K0",
+   "hex": "#F72EFF",
+   "rgb": {
+    "r": 247,
+    "g": 46,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 82,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 60.74,
+    "a": 91.82,
+    "b": -60.23
+   }
+  },
+  {
+   "code": "TRUMATCH 34-c",
+   "name": "TRUMATCH 34-c",
+   "localName": "C3 M64 Y0 K0",
+   "hex": "#F75CFF",
+   "rgb": {
+    "r": 247,
+    "g": 92,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 64,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 65.48,
+    "a": 78.28,
+    "b": -52.69
+   }
+  },
+  {
+   "code": "TRUMATCH 34-d",
+   "name": "TRUMATCH 34-d",
+   "localName": "C2 M46 Y0 K0",
+   "hex": "#FA8AFF",
+   "rgb": {
+    "r": 250,
+    "g": 138,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 46,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.37,
+    "a": 58.82,
+    "b": -40.27
+   }
+  },
+  {
+   "code": "TRUMATCH 34-e",
+   "name": "TRUMATCH 34-e",
+   "localName": "C4 M100 Y0 K15",
+   "hex": "#D000D9",
+   "rgb": {
+    "r": 208,
+    "g": 0,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 100,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 50,
+    "a": 85.56,
+    "b": -56.44
+   }
+  },
+  {
+   "code": "TRUMATCH 34-f",
+   "name": "TRUMATCH 34-f",
+   "localName": "C4 M100 Y0 K30",
+   "hex": "#AB00B3",
+   "rgb": {
+    "r": 171,
+    "g": 0,
+    "b": 179
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 100,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 41.08,
+    "a": 74.03,
+    "b": -49.03
+   }
+  },
+  {
+   "code": "TRUMATCH 34-g",
+   "name": "TRUMATCH 34-g",
+   "localName": "C4 M100 Y0 K48",
+   "hex": "#7F0085",
+   "rgb": {
+    "r": 127,
+    "g": 0,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 100,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 29.93,
+    "a": 59.56,
+    "b": -39.41
+   }
+  },
+  {
+   "code": "TRUMATCH 35-a",
+   "name": "TRUMATCH 35-a",
+   "localName": "C0 M100 Y8 K0",
+   "hex": "#FF00EB",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 235
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 8,
+    "k": 0
+   },
+   "lab": {
+    "l": 59.22,
+    "a": 95.54,
+    "b": -51.45
+   }
+  },
+  {
+   "code": "TRUMATCH 35-b",
+   "name": "TRUMATCH 35-b",
+   "localName": "C0 M82 Y7 K0",
+   "hex": "#FF2EED",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 237
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 7,
+    "k": 0
+   },
+   "lab": {
+    "l": 61.07,
+    "a": 90.67,
+    "b": -49.62
+   }
+  },
+  {
+   "code": "TRUMATCH 35-c",
+   "name": "TRUMATCH 35-c",
+   "localName": "C0 M64 Y5 K0",
+   "hex": "#FF5CF2",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 242
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 5,
+    "k": 0
+   },
+   "lab": {
+    "l": 66,
+    "a": 78.04,
+    "b": -44.62
+   }
+  },
+  {
+   "code": "TRUMATCH 35-d",
+   "name": "TRUMATCH 35-d",
+   "localName": "C0 M46 Y4 K0",
+   "hex": "#FF8AF5",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 245
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 4,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.57,
+    "a": 58.5,
+    "b": -34.47
+   }
+  },
+  {
+   "code": "TRUMATCH 35-e",
+   "name": "TRUMATCH 35-e",
+   "localName": "C0 M100 Y8 K15",
+   "hex": "#D900C7",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 199
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 8,
+    "k": 15
+   },
+   "lab": {
+    "l": 50.55,
+    "a": 84.47,
+    "b": -45.14
+   }
+  },
+  {
+   "code": "TRUMATCH 35-f",
+   "name": "TRUMATCH 35-f",
+   "localName": "C0 M100 Y8 K30",
+   "hex": "#B300A4",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 8,
+    "k": 30
+   },
+   "lab": {
+    "l": 41.64,
+    "a": 73.17,
+    "b": -39.12
+   }
+  },
+  {
+   "code": "TRUMATCH 35-g",
+   "name": "TRUMATCH 35-g",
+   "localName": "C0 M100 Y8 K48",
+   "hex": "#85007A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 8,
+    "k": 48
+   },
+   "lab": {
+    "l": 30.38,
+    "a": 58.91,
+    "b": -31.69
+   }
+  },
+  {
+   "code": "TRUMATCH 36-a",
+   "name": "TRUMATCH 36-a",
+   "localName": "C0 M100 Y20 K0",
+   "hex": "#FF00CC",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.68,
+    "a": 91.72,
+    "b": -36.31
+   }
+  },
+  {
+   "code": "TRUMATCH 36-b",
+   "name": "TRUMATCH 36-b",
+   "localName": "C0 M82 Y16 K0",
+   "hex": "#FF2ED6",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 16,
+    "k": 0
+   },
+   "lab": {
+    "l": 59.96,
+    "a": 87.63,
+    "b": -38.44
+   }
+  },
+  {
+   "code": "TRUMATCH 36-c",
+   "name": "TRUMATCH 36-c",
+   "localName": "C0 M64 Y13 K0",
+   "hex": "#FF5CDE",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 13,
+    "k": 0
+   },
+   "lab": {
+    "l": 65.12,
+    "a": 75.08,
+    "b": -34.89
+   }
+  },
+  {
+   "code": "TRUMATCH 36-d",
+   "name": "TRUMATCH 36-d",
+   "localName": "C0 M46 Y9 K0",
+   "hex": "#FF8AE8",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 9,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.07,
+    "a": 56.36,
+    "b": -28.14
+   }
+  },
+  {
+   "code": "TRUMATCH 36-e",
+   "name": "TRUMATCH 36-e",
+   "localName": "C0 M100 Y20 K15",
+   "hex": "#D900AD",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 20,
+    "k": 15
+   },
+   "lab": {
+    "l": 49.22,
+    "a": 81.18,
+    "b": -32.04
+   }
+  },
+  {
+   "code": "TRUMATCH 36-f",
+   "name": "TRUMATCH 36-f",
+   "localName": "C0 M100 Y20 K30",
+   "hex": "#B3008F",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 20,
+    "k": 30
+   },
+   "lab": {
+    "l": 40.52,
+    "a": 70.4,
+    "b": -28.16
+   }
+  },
+  {
+   "code": "TRUMATCH 36-g",
+   "name": "TRUMATCH 36-g",
+   "localName": "C0 M100 Y20 K48",
+   "hex": "#85006A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 106
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 20,
+    "k": 48
+   },
+   "lab": {
+    "l": 29.48,
+    "a": 56.68,
+    "b": -22.88
+   }
+  },
+  {
+   "code": "TRUMATCH 37-a",
+   "name": "TRUMATCH 37-a",
+   "localName": "C0 M100 Y32 K0",
+   "hex": "#FF00AD",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 32,
+    "k": 0
+   },
+   "lab": {
+    "l": 56.37,
+    "a": 88.39,
+    "b": -20.4
+   }
+  },
+  {
+   "code": "TRUMATCH 37-b",
+   "name": "TRUMATCH 37-b",
+   "localName": "C0 M82 Y26 K0",
+   "hex": "#FF2EBD",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 189
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 26,
+    "k": 0
+   },
+   "lab": {
+    "l": 58.88,
+    "a": 84.63,
+    "b": -25.84
+   }
+  },
+  {
+   "code": "TRUMATCH 37-c",
+   "name": "TRUMATCH 37-c",
+   "localName": "C0 M64 Y20 K0",
+   "hex": "#FF5CCC",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 64.39,
+    "a": 72.59,
+    "b": -25.91
+   }
+  },
+  {
+   "code": "TRUMATCH 37-d",
+   "name": "TRUMATCH 37-d",
+   "localName": "C0 M46 Y15 K0",
+   "hex": "#FF8AD9",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 217
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 15,
+    "k": 0
+   },
+   "lab": {
+    "l": 72.53,
+    "a": 54.02,
+    "b": -20.72
+   }
+  },
+  {
+   "code": "TRUMATCH 37-e",
+   "name": "TRUMATCH 37-e",
+   "localName": "C0 M100 Y32 K15",
+   "hex": "#D90093",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 147
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 32,
+    "k": 15
+   },
+   "lab": {
+    "l": 48.09,
+    "a": 78.3,
+    "b": -18.29
+   }
+  },
+  {
+   "code": "TRUMATCH 37-f",
+   "name": "TRUMATCH 37-f",
+   "localName": "C0 M100 Y32 K30",
+   "hex": "#B30079",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 32,
+    "k": 30
+   },
+   "lab": {
+    "l": 39.52,
+    "a": 67.86,
+    "b": -16.11
+   }
+  },
+  {
+   "code": "TRUMATCH 37-g",
+   "name": "TRUMATCH 37-g",
+   "localName": "C0 M100 Y32 K48",
+   "hex": "#85005A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 32,
+    "k": 48
+   },
+   "lab": {
+    "l": 28.71,
+    "a": 54.72,
+    "b": -13.65
+   }
+  },
+  {
+   "code": "TRUMATCH 38-a",
+   "name": "TRUMATCH 38-a",
+   "localName": "C0 M100 Y44 K0",
+   "hex": "#FF008F",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 44,
+    "k": 0
+   },
+   "lab": {
+    "l": 55.33,
+    "a": 85.69,
+    "b": -4.26
+   }
+  },
+  {
+   "code": "TRUMATCH 38-b",
+   "name": "TRUMATCH 38-b",
+   "localName": "C0 M82 Y36 K0",
+   "hex": "#FF2EA3",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 36,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.91,
+    "a": 81.89,
+    "b": -12.22
+   }
+  },
+  {
+   "code": "TRUMATCH 38-c",
+   "name": "TRUMATCH 38-c",
+   "localName": "C0 M64 Y28 K0",
+   "hex": "#FF5CB8",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 28,
+    "k": 0
+   },
+   "lab": {
+    "l": 63.66,
+    "a": 70.06,
+    "b": -15.67
+   }
+  },
+  {
+   "code": "TRUMATCH 38-d",
+   "name": "TRUMATCH 38-d",
+   "localName": "C0 M46 Y20 K0",
+   "hex": "#FF8ACC",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 20,
+    "k": 0
+   },
+   "lab": {
+    "l": 72.1,
+    "a": 52.1,
+    "b": -14.19
+   }
+  },
+  {
+   "code": "TRUMATCH 38-e",
+   "name": "TRUMATCH 38-e",
+   "localName": "C0 M100 Y44 K15",
+   "hex": "#D90079",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 44,
+    "k": 15
+   },
+   "lab": {
+    "l": 47.15,
+    "a": 75.87,
+    "b": -3.87
+   }
+  },
+  {
+   "code": "TRUMATCH 38-f",
+   "name": "TRUMATCH 38-f",
+   "localName": "C0 M100 Y44 K30",
+   "hex": "#B30064",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 100
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 44,
+    "k": 30
+   },
+   "lab": {
+    "l": 38.74,
+    "a": 65.82,
+    "b": -4.06
+   }
+  },
+  {
+   "code": "TRUMATCH 38-g",
+   "name": "TRUMATCH 38-g",
+   "localName": "C0 M100 Y44 K48",
+   "hex": "#85004A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 44,
+    "k": 48
+   },
+   "lab": {
+    "l": 28.07,
+    "a": 53.05,
+    "b": -3.99
+   }
+  },
+  {
+   "code": "TRUMATCH 39-a",
+   "name": "TRUMATCH 39-a",
+   "localName": "C0 M100 Y56 K0",
+   "hex": "#FF0070",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 56,
+    "k": 0
+   },
+   "lab": {
+    "l": 54.49,
+    "a": 83.46,
+    "b": 13.14
+   }
+  },
+  {
+   "code": "TRUMATCH 39-b",
+   "name": "TRUMATCH 39-b",
+   "localName": "C0 M82 Y46 K0",
+   "hex": "#FF2E8A",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.13,
+    "a": 79.64,
+    "b": 1.35
+   }
+  },
+  {
+   "code": "TRUMATCH 39-c",
+   "name": "TRUMATCH 39-c",
+   "localName": "C0 M64 Y36 K0",
+   "hex": "#FF5CA3",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 163
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 36,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.98,
+    "a": 67.66,
+    "b": -4.65
+   }
+  },
+  {
+   "code": "TRUMATCH 39-d",
+   "name": "TRUMATCH 39-d",
+   "localName": "C0 M46 Y26 K0",
+   "hex": "#FF8ABD",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 189
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 26,
+    "k": 0
+   },
+   "lab": {
+    "l": 71.63,
+    "a": 50.03,
+    "b": -6.55
+   }
+  },
+  {
+   "code": "TRUMATCH 39-e",
+   "name": "TRUMATCH 39-e",
+   "localName": "C0 M100 Y56 K15",
+   "hex": "#D9005F",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 95
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 56,
+    "k": 15
+   },
+   "lab": {
+    "l": 46.42,
+    "a": 73.94,
+    "b": 11.16
+   }
+  },
+  {
+   "code": "TRUMATCH 39-f",
+   "name": "TRUMATCH 39-f",
+   "localName": "C0 M100 Y56 K30",
+   "hex": "#B3004F",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 56,
+    "k": 30
+   },
+   "lab": {
+    "l": 38.11,
+    "a": 64.17,
+    "b": 8.49
+   }
+  },
+  {
+   "code": "TRUMATCH 39-g",
+   "name": "TRUMATCH 39-g",
+   "localName": "C0 M100 Y56 K48",
+   "hex": "#85003A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 58
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 56,
+    "k": 48
+   },
+   "lab": {
+    "l": 27.56,
+    "a": 51.7,
+    "b": 6.08
+   }
+  },
+  {
+   "code": "TRUMATCH 40-a",
+   "name": "TRUMATCH 40-a",
+   "localName": "C0 M100 Y68 K0",
+   "hex": "#FF0052",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 68,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.9,
+    "a": 81.87,
+    "b": 30.42
+   }
+  },
+  {
+   "code": "TRUMATCH 40-b",
+   "name": "TRUMATCH 40-b",
+   "localName": "C0 M82 Y56 K0",
+   "hex": "#FF2E70",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 56,
+    "k": 0
+   },
+   "lab": {
+    "l": 56.48,
+    "a": 77.72,
+    "b": 15.9
+   }
+  },
+  {
+   "code": "TRUMATCH 40-c",
+   "name": "TRUMATCH 40-c",
+   "localName": "C0 M64 Y44 K0",
+   "hex": "#FF5C8F",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 44,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.43,
+    "a": 65.66,
+    "b": 6.08
+   }
+  },
+  {
+   "code": "TRUMATCH 40-d",
+   "name": "TRUMATCH 40-d",
+   "localName": "C0 M46 Y31 K0",
+   "hex": "#FF8AB0",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 31,
+    "k": 0
+   },
+   "lab": {
+    "l": 71.27,
+    "a": 48.36,
+    "b": 0.15
+   }
+  },
+  {
+   "code": "TRUMATCH 40-e",
+   "name": "TRUMATCH 40-e",
+   "localName": "C0 M100 Y68 K15",
+   "hex": "#D90045",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 68,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.89,
+    "a": 72.51,
+    "b": 26.6
+   }
+  },
+  {
+   "code": "TRUMATCH 40-f",
+   "name": "TRUMATCH 40-f",
+   "localName": "C0 M100 Y68 K30",
+   "hex": "#B30039",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 68,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.63,
+    "a": 62.88,
+    "b": 22.01
+   }
+  },
+  {
+   "code": "TRUMATCH 40-g",
+   "name": "TRUMATCH 40-g",
+   "localName": "C0 M100 Y68 K48",
+   "hex": "#85002A",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 42
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 68,
+    "k": 48
+   },
+   "lab": {
+    "l": 27.17,
+    "a": 50.67,
+    "b": 16.45
+   }
+  },
+  {
+   "code": "TRUMATCH 41-a",
+   "name": "TRUMATCH 41-a",
+   "localName": "C0 M100 Y80 K0",
+   "hex": "#FF0033",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 80,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.5,
+    "a": 80.8,
+    "b": 47.83
+   }
+  },
+  {
+   "code": "TRUMATCH 41-b",
+   "name": "TRUMATCH 41-b",
+   "localName": "C0 M82 Y66 K0",
+   "hex": "#FF2E57",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 66,
+    "k": 0
+   },
+   "lab": {
+    "l": 56,
+    "a": 76.29,
+    "b": 30.1
+   }
+  },
+  {
+   "code": "TRUMATCH 41-c",
+   "name": "TRUMATCH 41-c",
+   "localName": "C0 M64 Y51 K0",
+   "hex": "#FF5C7D",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 125
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 51,
+    "k": 0
+   },
+   "lab": {
+    "l": 62,
+    "a": 64.1,
+    "b": 15.89
+   }
+  },
+  {
+   "code": "TRUMATCH 41-d",
+   "name": "TRUMATCH 41-d",
+   "localName": "C0 M46 Y37 K0",
+   "hex": "#FF8AA1",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 161
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 37,
+    "k": 0
+   },
+   "lab": {
+    "l": 70.88,
+    "a": 46.58,
+    "b": 7.96
+   }
+  },
+  {
+   "code": "TRUMATCH 41-e",
+   "name": "TRUMATCH 41-e",
+   "localName": "C0 M100 Y80 K15",
+   "hex": "#D9002B",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 80,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.54,
+    "a": 71.56,
+    "b": 41.69
+   }
+  },
+  {
+   "code": "TRUMATCH 41-f",
+   "name": "TRUMATCH 41-f",
+   "localName": "C0 M100 Y80 K30",
+   "hex": "#B30024",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 36
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 80,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.32,
+    "a": 62.05,
+    "b": 34.73
+   }
+  },
+  {
+   "code": "TRUMATCH 41-g",
+   "name": "TRUMATCH 41-g",
+   "localName": "C0 M100 Y80 K48",
+   "hex": "#85001B",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 27
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 80,
+    "k": 48
+   },
+   "lab": {
+    "l": 26.93,
+    "a": 50.01,
+    "b": 26.12
+   }
+  },
+  {
+   "code": "TRUMATCH 42-a",
+   "name": "TRUMATCH 42-a",
+   "localName": "C0 M100 Y92 K0",
+   "hex": "#FF0014",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 20
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 92,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.3,
+    "a": 80.24,
+    "b": 61.9
+   }
+  },
+  {
+   "code": "TRUMATCH 42-b",
+   "name": "TRUMATCH 42-b",
+   "localName": "C0 M82 Y75 K0",
+   "hex": "#FF2E40",
+   "rgb": {
+    "r": 255,
+    "g": 46,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 75,
+    "k": 0
+   },
+   "lab": {
+    "l": 55.68,
+    "a": 75.33,
+    "b": 42.96
+   }
+  },
+  {
+   "code": "TRUMATCH 42-c",
+   "name": "TRUMATCH 42-c",
+   "localName": "C0 M64 Y59 K0",
+   "hex": "#FF5C69",
+   "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 105
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 64,
+    "y": 59,
+    "k": 0
+   },
+   "lab": {
+    "l": 61.6,
+    "a": 62.63,
+    "b": 26.88
+   }
+  },
+  {
+   "code": "TRUMATCH 42-d",
+   "name": "TRUMATCH 42-d",
+   "localName": "C0 M46 Y42 K0",
+   "hex": "#FF8A94",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 42,
+    "k": 0
+   },
+   "lab": {
+    "l": 70.58,
+    "a": 45.17,
+    "b": 14.79
+   }
+  },
+  {
+   "code": "TRUMATCH 42-e",
+   "name": "TRUMATCH 42-e",
+   "localName": "C0 M100 Y92 K15",
+   "hex": "#D90011",
+   "rgb": {
+    "r": 217,
+    "g": 0,
+    "b": 17
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 92,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.36,
+    "a": 71.06,
+    "b": 54.15
+   }
+  },
+  {
+   "code": "TRUMATCH 42-f",
+   "name": "TRUMATCH 42-f",
+   "localName": "C0 M100 Y92 K30",
+   "hex": "#B3000E",
+   "rgb": {
+    "r": 179,
+    "g": 0,
+    "b": 14
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 92,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.15,
+    "a": 61.57,
+    "b": 46.06
+   }
+  },
+  {
+   "code": "TRUMATCH 42-g",
+   "name": "TRUMATCH 42-g",
+   "localName": "C0 M100 Y92 K48",
+   "hex": "#85000B",
+   "rgb": {
+    "r": 133,
+    "g": 0,
+    "b": 11
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 92,
+    "k": 48
+   },
+   "lab": {
+    "l": 26.77,
+    "a": 49.58,
+    "b": 35.12
+   }
+  },
+  {
+   "code": "TRUMATCH 43-a",
+   "name": "TRUMATCH 43-a",
+   "localName": "C0 M96 Y100 K0",
+   "hex": "#FF0A00",
+   "rgb": {
+    "r": 255,
+    "g": 10,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 96,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.48,
+    "a": 79.41,
+    "b": 67.28
+   }
+  },
+  {
+   "code": "TRUMATCH 43-b",
+   "name": "TRUMATCH 43-b",
+   "localName": "C0 M79 Y82 K0",
+   "hex": "#FF362E",
+   "rgb": {
+    "r": 255,
+    "g": 54,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 79,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 56.19,
+    "a": 72.84,
+    "b": 52.99
+   }
+  },
+  {
+   "code": "TRUMATCH 43-c",
+   "name": "TRUMATCH 43-c",
+   "localName": "C0 M61 Y64 K0",
+   "hex": "#FF635C",
+   "rgb": {
+    "r": 255,
+    "g": 99,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.48,
+    "a": 58.91,
+    "b": 35.35
+   }
+  },
+  {
+   "code": "TRUMATCH 43-d",
+   "name": "TRUMATCH 43-d",
+   "localName": "C0 M44 Y46 K0",
+   "hex": "#FF8F8A",
+   "rgb": {
+    "r": 255,
+    "g": 143,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 71.38,
+    "a": 41.65,
+    "b": 21.45
+   }
+  },
+  {
+   "code": "TRUMATCH 43-e",
+   "name": "TRUMATCH 43-e",
+   "localName": "C0 M96 Y100 K15",
+   "hex": "#D90900",
+   "rgb": {
+    "r": 217,
+    "g": 9,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 96,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 45.57,
+    "a": 70.13,
+    "b": 59.59
+   }
+  },
+  {
+   "code": "TRUMATCH 43-f",
+   "name": "TRUMATCH 43-f",
+   "localName": "C0 M96 Y100 K30",
+   "hex": "#B30700",
+   "rgb": {
+    "r": 179,
+    "g": 7,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 96,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 37.37,
+    "a": 60.6,
+    "b": 51.6
+   }
+  },
+  {
+   "code": "TRUMATCH 43-g",
+   "name": "TRUMATCH 43-g",
+   "localName": "C0 M96 Y100 K48",
+   "hex": "#850500",
+   "rgb": {
+    "r": 133,
+    "g": 5,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 96,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 27.01,
+    "a": 48.5,
+    "b": 39.82
+   }
+  },
+  {
+   "code": "TRUMATCH 44-a",
+   "name": "TRUMATCH 44-a",
+   "localName": "C0 M84 Y100 K0",
+   "hex": "#FF2900",
+   "rgb": {
+    "r": 255,
+    "g": 41,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 54.92,
+    "a": 75.26,
+    "b": 67.82
+   }
+  },
+  {
+   "code": "TRUMATCH 44-b",
+   "name": "TRUMATCH 44-b",
+   "localName": "C0 M69 Y82 K0",
+   "hex": "#FF4F2E",
+   "rgb": {
+    "r": 255,
+    "g": 79,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 69,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 59.03,
+    "a": 64.96,
+    "b": 55.6
+   }
+  },
+  {
+   "code": "TRUMATCH 44-c",
+   "name": "TRUMATCH 44-c",
+   "localName": "C0 M54 Y64 K0",
+   "hex": "#FF755C",
+   "rgb": {
+    "r": 255,
+    "g": 117,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 54,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 65.56,
+    "a": 50.82,
+    "b": 39.14
+   }
+  },
+  {
+   "code": "TRUMATCH 44-d",
+   "name": "TRUMATCH 44-d",
+   "localName": "C0 M39 Y46 K0",
+   "hex": "#FF9C8A",
+   "rgb": {
+    "r": 255,
+    "g": 156,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 74.11,
+    "a": 35,
+    "b": 25.15
+   }
+  },
+  {
+   "code": "TRUMATCH 44-e",
+   "name": "TRUMATCH 44-e",
+   "localName": "C0 M84 Y100 K15",
+   "hex": "#D92300",
+   "rgb": {
+    "r": 217,
+    "g": 35,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 46.92,
+    "a": 66.25,
+    "b": 60.1
+   }
+  },
+  {
+   "code": "TRUMATCH 44-f",
+   "name": "TRUMATCH 44-f",
+   "localName": "C0 M84 Y100 K30",
+   "hex": "#B31D00",
+   "rgb": {
+    "r": 179,
+    "g": 29,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 38.67,
+    "a": 56.89,
+    "b": 52.12
+   }
+  },
+  {
+   "code": "TRUMATCH 44-g",
+   "name": "TRUMATCH 44-g",
+   "localName": "C0 M84 Y100 K48",
+   "hex": "#851500",
+   "rgb": {
+    "r": 133,
+    "g": 21,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 28.18,
+    "a": 45.16,
+    "b": 40.82
+   }
+  },
+  {
+   "code": "TRUMATCH 45-a",
+   "name": "TRUMATCH 45-a",
+   "localName": "C0 M72 Y100 K0",
+   "hex": "#FF4700",
+   "rgb": {
+    "r": 255,
+    "g": 71,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 72,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 57.82,
+    "a": 67.12,
+    "b": 69.07
+   }
+  },
+  {
+   "code": "TRUMATCH 45-b",
+   "name": "TRUMATCH 45-b",
+   "localName": "C0 M59 Y82 K0",
+   "hex": "#FF692E",
+   "rgb": {
+    "r": 255,
+    "g": 105,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 59,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.98,
+    "a": 54.35,
+    "b": 59.18
+   }
+  },
+  {
+   "code": "TRUMATCH 45-c",
+   "name": "TRUMATCH 45-c",
+   "localName": "C0 M46 Y64 K0",
+   "hex": "#FF8A5C",
+   "rgb": {
+    "r": 255,
+    "g": 138,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 69.62,
+    "a": 40.57,
+    "b": 44.03
+   }
+  },
+  {
+   "code": "TRUMATCH 45-d",
+   "name": "TRUMATCH 45-d",
+   "localName": "C0 M33 Y46 K0",
+   "hex": "#FFAB8A",
+   "rgb": {
+    "r": 255,
+    "g": 171,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 77.42,
+    "a": 27.2,
+    "b": 29.57
+   }
+  },
+  {
+   "code": "TRUMATCH 45-e",
+   "name": "TRUMATCH 45-e",
+   "localName": "C0 M72 Y100 K15",
+   "hex": "#D93D00",
+   "rgb": {
+    "r": 217,
+    "g": 61,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 72,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 49.61,
+    "a": 58.72,
+    "b": 61.27
+   }
+  },
+  {
+   "code": "TRUMATCH 45-f",
+   "name": "TRUMATCH 45-f",
+   "localName": "C0 M72 Y100 K30",
+   "hex": "#B33200",
+   "rgb": {
+    "r": 179,
+    "g": 50,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 72,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 41.01,
+    "a": 50.35,
+    "b": 53.15
+   }
+  },
+  {
+   "code": "TRUMATCH 45-g",
+   "name": "TRUMATCH 45-g",
+   "localName": "C0 M72 Y100 K48",
+   "hex": "#852500",
+   "rgb": {
+    "r": 133,
+    "g": 37,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 72,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 30.18,
+    "a": 39.58,
+    "b": 42.4
+   }
+  },
+  {
+   "code": "TRUMATCH 46-a",
+   "name": "TRUMATCH 46-a",
+   "localName": "C0 M60 Y100 K0",
+   "hex": "#FF6600",
+   "rgb": {
+    "r": 255,
+    "g": 102,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 62.31,
+    "a": 55,
+    "b": 71.33
+   }
+  },
+  {
+   "code": "TRUMATCH 46-b",
+   "name": "TRUMATCH 46-b",
+   "localName": "C0 M49 Y82 K0",
+   "hex": "#FF822E",
+   "rgb": {
+    "r": 255,
+    "g": 130,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 49,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 67.6,
+    "a": 42.54,
+    "b": 63.29
+   }
+  },
+  {
+   "code": "TRUMATCH 46-c",
+   "name": "TRUMATCH 46-c",
+   "localName": "C0 M38 Y64 K0",
+   "hex": "#FF9E5C",
+   "rgb": {
+    "r": 255,
+    "g": 158,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 38,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.86,
+    "a": 30.33,
+    "b": 49
+   }
+  },
+  {
+   "code": "TRUMATCH 46-d",
+   "name": "TRUMATCH 46-d",
+   "localName": "C0 M28 Y46 K0",
+   "hex": "#FFB88A",
+   "rgb": {
+    "r": 255,
+    "g": 184,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 28,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 80.39,
+    "a": 20.4,
+    "b": 33.5
+   }
+  },
+  {
+   "code": "TRUMATCH 46-e",
+   "name": "TRUMATCH 46-e",
+   "localName": "C0 M60 Y100 K15",
+   "hex": "#D95700",
+   "rgb": {
+    "r": 217,
+    "g": 87,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 53.57,
+    "a": 48.06,
+    "b": 63.28
+   }
+  },
+  {
+   "code": "TRUMATCH 46-f",
+   "name": "TRUMATCH 46-f",
+   "localName": "C0 M60 Y100 K30",
+   "hex": "#B34700",
+   "rgb": {
+    "r": 179,
+    "g": 71,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 44.37,
+    "a": 41.33,
+    "b": 54.86
+   }
+  },
+  {
+   "code": "TRUMATCH 46-g",
+   "name": "TRUMATCH 46-g",
+   "localName": "C0 M60 Y100 K48",
+   "hex": "#853500",
+   "rgb": {
+    "r": 133,
+    "g": 53,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 32.99,
+    "a": 32.09,
+    "b": 44.33
+   }
+  },
+  {
+   "code": "TRUMATCH 47-a",
+   "name": "TRUMATCH 47-a",
+   "localName": "C0 M48 Y100 K0",
+   "hex": "#FF8500",
+   "rgb": {
+    "r": 255,
+    "g": 133,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 68.05,
+    "a": 40.35,
+    "b": 74.61
+   }
+  },
+  {
+   "code": "TRUMATCH 47-b",
+   "name": "TRUMATCH 47-b",
+   "localName": "C0 M39 Y82 K0",
+   "hex": "#FF9C2E",
+   "rgb": {
+    "r": 255,
+    "g": 156,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 73.05,
+    "a": 29.32,
+    "b": 68.08
+   }
+  },
+  {
+   "code": "TRUMATCH 47-c",
+   "name": "TRUMATCH 47-c",
+   "localName": "C0 M31 Y64 K0",
+   "hex": "#FFB05C",
+   "rgb": {
+    "r": 255,
+    "g": 176,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 77.93,
+    "a": 20.94,
+    "b": 53.66
+   }
+  },
+  {
+   "code": "TRUMATCH 47-d",
+   "name": "TRUMATCH 47-d",
+   "localName": "C0 M22 Y46 K0",
+   "hex": "#FFC78A",
+   "rgb": {
+    "r": 255,
+    "g": 199,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 83.94,
+    "a": 12.56,
+    "b": 38.11
+   }
+  },
+  {
+   "code": "TRUMATCH 47-e",
+   "name": "TRUMATCH 47-e",
+   "localName": "C0 M48 Y100 K15",
+   "hex": "#D97100",
+   "rgb": {
+    "r": 217,
+    "g": 113,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 58.57,
+    "a": 35.32,
+    "b": 66.15
+   }
+  },
+  {
+   "code": "TRUMATCH 47-f",
+   "name": "TRUMATCH 47-f",
+   "localName": "C0 M48 Y100 K30",
+   "hex": "#B35D00",
+   "rgb": {
+    "r": 179,
+    "g": 93,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 48.78,
+    "a": 30.12,
+    "b": 57.41
+   }
+  },
+  {
+   "code": "TRUMATCH 47-g",
+   "name": "TRUMATCH 47-g",
+   "localName": "C0 M48 Y100 K48",
+   "hex": "#854500",
+   "rgb": {
+    "r": 133,
+    "g": 69,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 48,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 36.45,
+    "a": 23.37,
+    "b": 46.39
+   }
+  },
+  {
+   "code": "TRUMATCH 48-a",
+   "name": "TRUMATCH 48-a",
+   "localName": "C0 M36 Y100 K0",
+   "hex": "#FFA300",
+   "rgb": {
+    "r": 255,
+    "g": 163,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 74.48,
+    "a": 24.98,
+    "b": 78.65
+   }
+  },
+  {
+   "code": "TRUMATCH 48-b",
+   "name": "TRUMATCH 48-b",
+   "localName": "C0 M30 Y82 K0",
+   "hex": "#FFB32E",
+   "rgb": {
+    "r": 255,
+    "g": 179,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 78.29,
+    "a": 17.34,
+    "b": 72.62
+   }
+  },
+  {
+   "code": "TRUMATCH 48-c",
+   "name": "TRUMATCH 48-c",
+   "localName": "C0 M23 Y64 K0",
+   "hex": "#FFC45C",
+   "rgb": {
+    "r": 255,
+    "g": 196,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 23,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 82.66,
+    "a": 10.51,
+    "b": 58.96
+   }
+  },
+  {
+   "code": "TRUMATCH 48-d",
+   "name": "TRUMATCH 48-d",
+   "localName": "C0 M17 Y46 K0",
+   "hex": "#FFD48A",
+   "rgb": {
+    "r": 255,
+    "g": 212,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.09,
+    "a": 5.84,
+    "b": 42.14
+   }
+  },
+  {
+   "code": "TRUMATCH 48-e",
+   "name": "TRUMATCH 48-e",
+   "localName": "C0 M36 Y100 K15",
+   "hex": "#D98B00",
+   "rgb": {
+    "r": 217,
+    "g": 139,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 64.34,
+    "a": 21.57,
+    "b": 69.79
+   }
+  },
+  {
+   "code": "TRUMATCH 48-f",
+   "name": "TRUMATCH 48-f",
+   "localName": "C0 M36 Y100 K30",
+   "hex": "#B37200",
+   "rgb": {
+    "r": 179,
+    "g": 114,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 53.62,
+    "a": 18.59,
+    "b": 60.47
+   }
+  },
+  {
+   "code": "TRUMATCH 48-g",
+   "name": "TRUMATCH 48-g",
+   "localName": "C0 M36 Y100 K48",
+   "hex": "#855500",
+   "rgb": {
+    "r": 133,
+    "g": 85,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 40.39,
+    "a": 14.06,
+    "b": 48.89
+   }
+  },
+  {
+   "code": "TRUMATCH 49-a",
+   "name": "TRUMATCH 49-a",
+   "localName": "C0 M24 Y100 K0",
+   "hex": "#FFC200",
+   "rgb": {
+    "r": 255,
+    "g": 194,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 81.76,
+    "a": 8.83,
+    "b": 83.53
+   }
+  },
+  {
+   "code": "TRUMATCH 49-b",
+   "name": "TRUMATCH 49-b",
+   "localName": "C0 M20 Y82 K0",
+   "hex": "#FFCC2E",
+   "rgb": {
+    "r": 255,
+    "g": 204,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 84.3,
+    "a": 4.38,
+    "b": 77.78
+   }
+  },
+  {
+   "code": "TRUMATCH 49-c",
+   "name": "TRUMATCH 49-c",
+   "localName": "C0 M15 Y64 K0",
+   "hex": "#FFD95C",
+   "rgb": {
+    "r": 255,
+    "g": 217,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 87.81,
+    "a": -0.27,
+    "b": 64.58
+   }
+  },
+  {
+   "code": "TRUMATCH 49-d",
+   "name": "TRUMATCH 49-d",
+   "localName": "C0 M11 Y46 K0",
+   "hex": "#FFE38A",
+   "rgb": {
+    "r": 255,
+    "g": 227,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.8,
+    "a": -1.81,
+    "b": 46.81
+   }
+  },
+  {
+   "code": "TRUMATCH 49-e",
+   "name": "TRUMATCH 49-e",
+   "localName": "C0 M24 Y100 K15",
+   "hex": "#D9A500",
+   "rgb": {
+    "r": 217,
+    "g": 165,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 70.64,
+    "a": 7.61,
+    "b": 74.01
+   }
+  },
+  {
+   "code": "TRUMATCH 49-f",
+   "name": "TRUMATCH 49-f",
+   "localName": "C0 M24 Y100 K30",
+   "hex": "#B38800",
+   "rgb": {
+    "r": 179,
+    "g": 136,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 59.15,
+    "a": 6.35,
+    "b": 64.18
+   }
+  },
+  {
+   "code": "TRUMATCH 49-g",
+   "name": "TRUMATCH 49-g",
+   "localName": "C0 M24 Y100 K48",
+   "hex": "#856500",
+   "rgb": {
+    "r": 133,
+    "g": 101,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 44.65,
+    "a": 4.67,
+    "b": 51.76
+   }
+  },
+  {
+   "code": "TRUMATCH 50-a",
+   "name": "TRUMATCH 50-a",
+   "localName": "C0 M12 Y100 K0",
+   "hex": "#FFE000",
+   "rgb": {
+    "r": 255,
+    "g": 224,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 89.19,
+    "a": -6.45,
+    "b": 88.74
+   }
+  },
+  {
+   "code": "TRUMATCH 50-b",
+   "name": "TRUMATCH 50-b",
+   "localName": "C0 M10 Y82 K0",
+   "hex": "#FFE62E",
+   "rgb": {
+    "r": 255,
+    "g": 230,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 82,
+    "k": 0
+   },
+   "lab": {
+    "l": 90.8,
+    "a": -8.76,
+    "b": 83.29
+   }
+  },
+  {
+   "code": "TRUMATCH 50-c",
+   "name": "TRUMATCH 50-c",
+   "localName": "C0 M8 Y64 K0",
+   "hex": "#FFEB5C",
+   "rgb": {
+    "r": 255,
+    "g": 235,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 64,
+    "k": 0
+   },
+   "lab": {
+    "l": 92.33,
+    "a": -9.3,
+    "b": 69.41
+   }
+  },
+  {
+   "code": "TRUMATCH 50-d",
+   "name": "TRUMATCH 50-d",
+   "localName": "C0 M6 Y46 K0",
+   "hex": "#FFF08A",
+   "rgb": {
+    "r": 255,
+    "g": 240,
+    "b": 138
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 46,
+    "k": 0
+   },
+   "lab": {
+    "l": 94.06,
+    "a": -8.32,
+    "b": 50.87
+   }
+  },
+  {
+   "code": "TRUMATCH 50-e",
+   "name": "TRUMATCH 50-e",
+   "localName": "C0 M12 Y100 K15",
+   "hex": "#D9BF00",
+   "rgb": {
+    "r": 217,
+    "g": 191,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 77.29,
+    "a": -6.03,
+    "b": 78.67
+   }
+  },
+  {
+   "code": "TRUMATCH 50-f",
+   "name": "TRUMATCH 50-f",
+   "localName": "C0 M12 Y100 K30",
+   "hex": "#B39D00",
+   "rgb": {
+    "r": 179,
+    "g": 157,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 100,
+    "k": 30
+   },
+   "lab": {
+    "l": 64.72,
+    "a": -5.07,
+    "b": 68.09
+   }
+  },
+  {
+   "code": "TRUMATCH 50-g",
+   "name": "TRUMATCH 50-g",
+   "localName": "C0 M12 Y100 K48",
+   "hex": "#857500",
+   "rgb": {
+    "r": 133,
+    "g": 117,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 100,
+    "k": 48
+   },
+   "lab": {
+    "l": 49.14,
+    "a": -4.51,
+    "b": 54.92
+   }
+  },
+  {
+   "code": "TRUMATCH 1-gray",
+   "name": "TRUMATCH 1-gray",
+   "localName": "C0 M0 Y0 K8",
+   "hex": "#EBEBEB",
+   "rgb": {
+    "r": 235,
+    "g": 235,
+    "b": 235
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 8
+   },
+   "lab": {
+    "l": 93.05,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 2-gray",
+   "name": "TRUMATCH 2-gray",
+   "localName": "C0 M0 Y0 K17",
+   "hex": "#D4D4D4",
+   "rgb": {
+    "r": 212,
+    "g": 212,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 17
+   },
+   "lab": {
+    "l": 84.91,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 3-gray",
+   "name": "TRUMATCH 3-gray",
+   "localName": "C0 M0 Y0 K25",
+   "hex": "#BFBFBF",
+   "rgb": {
+    "r": 191,
+    "g": 191,
+    "b": 191
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 77.34,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 4-gray",
+   "name": "TRUMATCH 4-gray",
+   "localName": "C0 M0 Y0 K33",
+   "hex": "#ABABAB",
+   "rgb": {
+    "r": 171,
+    "g": 171,
+    "b": 171
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 69.98,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 5-gray",
+   "name": "TRUMATCH 5-gray",
+   "localName": "C0 M0 Y0 K42",
+   "hex": "#949494",
+   "rgb": {
+    "r": 148,
+    "g": 148,
+    "b": 148
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 42
+   },
+   "lab": {
+    "l": 61.32,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 6-gray",
+   "name": "TRUMATCH 6-gray",
+   "localName": "C0 M0 Y0 K50",
+   "hex": "#808080",
+   "rgb": {
+    "r": 128,
+    "g": 128,
+    "b": 128
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 50
+   },
+   "lab": {
+    "l": 53.59,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 7-gray",
+   "name": "TRUMATCH 7-gray",
+   "localName": "C0 M0 Y0 K58",
+   "hex": "#6B6B6B",
+   "rgb": {
+    "r": 107,
+    "g": 107,
+    "b": 107
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 58
+   },
+   "lab": {
+    "l": 45.22,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 8-gray",
+   "name": "TRUMATCH 8-gray",
+   "localName": "C0 M0 Y0 K67",
+   "hex": "#545454",
+   "rgb": {
+    "r": 84,
+    "g": 84,
+    "b": 84
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 67
+   },
+   "lab": {
+    "l": 35.72,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 9-gray",
+   "name": "TRUMATCH 9-gray",
+   "localName": "C0 M0 Y0 K75",
+   "hex": "#404040",
+   "rgb": {
+    "r": 64,
+    "g": 64,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 75
+   },
+   "lab": {
+    "l": 27.09,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 10-gray",
+   "name": "TRUMATCH 10-gray",
+   "localName": "C0 M0 Y0 K83",
+   "hex": "#2B2B2B",
+   "rgb": {
+    "r": 43,
+    "g": 43,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 83
+   },
+   "lab": {
+    "l": 17.53,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 11-gray",
+   "name": "TRUMATCH 11-gray",
+   "localName": "C0 M0 Y0 K92",
+   "hex": "#141414",
+   "rgb": {
+    "r": 20,
+    "g": 20,
+    "b": 20
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 92
+   },
+   "lab": {
+    "l": 6.32,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "TRUMATCH 12-gray",
+   "name": "TRUMATCH 12-gray",
+   "localName": "C0 M0 Y0 K100",
+   "hex": "#000000",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 100
+   },
+   "lab": {
+    "l": 0,
+    "a": 0,
+    "b": 0
+   }
+  }
+ ]
+}

@@ -56,14 +56,36 @@ since `components/ogMeta.jsx` looks the page up by path.
 Plus Jakarta Sans TTFs are downloaded on first run and cached in
 `scripts/.fontcache/` (gitignored), so `npm run assets` needs network access.
 
+## Colour system data
+
+The cross-system converters match against palettes in `data/*.json`, generated
+from the tables in `scripts/`:
+
+```bash
+npm run data              # regenerate every palette
+npm run data:industrial   # RAL, NCS, HKS, TOYO, Trumatch, FS 595
+npm run data:brands       # DMC, Copic, Oracal, Siser + five paint brands
+npm run data:tcx          # Pantone Fashion, Home + Interiors (TCX)
+```
+
+The JSON is committed, so a normal build never runs these — they exist so the
+data can be regenerated or replaced. Each file records an `accuracy` field
+(`high`, `medium`, `low`, `derived`) because these are sRGB approximations of
+physical standards, not licensed colour data; the provenance notes at the top of
+each generator explain what that means per system. Swapping in licensed data is
+a drop-in: keep the `[code, name, localName, hex]` row shape and re-run.
+
+`scripts/` is dev-only tooling. Nothing under `pages/`, `components/` or `lib/`
+imports from it, so it is never bundled and never reaches `out/`.
+
 ## Layout
 
 ```
 pages/            routes (Pages Router); each page owns its own <Head>
-components/       shared UI; ogMeta.jsx emits the social tags
-lib/              colour maths, favourites context, OG card config
+components/       shared UI; ConverterPage.jsx is the cross-system page shell
+lib/              colour maths, favourites context, OG cards, converter taxonomy
 content/learn/    MDX articles with SEO frontmatter
-data/             Pantone library, brand palettes, colour-of-the-year data
-scripts/          asset generators (dev-only, not bundled)
+data/             Pantone library, colour-system palettes, brand and CotY data
+scripts/          asset and palette generators (dev-only, not bundled)
 public/           static assets, including generated icons and OG cards
 ```

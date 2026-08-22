@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import CopyButton from '../components/CopyButton';
 import pantoneDb from '../data/pantone.json';
 import { isLightColor } from '../lib/colorUtils';
+import CrossSystemLinks from './CrossSystemLinks';
 
 // ─── Popular colors ───────────────────────────────────────────────
 const POPULAR_NAMES = [
@@ -304,6 +305,22 @@ export default function PantoneToXPage({
               <p key={i} style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: i > 0 ? '0.75rem 0 0' : 0 }}>{p}</p>
             ))}
           </div>
+
+          {/* HEX, RGB and CMYK are only three of the systems a Pantone colour
+              may need to reach. Point at the rest rather than dead-ending. */}
+          <CrossSystemLinks
+            heading="Convert the Same Pantone Colour to Another System"
+            intro="HEX, RGB and CMYK cover screen and process print. If the colour is heading for paint, coating, thread or fabric instead, these converters find the nearest code in that system and report the ΔE difference."
+            routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-ncs/',
+              '/pantone-to-lab/',
+              '/pantone-to-hsv/',
+              '/pantone-to-dmc/',
+              '/pantone-c-to-tcx/',
+            ]}
+            accentColor={accentColor}
+          />
         </div>
       </main>
 

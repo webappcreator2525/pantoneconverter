@@ -1,0 +1,6213 @@
+{
+ "system": "Copic",
+ "owner": "Too Marker Products Inc.",
+ "accuracy": "medium",
+ "count": 282,
+ "generatedBy": "scripts/generate-brand-palettes.mjs",
+ "colors": [
+  {
+   "code": "Copic 0",
+   "name": "Copic 0",
+   "localName": "Colorless Blender",
+   "hex": "#FFFFFF",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 100,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic 100",
+   "name": "Copic 100",
+   "localName": "Black",
+   "hex": "#231F20",
+   "rgb": {
+    "r": 35,
+    "g": 31,
+    "b": 32
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 9,
+    "k": 86
+   },
+   "lab": {
+    "l": 12.23,
+    "a": 2.14,
+    "b": 0.01
+   }
+  },
+  {
+   "code": "Copic 110",
+   "name": "Copic 110",
+   "localName": "Special Black",
+   "hex": "#000000",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 100
+   },
+   "lab": {
+    "l": 0,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic B0000",
+   "name": "Copic B0000",
+   "localName": "Pale Celestine",
+   "hex": "#EDF6FB",
+   "rgb": {
+    "r": 237,
+    "g": 246,
+    "b": 251
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 2,
+    "y": 0,
+    "k": 2
+   },
+   "lab": {
+    "l": 96.36,
+    "a": -2.04,
+    "b": -3.43
+   }
+  },
+  {
+   "code": "Copic B000",
+   "name": "Copic B000",
+   "localName": "Pale Porcelain Blue",
+   "hex": "#E4F1FA",
+   "rgb": {
+    "r": 228,
+    "g": 241,
+    "b": 250
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 4,
+    "y": 0,
+    "k": 2
+   },
+   "lab": {
+    "l": 94.44,
+    "a": -2.59,
+    "b": -5.8
+   }
+  },
+  {
+   "code": "Copic B00",
+   "name": "Copic B00",
+   "localName": "Frost Blue",
+   "hex": "#DAEDF9",
+   "rgb": {
+    "r": 218,
+    "g": 237,
+    "b": 249
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 5,
+    "y": 0,
+    "k": 2
+   },
+   "lab": {
+    "l": 92.71,
+    "a": -3.91,
+    "b": -7.92
+   }
+  },
+  {
+   "code": "Copic B01",
+   "name": "Copic B01",
+   "localName": "Mint Blue",
+   "hex": "#CDE7F6",
+   "rgb": {
+    "r": 205,
+    "g": 231,
+    "b": 246
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 6,
+    "y": 0,
+    "k": 4
+   },
+   "lab": {
+    "l": 90.22,
+    "a": -5.5,
+    "b": -10.15
+   }
+  },
+  {
+   "code": "Copic B02",
+   "name": "Copic B02",
+   "localName": "Robin Egg Blue",
+   "hex": "#A5D8F1",
+   "rgb": {
+    "r": 165,
+    "g": 216,
+    "b": 241
+   },
+   "cmyk": {
+    "c": 32,
+    "m": 10,
+    "y": 0,
+    "k": 5
+   },
+   "lab": {
+    "l": 83.68,
+    "a": -10.64,
+    "b": -17.55
+   }
+  },
+  {
+   "code": "Copic B04",
+   "name": "Copic B04",
+   "localName": "Tahitian Blue",
+   "hex": "#5EBDE8",
+   "rgb": {
+    "r": 94,
+    "g": 189,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 59,
+    "m": 19,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 72.63,
+    "a": -15.7,
+    "b": -29.87
+   }
+  },
+  {
+   "code": "Copic B05",
+   "name": "Copic B05",
+   "localName": "Process Blue",
+   "hex": "#00AEEF",
+   "rgb": {
+    "r": 0,
+    "g": 174,
+    "b": 239
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 27,
+    "y": 0,
+    "k": 6
+   },
+   "lab": {
+    "l": 66.9,
+    "a": -14.23,
+    "b": -42.71
+   }
+  },
+  {
+   "code": "Copic B06",
+   "name": "Copic B06",
+   "localName": "Peacock Blue",
+   "hex": "#00A6E2",
+   "rgb": {
+    "r": 0,
+    "g": 166,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 27,
+    "y": 0,
+    "k": 11
+   },
+   "lab": {
+    "l": 63.97,
+    "a": -14.55,
+    "b": -40.17
+   }
+  },
+  {
+   "code": "Copic B12",
+   "name": "Copic B12",
+   "localName": "Ice Blue",
+   "hex": "#CAE6F5",
+   "rgb": {
+    "r": 202,
+    "g": 230,
+    "b": 245
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 6,
+    "y": 0,
+    "k": 4
+   },
+   "lab": {
+    "l": 89.74,
+    "a": -6.11,
+    "b": -10.36
+   }
+  },
+  {
+   "code": "Copic B14",
+   "name": "Copic B14",
+   "localName": "Light Blue",
+   "hex": "#71C5E8",
+   "rgb": {
+    "r": 113,
+    "g": 197,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 51,
+    "m": 15,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 75.62,
+    "a": -16.08,
+    "b": -25.22
+   }
+  },
+  {
+   "code": "Copic B16",
+   "name": "Copic B16",
+   "localName": "Cyanine Blue",
+   "hex": "#2CACE3",
+   "rgb": {
+    "r": 44,
+    "g": 172,
+    "b": 227
+   },
+   "cmyk": {
+    "c": 81,
+    "m": 24,
+    "y": 0,
+    "k": 11
+   },
+   "lab": {
+    "l": 66.2,
+    "a": -15.2,
+    "b": -37.2
+   }
+  },
+  {
+   "code": "Copic B18",
+   "name": "Copic B18",
+   "localName": "Lapis Lazuli",
+   "hex": "#0071BC",
+   "rgb": {
+    "r": 0,
+    "g": 113,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 40,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 46.23,
+    "a": 1.84,
+    "b": -46.76
+   }
+  },
+  {
+   "code": "Copic B21",
+   "name": "Copic B21",
+   "localName": "Baby Blue",
+   "hex": "#DCECF8",
+   "rgb": {
+    "r": 220,
+    "g": 236,
+    "b": 248
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 5,
+    "y": 0,
+    "k": 3
+   },
+   "lab": {
+    "l": 92.57,
+    "a": -2.97,
+    "b": -7.6
+   }
+  },
+  {
+   "code": "Copic B23",
+   "name": "Copic B23",
+   "localName": "Phthalo Blue",
+   "hex": "#7FB8E0",
+   "rgb": {
+    "r": 127,
+    "g": 184,
+    "b": 224
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 18,
+    "y": 0,
+    "k": 12
+   },
+   "lab": {
+    "l": 72.34,
+    "a": -8.16,
+    "b": -25.84
+   }
+  },
+  {
+   "code": "Copic B24",
+   "name": "Copic B24",
+   "localName": "Sky",
+   "hex": "#9DD3EE",
+   "rgb": {
+    "r": 157,
+    "g": 211,
+    "b": 238
+   },
+   "cmyk": {
+    "c": 34,
+    "m": 11,
+    "y": 0,
+    "k": 7
+   },
+   "lab": {
+    "l": 81.8,
+    "a": -10.97,
+    "b": -18.85
+   }
+  },
+  {
+   "code": "Copic B26",
+   "name": "Copic B26",
+   "localName": "Cobalt Blue",
+   "hex": "#5A9BD5",
+   "rgb": {
+    "r": 90,
+    "g": 155,
+    "b": 213
+   },
+   "cmyk": {
+    "c": 58,
+    "m": 27,
+    "y": 0,
+    "k": 16
+   },
+   "lab": {
+    "l": 62.01,
+    "a": -3.79,
+    "b": -35.89
+   }
+  },
+  {
+   "code": "Copic B29",
+   "name": "Copic B29",
+   "localName": "Ultramarine",
+   "hex": "#0069AA",
+   "rgb": {
+    "r": 0,
+    "g": 105,
+    "b": 170
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 38,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 42.77,
+    "a": -0.38,
+    "b": -41.78
+   }
+  },
+  {
+   "code": "Copic B32",
+   "name": "Copic B32",
+   "localName": "Pale Blue",
+   "hex": "#E5F0F7",
+   "rgb": {
+    "r": 229,
+    "g": 240,
+    "b": 247
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 3,
+    "y": 0,
+    "k": 3
+   },
+   "lab": {
+    "l": 94.18,
+    "a": -2.32,
+    "b": -4.63
+   }
+  },
+  {
+   "code": "Copic B34",
+   "name": "Copic B34",
+   "localName": "Manganese Blue",
+   "hex": "#83C4E4",
+   "rgb": {
+    "r": 131,
+    "g": 196,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 43,
+    "m": 14,
+    "y": 0,
+    "k": 11
+   },
+   "lab": {
+    "l": 76.01,
+    "a": -12.46,
+    "b": -22.39
+   }
+  },
+  {
+   "code": "Copic B37",
+   "name": "Copic B37",
+   "localName": "Antwerp Blue",
+   "hex": "#0076A8",
+   "rgb": {
+    "r": 0,
+    "g": 118,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 30,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 46.69,
+    "a": -9.05,
+    "b": -34.4
+   }
+  },
+  {
+   "code": "Copic B39",
+   "name": "Copic B39",
+   "localName": "Prussian Blue",
+   "hex": "#2B5FA8",
+   "rgb": {
+    "r": 43,
+    "g": 95,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 74,
+    "m": 43,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 40.45,
+    "a": 8.58,
+    "b": -44.25
+   }
+  },
+  {
+   "code": "Copic B41",
+   "name": "Copic B41",
+   "localName": "Powder Blue",
+   "hex": "#E7F2FA",
+   "rgb": {
+    "r": 231,
+    "g": 242,
+    "b": 250
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 3,
+    "y": 0,
+    "k": 2
+   },
+   "lab": {
+    "l": 94.91,
+    "a": -2.13,
+    "b": -5.1
+   }
+  },
+  {
+   "code": "Copic B45",
+   "name": "Copic B45",
+   "localName": "Smoky Blue",
+   "hex": "#79B4DC",
+   "rgb": {
+    "r": 121,
+    "g": 180,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 45,
+    "m": 18,
+    "y": 0,
+    "k": 14
+   },
+   "lab": {
+    "l": 70.78,
+    "a": -8.59,
+    "b": -26.07
+   }
+  },
+  {
+   "code": "Copic B52",
+   "name": "Copic B52",
+   "localName": "Soft Greenish Blue",
+   "hex": "#B7CBD8",
+   "rgb": {
+    "r": 183,
+    "g": 203,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 15,
+    "m": 6,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 80.59,
+    "a": -4.09,
+    "b": -8.74
+   }
+  },
+  {
+   "code": "Copic B60",
+   "name": "Copic B60",
+   "localName": "Pale Blue Gray",
+   "hex": "#DDDDEB",
+   "rgb": {
+    "r": 221,
+    "g": 221,
+    "b": 235
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 6,
+    "y": 0,
+    "k": 8
+   },
+   "lab": {
+    "l": 88.49,
+    "a": 2.59,
+    "b": -6.82
+   }
+  },
+  {
+   "code": "Copic B63",
+   "name": "Copic B63",
+   "localName": "Light Hydrangea",
+   "hex": "#A9B4D8",
+   "rgb": {
+    "r": 169,
+    "g": 180,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 17,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 73.57,
+    "a": 3.85,
+    "b": -19.38
+   }
+  },
+  {
+   "code": "Copic B66",
+   "name": "Copic B66",
+   "localName": "Clematis",
+   "hex": "#6E7CB8",
+   "rgb": {
+    "r": 110,
+    "g": 124,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 33,
+    "y": 0,
+    "k": 28
+   },
+   "lab": {
+    "l": 53.16,
+    "a": 10.24,
+    "b": -33.25
+   }
+  },
+  {
+   "code": "Copic B69",
+   "name": "Copic B69",
+   "localName": "Stratospheric Blue",
+   "hex": "#4A5AA0",
+   "rgb": {
+    "r": 74,
+    "g": 90,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 54,
+    "m": 44,
+    "y": 0,
+    "k": 37
+   },
+   "lab": {
+    "l": 40.09,
+    "a": 14.68,
+    "b": -39.98
+   }
+  },
+  {
+   "code": "Copic B79",
+   "name": "Copic B79",
+   "localName": "Iris",
+   "hex": "#3B4998",
+   "rgb": {
+    "r": 59,
+    "g": 73,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 61,
+    "m": 52,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 33.9,
+    "a": 19.78,
+    "b": -45.13
+   }
+  },
+  {
+   "code": "Copic B91",
+   "name": "Copic B91",
+   "localName": "Pale Grayish Blue",
+   "hex": "#D5E3EC",
+   "rgb": {
+    "r": 213,
+    "g": 227,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 4,
+    "y": 0,
+    "k": 7
+   },
+   "lab": {
+    "l": 89.46,
+    "a": -2.93,
+    "b": -5.98
+   }
+  },
+  {
+   "code": "Copic B93",
+   "name": "Copic B93",
+   "localName": "Light Crockery Blue",
+   "hex": "#A7C6DC",
+   "rgb": {
+    "r": 167,
+    "g": 198,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 10,
+    "y": 0,
+    "k": 14
+   },
+   "lab": {
+    "l": 78.33,
+    "a": -5.54,
+    "b": -14.38
+   }
+  },
+  {
+   "code": "Copic B95",
+   "name": "Copic B95",
+   "localName": "Light Grayish Cobalt",
+   "hex": "#7FA8C8",
+   "rgb": {
+    "r": 127,
+    "g": 168,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 16,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 67.04,
+    "a": -5.88,
+    "b": -20.76
+   }
+  },
+  {
+   "code": "Copic B97",
+   "name": "Copic B97",
+   "localName": "Night Blue",
+   "hex": "#3D6E96",
+   "rgb": {
+    "r": 61,
+    "g": 110,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 59,
+    "m": 27,
+    "y": 0,
+    "k": 41
+   },
+   "lab": {
+    "l": 44.72,
+    "a": -4.1,
+    "b": -26.78
+   }
+  },
+  {
+   "code": "Copic B99",
+   "name": "Copic B99",
+   "localName": "Agate",
+   "hex": "#264C74",
+   "rgb": {
+    "r": 38,
+    "g": 76,
+    "b": 116
+   },
+   "cmyk": {
+    "c": 67,
+    "m": 34,
+    "y": 0,
+    "k": 55
+   },
+   "lab": {
+    "l": 31.44,
+    "a": 0.34,
+    "b": -26.93
+   }
+  },
+  {
+   "code": "Copic BG000",
+   "name": "Copic BG000",
+   "localName": "Pale Aqua",
+   "hex": "#E8F6F4",
+   "rgb": {
+    "r": 232,
+    "g": 246,
+    "b": 244
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 1,
+    "k": 4
+   },
+   "lab": {
+    "l": 95.83,
+    "a": -4.96,
+    "b": -0.63
+   }
+  },
+  {
+   "code": "Copic BG01",
+   "name": "Copic BG01",
+   "localName": "Aqua Blue",
+   "hex": "#B7E5EA",
+   "rgb": {
+    "r": 183,
+    "g": 229,
+    "b": 234
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 2,
+    "y": 0,
+    "k": 8
+   },
+   "lab": {
+    "l": 87.99,
+    "a": -13.68,
+    "b": -7.32
+   }
+  },
+  {
+   "code": "Copic BG02",
+   "name": "Copic BG02",
+   "localName": "New Blue",
+   "hex": "#A6DEE5",
+   "rgb": {
+    "r": 166,
+    "g": 222,
+    "b": 229
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 3,
+    "y": 0,
+    "k": 10
+   },
+   "lab": {
+    "l": 85,
+    "a": -16.21,
+    "b": -9.22
+   }
+  },
+  {
+   "code": "Copic BG05",
+   "name": "Copic BG05",
+   "localName": "Holiday Blue",
+   "hex": "#4FC5D6",
+   "rgb": {
+    "r": 79,
+    "g": 197,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 63,
+    "m": 8,
+    "y": 0,
+    "k": 16
+   },
+   "lab": {
+    "l": 73.83,
+    "a": -27.73,
+    "b": -18.31
+   }
+  },
+  {
+   "code": "Copic BG07",
+   "name": "Copic BG07",
+   "localName": "Petroleum Blue",
+   "hex": "#00B0BC",
+   "rgb": {
+    "r": 0,
+    "g": 176,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 6,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 65.5,
+    "a": -32.65,
+    "b": -16.78
+   }
+  },
+  {
+   "code": "Copic BG09",
+   "name": "Copic BG09",
+   "localName": "Blue Green",
+   "hex": "#00A9AE",
+   "rgb": {
+    "r": 0,
+    "g": 169,
+    "b": 174
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 3,
+    "y": 0,
+    "k": 32
+   },
+   "lab": {
+    "l": 62.87,
+    "a": -33.77,
+    "b": -12.94
+   }
+  },
+  {
+   "code": "Copic BG10",
+   "name": "Copic BG10",
+   "localName": "Cool Shadow",
+   "hex": "#DFF0EC",
+   "rgb": {
+    "r": 223,
+    "g": 240,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 2,
+    "k": 6
+   },
+   "lab": {
+    "l": 93.48,
+    "a": -6.33,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic BG11",
+   "name": "Copic BG11",
+   "localName": "Moon White",
+   "hex": "#D6EFEC",
+   "rgb": {
+    "r": 214,
+    "g": 239,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 1,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.61,
+    "a": -8.73,
+    "b": -1.33
+   }
+  },
+  {
+   "code": "Copic BG13",
+   "name": "Copic BG13",
+   "localName": "Mint Green",
+   "hex": "#BEE7E4",
+   "rgb": {
+    "r": 190,
+    "g": 231,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 0,
+    "y": 1,
+    "k": 9
+   },
+   "lab": {
+    "l": 88.78,
+    "a": -13.82,
+    "b": -2.95
+   }
+  },
+  {
+   "code": "Copic BG15",
+   "name": "Copic BG15",
+   "localName": "Aqua",
+   "hex": "#8AD5CC",
+   "rgb": {
+    "r": 138,
+    "g": 213,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 35,
+    "m": 0,
+    "y": 4,
+    "k": 16
+   },
+   "lab": {
+    "l": 80.38,
+    "a": -25.22,
+    "b": -2.93
+   }
+  },
+  {
+   "code": "Copic BG18",
+   "name": "Copic BG18",
+   "localName": "Teal Blue",
+   "hex": "#00A99D",
+   "rgb": {
+    "r": 0,
+    "g": 169,
+    "b": 157
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 7,
+    "k": 34
+   },
+   "lab": {
+    "l": 62.34,
+    "a": -38.96,
+    "b": -4.2
+   }
+  },
+  {
+   "code": "Copic BG23",
+   "name": "Copic BG23",
+   "localName": "Coral Sea",
+   "hex": "#B9E1DA",
+   "rgb": {
+    "r": 185,
+    "g": 225,
+    "b": 218
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 0,
+    "y": 3,
+    "k": 12
+   },
+   "lab": {
+    "l": 86.62,
+    "a": -14.38,
+    "b": -0.91
+   }
+  },
+  {
+   "code": "Copic BG32",
+   "name": "Copic BG32",
+   "localName": "Aqua Mint",
+   "hex": "#C7E8E2",
+   "rgb": {
+    "r": 199,
+    "g": 232,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 3,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.55,
+    "a": -11.91,
+    "b": -0.71
+   }
+  },
+  {
+   "code": "Copic BG34",
+   "name": "Copic BG34",
+   "localName": "Horizon Green",
+   "hex": "#A2DCD2",
+   "rgb": {
+    "r": 162,
+    "g": 220,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 26,
+    "m": 0,
+    "y": 5,
+    "k": 14
+   },
+   "lab": {
+    "l": 83.71,
+    "a": -20.54,
+    "b": -1.08
+   }
+  },
+  {
+   "code": "Copic BG45",
+   "name": "Copic BG45",
+   "localName": "Nile Blue",
+   "hex": "#AEDDDE",
+   "rgb": {
+    "r": 174,
+    "g": 221,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 0,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 84.99,
+    "a": -14.9,
+    "b": -5.49
+   }
+  },
+  {
+   "code": "Copic BG49",
+   "name": "Copic BG49",
+   "localName": "Duck Blue",
+   "hex": "#009CA6",
+   "rgb": {
+    "r": 0,
+    "g": 156,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 6,
+    "y": 0,
+    "k": 35
+   },
+   "lab": {
+    "l": 58.53,
+    "a": -30.11,
+    "b": -14.97
+   }
+  },
+  {
+   "code": "Copic BG53",
+   "name": "Copic BG53",
+   "localName": "Ice Mint",
+   "hex": "#5FBEB4",
+   "rgb": {
+    "r": 95,
+    "g": 190,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 50,
+    "m": 0,
+    "y": 5,
+    "k": 25
+   },
+   "lab": {
+    "l": 71.25,
+    "a": -30.55,
+    "b": -3.59
+   }
+  },
+  {
+   "code": "Copic BG57",
+   "name": "Copic BG57",
+   "localName": "Jasper",
+   "hex": "#2A9D8F",
+   "rgb": {
+    "r": 42,
+    "g": 157,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 73,
+    "m": 0,
+    "y": 9,
+    "k": 38
+   },
+   "lab": {
+    "l": 58.59,
+    "a": -34.55,
+    "b": -1.78
+   }
+  },
+  {
+   "code": "Copic BG72",
+   "name": "Copic BG72",
+   "localName": "Ice Ocean",
+   "hex": "#4A8E92",
+   "rgb": {
+    "r": 74,
+    "g": 142,
+    "b": 146
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 3,
+    "y": 0,
+    "k": 43
+   },
+   "lab": {
+    "l": 54.94,
+    "a": -20.36,
+    "b": -8.79
+   }
+  },
+  {
+   "code": "Copic BG75",
+   "name": "Copic BG75",
+   "localName": "Abyss Green",
+   "hex": "#2E6E72",
+   "rgb": {
+    "r": 46,
+    "g": 110,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 4,
+    "y": 0,
+    "k": 55
+   },
+   "lab": {
+    "l": 42.68,
+    "a": -18.97,
+    "b": -8.39
+   }
+  },
+  {
+   "code": "Copic BG78",
+   "name": "Copic BG78",
+   "localName": "Bronze",
+   "hex": "#3E6B63",
+   "rgb": {
+    "r": 62,
+    "g": 107,
+    "b": 99
+   },
+   "cmyk": {
+    "c": 42,
+    "m": 0,
+    "y": 7,
+    "k": 58
+   },
+   "lab": {
+    "l": 41.91,
+    "a": -17.59,
+    "b": -0.39
+   }
+  },
+  {
+   "code": "Copic BG93",
+   "name": "Copic BG93",
+   "localName": "Green Gray",
+   "hex": "#C4D3CE",
+   "rgb": {
+    "r": 196,
+    "g": 211,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 2,
+    "k": 17
+   },
+   "lab": {
+    "l": 83.33,
+    "a": -6,
+    "b": 0.73
+   }
+  },
+  {
+   "code": "Copic BG96",
+   "name": "Copic BG96",
+   "localName": "Bush",
+   "hex": "#7E9E97",
+   "rgb": {
+    "r": 126,
+    "g": 158,
+    "b": 151
+   },
+   "cmyk": {
+    "c": 20,
+    "m": 0,
+    "y": 4,
+    "k": 38
+   },
+   "lab": {
+    "l": 62.61,
+    "a": -12.55,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic BG99",
+   "name": "Copic BG99",
+   "localName": "Flagstone Blue",
+   "hex": "#4C7A72",
+   "rgb": {
+    "r": 76,
+    "g": 122,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 38,
+    "m": 0,
+    "y": 7,
+    "k": 52
+   },
+   "lab": {
+    "l": 47.84,
+    "a": -17.72,
+    "b": -0.6
+   }
+  },
+  {
+   "code": "Copic BV000",
+   "name": "Copic BV000",
+   "localName": "Iridescent Mauve",
+   "hex": "#F1EDF5",
+   "rgb": {
+    "r": 241,
+    "g": 237,
+    "b": 245
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 3,
+    "y": 0,
+    "k": 4
+   },
+   "lab": {
+    "l": 94.25,
+    "a": 2.76,
+    "b": -3.38
+   }
+  },
+  {
+   "code": "Copic BV00",
+   "name": "Copic BV00",
+   "localName": "Mauve Shadow",
+   "hex": "#E4E0EF",
+   "rgb": {
+    "r": 228,
+    "g": 224,
+    "b": 239
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 6,
+    "y": 0,
+    "k": 6
+   },
+   "lab": {
+    "l": 89.88,
+    "a": 4.08,
+    "b": -6.81
+   }
+  },
+  {
+   "code": "Copic BV02",
+   "name": "Copic BV02",
+   "localName": "Prune",
+   "hex": "#C5BEDD",
+   "rgb": {
+    "r": 197,
+    "g": 190,
+    "b": 221
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 14,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 78.41,
+    "a": 8.4,
+    "b": -14.57
+   }
+  },
+  {
+   "code": "Copic BV04",
+   "name": "Copic BV04",
+   "localName": "Blue Berry",
+   "hex": "#8E8CC0",
+   "rgb": {
+    "r": 142,
+    "g": 140,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 26,
+    "m": 27,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 60.17,
+    "a": 12.29,
+    "b": -26.73
+   }
+  },
+  {
+   "code": "Copic BV08",
+   "name": "Copic BV08",
+   "localName": "Blue Violet",
+   "hex": "#8465AC",
+   "rgb": {
+    "r": 132,
+    "g": 101,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 41,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 48.5,
+    "a": 27.17,
+    "b": -33.45
+   }
+  },
+  {
+   "code": "Copic BV11",
+   "name": "Copic BV11",
+   "localName": "Soft Violet",
+   "hex": "#DCD9EC",
+   "rgb": {
+    "r": 220,
+    "g": 217,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 8,
+    "y": 0,
+    "k": 7
+   },
+   "lab": {
+    "l": 87.44,
+    "a": 4.54,
+    "b": -8.92
+   }
+  },
+  {
+   "code": "Copic BV13",
+   "name": "Copic BV13",
+   "localName": "Hydrangea Blue",
+   "hex": "#8E8BC4",
+   "rgb": {
+    "r": 142,
+    "g": 139,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 28,
+    "m": 29,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 60.07,
+    "a": 13.86,
+    "b": -29.14
+   }
+  },
+  {
+   "code": "Copic BV17",
+   "name": "Copic BV17",
+   "localName": "Deep Reddish Blue",
+   "hex": "#6E6BB0",
+   "rgb": {
+    "r": 110,
+    "g": 107,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 39,
+    "y": 0,
+    "k": 31
+   },
+   "lab": {
+    "l": 48.22,
+    "a": 18.22,
+    "b": -36.37
+   }
+  },
+  {
+   "code": "Copic BV20",
+   "name": "Copic BV20",
+   "localName": "Dull Lavender",
+   "hex": "#E2E4F1",
+   "rgb": {
+    "r": 226,
+    "g": 228,
+    "b": 241
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 5,
+    "y": 0,
+    "k": 5
+   },
+   "lab": {
+    "l": 90.78,
+    "a": 1.73,
+    "b": -6.54
+   }
+  },
+  {
+   "code": "Copic BV23",
+   "name": "Copic BV23",
+   "localName": "Grayish Lavender",
+   "hex": "#C7C8DE",
+   "rgb": {
+    "r": 199,
+    "g": 200,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 10,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 81.14,
+    "a": 3.9,
+    "b": -11.02
+   }
+  },
+  {
+   "code": "Copic BV25",
+   "name": "Copic BV25",
+   "localName": "Grayish Violet",
+   "hex": "#8C86A8",
+   "rgb": {
+    "r": 140,
+    "g": 134,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 20,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 57.51,
+    "a": 9.39,
+    "b": -17.16
+   }
+  },
+  {
+   "code": "Copic BV29",
+   "name": "Copic BV29",
+   "localName": "Slate",
+   "hex": "#3E3A63",
+   "rgb": {
+    "r": 62,
+    "g": 58,
+    "b": 99
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 41,
+    "y": 0,
+    "k": 61
+   },
+   "lab": {
+    "l": 26.59,
+    "a": 12.7,
+    "b": -23.65
+   }
+  },
+  {
+   "code": "Copic BV31",
+   "name": "Copic BV31",
+   "localName": "Pale Lavender",
+   "hex": "#E7E4EE",
+   "rgb": {
+    "r": 231,
+    "g": 228,
+    "b": 238
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 4,
+    "y": 0,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.08,
+    "a": 2.81,
+    "b": -4.49
+   }
+  },
+  {
+   "code": "Copic C0",
+   "name": "Copic C0",
+   "localName": "Cool Gray No.0",
+   "hex": "#EDF0F2",
+   "rgb": {
+    "r": 237,
+    "g": 240,
+    "b": 242
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 1,
+    "y": 0,
+    "k": 5
+   },
+   "lab": {
+    "l": 94.63,
+    "a": -0.64,
+    "b": -1.31
+   }
+  },
+  {
+   "code": "Copic C1",
+   "name": "Copic C1",
+   "localName": "Cool Gray No.1",
+   "hex": "#E2E6E9",
+   "rgb": {
+    "r": 226,
+    "g": 230,
+    "b": 233
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 1,
+    "y": 0,
+    "k": 9
+   },
+   "lab": {
+    "l": 91.07,
+    "a": -0.79,
+    "b": -1.92
+   }
+  },
+  {
+   "code": "Copic C2",
+   "name": "Copic C2",
+   "localName": "Cool Gray No.2",
+   "hex": "#D3D9DD",
+   "rgb": {
+    "r": 211,
+    "g": 217,
+    "b": 221
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 2,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 86.35,
+    "a": -1.28,
+    "b": -2.67
+   }
+  },
+  {
+   "code": "Copic C3",
+   "name": "Copic C3",
+   "localName": "Cool Gray No.3",
+   "hex": "#C0C8CE",
+   "rgb": {
+    "r": 192,
+    "g": 200,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 3,
+    "y": 0,
+    "k": 19
+   },
+   "lab": {
+    "l": 80.16,
+    "a": -1.58,
+    "b": -3.94
+   }
+  },
+  {
+   "code": "Copic C4",
+   "name": "Copic C4",
+   "localName": "Cool Gray No.4",
+   "hex": "#AAB4BC",
+   "rgb": {
+    "r": 170,
+    "g": 180,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 4,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 72.77,
+    "a": -1.88,
+    "b": -5.26
+   }
+  },
+  {
+   "code": "Copic C5",
+   "name": "Copic C5",
+   "localName": "Cool Gray No.5",
+   "hex": "#909CA6",
+   "rgb": {
+    "r": 144,
+    "g": 156,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 6,
+    "y": 0,
+    "k": 35
+   },
+   "lab": {
+    "l": 63.72,
+    "a": -2.17,
+    "b": -6.67
+   }
+  },
+  {
+   "code": "Copic C6",
+   "name": "Copic C6",
+   "localName": "Cool Gray No.6",
+   "hex": "#78858F",
+   "rgb": {
+    "r": 120,
+    "g": 133,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 7,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 54.81,
+    "a": -2.53,
+    "b": -6.97
+   }
+  },
+  {
+   "code": "Copic C7",
+   "name": "Copic C7",
+   "localName": "Cool Gray No.7",
+   "hex": "#5C6870",
+   "rgb": {
+    "r": 92,
+    "g": 104,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 7,
+    "y": 0,
+    "k": 56
+   },
+   "lab": {
+    "l": 43.28,
+    "a": -2.69,
+    "b": -6.02
+   }
+  },
+  {
+   "code": "Copic C8",
+   "name": "Copic C8",
+   "localName": "Cool Gray No.8",
+   "hex": "#454F57",
+   "rgb": {
+    "r": 69,
+    "g": 79,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 9,
+    "y": 0,
+    "k": 66
+   },
+   "lab": {
+    "l": 33.02,
+    "a": -2,
+    "b": -6.04
+   }
+  },
+  {
+   "code": "Copic C9",
+   "name": "Copic C9",
+   "localName": "Cool Gray No.9",
+   "hex": "#333B41",
+   "rgb": {
+    "r": 51,
+    "g": 59,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 9,
+    "y": 0,
+    "k": 75
+   },
+   "lab": {
+    "l": 24.36,
+    "a": -1.78,
+    "b": -4.82
+   }
+  },
+  {
+   "code": "Copic C10",
+   "name": "Copic C10",
+   "localName": "Cool Gray No.10",
+   "hex": "#22282C",
+   "rgb": {
+    "r": 34,
+    "g": 40,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 9,
+    "y": 0,
+    "k": 83
+   },
+   "lab": {
+    "l": 15.69,
+    "a": -1.56,
+    "b": -3.52
+   }
+  },
+  {
+   "code": "Copic E00",
+   "name": "Copic E00",
+   "localName": "Cotton Pearl",
+   "hex": "#F8E7DF",
+   "rgb": {
+    "r": 248,
+    "g": 231,
+    "b": 223
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 10,
+    "k": 3
+   },
+   "lab": {
+    "l": 92.77,
+    "a": 4.45,
+    "b": 5.97
+   }
+  },
+  {
+   "code": "Copic E01",
+   "name": "Copic E01",
+   "localName": "Pink Flamingo",
+   "hex": "#F7DFD4",
+   "rgb": {
+    "r": 247,
+    "g": 223,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 14,
+    "k": 3
+   },
+   "lab": {
+    "l": 90.46,
+    "a": 6.47,
+    "b": 8.38
+   }
+  },
+  {
+   "code": "Copic E02",
+   "name": "Copic E02",
+   "localName": "Fruit Pink",
+   "hex": "#F9E2D6",
+   "rgb": {
+    "r": 249,
+    "g": 226,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 14,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.41,
+    "a": 5.94,
+    "b": 8.72
+   }
+  },
+  {
+   "code": "Copic E04",
+   "name": "Copic E04",
+   "localName": "Lipstick Natural",
+   "hex": "#D9A0A8",
+   "rgb": {
+    "r": 217,
+    "g": 160,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 23,
+    "k": 15
+   },
+   "lab": {
+    "l": 71.37,
+    "a": 22.3,
+    "b": 4.19
+   }
+  },
+  {
+   "code": "Copic E07",
+   "name": "Copic E07",
+   "localName": "Light Mahogany",
+   "hex": "#B06A4C",
+   "rgb": {
+    "r": 176,
+    "g": 106,
+    "b": 76
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 40,
+    "y": 57,
+    "k": 31
+   },
+   "lab": {
+    "l": 51.91,
+    "a": 24.92,
+    "b": 28.61
+   }
+  },
+  {
+   "code": "Copic E08",
+   "name": "Copic E08",
+   "localName": "Brown",
+   "hex": "#A85A45",
+   "rgb": {
+    "r": 168,
+    "g": 90,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 59,
+    "k": 34
+   },
+   "lab": {
+    "l": 47.06,
+    "a": 29.86,
+    "b": 26.27
+   }
+  },
+  {
+   "code": "Copic E09",
+   "name": "Copic E09",
+   "localName": "Burnt Sienna",
+   "hex": "#C05F3C",
+   "rgb": {
+    "r": 192,
+    "g": 95,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 69,
+    "k": 25
+   },
+   "lab": {
+    "l": 51.52,
+    "a": 36.22,
+    "b": 37.54
+   }
+  },
+  {
+   "code": "Copic E11",
+   "name": "Copic E11",
+   "localName": "Barley Beige",
+   "hex": "#F6DCC8",
+   "rgb": {
+    "r": 246,
+    "g": 220,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 19,
+    "k": 4
+   },
+   "lab": {
+    "l": 89.37,
+    "a": 5.84,
+    "b": 13.1
+   }
+  },
+  {
+   "code": "Copic E13",
+   "name": "Copic E13",
+   "localName": "Light Suntan",
+   "hex": "#DDAE93",
+   "rgb": {
+    "r": 221,
+    "g": 174,
+    "b": 147
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 33,
+    "k": 13
+   },
+   "lab": {
+    "l": 74.67,
+    "a": 13.41,
+    "b": 20.41
+   }
+  },
+  {
+   "code": "Copic E15",
+   "name": "Copic E15",
+   "localName": "Dark Suntan",
+   "hex": "#E8A87C",
+   "rgb": {
+    "r": 232,
+    "g": 168,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 28,
+    "y": 47,
+    "k": 9
+   },
+   "lab": {
+    "l": 73.95,
+    "a": 18.39,
+    "b": 31.99
+   }
+  },
+  {
+   "code": "Copic E17",
+   "name": "Copic E17",
+   "localName": "Reddish Brass",
+   "hex": "#A6603F",
+   "rgb": {
+    "r": 166,
+    "g": 96,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 42,
+    "y": 62,
+    "k": 35
+   },
+   "lab": {
+    "l": 48.05,
+    "a": 25.27,
+    "b": 30.87
+   }
+  },
+  {
+   "code": "Copic E18",
+   "name": "Copic E18",
+   "localName": "Copper",
+   "hex": "#7A4A34",
+   "rgb": {
+    "r": 122,
+    "g": 74,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 57,
+    "k": 52
+   },
+   "lab": {
+    "l": 36.53,
+    "a": 17.96,
+    "b": 21.64
+   }
+  },
+  {
+   "code": "Copic E21",
+   "name": "Copic E21",
+   "localName": "Baby Skin Pink",
+   "hex": "#F9E0CD",
+   "rgb": {
+    "r": 249,
+    "g": 224,
+    "b": 205
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 18,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.72,
+    "a": 5.6,
+    "b": 12.43
+   }
+  },
+  {
+   "code": "Copic E23",
+   "name": "Copic E23",
+   "localName": "Hazelnut",
+   "hex": "#C29A80",
+   "rgb": {
+    "r": 194,
+    "g": 154,
+    "b": 128
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 34,
+    "k": 24
+   },
+   "lab": {
+    "l": 66.63,
+    "a": 11.22,
+    "b": 19.33
+   }
+  },
+  {
+   "code": "Copic E25",
+   "name": "Copic E25",
+   "localName": "Caribe Cocoa",
+   "hex": "#C9A07C",
+   "rgb": {
+    "r": 201,
+    "g": 160,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 38,
+    "k": 21
+   },
+   "lab": {
+    "l": 68.76,
+    "a": 10.26,
+    "b": 24.54
+   }
+  },
+  {
+   "code": "Copic E27",
+   "name": "Copic E27",
+   "localName": "Milk Chocolate",
+   "hex": "#8E7156",
+   "rgb": {
+    "r": 142,
+    "g": 113,
+    "b": 86
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 39,
+    "k": 44
+   },
+   "lab": {
+    "l": 49.78,
+    "a": 7.49,
+    "b": 19.33
+   }
+  },
+  {
+   "code": "Copic E29",
+   "name": "Copic E29",
+   "localName": "Burnt Umber",
+   "hex": "#6B4327",
+   "rgb": {
+    "r": 107,
+    "g": 67,
+    "b": 39
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 37,
+    "y": 64,
+    "k": 58
+   },
+   "lab": {
+    "l": 32.45,
+    "a": 14.2,
+    "b": 23.94
+   }
+  },
+  {
+   "code": "Copic E30",
+   "name": "Copic E30",
+   "localName": "Bisque",
+   "hex": "#EFE3CE",
+   "rgb": {
+    "r": 239,
+    "g": 227,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 14,
+    "k": 6
+   },
+   "lab": {
+    "l": 90.66,
+    "a": 0.64,
+    "b": 11.72
+   }
+  },
+  {
+   "code": "Copic E31",
+   "name": "Copic E31",
+   "localName": "Brick Beige",
+   "hex": "#E7D8C0",
+   "rgb": {
+    "r": 231,
+    "g": 216,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 17,
+    "k": 9
+   },
+   "lab": {
+    "l": 86.95,
+    "a": 1.29,
+    "b": 13.7
+   }
+  },
+  {
+   "code": "Copic E33",
+   "name": "Copic E33",
+   "localName": "Sand",
+   "hex": "#EDCDA8",
+   "rgb": {
+    "r": 237,
+    "g": 205,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 29,
+    "k": 7
+   },
+   "lab": {
+    "l": 84.22,
+    "a": 5.85,
+    "b": 22.59
+   }
+  },
+  {
+   "code": "Copic E34",
+   "name": "Copic E34",
+   "localName": "Orientale",
+   "hex": "#E9C39C",
+   "rgb": {
+    "r": 233,
+    "g": 195,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 33,
+    "k": 9
+   },
+   "lab": {
+    "l": 81.16,
+    "a": 8.03,
+    "b": 24.66
+   }
+  },
+  {
+   "code": "Copic E35",
+   "name": "Copic E35",
+   "localName": "Chamois",
+   "hex": "#DDBE9C",
+   "rgb": {
+    "r": 221,
+    "g": 190,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 29,
+    "k": 13
+   },
+   "lab": {
+    "l": 78.81,
+    "a": 6.04,
+    "b": 21.28
+   }
+  },
+  {
+   "code": "Copic E37",
+   "name": "Copic E37",
+   "localName": "Sepia",
+   "hex": "#B08350",
+   "rgb": {
+    "r": 176,
+    "g": 131,
+    "b": 80
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 55,
+    "k": 31
+   },
+   "lab": {
+    "l": 58.08,
+    "a": 11.28,
+    "b": 34.1
+   }
+  },
+  {
+   "code": "Copic E39",
+   "name": "Copic E39",
+   "localName": "Leather",
+   "hex": "#B4632C",
+   "rgb": {
+    "r": 180,
+    "g": 99,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 76,
+    "k": 29
+   },
+   "lab": {
+    "l": 50.47,
+    "a": 28.4,
+    "b": 44.13
+   }
+  },
+  {
+   "code": "Copic E40",
+   "name": "Copic E40",
+   "localName": "Brick White",
+   "hex": "#EFE6DA",
+   "rgb": {
+    "r": 239,
+    "g": 230,
+    "b": 218
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 9,
+    "k": 6
+   },
+   "lab": {
+    "l": 91.69,
+    "a": 1.02,
+    "b": 6.92
+   }
+  },
+  {
+   "code": "Copic E41",
+   "name": "Copic E41",
+   "localName": "Pearl White",
+   "hex": "#F7E9DC",
+   "rgb": {
+    "r": 247,
+    "g": 233,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 11,
+    "k": 3
+   },
+   "lab": {
+    "l": 93.11,
+    "a": 2.59,
+    "b": 8.01
+   }
+  },
+  {
+   "code": "Copic E42",
+   "name": "Copic E42",
+   "localName": "Sand White",
+   "hex": "#E8DCC6",
+   "rgb": {
+    "r": 232,
+    "g": 220,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 15,
+    "k": 9
+   },
+   "lab": {
+    "l": 88.17,
+    "a": 0.5,
+    "b": 12.28
+   }
+  },
+  {
+   "code": "Copic E43",
+   "name": "Copic E43",
+   "localName": "Dull Ivory",
+   "hex": "#DFD0B4",
+   "rgb": {
+    "r": 223,
+    "g": 208,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 19,
+    "k": 13
+   },
+   "lab": {
+    "l": 84.02,
+    "a": 0.72,
+    "b": 15.79
+   }
+  },
+  {
+   "code": "Copic E44",
+   "name": "Copic E44",
+   "localName": "Clay",
+   "hex": "#C4B7A2",
+   "rgb": {
+    "r": 196,
+    "g": 183,
+    "b": 162
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 17,
+    "k": 23
+   },
+   "lab": {
+    "l": 74.96,
+    "a": 1.12,
+    "b": 12.35
+   }
+  },
+  {
+   "code": "Copic E47",
+   "name": "Copic E47",
+   "localName": "Dark Brown",
+   "hex": "#7A6248",
+   "rgb": {
+    "r": 122,
+    "g": 98,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 41,
+    "k": 52
+   },
+   "lab": {
+    "l": 43.27,
+    "a": 5.8,
+    "b": 18.46
+   }
+  },
+  {
+   "code": "Copic E49",
+   "name": "Copic E49",
+   "localName": "Dark Bark",
+   "hex": "#5A4534",
+   "rgb": {
+    "r": 90,
+    "g": 69,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 23,
+    "y": 42,
+    "k": 65
+   },
+   "lab": {
+    "l": 31.06,
+    "a": 6.37,
+    "b": 13.73
+   }
+  },
+  {
+   "code": "Copic E50",
+   "name": "Copic E50",
+   "localName": "Egg Shell",
+   "hex": "#F6EAE4",
+   "rgb": {
+    "r": 246,
+    "g": 234,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 7,
+    "k": 4
+   },
+   "lab": {
+    "l": 93.47,
+    "a": 3.04,
+    "b": 4.36
+   }
+  },
+  {
+   "code": "Copic E51",
+   "name": "Copic E51",
+   "localName": "Milky White",
+   "hex": "#F8E5CE",
+   "rgb": {
+    "r": 248,
+    "g": 229,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 17,
+    "k": 3
+   },
+   "lab": {
+    "l": 91.89,
+    "a": 2.83,
+    "b": 13.56
+   }
+  },
+  {
+   "code": "Copic E53",
+   "name": "Copic E53",
+   "localName": "Raw Silk",
+   "hex": "#EFE1C0",
+   "rgb": {
+    "r": 239,
+    "g": 225,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 20,
+    "k": 6
+   },
+   "lab": {
+    "l": 89.86,
+    "a": -0.44,
+    "b": 17.89
+   }
+  },
+  {
+   "code": "Copic E55",
+   "name": "Copic E55",
+   "localName": "Light Camel",
+   "hex": "#DFC79E",
+   "rgb": {
+    "r": 223,
+    "g": 199,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 29,
+    "k": 13
+   },
+   "lab": {
+    "l": 81.29,
+    "a": 2.34,
+    "b": 23.65
+   }
+  },
+  {
+   "code": "Copic E57",
+   "name": "Copic E57",
+   "localName": "Light Walnut",
+   "hex": "#9E7043",
+   "rgb": {
+    "r": 158,
+    "g": 112,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 29,
+    "y": 58,
+    "k": 38
+   },
+   "lab": {
+    "l": 50.99,
+    "a": 13.06,
+    "b": 32
+   }
+  },
+  {
+   "code": "Copic E59",
+   "name": "Copic E59",
+   "localName": "Walnut",
+   "hex": "#8A7461",
+   "rgb": {
+    "r": 138,
+    "g": 116,
+    "b": 97
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 30,
+    "k": 46
+   },
+   "lab": {
+    "l": 50.4,
+    "a": 5.54,
+    "b": 13.7
+   }
+  },
+  {
+   "code": "Copic E71",
+   "name": "Copic E71",
+   "localName": "Champagne",
+   "hex": "#DDC5B8",
+   "rgb": {
+    "r": 221,
+    "g": 197,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 17,
+    "k": 13
+   },
+   "lab": {
+    "l": 81.16,
+    "a": 6.35,
+    "b": 9.6
+   }
+  },
+  {
+   "code": "Copic E74",
+   "name": "Copic E74",
+   "localName": "Cocoa Brown",
+   "hex": "#9A7A69",
+   "rgb": {
+    "r": 154,
+    "g": 122,
+    "b": 105
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 32,
+    "k": 40
+   },
+   "lab": {
+    "l": 53.82,
+    "a": 9.87,
+    "b": 14.04
+   }
+  },
+  {
+   "code": "Copic E77",
+   "name": "Copic E77",
+   "localName": "Maroon",
+   "hex": "#6E4E3E",
+   "rgb": {
+    "r": 110,
+    "g": 78,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 29,
+    "y": 44,
+    "k": 57
+   },
+   "lab": {
+    "l": 36.2,
+    "a": 11.24,
+    "b": 14.8
+   }
+  },
+  {
+   "code": "Copic E79",
+   "name": "Copic E79",
+   "localName": "Cashew",
+   "hex": "#4E3527",
+   "rgb": {
+    "r": 78,
+    "g": 53,
+    "b": 39
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 32,
+    "y": 50,
+    "k": 69
+   },
+   "lab": {
+    "l": 24.68,
+    "a": 9.23,
+    "b": 13.29
+   }
+  },
+  {
+   "code": "Copic E81",
+   "name": "Copic E81",
+   "localName": "Ivory",
+   "hex": "#E5D9B4",
+   "rgb": {
+    "r": 229,
+    "g": 217,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 21,
+    "k": 10
+   },
+   "lab": {
+    "l": 86.79,
+    "a": -1.73,
+    "b": 19.74
+   }
+  },
+  {
+   "code": "Copic E84",
+   "name": "Copic E84",
+   "localName": "Khaki",
+   "hex": "#9C8A5A",
+   "rgb": {
+    "r": 156,
+    "g": 138,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 42,
+    "k": 39
+   },
+   "lab": {
+    "l": 58.02,
+    "a": -0.22,
+    "b": 28.17
+   }
+  },
+  {
+   "code": "Copic E87",
+   "name": "Copic E87",
+   "localName": "Fig",
+   "hex": "#5E4E32",
+   "rgb": {
+    "r": 94,
+    "g": 78,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 47,
+    "k": 63
+   },
+   "lab": {
+    "l": 34.11,
+    "a": 2.38,
+    "b": 19.05
+   }
+  },
+  {
+   "code": "Copic G00",
+   "name": "Copic G00",
+   "localName": "Jade Green",
+   "hex": "#E4F1E4",
+   "rgb": {
+    "r": 228,
+    "g": 241,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 5,
+    "k": 5
+   },
+   "lab": {
+    "l": 93.89,
+    "a": -6.63,
+    "b": 4.79
+   }
+  },
+  {
+   "code": "Copic G02",
+   "name": "Copic G02",
+   "localName": "Spectrum Green",
+   "hex": "#C6E4CE",
+   "rgb": {
+    "r": 198,
+    "g": 228,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 0,
+    "y": 10,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.94,
+    "a": -14,
+    "b": 7.43
+   }
+  },
+  {
+   "code": "Copic G03",
+   "name": "Copic G03",
+   "localName": "Meadow Green",
+   "hex": "#A8DCB4",
+   "rgb": {
+    "r": 168,
+    "g": 220,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 24,
+    "m": 0,
+    "y": 18,
+    "k": 14
+   },
+   "lab": {
+    "l": 83.34,
+    "a": -24.62,
+    "b": 14.29
+   }
+  },
+  {
+   "code": "Copic G05",
+   "name": "Copic G05",
+   "localName": "Emerald Green",
+   "hex": "#46B97C",
+   "rgb": {
+    "r": 70,
+    "g": 185,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 62,
+    "m": 0,
+    "y": 33,
+    "k": 27
+   },
+   "lab": {
+    "l": 67.62,
+    "a": -46.54,
+    "b": 21.61
+   }
+  },
+  {
+   "code": "Copic G07",
+   "name": "Copic G07",
+   "localName": "Nile Green",
+   "hex": "#5CB85C",
+   "rgb": {
+    "r": 92,
+    "g": 184,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 50,
+    "m": 0,
+    "y": 50,
+    "k": 28
+   },
+   "lab": {
+    "l": 67.52,
+    "a": -46.26,
+    "b": 38.26
+   }
+  },
+  {
+   "code": "Copic G09",
+   "name": "Copic G09",
+   "localName": "Veronese Green",
+   "hex": "#00A651",
+   "rgb": {
+    "r": 0,
+    "g": 166,
+    "b": 81
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 51,
+    "k": 35
+   },
+   "lab": {
+    "l": 59.77,
+    "a": -55.66,
+    "b": 33.78
+   }
+  },
+  {
+   "code": "Copic G12",
+   "name": "Copic G12",
+   "localName": "Sea Green",
+   "hex": "#CDE8CE",
+   "rgb": {
+    "r": 205,
+    "g": 232,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 11,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.46,
+    "a": -13.67,
+    "b": 9.67
+   }
+  },
+  {
+   "code": "Copic G14",
+   "name": "Copic G14",
+   "localName": "Apple Green",
+   "hex": "#7CC576",
+   "rgb": {
+    "r": 124,
+    "g": 197,
+    "b": 118
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 0,
+    "y": 40,
+    "k": 23
+   },
+   "lab": {
+    "l": 73.24,
+    "a": -38.45,
+    "b": 32.61
+   }
+  },
+  {
+   "code": "Copic G16",
+   "name": "Copic G16",
+   "localName": "Malachite",
+   "hex": "#3EBB8E",
+   "rgb": {
+    "r": 62,
+    "g": 187,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 67,
+    "m": 0,
+    "y": 24,
+    "k": 27
+   },
+   "lab": {
+    "l": 68.4,
+    "a": -44.99,
+    "b": 12.93
+   }
+  },
+  {
+   "code": "Copic G17",
+   "name": "Copic G17",
+   "localName": "Forest Green",
+   "hex": "#00A776",
+   "rgb": {
+    "r": 0,
+    "g": 167,
+    "b": 118
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 29,
+    "k": 35
+   },
+   "lab": {
+    "l": 60.73,
+    "a": -48.55,
+    "b": 15.25
+   }
+  },
+  {
+   "code": "Copic G19",
+   "name": "Copic G19",
+   "localName": "Bright Parrot Green",
+   "hex": "#00A88F",
+   "rgb": {
+    "r": 0,
+    "g": 168,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 15,
+    "k": 34
+   },
+   "lab": {
+    "l": 61.64,
+    "a": -42.53,
+    "b": 2.62
+   }
+  },
+  {
+   "code": "Copic G20",
+   "name": "Copic G20",
+   "localName": "Wax White",
+   "hex": "#EAF3DC",
+   "rgb": {
+    "r": 234,
+    "g": 243,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 9,
+    "k": 5
+   },
+   "lab": {
+    "l": 94.64,
+    "a": -6.97,
+    "b": 10.07
+   }
+  },
+  {
+   "code": "Copic G21",
+   "name": "Copic G21",
+   "localName": "Lime Green",
+   "hex": "#C7E5C0",
+   "rgb": {
+    "r": 199,
+    "g": 229,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 0,
+    "y": 16,
+    "k": 10
+   },
+   "lab": {
+    "l": 87.96,
+    "a": -16.62,
+    "b": 14.79
+   }
+  },
+  {
+   "code": "Copic G24",
+   "name": "Copic G24",
+   "localName": "Willow",
+   "hex": "#CDE2AE",
+   "rgb": {
+    "r": 205,
+    "g": 226,
+    "b": 174
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 0,
+    "y": 23,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.21,
+    "a": -15.91,
+    "b": 23.16
+   }
+  },
+  {
+   "code": "Copic G28",
+   "name": "Copic G28",
+   "localName": "Ocean Green",
+   "hex": "#25874B",
+   "rgb": {
+    "r": 37,
+    "g": 135,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 73,
+    "m": 0,
+    "y": 44,
+    "k": 47
+   },
+   "lab": {
+    "l": 49.77,
+    "a": -42.1,
+    "b": 24.35
+   }
+  },
+  {
+   "code": "Copic G29",
+   "name": "Copic G29",
+   "localName": "Pine Tree Green",
+   "hex": "#00693E",
+   "rgb": {
+    "r": 0,
+    "g": 105,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 41,
+    "k": 59
+   },
+   "lab": {
+    "l": 38.64,
+    "a": -37.31,
+    "b": 17.01
+   }
+  },
+  {
+   "code": "Copic G40",
+   "name": "Copic G40",
+   "localName": "Dim Green",
+   "hex": "#E4EEDC",
+   "rgb": {
+    "r": 228,
+    "g": 238,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 8,
+    "k": 7
+   },
+   "lab": {
+    "l": 92.93,
+    "a": -6.5,
+    "b": 7.57
+   }
+  },
+  {
+   "code": "Copic G43",
+   "name": "Copic G43",
+   "localName": "Pistachio",
+   "hex": "#C6D9B0",
+   "rgb": {
+    "r": 198,
+    "g": 217,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 0,
+    "y": 19,
+    "k": 15
+   },
+   "lab": {
+    "l": 84.36,
+    "a": -13.59,
+    "b": 18.1
+   }
+  },
+  {
+   "code": "Copic G46",
+   "name": "Copic G46",
+   "localName": "Mistletoe",
+   "hex": "#4E7A4E",
+   "rgb": {
+    "r": 78,
+    "g": 122,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 36,
+    "m": 0,
+    "y": 36,
+    "k": 52
+   },
+   "lab": {
+    "l": 47.09,
+    "a": -24.81,
+    "b": 19.43
+   }
+  },
+  {
+   "code": "Copic G82",
+   "name": "Copic G82",
+   "localName": "Spring Dim Green",
+   "hex": "#C8D2B4",
+   "rgb": {
+    "r": 200,
+    "g": 210,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 14,
+    "k": 18
+   },
+   "lab": {
+    "l": 82.74,
+    "a": -8.67,
+    "b": 13.73
+   }
+  },
+  {
+   "code": "Copic G85",
+   "name": "Copic G85",
+   "localName": "Verdigris",
+   "hex": "#9AB49A",
+   "rgb": {
+    "r": 154,
+    "g": 180,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 14,
+    "k": 29
+   },
+   "lab": {
+    "l": 70.76,
+    "a": -13.97,
+    "b": 10.31
+   }
+  },
+  {
+   "code": "Copic G94",
+   "name": "Copic G94",
+   "localName": "Grayish Olive",
+   "hex": "#8A9174",
+   "rgb": {
+    "r": 138,
+    "g": 145,
+    "b": 116
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 20,
+    "k": 43
+   },
+   "lab": {
+    "l": 58.9,
+    "a": -7.86,
+    "b": 14.57
+   }
+  },
+  {
+   "code": "Copic G99",
+   "name": "Copic G99",
+   "localName": "Olive",
+   "hex": "#5E6B3E",
+   "rgb": {
+    "r": 94,
+    "g": 107,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 42,
+    "k": 58
+   },
+   "lab": {
+    "l": 43.13,
+    "a": -13.11,
+    "b": 23.59
+   }
+  },
+  {
+   "code": "Copic N0",
+   "name": "Copic N0",
+   "localName": "Neutral Gray No.0",
+   "hex": "#F1F1F1",
+   "rgb": {
+    "r": 241,
+    "g": 241,
+    "b": 241
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 5
+   },
+   "lab": {
+    "l": 95.15,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic N2",
+   "name": "Copic N2",
+   "localName": "Neutral Gray No.2",
+   "hex": "#DCDCDC",
+   "rgb": {
+    "r": 220,
+    "g": 220,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 14
+   },
+   "lab": {
+    "l": 87.76,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic N4",
+   "name": "Copic N4",
+   "localName": "Neutral Gray No.4",
+   "hex": "#B4B4B4",
+   "rgb": {
+    "r": 180,
+    "g": 180,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 73.31,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic N6",
+   "name": "Copic N6",
+   "localName": "Neutral Gray No.6",
+   "hex": "#878787",
+   "rgb": {
+    "r": 135,
+    "g": 135,
+    "b": 135
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 56.32,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic N8",
+   "name": "Copic N8",
+   "localName": "Neutral Gray No.8",
+   "hex": "#5B5B5B",
+   "rgb": {
+    "r": 91,
+    "g": 91,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 38.66,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic N10",
+   "name": "Copic N10",
+   "localName": "Neutral Gray No.10",
+   "hex": "#333333",
+   "rgb": {
+    "r": 51,
+    "g": 51,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 80
+   },
+   "lab": {
+    "l": 21.25,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Copic R00",
+   "name": "Copic R00",
+   "localName": "Pinkish White",
+   "hex": "#FBEDE8",
+   "rgb": {
+    "r": 251,
+    "g": 237,
+    "b": 232
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 8,
+    "k": 2
+   },
+   "lab": {
+    "l": 94.7,
+    "a": 3.88,
+    "b": 4.11
+   }
+  },
+  {
+   "code": "Copic R01",
+   "name": "Copic R01",
+   "localName": "Pinkish Vanilla",
+   "hex": "#FBE3DC",
+   "rgb": {
+    "r": 251,
+    "g": 227,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 12,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.96,
+    "a": 7.07,
+    "b": 6.4
+   }
+  },
+  {
+   "code": "Copic R02",
+   "name": "Copic R02",
+   "localName": "Flesh",
+   "hex": "#FBDDD3",
+   "rgb": {
+    "r": 251,
+    "g": 221,
+    "b": 211
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 16,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.29,
+    "a": 8.77,
+    "b": 8.7
+   }
+  },
+  {
+   "code": "Copic R05",
+   "name": "Copic R05",
+   "localName": "Salmon Red",
+   "hex": "#F26D62",
+   "rgb": {
+    "r": 242,
+    "g": 109,
+    "b": 98
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 55,
+    "y": 60,
+    "k": 5
+   },
+   "lab": {
+    "l": 62.26,
+    "a": 50.35,
+    "b": 31.29
+   }
+  },
+  {
+   "code": "Copic R08",
+   "name": "Copic R08",
+   "localName": "Vermilion",
+   "hex": "#EF4136",
+   "rgb": {
+    "r": 239,
+    "g": 65,
+    "b": 54
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 73,
+    "y": 77,
+    "k": 6
+   },
+   "lab": {
+    "l": 54.45,
+    "a": 65.17,
+    "b": 46.2
+   }
+  },
+  {
+   "code": "Copic R11",
+   "name": "Copic R11",
+   "localName": "Pale Cherry Pink",
+   "hex": "#FBE0D6",
+   "rgb": {
+    "r": 251,
+    "g": 224,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 15,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.09,
+    "a": 7.68,
+    "b": 8.28
+   }
+  },
+  {
+   "code": "Copic R14",
+   "name": "Copic R14",
+   "localName": "Light Rouge",
+   "hex": "#EF8A82",
+   "rgb": {
+    "r": 239,
+    "g": 138,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 42,
+    "y": 46,
+    "k": 6
+   },
+   "lab": {
+    "l": 68.13,
+    "a": 37.53,
+    "b": 21.11
+   }
+  },
+  {
+   "code": "Copic R17",
+   "name": "Copic R17",
+   "localName": "Lipstick Orange",
+   "hex": "#EE6F5E",
+   "rgb": {
+    "r": 238,
+    "g": 111,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 53,
+    "y": 61,
+    "k": 7
+   },
+   "lab": {
+    "l": 61.96,
+    "a": 47.7,
+    "b": 33.03
+   }
+  },
+  {
+   "code": "Copic R20",
+   "name": "Copic R20",
+   "localName": "Blush",
+   "hex": "#FBDCD8",
+   "rgb": {
+    "r": 251,
+    "g": 220,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 14,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.16,
+    "a": 10.06,
+    "b": 5.9
+   }
+  },
+  {
+   "code": "Copic R21",
+   "name": "Copic R21",
+   "localName": "Sardonyx",
+   "hex": "#F7C4BE",
+   "rgb": {
+    "r": 247,
+    "g": 196,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 23,
+    "k": 3
+   },
+   "lab": {
+    "l": 83.43,
+    "a": 17.28,
+    "b": 9.95
+   }
+  },
+  {
+   "code": "Copic R22",
+   "name": "Copic R22",
+   "localName": "Light Prawn",
+   "hex": "#F6B4B4",
+   "rgb": {
+    "r": 246,
+    "g": 180,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 27,
+    "k": 4
+   },
+   "lab": {
+    "l": 79.35,
+    "a": 23.97,
+    "b": 9.48
+   }
+  },
+  {
+   "code": "Copic R24",
+   "name": "Copic R24",
+   "localName": "Prawn",
+   "hex": "#F0808C",
+   "rgb": {
+    "r": 240,
+    "g": 128,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 47,
+    "y": 42,
+    "k": 6
+   },
+   "lab": {
+    "l": 66.41,
+    "a": 44.02,
+    "b": 13.15
+   }
+  },
+  {
+   "code": "Copic R27",
+   "name": "Copic R27",
+   "localName": "Cadmium Red",
+   "hex": "#EE3E5A",
+   "rgb": {
+    "r": 238,
+    "g": 62,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 74,
+    "y": 62,
+    "k": 7
+   },
+   "lab": {
+    "l": 54.41,
+    "a": 67.5,
+    "b": 25.66
+   }
+  },
+  {
+   "code": "Copic R29",
+   "name": "Copic R29",
+   "localName": "Lipstick Red",
+   "hex": "#ED1A3D",
+   "rgb": {
+    "r": 237,
+    "g": 26,
+    "b": 61
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 89,
+    "y": 74,
+    "k": 7
+   },
+   "lab": {
+    "l": 50.79,
+    "a": 74.36,
+    "b": 38.23
+   }
+  },
+  {
+   "code": "Copic R30",
+   "name": "Copic R30",
+   "localName": "Pale Yellowish Pink",
+   "hex": "#FBE7E2",
+   "rgb": {
+    "r": 251,
+    "g": 231,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 10,
+    "k": 2
+   },
+   "lab": {
+    "l": 93.08,
+    "a": 5.97,
+    "b": 4.89
+   }
+  },
+  {
+   "code": "Copic R32",
+   "name": "Copic R32",
+   "localName": "Peach",
+   "hex": "#F9CFC4",
+   "rgb": {
+    "r": 249,
+    "g": 207,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 21,
+    "k": 2
+   },
+   "lab": {
+    "l": 86.38,
+    "a": 13.1,
+    "b": 10.99
+   }
+  },
+  {
+   "code": "Copic R35",
+   "name": "Copic R35",
+   "localName": "Coral",
+   "hex": "#EF6E7A",
+   "rgb": {
+    "r": 239,
+    "g": 110,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 54,
+    "y": 49,
+    "k": 6
+   },
+   "lab": {
+    "l": 62.43,
+    "a": 50.72,
+    "b": 17.83
+   }
+  },
+  {
+   "code": "Copic R37",
+   "name": "Copic R37",
+   "localName": "Carmine",
+   "hex": "#DE5B6E",
+   "rgb": {
+    "r": 222,
+    "g": 91,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 59,
+    "y": 50,
+    "k": 13
+   },
+   "lab": {
+    "l": 56.23,
+    "a": 52.7,
+    "b": 15.84
+   }
+  },
+  {
+   "code": "Copic R39",
+   "name": "Copic R39",
+   "localName": "Garnet",
+   "hex": "#C64B78",
+   "rgb": {
+    "r": 198,
+    "g": 75,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 62,
+    "y": 39,
+    "k": 22
+   },
+   "lab": {
+    "l": 49.97,
+    "a": 52.99,
+    "b": 0.48
+   }
+  },
+  {
+   "code": "Copic R43",
+   "name": "Copic R43",
+   "localName": "Bougainvillaea",
+   "hex": "#EE8B9A",
+   "rgb": {
+    "r": 238,
+    "g": 139,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 42,
+    "y": 35,
+    "k": 7
+   },
+   "lab": {
+    "l": 68.74,
+    "a": 39.26,
+    "b": 8.52
+   }
+  },
+  {
+   "code": "Copic R46",
+   "name": "Copic R46",
+   "localName": "Strong Red",
+   "hex": "#D9436E",
+   "rgb": {
+    "r": 217,
+    "g": 67,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 69,
+    "y": 49,
+    "k": 15
+   },
+   "lab": {
+    "l": 51.72,
+    "a": 61.08,
+    "b": 9.43
+   }
+  },
+  {
+   "code": "Copic R59",
+   "name": "Copic R59",
+   "localName": "Cardinal",
+   "hex": "#B4437A",
+   "rgb": {
+    "r": 180,
+    "g": 67,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 32,
+    "k": 29
+   },
+   "lab": {
+    "l": 45.81,
+    "a": 51.13,
+    "b": -7.22
+   }
+  },
+  {
+   "code": "Copic R81",
+   "name": "Copic R81",
+   "localName": "Rose Pink",
+   "hex": "#EEB4C4",
+   "rgb": {
+    "r": 238,
+    "g": 180,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 18,
+    "k": 7
+   },
+   "lab": {
+    "l": 78.93,
+    "a": 23.39,
+    "b": 0.11
+   }
+  },
+  {
+   "code": "Copic R83",
+   "name": "Copic R83",
+   "localName": "Rose Mist",
+   "hex": "#EE9CB4",
+   "rgb": {
+    "r": 238,
+    "g": 156,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 34,
+    "y": 24,
+    "k": 7
+   },
+   "lab": {
+    "l": 73.06,
+    "a": 33.76,
+    "b": 0.3
+   }
+  },
+  {
+   "code": "Copic R85",
+   "name": "Copic R85",
+   "localName": "Rose Red",
+   "hex": "#DE6E96",
+   "rgb": {
+    "r": 222,
+    "g": 110,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 50,
+    "y": 32,
+    "k": 13
+   },
+   "lab": {
+    "l": 60.68,
+    "a": 47.9,
+    "b": -1.11
+   }
+  },
+  {
+   "code": "Copic R89",
+   "name": "Copic R89",
+   "localName": "Dark Red",
+   "hex": "#8E2A45",
+   "rgb": {
+    "r": 142,
+    "g": 42,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 70,
+    "y": 51,
+    "k": 44
+   },
+   "lab": {
+    "l": 33.64,
+    "a": 44.02,
+    "b": 7.61
+   }
+  },
+  {
+   "code": "Copic RV00",
+   "name": "Copic RV00",
+   "localName": "Water Lily",
+   "hex": "#F6E4EC",
+   "rgb": {
+    "r": 246,
+    "g": 228,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 4,
+    "k": 4
+   },
+   "lab": {
+    "l": 92.19,
+    "a": 7.48,
+    "b": -1.67
+   }
+  },
+  {
+   "code": "Copic RV02",
+   "name": "Copic RV02",
+   "localName": "Sugared Almond Pink",
+   "hex": "#F9D4E2",
+   "rgb": {
+    "r": 249,
+    "g": 212,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 9,
+    "k": 2
+   },
+   "lab": {
+    "l": 88.31,
+    "a": 15.14,
+    "b": -2.08
+   }
+  },
+  {
+   "code": "Copic RV04",
+   "name": "Copic RV04",
+   "localName": "Shock Pink",
+   "hex": "#F386AC",
+   "rgb": {
+    "r": 243,
+    "g": 134,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 29,
+    "k": 5
+   },
+   "lab": {
+    "l": 68.81,
+    "a": 45.8,
+    "b": -1.38
+   }
+  },
+  {
+   "code": "Copic RV06",
+   "name": "Copic RV06",
+   "localName": "Cerise",
+   "hex": "#EC5C97",
+   "rgb": {
+    "r": 236,
+    "g": 92,
+    "b": 151
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 36,
+    "k": 7
+   },
+   "lab": {
+    "l": 59.64,
+    "a": 60.77,
+    "b": -2.98
+   }
+  },
+  {
+   "code": "Copic RV09",
+   "name": "Copic RV09",
+   "localName": "Fuchsia",
+   "hex": "#D8388C",
+   "rgb": {
+    "r": 216,
+    "g": 56,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 74,
+    "y": 35,
+    "k": 15
+   },
+   "lab": {
+    "l": 51.07,
+    "a": 67.49,
+    "b": -9.59
+   }
+  },
+  {
+   "code": "Copic RV11",
+   "name": "Copic RV11",
+   "localName": "Pink",
+   "hex": "#F9DCE6",
+   "rgb": {
+    "r": 249,
+    "g": 220,
+    "b": 230
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 8,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.34,
+    "a": 11.63,
+    "b": -1.21
+   }
+  },
+  {
+   "code": "Copic RV13",
+   "name": "Copic RV13",
+   "localName": "Tender Pink",
+   "hex": "#F7C0D6",
+   "rgb": {
+    "r": 247,
+    "g": 192,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 13,
+    "k": 3
+   },
+   "lab": {
+    "l": 83.09,
+    "a": 23.01,
+    "b": -3.39
+   }
+  },
+  {
+   "code": "Copic RV17",
+   "name": "Copic RV17",
+   "localName": "Deep Magenta",
+   "hex": "#D06AA4",
+   "rgb": {
+    "r": 208,
+    "g": 106,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 49,
+    "y": 21,
+    "k": 18
+   },
+   "lab": {
+    "l": 58.42,
+    "a": 47.16,
+    "b": -12.77
+   }
+  },
+  {
+   "code": "Copic RV19",
+   "name": "Copic RV19",
+   "localName": "Red Violet",
+   "hex": "#C4358C",
+   "rgb": {
+    "r": 196,
+    "g": 53,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 73,
+    "y": 29,
+    "k": 23
+   },
+   "lab": {
+    "l": 47.21,
+    "a": 63.28,
+    "b": -15.75
+   }
+  },
+  {
+   "code": "Copic RV21",
+   "name": "Copic RV21",
+   "localName": "Light Pink",
+   "hex": "#FBE0E4",
+   "rgb": {
+    "r": 251,
+    "g": 224,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 9,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.43,
+    "a": 9.91,
+    "b": 1.44
+   }
+  },
+  {
+   "code": "Copic RV23",
+   "name": "Copic RV23",
+   "localName": "Pure Pink",
+   "hex": "#F8B4CE",
+   "rgb": {
+    "r": 248,
+    "g": 180,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 17,
+    "k": 3
+   },
+   "lab": {
+    "l": 80.21,
+    "a": 28.44,
+    "b": -3.3
+   }
+  },
+  {
+   "code": "Copic RV25",
+   "name": "Copic RV25",
+   "localName": "Dog Rose Flower",
+   "hex": "#F189B4",
+   "rgb": {
+    "r": 241,
+    "g": 137,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 43,
+    "y": 25,
+    "k": 5
+   },
+   "lab": {
+    "l": 69.39,
+    "a": 44.66,
+    "b": -5.05
+   }
+  },
+  {
+   "code": "Copic RV29",
+   "name": "Copic RV29",
+   "localName": "Crimson",
+   "hex": "#E8447E",
+   "rgb": {
+    "r": 232,
+    "g": 68,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 71,
+    "y": 46,
+    "k": 9
+   },
+   "lab": {
+    "l": 54.87,
+    "a": 66.45,
+    "b": 4.69
+   }
+  },
+  {
+   "code": "Copic RV34",
+   "name": "Copic RV34",
+   "localName": "Dark Pink",
+   "hex": "#F49CB4",
+   "rgb": {
+    "r": 244,
+    "g": 156,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 26,
+    "k": 4
+   },
+   "lab": {
+    "l": 73.75,
+    "a": 35.89,
+    "b": 1.38
+   }
+  },
+  {
+   "code": "Copic RV42",
+   "name": "Copic RV42",
+   "localName": "Salmon Pink",
+   "hex": "#F6C6C6",
+   "rgb": {
+    "r": 246,
+    "g": 198,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 20,
+    "y": 20,
+    "k": 4
+   },
+   "lab": {
+    "l": 84,
+    "a": 17.03,
+    "b": 6.48
+   }
+  },
+  {
+   "code": "Copic RV52",
+   "name": "Copic RV52",
+   "localName": "Cotton Candy",
+   "hex": "#DCA8C4",
+   "rgb": {
+    "r": 220,
+    "g": 168,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 11,
+    "k": 14
+   },
+   "lab": {
+    "l": 74.32,
+    "a": 23.46,
+    "b": -6.87
+   }
+  },
+  {
+   "code": "Copic RV55",
+   "name": "Copic RV55",
+   "localName": "Hollyhock",
+   "hex": "#C4749E",
+   "rgb": {
+    "r": 196,
+    "g": 116,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 41,
+    "y": 19,
+    "k": 23
+   },
+   "lab": {
+    "l": 58.69,
+    "a": 37.05,
+    "b": -9.05
+   }
+  },
+  {
+   "code": "Copic RV66",
+   "name": "Copic RV66",
+   "localName": "Raspberry",
+   "hex": "#A83E6E",
+   "rgb": {
+    "r": 168,
+    "g": 62,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 35,
+    "k": 34
+   },
+   "lab": {
+    "l": 42.61,
+    "a": 48.13,
+    "b": -4.82
+   }
+  },
+  {
+   "code": "Copic RV69",
+   "name": "Copic RV69",
+   "localName": "Peony",
+   "hex": "#96406E",
+   "rgb": {
+    "r": 150,
+    "g": 64,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 57,
+    "y": 27,
+    "k": 41
+   },
+   "lab": {
+    "l": 40.05,
+    "a": 41.38,
+    "b": -8.95
+   }
+  },
+  {
+   "code": "Copic V01",
+   "name": "Copic V01",
+   "localName": "Heath",
+   "hex": "#EBD2E4",
+   "rgb": {
+    "r": 235,
+    "g": 210,
+    "b": 228
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 3,
+    "k": 8
+   },
+   "lab": {
+    "l": 86.68,
+    "a": 11.74,
+    "b": -5.67
+   }
+  },
+  {
+   "code": "Copic V04",
+   "name": "Copic V04",
+   "localName": "Lilac",
+   "hex": "#DCA8D2",
+   "rgb": {
+    "r": 220,
+    "g": 168,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 5,
+    "k": 14
+   },
+   "lab": {
+    "l": 74.75,
+    "a": 25.89,
+    "b": -13.9
+   }
+  },
+  {
+   "code": "Copic V06",
+   "name": "Copic V06",
+   "localName": "Lavender",
+   "hex": "#B48CC4",
+   "rgb": {
+    "r": 180,
+    "g": 140,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 29,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 63.71,
+    "a": 25.29,
+    "b": -23.25
+   }
+  },
+  {
+   "code": "Copic V09",
+   "name": "Copic V09",
+   "localName": "Violet",
+   "hex": "#7E4EA0",
+   "rgb": {
+    "r": 126,
+    "g": 78,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 51,
+    "y": 0,
+    "k": 37
+   },
+   "lab": {
+    "l": 41.88,
+    "a": 35.9,
+    "b": -36.84
+   }
+  },
+  {
+   "code": "Copic V12",
+   "name": "Copic V12",
+   "localName": "Pale Lilac",
+   "hex": "#EFDEEE",
+   "rgb": {
+    "r": 239,
+    "g": 222,
+    "b": 238
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 0,
+    "k": 6
+   },
+   "lab": {
+    "l": 90.21,
+    "a": 8.59,
+    "b": -5.69
+   }
+  },
+  {
+   "code": "Copic V15",
+   "name": "Copic V15",
+   "localName": "Mallow",
+   "hex": "#CBA8D8",
+   "rgb": {
+    "r": 203,
+    "g": 168,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 22,
+    "y": 0,
+    "k": 15
+   },
+   "lab": {
+    "l": 73.32,
+    "a": 21.34,
+    "b": -19.49
+   }
+  },
+  {
+   "code": "Copic V17",
+   "name": "Copic V17",
+   "localName": "Amethyst",
+   "hex": "#9E7EC0",
+   "rgb": {
+    "r": 158,
+    "g": 126,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 34,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 58.03,
+    "a": 25.34,
+    "b": -29.92
+   }
+  },
+  {
+   "code": "Copic V20",
+   "name": "Copic V20",
+   "localName": "Wisteria",
+   "hex": "#DCD2E2",
+   "rgb": {
+    "r": 220,
+    "g": 210,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 7,
+    "y": 0,
+    "k": 11
+   },
+   "lab": {
+    "l": 85.4,
+    "a": 6.32,
+    "b": -6.64
+   }
+  },
+  {
+   "code": "Copic V22",
+   "name": "Copic V22",
+   "localName": "Ash Lavender",
+   "hex": "#B0A4C4",
+   "rgb": {
+    "r": 176,
+    "g": 164,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 16,
+    "y": 0,
+    "k": 23
+   },
+   "lab": {
+    "l": 69.3,
+    "a": 10.54,
+    "b": -14.79
+   }
+  },
+  {
+   "code": "Copic V25",
+   "name": "Copic V25",
+   "localName": "Pale Blackberry",
+   "hex": "#9E8EB4",
+   "rgb": {
+    "r": 158,
+    "g": 142,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 21,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 61.58,
+    "a": 13.49,
+    "b": -17.67
+   }
+  },
+  {
+   "code": "Copic V28",
+   "name": "Copic V28",
+   "localName": "Eggplant",
+   "hex": "#6E5E8C",
+   "rgb": {
+    "r": 110,
+    "g": 94,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 33,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 43.08,
+    "a": 16.52,
+    "b": -23.09
+   }
+  },
+  {
+   "code": "Copic V91",
+   "name": "Copic V91",
+   "localName": "Pale Grape",
+   "hex": "#EBD8E2",
+   "rgb": {
+    "r": 235,
+    "g": 216,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 4,
+    "k": 8
+   },
+   "lab": {
+    "l": 88.1,
+    "a": 8.24,
+    "b": -2.53
+   }
+  },
+  {
+   "code": "Copic V93",
+   "name": "Copic V93",
+   "localName": "Early Grape",
+   "hex": "#E2C0D8",
+   "rgb": {
+    "r": 226,
+    "g": 192,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 4,
+    "k": 11
+   },
+   "lab": {
+    "l": 81.2,
+    "a": 16.09,
+    "b": -7.47
+   }
+  },
+  {
+   "code": "Copic V95",
+   "name": "Copic V95",
+   "localName": "Light Grape",
+   "hex": "#B47EA4",
+   "rgb": {
+    "r": 180,
+    "g": 126,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 9,
+    "k": 29
+   },
+   "lab": {
+    "l": 59.26,
+    "a": 26.98,
+    "b": -11.85
+   }
+  },
+  {
+   "code": "Copic V99",
+   "name": "Copic V99",
+   "localName": "Aubergine",
+   "hex": "#4E3448",
+   "rgb": {
+    "r": 78,
+    "g": 52,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 8,
+    "k": 69
+   },
+   "lab": {
+    "l": 25.39,
+    "a": 15.44,
+    "b": -7.65
+   }
+  },
+  {
+   "code": "Copic W0",
+   "name": "Copic W0",
+   "localName": "Warm Gray No.0",
+   "hex": "#F2F0EC",
+   "rgb": {
+    "r": 242,
+    "g": 240,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 2,
+    "k": 5
+   },
+   "lab": {
+    "l": 94.85,
+    "a": -0.03,
+    "b": 2.16
+   }
+  },
+  {
+   "code": "Copic W2",
+   "name": "Copic W2",
+   "localName": "Warm Gray No.2",
+   "hex": "#DEDBD3",
+   "rgb": {
+    "r": 222,
+    "g": 219,
+    "b": 211
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 13
+   },
+   "lab": {
+    "l": 87.43,
+    "a": -0.38,
+    "b": 4.29
+   }
+  },
+  {
+   "code": "Copic W4",
+   "name": "Copic W4",
+   "localName": "Warm Gray No.4",
+   "hex": "#BAB5AB",
+   "rgb": {
+    "r": 186,
+    "g": 181,
+    "b": 171
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 8,
+    "k": 27
+   },
+   "lab": {
+    "l": 73.82,
+    "a": -0.01,
+    "b": 5.72
+   }
+  },
+  {
+   "code": "Copic W6",
+   "name": "Copic W6",
+   "localName": "Warm Gray No.6",
+   "hex": "#8E8880",
+   "rgb": {
+    "r": 142,
+    "g": 136,
+    "b": 128
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 10,
+    "k": 44
+   },
+   "lab": {
+    "l": 57,
+    "a": 0.76,
+    "b": 5.09
+   }
+  },
+  {
+   "code": "Copic W8",
+   "name": "Copic W8",
+   "localName": "Warm Gray No.8",
+   "hex": "#615C56",
+   "rgb": {
+    "r": 97,
+    "g": 92,
+    "b": 86
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 11,
+    "k": 62
+   },
+   "lab": {
+    "l": 39.36,
+    "a": 0.82,
+    "b": 4.17
+   }
+  },
+  {
+   "code": "Copic W10",
+   "name": "Copic W10",
+   "localName": "Warm Gray No.10",
+   "hex": "#3A3733",
+   "rgb": {
+    "r": 58,
+    "g": 55,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 12,
+    "k": 77
+   },
+   "lab": {
+    "l": 23.24,
+    "a": 0.45,
+    "b": 2.97
+   }
+  },
+  {
+   "code": "Copic Y00",
+   "name": "Copic Y00",
+   "localName": "Barium Yellow",
+   "hex": "#FBF6D4",
+   "rgb": {
+    "r": 251,
+    "g": 246,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 16,
+    "k": 2
+   },
+   "lab": {
+    "l": 96.48,
+    "a": -3.83,
+    "b": 16.98
+   }
+  },
+  {
+   "code": "Copic Y02",
+   "name": "Copic Y02",
+   "localName": "Canary Yellow",
+   "hex": "#FBF2A8",
+   "rgb": {
+    "r": 251,
+    "g": 242,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 33,
+    "k": 2
+   },
+   "lab": {
+    "l": 94.67,
+    "a": -7.71,
+    "b": 36.86
+   }
+  },
+  {
+   "code": "Copic Y06",
+   "name": "Copic Y06",
+   "localName": "Yellow",
+   "hex": "#FFF200",
+   "rgb": {
+    "r": 255,
+    "g": 242,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 93.78,
+    "a": -15.32,
+    "b": 92.03
+   }
+  },
+  {
+   "code": "Copic Y08",
+   "name": "Copic Y08",
+   "localName": "Acid Yellow",
+   "hex": "#FFE900",
+   "rgb": {
+    "r": 255,
+    "g": 233,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 91.48,
+    "a": -10.92,
+    "b": 90.37
+   }
+  },
+  {
+   "code": "Copic Y11",
+   "name": "Copic Y11",
+   "localName": "Pale Yellow",
+   "hex": "#FBF4C0",
+   "rgb": {
+    "r": 251,
+    "g": 244,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 24,
+    "k": 2
+   },
+   "lab": {
+    "l": 95.59,
+    "a": -5.68,
+    "b": 25.97
+   }
+  },
+  {
+   "code": "Copic Y13",
+   "name": "Copic Y13",
+   "localName": "Lemon Yellow",
+   "hex": "#FBF2B0",
+   "rgb": {
+    "r": 251,
+    "g": 242,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 30,
+    "k": 2
+   },
+   "lab": {
+    "l": 94.8,
+    "a": -6.75,
+    "b": 33.02
+   }
+  },
+  {
+   "code": "Copic Y15",
+   "name": "Copic Y15",
+   "localName": "Cadmium Yellow",
+   "hex": "#FDE04A",
+   "rgb": {
+    "r": 253,
+    "g": 224,
+    "b": 74
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 71,
+    "k": 1
+   },
+   "lab": {
+    "l": 89.25,
+    "a": -5.58,
+    "b": 73.16
+   }
+  },
+  {
+   "code": "Copic Y17",
+   "name": "Copic Y17",
+   "localName": "Golden Yellow",
+   "hex": "#FCD53C",
+   "rgb": {
+    "r": 252,
+    "g": 213,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 76,
+    "k": 1
+   },
+   "lab": {
+    "l": 86.31,
+    "a": -1.03,
+    "b": 75.2
+   }
+  },
+  {
+   "code": "Copic Y19",
+   "name": "Copic Y19",
+   "localName": "Napoli Yellow",
+   "hex": "#FFDE00",
+   "rgb": {
+    "r": 255,
+    "g": 222,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 88.69,
+    "a": -5.45,
+    "b": 88.38
+   }
+  },
+  {
+   "code": "Copic Y21",
+   "name": "Copic Y21",
+   "localName": "Buttercup Yellow",
+   "hex": "#FBEDC4",
+   "rgb": {
+    "r": 251,
+    "g": 237,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 22,
+    "k": 2
+   },
+   "lab": {
+    "l": 93.91,
+    "a": -1.61,
+    "b": 21.6
+   }
+  },
+  {
+   "code": "Copic Y23",
+   "name": "Copic Y23",
+   "localName": "Yellowish Beige",
+   "hex": "#FAE2B4",
+   "rgb": {
+    "r": 250,
+    "g": 226,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 28,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.79,
+    "a": 1.46,
+    "b": 25.53
+   }
+  },
+  {
+   "code": "Copic Y26",
+   "name": "Copic Y26",
+   "localName": "Mustard",
+   "hex": "#EED27E",
+   "rgb": {
+    "r": 238,
+    "g": 210,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 47,
+    "k": 7
+   },
+   "lab": {
+    "l": 84.88,
+    "a": -1.04,
+    "b": 45.02
+   }
+  },
+  {
+   "code": "Copic Y28",
+   "name": "Copic Y28",
+   "localName": "Lionet Gold",
+   "hex": "#C8A85A",
+   "rgb": {
+    "r": 200,
+    "g": 168,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 55,
+    "k": 22
+   },
+   "lab": {
+    "l": 70.19,
+    "a": 2.14,
+    "b": 44.18
+   }
+  },
+  {
+   "code": "Copic Y32",
+   "name": "Copic Y32",
+   "localName": "Cashmere",
+   "hex": "#F2DCB4",
+   "rgb": {
+    "r": 242,
+    "g": 220,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 26,
+    "k": 5
+   },
+   "lab": {
+    "l": 88.62,
+    "a": 1.55,
+    "b": 22.44
+   }
+  },
+  {
+   "code": "Copic Y35",
+   "name": "Copic Y35",
+   "localName": "Maize",
+   "hex": "#FCD68E",
+   "rgb": {
+    "r": 252,
+    "g": 214,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 44,
+    "k": 1
+   },
+   "lab": {
+    "l": 87.36,
+    "a": 4.02,
+    "b": 40.42
+   }
+  },
+  {
+   "code": "Copic Y38",
+   "name": "Copic Y38",
+   "localName": "Honey",
+   "hex": "#FBD26E",
+   "rgb": {
+    "r": 251,
+    "g": 210,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 56,
+    "k": 2
+   },
+   "lab": {
+    "l": 85.87,
+    "a": 2.87,
+    "b": 54.22
+   }
+  },
+  {
+   "code": "Copic YG00",
+   "name": "Copic YG00",
+   "localName": "Mimosa Yellow",
+   "hex": "#EDEEC0",
+   "rgb": {
+    "r": 237,
+    "g": 238,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 19,
+    "k": 7
+   },
+   "lab": {
+    "l": 93,
+    "a": -7.75,
+    "b": 22.23
+   }
+  },
+  {
+   "code": "Copic YG01",
+   "name": "Copic YG01",
+   "localName": "Green Bice",
+   "hex": "#E4EEC0",
+   "rgb": {
+    "r": 228,
+    "g": 238,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 19,
+    "k": 7
+   },
+   "lab": {
+    "l": 92.33,
+    "a": -10.98,
+    "b": 21.2
+   }
+  },
+  {
+   "code": "Copic YG03",
+   "name": "Copic YG03",
+   "localName": "Yellow Green",
+   "hex": "#DEEBA8",
+   "rgb": {
+    "r": 222,
+    "g": 235,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 29,
+    "k": 8
+   },
+   "lab": {
+    "l": 90.68,
+    "a": -15.05,
+    "b": 31.16
+   }
+  },
+  {
+   "code": "Copic YG05",
+   "name": "Copic YG05",
+   "localName": "Salad",
+   "hex": "#CDE388",
+   "rgb": {
+    "r": 205,
+    "g": 227,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 40,
+    "k": 11
+   },
+   "lab": {
+    "l": 86.85,
+    "a": -21.44,
+    "b": 41.99
+   }
+  },
+  {
+   "code": "Copic YG06",
+   "name": "Copic YG06",
+   "localName": "Yellowish Green",
+   "hex": "#BEDE8E",
+   "rgb": {
+    "r": 190,
+    "g": 222,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 36,
+    "k": 13
+   },
+   "lab": {
+    "l": 84.56,
+    "a": -23.87,
+    "b": 35.84
+   }
+  },
+  {
+   "code": "Copic YG07",
+   "name": "Copic YG07",
+   "localName": "Acid Green",
+   "hex": "#8CC63E",
+   "rgb": {
+    "r": 140,
+    "g": 198,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 0,
+    "y": 69,
+    "k": 22
+   },
+   "lab": {
+    "l": 73.75,
+    "a": -39.44,
+    "b": 59.34
+   }
+  },
+  {
+   "code": "Copic YG09",
+   "name": "Copic YG09",
+   "localName": "Lettuce Green",
+   "hex": "#78C043",
+   "rgb": {
+    "r": 120,
+    "g": 192,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 38,
+    "m": 0,
+    "y": 65,
+    "k": 25
+   },
+   "lab": {
+    "l": 70.94,
+    "a": -43.6,
+    "b": 54.06
+   }
+  },
+  {
+   "code": "Copic YG11",
+   "name": "Copic YG11",
+   "localName": "Mignonette",
+   "hex": "#E2EFC8",
+   "rgb": {
+    "r": 226,
+    "g": 239,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 16,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.61,
+    "a": -10.96,
+    "b": 17.44
+   }
+  },
+  {
+   "code": "Copic YG13",
+   "name": "Copic YG13",
+   "localName": "Chartreuse",
+   "hex": "#DCE8A0",
+   "rgb": {
+    "r": 220,
+    "g": 232,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 31,
+    "k": 9
+   },
+   "lab": {
+    "l": 89.61,
+    "a": -15.35,
+    "b": 33.77
+   }
+  },
+  {
+   "code": "Copic YG17",
+   "name": "Copic YG17",
+   "localName": "Grass Green",
+   "hex": "#7EC04E",
+   "rgb": {
+    "r": 126,
+    "g": 192,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 34,
+    "m": 0,
+    "y": 59,
+    "k": 25
+   },
+   "lab": {
+    "l": 71.34,
+    "a": -40.52,
+    "b": 49.82
+   }
+  },
+  {
+   "code": "Copic YG21",
+   "name": "Copic YG21",
+   "localName": "Anise",
+   "hex": "#F4F1BE",
+   "rgb": {
+    "r": 244,
+    "g": 241,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 22,
+    "k": 4
+   },
+   "lab": {
+    "l": 94.25,
+    "a": -7,
+    "b": 25.07
+   }
+  },
+  {
+   "code": "Copic YG23",
+   "name": "Copic YG23",
+   "localName": "New Leaf",
+   "hex": "#E7EA9C",
+   "rgb": {
+    "r": 231,
+    "g": 234,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 33,
+    "k": 8
+   },
+   "lab": {
+    "l": 90.89,
+    "a": -12.7,
+    "b": 37.62
+   }
+  },
+  {
+   "code": "Copic YG25",
+   "name": "Copic YG25",
+   "localName": "Celadon Green",
+   "hex": "#D0DE7E",
+   "rgb": {
+    "r": 208,
+    "g": 222,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 43,
+    "k": 13
+   },
+   "lab": {
+    "l": 85.58,
+    "a": -18.95,
+    "b": 45.36
+   }
+  },
+  {
+   "code": "Copic YG41",
+   "name": "Copic YG41",
+   "localName": "Pale Cobalt Green",
+   "hex": "#DCEDD8",
+   "rgb": {
+    "r": 220,
+    "g": 237,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 9,
+    "k": 7
+   },
+   "lab": {
+    "l": 92.02,
+    "a": -9.39,
+    "b": 8.25
+   }
+  },
+  {
+   "code": "Copic YG45",
+   "name": "Copic YG45",
+   "localName": "Cobalt Green",
+   "hex": "#C0DEC0",
+   "rgb": {
+    "r": 192,
+    "g": 222,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 0,
+    "y": 14,
+    "k": 13
+   },
+   "lab": {
+    "l": 85.63,
+    "a": -15.51,
+    "b": 11.43
+   }
+  },
+  {
+   "code": "Copic YG61",
+   "name": "Copic YG61",
+   "localName": "Pale Moss",
+   "hex": "#C4DCBE",
+   "rgb": {
+    "r": 196,
+    "g": 220,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 0,
+    "y": 14,
+    "k": 14
+   },
+   "lab": {
+    "l": 85.32,
+    "a": -13.49,
+    "b": 12.07
+   }
+  },
+  {
+   "code": "Copic YG63",
+   "name": "Copic YG63",
+   "localName": "Pea Green",
+   "hex": "#AECFA4",
+   "rgb": {
+    "r": 174,
+    "g": 207,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 0,
+    "y": 21,
+    "k": 19
+   },
+   "lab": {
+    "l": 79.79,
+    "a": -18.98,
+    "b": 17.81
+   }
+  },
+  {
+   "code": "Copic YG67",
+   "name": "Copic YG67",
+   "localName": "Moss",
+   "hex": "#8EBE84",
+   "rgb": {
+    "r": 142,
+    "g": 190,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 25,
+    "m": 0,
+    "y": 31,
+    "k": 25
+   },
+   "lab": {
+    "l": 72.39,
+    "a": -26.99,
+    "b": 24.33
+   }
+  },
+  {
+   "code": "Copic YG91",
+   "name": "Copic YG91",
+   "localName": "Putty",
+   "hex": "#DCDCB4",
+   "rgb": {
+    "r": 220,
+    "g": 220,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 18,
+    "k": 14
+   },
+   "lab": {
+    "l": 86.85,
+    "a": -6.57,
+    "b": 19.71
+   }
+  },
+  {
+   "code": "Copic YG93",
+   "name": "Copic YG93",
+   "localName": "Grayish Yellow",
+   "hex": "#D8D8A8",
+   "rgb": {
+    "r": 216,
+    "g": 216,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 22,
+    "k": 15
+   },
+   "lab": {
+    "l": 85.27,
+    "a": -7.73,
+    "b": 23.75
+   }
+  },
+  {
+   "code": "Copic YG95",
+   "name": "Copic YG95",
+   "localName": "Pale Olive",
+   "hex": "#CFC684",
+   "rgb": {
+    "r": 207,
+    "g": 198,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 36,
+    "k": 19
+   },
+   "lab": {
+    "l": 79.23,
+    "a": -6.58,
+    "b": 34.24
+   }
+  },
+  {
+   "code": "Copic YG97",
+   "name": "Copic YG97",
+   "localName": "Spanish Olive",
+   "hex": "#9E9440",
+   "rgb": {
+    "r": 158,
+    "g": 148,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 59,
+    "k": 38
+   },
+   "lab": {
+    "l": 60.62,
+    "a": -7.3,
+    "b": 44.78
+   }
+  },
+  {
+   "code": "Copic YG99",
+   "name": "Copic YG99",
+   "localName": "Marine Green",
+   "hex": "#5E6B2E",
+   "rgb": {
+    "r": 94,
+    "g": 107,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 57,
+    "k": 58
+   },
+   "lab": {
+    "l": 42.9,
+    "a": -14.99,
+    "b": 32.07
+   }
+  },
+  {
+   "code": "Copic YR00",
+   "name": "Copic YR00",
+   "localName": "Powder Pink",
+   "hex": "#FBE7DC",
+   "rgb": {
+    "r": 251,
+    "g": 231,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 12,
+    "k": 2
+   },
+   "lab": {
+    "l": 92.94,
+    "a": 5.02,
+    "b": 7.81
+   }
+  },
+  {
+   "code": "Copic YR02",
+   "name": "Copic YR02",
+   "localName": "Light Orange",
+   "hex": "#FBE0C4",
+   "rgb": {
+    "r": 251,
+    "g": 224,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 22,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.69,
+    "a": 5.02,
+    "b": 17.11
+   }
+  },
+  {
+   "code": "Copic YR04",
+   "name": "Copic YR04",
+   "localName": "Chrome Orange",
+   "hex": "#FDBE4E",
+   "rgb": {
+    "r": 253,
+    "g": 190,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 25,
+    "y": 69,
+    "k": 1
+   },
+   "lab": {
+    "l": 80.89,
+    "a": 12.02,
+    "b": 63.12
+   }
+  },
+  {
+   "code": "Copic YR07",
+   "name": "Copic YR07",
+   "localName": "Cadmium Orange",
+   "hex": "#F4791F",
+   "rgb": {
+    "r": 244,
+    "g": 121,
+    "b": 31
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 50,
+    "y": 87,
+    "k": 4
+   },
+   "lab": {
+    "l": 64.17,
+    "a": 42.39,
+    "b": 65.06
+   }
+  },
+  {
+   "code": "Copic YR09",
+   "name": "Copic YR09",
+   "localName": "Chinese Orange",
+   "hex": "#F26522",
+   "rgb": {
+    "r": 242,
+    "g": 101,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 86,
+    "k": 5
+   },
+   "lab": {
+    "l": 60.16,
+    "a": 51.22,
+    "b": 60.72
+   }
+  },
+  {
+   "code": "Copic YR12",
+   "name": "Copic YR12",
+   "localName": "Loquat",
+   "hex": "#FBE0A8",
+   "rgb": {
+    "r": 251,
+    "g": 224,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 33,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.16,
+    "a": 1.37,
+    "b": 30.86
+   }
+  },
+  {
+   "code": "Copic YR14",
+   "name": "Copic YR14",
+   "localName": "Caramel",
+   "hex": "#FCD68E",
+   "rgb": {
+    "r": 252,
+    "g": 214,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 44,
+    "k": 1
+   },
+   "lab": {
+    "l": 87.36,
+    "a": 4.02,
+    "b": 40.42
+   }
+  },
+  {
+   "code": "Copic YR16",
+   "name": "Copic YR16",
+   "localName": "Apricot",
+   "hex": "#FDB94E",
+   "rgb": {
+    "r": 253,
+    "g": 185,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 69,
+    "k": 1
+   },
+   "lab": {
+    "l": 79.69,
+    "a": 14.63,
+    "b": 61.87
+   }
+  },
+  {
+   "code": "Copic YR18",
+   "name": "Copic YR18",
+   "localName": "Sanguine",
+   "hex": "#F15A29",
+   "rgb": {
+    "r": 241,
+    "g": 90,
+    "b": 41
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 83,
+    "k": 5
+   },
+   "lab": {
+    "l": 58.21,
+    "a": 55.89,
+    "b": 56.2
+   }
+  },
+  {
+   "code": "Copic YR20",
+   "name": "Copic YR20",
+   "localName": "Yellowish Shade",
+   "hex": "#FBE4CE",
+   "rgb": {
+    "r": 251,
+    "g": 228,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 18,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.89,
+    "a": 4.41,
+    "b": 13.59
+   }
+  },
+  {
+   "code": "Copic YR21",
+   "name": "Copic YR21",
+   "localName": "Cream",
+   "hex": "#FBE8C4",
+   "rgb": {
+    "r": 251,
+    "g": 232,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 22,
+    "k": 2
+   },
+   "lab": {
+    "l": 92.67,
+    "a": 0.93,
+    "b": 19.87
+   }
+  },
+  {
+   "code": "Copic YR23",
+   "name": "Copic YR23",
+   "localName": "Yellow Ochre",
+   "hex": "#F4CE8E",
+   "rgb": {
+    "r": 244,
+    "g": 206,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 42,
+    "k": 4
+   },
+   "lab": {
+    "l": 84.65,
+    "a": 4.99,
+    "b": 36.78
+   }
+  },
+  {
+   "code": "Copic YR24",
+   "name": "Copic YR24",
+   "localName": "Pale Sepia",
+   "hex": "#F4D08E",
+   "rgb": {
+    "r": 244,
+    "g": 208,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 42,
+    "k": 4
+   },
+   "lab": {
+    "l": 85.15,
+    "a": 3.96,
+    "b": 37.43
+   }
+  },
+  {
+   "code": "Copic YR27",
+   "name": "Copic YR27",
+   "localName": "Tuscan Orange",
+   "hex": "#C4522E",
+   "rgb": {
+    "r": 196,
+    "g": 82,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 77,
+    "k": 23
+   },
+   "lab": {
+    "l": 49.46,
+    "a": 43.57,
+    "b": 42.86
+   }
+  },
+  {
+   "code": "Copic YR30",
+   "name": "Copic YR30",
+   "localName": "Macadamia Nut",
+   "hex": "#FAE4CE",
+   "rgb": {
+    "r": 250,
+    "g": 228,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 18,
+    "k": 2
+   },
+   "lab": {
+    "l": 91.81,
+    "a": 4.06,
+    "b": 13.46
+   }
+  },
+  {
+   "code": "Copic YR31",
+   "name": "Copic YR31",
+   "localName": "Light Reddish Yellow",
+   "hex": "#FBE0BE",
+   "rgb": {
+    "r": 251,
+    "g": 224,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 24,
+    "k": 2
+   },
+   "lab": {
+    "l": 90.57,
+    "a": 4.19,
+    "b": 20.06
+   }
+  },
+  {
+   "code": "Copic YR61",
+   "name": "Copic YR61",
+   "localName": "Spring Orange",
+   "hex": "#FBDCC4",
+   "rgb": {
+    "r": 251,
+    "g": 220,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 22,
+    "k": 2
+   },
+   "lab": {
+    "l": 89.71,
+    "a": 7.08,
+    "b": 15.73
+   }
+  },
+  {
+   "code": "Copic YR65",
+   "name": "Copic YR65",
+   "localName": "Atoll",
+   "hex": "#F4B478",
+   "rgb": {
+    "r": 244,
+    "g": 180,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 51,
+    "k": 4
+   },
+   "lab": {
+    "l": 78.01,
+    "a": 16.47,
+    "b": 39.56
+   }
+  },
+  {
+   "code": "Copic YR68",
+   "name": "Copic YR68",
+   "localName": "Orange",
+   "hex": "#F47920",
+   "rgb": {
+    "r": 244,
+    "g": 121,
+    "b": 32
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 50,
+    "y": 87,
+    "k": 4
+   },
+   "lab": {
+    "l": 64.18,
+    "a": 42.41,
+    "b": 64.75
+   }
+  }
+ ]
+}

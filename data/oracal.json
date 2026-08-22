@@ -1,0 +1,1505 @@
+{
+ "system": "ORACAL 651",
+ "owner": "ORAFOL Europe GmbH",
+ "accuracy": "medium",
+ "count": 68,
+ "generatedBy": "scripts/generate-brand-palettes.mjs",
+ "colors": [
+  {
+   "code": "ORACAL 651 000",
+   "name": "ORACAL 651 000",
+   "localName": "Transparent",
+   "hex": "#F2F2F2",
+   "rgb": {
+    "r": 242,
+    "g": 242,
+    "b": 242
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 5
+   },
+   "lab": {
+    "l": 95.49,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "ORACAL 651 010",
+   "name": "ORACAL 651 010",
+   "localName": "White",
+   "hex": "#FFFFFF",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 100,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "ORACAL 651 070",
+   "name": "ORACAL 651 070",
+   "localName": "Black",
+   "hex": "#000000",
+   "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 100
+   },
+   "lab": {
+    "l": 0,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "ORACAL 651 090",
+   "name": "ORACAL 651 090",
+   "localName": "Silver Grey",
+   "hex": "#A7A9AC",
+   "rgb": {
+    "r": 167,
+    "g": 169,
+    "b": 172
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 2,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 69.16,
+    "a": -0.13,
+    "b": -1.79
+   }
+  },
+  {
+   "code": "ORACAL 651 091",
+   "name": "ORACAL 651 091",
+   "localName": "Gold",
+   "hex": "#B49B57",
+   "rgb": {
+    "r": 180,
+    "g": 155,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 52,
+    "k": 29
+   },
+   "lab": {
+    "l": 64.83,
+    "a": 0.38,
+    "b": 38.79
+   }
+  },
+  {
+   "code": "ORACAL 651 010M",
+   "name": "ORACAL 651 010M",
+   "localName": "Matte White",
+   "hex": "#F7F7F7",
+   "rgb": {
+    "r": 247,
+    "g": 247,
+    "b": 247
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 3
+   },
+   "lab": {
+    "l": 97.23,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "ORACAL 651 070M",
+   "name": "ORACAL 651 070M",
+   "localName": "Matte Black",
+   "hex": "#1A1A1A",
+   "rgb": {
+    "r": 26,
+    "g": 26,
+    "b": 26
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 90
+   },
+   "lab": {
+    "l": 9.26,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "ORACAL 651 011",
+   "name": "ORACAL 651 011",
+   "localName": "Brown",
+   "hex": "#5A3A22",
+   "rgb": {
+    "r": 90,
+    "g": 58,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 62,
+    "k": 65
+   },
+   "lab": {
+    "l": 27.62,
+    "a": 11.29,
+    "b": 20.54
+   }
+  },
+  {
+   "code": "ORACAL 651 012",
+   "name": "ORACAL 651 012",
+   "localName": "Beige",
+   "hex": "#D2B48C",
+   "rgb": {
+    "r": 210,
+    "g": 180,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 14,
+    "y": 33,
+    "k": 18
+   },
+   "lab": {
+    "l": 74.98,
+    "a": 5.02,
+    "b": 24.43
+   }
+  },
+  {
+   "code": "ORACAL 651 013",
+   "name": "ORACAL 651 013",
+   "localName": "Cinnamon",
+   "hex": "#8B5A2B",
+   "rgb": {
+    "r": 139,
+    "g": 90,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 35,
+    "y": 69,
+    "k": 45
+   },
+   "lab": {
+    "l": 42.73,
+    "a": 15.49,
+    "b": 34.7
+   }
+  },
+  {
+   "code": "ORACAL 651 019",
+   "name": "ORACAL 651 019",
+   "localName": "Signal Red",
+   "hex": "#C8102E",
+   "rgb": {
+    "r": 200,
+    "g": 16,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 92,
+    "y": 77,
+    "k": 22
+   },
+   "lab": {
+    "l": 42.54,
+    "a": 65.89,
+    "b": 35.71
+   }
+  },
+  {
+   "code": "ORACAL 651 020",
+   "name": "ORACAL 651 020",
+   "localName": "Golden Yellow",
+   "hex": "#F1B434",
+   "rgb": {
+    "r": 241,
+    "g": 180,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 25,
+    "y": 78,
+    "k": 5
+   },
+   "lab": {
+    "l": 77.04,
+    "a": 11.09,
+    "b": 68.98
+   }
+  },
+  {
+   "code": "ORACAL 651 021",
+   "name": "ORACAL 651 021",
+   "localName": "Yellow",
+   "hex": "#FFD100",
+   "rgb": {
+    "r": 255,
+    "g": 209,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 18,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 85.44,
+    "a": 1.12,
+    "b": 86.08
+   }
+  },
+  {
+   "code": "ORACAL 651 022",
+   "name": "ORACAL 651 022",
+   "localName": "Light Yellow",
+   "hex": "#F5E27A",
+   "rgb": {
+    "r": 245,
+    "g": 226,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 50,
+    "k": 4
+   },
+   "lab": {
+    "l": 89.49,
+    "a": -6.71,
+    "b": 52.73
+   }
+  },
+  {
+   "code": "ORACAL 651 023",
+   "name": "ORACAL 651 023",
+   "localName": "Dark Yellow",
+   "hex": "#E8A317",
+   "rgb": {
+    "r": 232,
+    "g": 163,
+    "b": 23
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 90,
+    "k": 9
+   },
+   "lab": {
+    "l": 71.84,
+    "a": 15.47,
+    "b": 72.33
+   }
+  },
+  {
+   "code": "ORACAL 651 025",
+   "name": "ORACAL 651 025",
+   "localName": "Brimstone Yellow",
+   "hex": "#EDE04B",
+   "rgb": {
+    "r": 237,
+    "g": 224,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 68,
+    "k": 7
+   },
+   "lab": {
+    "l": 87.88,
+    "a": -12.17,
+    "b": 70.98
+   }
+  },
+  {
+   "code": "ORACAL 651 026",
+   "name": "ORACAL 651 026",
+   "localName": "Sand",
+   "hex": "#D9C89E",
+   "rgb": {
+    "r": 217,
+    "g": 200,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 27,
+    "k": 15
+   },
+   "lab": {
+    "l": 81.03,
+    "a": -0.48,
+    "b": 23.21
+   }
+  },
+  {
+   "code": "ORACAL 651 027",
+   "name": "ORACAL 651 027",
+   "localName": "Light Orange",
+   "hex": "#F5A623",
+   "rgb": {
+    "r": 245,
+    "g": 166,
+    "b": 35
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 32,
+    "y": 86,
+    "k": 4
+   },
+   "lab": {
+    "l": 74.07,
+    "a": 19.66,
+    "b": 71.85
+   }
+  },
+  {
+   "code": "ORACAL 651 028",
+   "name": "ORACAL 651 028",
+   "localName": "Ivory",
+   "hex": "#EFE6D2",
+   "rgb": {
+    "r": 239,
+    "g": 230,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 12,
+    "k": 6
+   },
+   "lab": {
+    "l": 91.5,
+    "a": -0.27,
+    "b": 10.83
+   }
+  },
+  {
+   "code": "ORACAL 651 029",
+   "name": "ORACAL 651 029",
+   "localName": "Bronze",
+   "hex": "#8C6D3F",
+   "rgb": {
+    "r": 140,
+    "g": 109,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 55,
+    "k": 45
+   },
+   "lab": {
+    "l": 48.1,
+    "a": 6.42,
+    "b": 30.19
+   }
+  },
+  {
+   "code": "ORACAL 651 030",
+   "name": "ORACAL 651 030",
+   "localName": "Dark Red",
+   "hex": "#8C1D2C",
+   "rgb": {
+    "r": 140,
+    "g": 29,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 79,
+    "y": 69,
+    "k": 45
+   },
+   "lab": {
+    "l": 30.97,
+    "a": 46.35,
+    "b": 20.26
+   }
+  },
+  {
+   "code": "ORACAL 651 031",
+   "name": "ORACAL 651 031",
+   "localName": "Red",
+   "hex": "#D42132",
+   "rgb": {
+    "r": 212,
+    "g": 33,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 84,
+    "y": 76,
+    "k": 17
+   },
+   "lab": {
+    "l": 46.07,
+    "a": 66.24,
+    "b": 37.94
+   }
+  },
+  {
+   "code": "ORACAL 651 032",
+   "name": "ORACAL 651 032",
+   "localName": "Light Red",
+   "hex": "#E4573E",
+   "rgb": {
+    "r": 228,
+    "g": 87,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 62,
+    "y": 73,
+    "k": 11
+   },
+   "lab": {
+    "l": 55.75,
+    "a": 53.42,
+    "b": 42.78
+   }
+  },
+  {
+   "code": "ORACAL 651 033",
+   "name": "ORACAL 651 033",
+   "localName": "Blood Orange",
+   "hex": "#DA4A28",
+   "rgb": {
+    "r": 218,
+    "g": 74,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 66,
+    "y": 82,
+    "k": 15
+   },
+   "lab": {
+    "l": 51.79,
+    "a": 54.71,
+    "b": 49.37
+   }
+  },
+  {
+   "code": "ORACAL 651 034",
+   "name": "ORACAL 651 034",
+   "localName": "Orange",
+   "hex": "#F26A21",
+   "rgb": {
+    "r": 242,
+    "g": 106,
+    "b": 33
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 56,
+    "y": 86,
+    "k": 5
+   },
+   "lab": {
+    "l": 61.05,
+    "a": 48.9,
+    "b": 61.8
+   }
+  },
+  {
+   "code": "ORACAL 651 035",
+   "name": "ORACAL 651 035",
+   "localName": "Pastel Orange",
+   "hex": "#F79C56",
+   "rgb": {
+    "r": 247,
+    "g": 156,
+    "b": 86
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 37,
+    "y": 65,
+    "k": 3
+   },
+   "lab": {
+    "l": 72.38,
+    "a": 27.8,
+    "b": 50
+   }
+  },
+  {
+   "code": "ORACAL 651 036",
+   "name": "ORACAL 651 036",
+   "localName": "Light Pink",
+   "hex": "#F4A6C0",
+   "rgb": {
+    "r": 244,
+    "g": 166,
+    "b": 192
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 32,
+    "y": 21,
+    "k": 4
+   },
+   "lab": {
+    "l": 76.26,
+    "a": 32.33,
+    "b": -1.54
+   }
+  },
+  {
+   "code": "ORACAL 651 037",
+   "name": "ORACAL 651 037",
+   "localName": "Purple Red",
+   "hex": "#9E2A5C",
+   "rgb": {
+    "r": 158,
+    "g": 42,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 73,
+    "y": 42,
+    "k": 38
+   },
+   "lab": {
+    "l": 37.3,
+    "a": 51.21,
+    "b": -1.56
+   }
+  },
+  {
+   "code": "ORACAL 651 040",
+   "name": "ORACAL 651 040",
+   "localName": "Violet",
+   "hex": "#5B2A86",
+   "rgb": {
+    "r": 91,
+    "g": 42,
+    "b": 134
+   },
+   "cmyk": {
+    "c": 32,
+    "m": 69,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 28.38,
+    "a": 40.28,
+    "b": -42.82
+   }
+  },
+  {
+   "code": "ORACAL 651 041",
+   "name": "ORACAL 651 041",
+   "localName": "Pink",
+   "hex": "#E45B9E",
+   "rgb": {
+    "r": 228,
+    "g": 91,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 31,
+    "k": 11
+   },
+   "lab": {
+    "l": 58.46,
+    "a": 59.61,
+    "b": -8.93
+   }
+  },
+  {
+   "code": "ORACAL 651 042",
+   "name": "ORACAL 651 042",
+   "localName": "Deep Sea Blue",
+   "hex": "#1B5B7C",
+   "rgb": {
+    "r": 27,
+    "g": 91,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 78,
+    "m": 27,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 36.31,
+    "a": -7.91,
+    "b": -24.3
+   }
+  },
+  {
+   "code": "ORACAL 651 043",
+   "name": "ORACAL 651 043",
+   "localName": "Lavender",
+   "hex": "#B9A6D0",
+   "rgb": {
+    "r": 185,
+    "g": 166,
+    "b": 208
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 20,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 70.97,
+    "a": 14.91,
+    "b": -18.82
+   }
+  },
+  {
+   "code": "ORACAL 651 045",
+   "name": "ORACAL 651 045",
+   "localName": "Turquoise Blue",
+   "hex": "#1D9BAB",
+   "rgb": {
+    "r": 29,
+    "g": 155,
+    "b": 171
+   },
+   "cmyk": {
+    "c": 83,
+    "m": 9,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 58.64,
+    "a": -26.45,
+    "b": -17.62
+   }
+  },
+  {
+   "code": "ORACAL 651 046",
+   "name": "ORACAL 651 046",
+   "localName": "Ice Blue",
+   "hex": "#A8CDE0",
+   "rgb": {
+    "r": 168,
+    "g": 205,
+    "b": 224
+   },
+   "cmyk": {
+    "c": 25,
+    "m": 8,
+    "y": 0,
+    "k": 12
+   },
+   "lab": {
+    "l": 80.39,
+    "a": -8.02,
+    "b": -13.43
+   }
+  },
+  {
+   "code": "ORACAL 651 047",
+   "name": "ORACAL 651 047",
+   "localName": "Turquoise",
+   "hex": "#00A3A1",
+   "rgb": {
+    "r": 0,
+    "g": 163,
+    "b": 161
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 1,
+    "k": 36
+   },
+   "lab": {
+    "l": 60.57,
+    "a": -35.03,
+    "b": -9.08
+   }
+  },
+  {
+   "code": "ORACAL 651 048",
+   "name": "ORACAL 651 048",
+   "localName": "Azure Blue",
+   "hex": "#0075BE",
+   "rgb": {
+    "r": 0,
+    "g": 117,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 38,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 47.54,
+    "a": 0.16,
+    "b": -45.82
+   }
+  },
+  {
+   "code": "ORACAL 651 049",
+   "name": "ORACAL 651 049",
+   "localName": "King Blue",
+   "hex": "#0F3E86",
+   "rgb": {
+    "r": 15,
+    "g": 62,
+    "b": 134
+   },
+   "cmyk": {
+    "c": 89,
+    "m": 54,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 27.48,
+    "a": 14.08,
+    "b": -44.55
+   }
+  },
+  {
+   "code": "ORACAL 651 050",
+   "name": "ORACAL 651 050",
+   "localName": "Dark Blue",
+   "hex": "#12305E",
+   "rgb": {
+    "r": 18,
+    "g": 48,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 81,
+    "m": 49,
+    "y": 0,
+    "k": 63
+   },
+   "lab": {
+    "l": 20.24,
+    "a": 7.32,
+    "b": -30.66
+   }
+  },
+  {
+   "code": "ORACAL 651 051",
+   "name": "ORACAL 651 051",
+   "localName": "Gentian Blue",
+   "hex": "#0D5CA8",
+   "rgb": {
+    "r": 13,
+    "g": 92,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 92,
+    "m": 45,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 38.84,
+    "a": 7.72,
+    "b": -46.87
+   }
+  },
+  {
+   "code": "ORACAL 651 052",
+   "name": "ORACAL 651 052",
+   "localName": "Azure Blue",
+   "hex": "#1479BE",
+   "rgb": {
+    "r": 20,
+    "g": 121,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 89,
+    "m": 36,
+    "y": 0,
+    "k": 25
+   },
+   "lab": {
+    "l": 48.93,
+    "a": -1.43,
+    "b": -43.6
+   }
+  },
+  {
+   "code": "ORACAL 651 053",
+   "name": "ORACAL 651 053",
+   "localName": "Light Blue",
+   "hex": "#5BB8E5",
+   "rgb": {
+    "r": 91,
+    "g": 184,
+    "b": 229
+   },
+   "cmyk": {
+    "c": 60,
+    "m": 20,
+    "y": 0,
+    "k": 10
+   },
+   "lab": {
+    "l": 70.98,
+    "a": -14.52,
+    "b": -30.79
+   }
+  },
+  {
+   "code": "ORACAL 651 054",
+   "name": "ORACAL 651 054",
+   "localName": "Purple",
+   "hex": "#5C2D82",
+   "rgb": {
+    "r": 92,
+    "g": 45,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 65,
+    "y": 0,
+    "k": 49
+   },
+   "lab": {
+    "l": 28.81,
+    "a": 37.92,
+    "b": -39.63
+   }
+  },
+  {
+   "code": "ORACAL 651 055",
+   "name": "ORACAL 651 055",
+   "localName": "Mint",
+   "hex": "#8FD1B8",
+   "rgb": {
+    "r": 143,
+    "g": 209,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 32,
+    "m": 0,
+    "y": 12,
+    "k": 18
+   },
+   "lab": {
+    "l": 78.98,
+    "a": -26.24,
+    "b": 5.77
+   }
+  },
+  {
+   "code": "ORACAL 651 056",
+   "name": "ORACAL 651 056",
+   "localName": "Ice Blue",
+   "hex": "#BFDCEA",
+   "rgb": {
+    "r": 191,
+    "g": 220,
+    "b": 234
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 6,
+    "y": 0,
+    "k": 8
+   },
+   "lab": {
+    "l": 86.11,
+    "a": -6.66,
+    "b": -10.06
+   }
+  },
+  {
+   "code": "ORACAL 651 057",
+   "name": "ORACAL 651 057",
+   "localName": "Traffic Blue",
+   "hex": "#0069B4",
+   "rgb": {
+    "r": 0,
+    "g": 105,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 42,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 43.35,
+    "a": 3.65,
+    "b": -46.7
+   }
+  },
+  {
+   "code": "ORACAL 651 060",
+   "name": "ORACAL 651 060",
+   "localName": "Dark Green",
+   "hex": "#14452F",
+   "rgb": {
+    "r": 20,
+    "g": 69,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 71,
+    "m": 0,
+    "y": 32,
+    "k": 73
+   },
+   "lab": {
+    "l": 25.59,
+    "a": -22.52,
+    "b": 8.58
+   }
+  },
+  {
+   "code": "ORACAL 651 061",
+   "name": "ORACAL 651 061",
+   "localName": "Green",
+   "hex": "#1E7B45",
+   "rgb": {
+    "r": 30,
+    "g": 123,
+    "b": 69
+   },
+   "cmyk": {
+    "c": 76,
+    "m": 0,
+    "y": 44,
+    "k": 52
+   },
+   "lab": {
+    "l": 45.46,
+    "a": -39.63,
+    "b": 22.05
+   }
+  },
+  {
+   "code": "ORACAL 651 062",
+   "name": "ORACAL 651 062",
+   "localName": "Light Green",
+   "hex": "#6CB33F",
+   "rgb": {
+    "r": 108,
+    "g": 179,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 0,
+    "y": 65,
+    "k": 30
+   },
+   "lab": {
+    "l": 66.36,
+    "a": -42.5,
+    "b": 50.61
+   }
+  },
+  {
+   "code": "ORACAL 651 063",
+   "name": "ORACAL 651 063",
+   "localName": "Lime Tree Green",
+   "hex": "#A5C63B",
+   "rgb": {
+    "r": 165,
+    "g": 198,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 0,
+    "y": 70,
+    "k": 22
+   },
+   "lab": {
+    "l": 75.27,
+    "a": -29.96,
+    "b": 62.5
+   }
+  },
+  {
+   "code": "ORACAL 651 064",
+   "name": "ORACAL 651 064",
+   "localName": "Yellow Green",
+   "hex": "#8DC63F",
+   "rgb": {
+    "r": 141,
+    "g": 198,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 0,
+    "y": 68,
+    "k": 22
+   },
+   "lab": {
+    "l": 73.81,
+    "a": -39,
+    "b": 59.04
+   }
+  },
+  {
+   "code": "ORACAL 651 065",
+   "name": "ORACAL 651 065",
+   "localName": "Yellow Green",
+   "hex": "#B5CE3C",
+   "rgb": {
+    "r": 181,
+    "g": 206,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 71,
+    "k": 19
+   },
+   "lab": {
+    "l": 78.63,
+    "a": -27.23,
+    "b": 65.84
+   }
+  },
+  {
+   "code": "ORACAL 651 066",
+   "name": "ORACAL 651 066",
+   "localName": "Grass Green",
+   "hex": "#43892F",
+   "rgb": {
+    "r": 67,
+    "g": 137,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 51,
+    "m": 0,
+    "y": 66,
+    "k": 46
+   },
+   "lab": {
+    "l": 51.02,
+    "a": -39.65,
+    "b": 40.34
+   }
+  },
+  {
+   "code": "ORACAL 651 067",
+   "name": "ORACAL 651 067",
+   "localName": "Forest Green",
+   "hex": "#1F5C36",
+   "rgb": {
+    "r": 31,
+    "g": 92,
+    "b": 54
+   },
+   "cmyk": {
+    "c": 66,
+    "m": 0,
+    "y": 41,
+    "k": 64
+   },
+   "lab": {
+    "l": 34.42,
+    "a": -29.26,
+    "b": 16.24
+   }
+  },
+  {
+   "code": "ORACAL 651 068",
+   "name": "ORACAL 651 068",
+   "localName": "Pastel Green",
+   "hex": "#B6D9A8",
+   "rgb": {
+    "r": 182,
+    "g": 217,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 0,
+    "y": 23,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.12,
+    "a": -20.51,
+    "b": 20.41
+   }
+  },
+  {
+   "code": "ORACAL 651 069",
+   "name": "ORACAL 651 069",
+   "localName": "Mint Green",
+   "hex": "#7FCBB0",
+   "rgb": {
+    "r": 127,
+    "g": 203,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 0,
+    "y": 13,
+    "k": 20
+   },
+   "lab": {
+    "l": 76.29,
+    "a": -29.64,
+    "b": 6.07
+   }
+  },
+  {
+   "code": "ORACAL 651 071",
+   "name": "ORACAL 651 071",
+   "localName": "Grey",
+   "hex": "#808285",
+   "rgb": {
+    "r": 128,
+    "g": 130,
+    "b": 133
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 2,
+    "y": 0,
+    "k": 48
+   },
+   "lab": {
+    "l": 54.29,
+    "a": -0.14,
+    "b": -1.88
+   }
+  },
+  {
+   "code": "ORACAL 651 072",
+   "name": "ORACAL 651 072",
+   "localName": "Light Grey",
+   "hex": "#C7C8CA",
+   "rgb": {
+    "r": 199,
+    "g": 200,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 1,
+    "y": 0,
+    "k": 21
+   },
+   "lab": {
+    "l": 80.58,
+    "a": 0.03,
+    "b": -1.12
+   }
+  },
+  {
+   "code": "ORACAL 651 073",
+   "name": "ORACAL 651 073",
+   "localName": "Dark Grey",
+   "hex": "#54585A",
+   "rgb": {
+    "r": 84,
+    "g": 88,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 2,
+    "y": 0,
+    "k": 65
+   },
+   "lab": {
+    "l": 37.12,
+    "a": -1.14,
+    "b": -1.71
+   }
+  },
+  {
+   "code": "ORACAL 651 074",
+   "name": "ORACAL 651 074",
+   "localName": "Middle Grey",
+   "hex": "#939598",
+   "rgb": {
+    "r": 147,
+    "g": 149,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 2,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 61.62,
+    "a": -0.13,
+    "b": -1.83
+   }
+  },
+  {
+   "code": "ORACAL 651 076",
+   "name": "ORACAL 651 076",
+   "localName": "Telemagenta",
+   "hex": "#C4177F",
+   "rgb": {
+    "r": 196,
+    "g": 23,
+    "b": 127
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 88,
+    "y": 35,
+    "k": 23
+   },
+   "lab": {
+    "l": 44.07,
+    "a": 69.39,
+    "b": -12.61
+   }
+  },
+  {
+   "code": "ORACAL 651 078",
+   "name": "ORACAL 651 078",
+   "localName": "Steel Blue",
+   "hex": "#4C6E8C",
+   "rgb": {
+    "r": 76,
+    "g": 110,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 21,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 45.05,
+    "a": -3.66,
+    "b": -20.26
+   }
+  },
+  {
+   "code": "ORACAL 651 079",
+   "name": "ORACAL 651 079",
+   "localName": "Grey Beige",
+   "hex": "#B0A79A",
+   "rgb": {
+    "r": 176,
+    "g": 167,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 13,
+    "k": 31
+   },
+   "lab": {
+    "l": 68.9,
+    "a": 0.97,
+    "b": 7.88
+   }
+  },
+  {
+   "code": "ORACAL 651 080",
+   "name": "ORACAL 651 080",
+   "localName": "Nut Brown",
+   "hex": "#6B4423",
+   "rgb": {
+    "r": 107,
+    "g": 68,
+    "b": 35
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 67,
+    "k": 58
+   },
+   "lab": {
+    "l": 32.66,
+    "a": 13.27,
+    "b": 26.53
+   }
+  },
+  {
+   "code": "ORACAL 651 081",
+   "name": "ORACAL 651 081",
+   "localName": "Light Ivory",
+   "hex": "#F3ECD8",
+   "rgb": {
+    "r": 243,
+    "g": 236,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 5
+   },
+   "lab": {
+    "l": 93.45,
+    "a": -0.97,
+    "b": 10.54
+   }
+  },
+  {
+   "code": "ORACAL 651 082",
+   "name": "ORACAL 651 082",
+   "localName": "Cream",
+   "hex": "#EFDDB8",
+   "rgb": {
+    "r": 239,
+    "g": 221,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 23,
+    "k": 6
+   },
+   "lab": {
+    "l": 88.7,
+    "a": 0.47,
+    "b": 20.43
+   }
+  },
+  {
+   "code": "ORACAL 651 083",
+   "name": "ORACAL 651 083",
+   "localName": "Fawn",
+   "hex": "#C8A97E",
+   "rgb": {
+    "r": 200,
+    "g": 169,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 37,
+    "k": 22
+   },
+   "lab": {
+    "l": 70.98,
+    "a": 5.23,
+    "b": 26.41
+   }
+  },
+  {
+   "code": "ORACAL 651 084",
+   "name": "ORACAL 651 084",
+   "localName": "Lemon Yellow",
+   "hex": "#F5DE50",
+   "rgb": {
+    "r": 245,
+    "g": 222,
+    "b": 80
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 67,
+    "k": 4
+   },
+   "lab": {
+    "l": 88.08,
+    "a": -7.6,
+    "b": 69.49
+   }
+  },
+  {
+   "code": "ORACAL 651 086",
+   "name": "ORACAL 651 086",
+   "localName": "Brilliant Blue",
+   "hex": "#0083C9",
+   "rgb": {
+    "r": 0,
+    "g": 131,
+    "b": 201
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 35,
+    "y": 0,
+    "k": 21
+   },
+   "lab": {
+    "l": 52.34,
+    "a": -3.99,
+    "b": -44.5
+   }
+  }
+ ]
+}

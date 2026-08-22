@@ -1,0 +1,4695 @@
+{
+ "system": "RAL Classic",
+ "owner": "RAL gGmbH",
+ "accuracy": "high",
+ "count": 213,
+ "generatedBy": "scripts/generate-palettes.mjs",
+ "colors": [
+  {
+   "code": "RAL 1000",
+   "name": "Green beige",
+   "localName": "Grünbeige",
+   "hex": "#CDBA88",
+   "rgb": {
+    "r": 205,
+    "g": 186,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 34,
+    "k": 20
+   },
+   "lab": {
+    "l": 75.99,
+    "a": -0.63,
+    "b": 27.85
+   }
+  },
+  {
+   "code": "RAL 1001",
+   "name": "Beige",
+   "localName": "Beige",
+   "hex": "#D0B084",
+   "rgb": {
+    "r": 208,
+    "g": 176,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 15,
+    "y": 37,
+    "k": 18
+   },
+   "lab": {
+    "l": 73.63,
+    "a": 5.39,
+    "b": 26.86
+   }
+  },
+  {
+   "code": "RAL 1002",
+   "name": "Sand yellow",
+   "localName": "Sandgelb",
+   "hex": "#D2AA6D",
+   "rgb": {
+    "r": 210,
+    "g": 170,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 19,
+    "y": 48,
+    "k": 18
+   },
+   "lab": {
+    "l": 71.93,
+    "a": 6.94,
+    "b": 36.85
+   }
+  },
+  {
+   "code": "RAL 1003",
+   "name": "Signal yellow",
+   "localName": "Signalgelb",
+   "hex": "#F9A800",
+   "rgb": {
+    "r": 249,
+    "g": 168,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 100,
+    "k": 2
+   },
+   "lab": {
+    "l": 74.92,
+    "a": 19.84,
+    "b": 78.6
+   }
+  },
+  {
+   "code": "RAL 1004",
+   "name": "Golden yellow",
+   "localName": "Goldgelb",
+   "hex": "#E49E00",
+   "rgb": {
+    "r": 228,
+    "g": 158,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 100,
+    "k": 11
+   },
+   "lab": {
+    "l": 70.14,
+    "a": 16.15,
+    "b": 74.25
+   }
+  },
+  {
+   "code": "RAL 1005",
+   "name": "Honey yellow",
+   "localName": "Honiggelb",
+   "hex": "#CB8E00",
+   "rgb": {
+    "r": 203,
+    "g": 142,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 100,
+    "k": 20
+   },
+   "lab": {
+    "l": 63.38,
+    "a": 13.83,
+    "b": 68.34
+   }
+  },
+  {
+   "code": "RAL 1006",
+   "name": "Maize yellow",
+   "localName": "Maisgelb",
+   "hex": "#E29000",
+   "rgb": {
+    "r": 226,
+    "g": 144,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 100,
+    "k": 11
+   },
+   "lab": {
+    "l": 66.61,
+    "a": 22.75,
+    "b": 71.81
+   }
+  },
+  {
+   "code": "RAL 1007",
+   "name": "Daffodil yellow",
+   "localName": "Narzissengelb",
+   "hex": "#E88C00",
+   "rgb": {
+    "r": 232,
+    "g": 140,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 40,
+    "y": 100,
+    "k": 9
+   },
+   "lab": {
+    "l": 66.46,
+    "a": 27.41,
+    "b": 72.08
+   }
+  },
+  {
+   "code": "RAL 1011",
+   "name": "Brown beige",
+   "localName": "Braunbeige",
+   "hex": "#AF804F",
+   "rgb": {
+    "r": 175,
+    "g": 128,
+    "b": 79
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 55,
+    "k": 31
+   },
+   "lab": {
+    "l": 57.19,
+    "a": 12.44,
+    "b": 33.52
+   }
+  },
+  {
+   "code": "RAL 1012",
+   "name": "Lemon yellow",
+   "localName": "Zitronengelb",
+   "hex": "#DDAF27",
+   "rgb": {
+    "r": 221,
+    "g": 175,
+    "b": 39
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 82,
+    "k": 13
+   },
+   "lab": {
+    "l": 73.66,
+    "a": 4.71,
+    "b": 69.33
+   }
+  },
+  {
+   "code": "RAL 1013",
+   "name": "Oyster white",
+   "localName": "Perlweiß",
+   "hex": "#E3D9C6",
+   "rgb": {
+    "r": 227,
+    "g": 217,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 13,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.01,
+    "a": 0.26,
+    "b": 10.58
+   }
+  },
+  {
+   "code": "RAL 1014",
+   "name": "Ivory",
+   "localName": "Elfenbein",
+   "hex": "#DDC49A",
+   "rgb": {
+    "r": 221,
+    "g": 196,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 30,
+    "k": 13
+   },
+   "lab": {
+    "l": 80.28,
+    "a": 2.62,
+    "b": 24.35
+   }
+  },
+  {
+   "code": "RAL 1015",
+   "name": "Light ivory",
+   "localName": "Hellelfenbein",
+   "hex": "#E6D2B5",
+   "rgb": {
+    "r": 230,
+    "g": 210,
+    "b": 181
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 9,
+    "y": 21,
+    "k": 10
+   },
+   "lab": {
+    "l": 85.13,
+    "a": 2.4,
+    "b": 16.91
+   }
+  },
+  {
+   "code": "RAL 1016",
+   "name": "Sulfur yellow",
+   "localName": "Schwefelgelb",
+   "hex": "#F1DD38",
+   "rgb": {
+    "r": 241,
+    "g": 221,
+    "b": 56
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 77,
+    "k": 5
+   },
+   "lab": {
+    "l": 87.34,
+    "a": -9.83,
+    "b": 77.04
+   }
+  },
+  {
+   "code": "RAL 1017",
+   "name": "Saffron yellow",
+   "localName": "Safrangelb",
+   "hex": "#F6A950",
+   "rgb": {
+    "r": 246,
+    "g": 169,
+    "b": 80
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 67,
+    "k": 4
+   },
+   "lab": {
+    "l": 75.17,
+    "a": 20.22,
+    "b": 55.93
+   }
+  },
+  {
+   "code": "RAL 1018",
+   "name": "Zinc yellow",
+   "localName": "Zinkgelb",
+   "hex": "#FACA30",
+   "rgb": {
+    "r": 250,
+    "g": 202,
+    "b": 48
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 19,
+    "y": 81,
+    "k": 2
+   },
+   "lab": {
+    "l": 83.33,
+    "a": 3.34,
+    "b": 76.18
+   }
+  },
+  {
+   "code": "RAL 1019",
+   "name": "Grey beige",
+   "localName": "Graubeige",
+   "hex": "#A48F7A",
+   "rgb": {
+    "r": 164,
+    "g": 143,
+    "b": 122
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 26,
+    "k": 36
+   },
+   "lab": {
+    "l": 60.73,
+    "a": 4.49,
+    "b": 14.08
+   }
+  },
+  {
+   "code": "RAL 1020",
+   "name": "Olive yellow",
+   "localName": "Olivgelb",
+   "hex": "#A08F65",
+   "rgb": {
+    "r": 160,
+    "g": 143,
+    "b": 101
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 37,
+    "k": 37
+   },
+   "lab": {
+    "l": 59.94,
+    "a": 0,
+    "b": 24.69
+   }
+  },
+  {
+   "code": "RAL 1021",
+   "name": "Colza yellow",
+   "localName": "Rapsgelb",
+   "hex": "#F6B600",
+   "rgb": {
+    "r": 246,
+    "g": 182,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 100,
+    "k": 4
+   },
+   "lab": {
+    "l": 77.91,
+    "a": 11.22,
+    "b": 80.45
+   }
+  },
+  {
+   "code": "RAL 1023",
+   "name": "Traffic yellow",
+   "localName": "Verkehrsgelb",
+   "hex": "#F7B500",
+   "rgb": {
+    "r": 247,
+    "g": 181,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 27,
+    "y": 100,
+    "k": 3
+   },
+   "lab": {
+    "l": 77.77,
+    "a": 12.18,
+    "b": 80.41
+   }
+  },
+  {
+   "code": "RAL 1024",
+   "name": "Ochre yellow",
+   "localName": "Ockergelb",
+   "hex": "#BA8F4C",
+   "rgb": {
+    "r": 186,
+    "g": 143,
+    "b": 76
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 23,
+    "y": 59,
+    "k": 27
+   },
+   "lab": {
+    "l": 62.18,
+    "a": 8.61,
+    "b": 41.38
+   }
+  },
+  {
+   "code": "RAL 1026",
+   "name": "Luminous yellow",
+   "localName": "Leuchtgelb",
+   "hex": "#FFFF00",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 97.14,
+    "a": -21.55,
+    "b": 94.48
+   }
+  },
+  {
+   "code": "RAL 1027",
+   "name": "Curry",
+   "localName": "Currygelb",
+   "hex": "#A77F0E",
+   "rgb": {
+    "r": 167,
+    "g": 127,
+    "b": 14
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 92,
+    "k": 35
+   },
+   "lab": {
+    "l": 55.51,
+    "a": 6.06,
+    "b": 58.55
+   }
+  },
+  {
+   "code": "RAL 1028",
+   "name": "Melon yellow",
+   "localName": "Melonengelb",
+   "hex": "#FF9B00",
+   "rgb": {
+    "r": 255,
+    "g": 155,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 72.7,
+    "a": 29.13,
+    "b": 77.5
+   }
+  },
+  {
+   "code": "RAL 1032",
+   "name": "Broom yellow",
+   "localName": "Ginstergelb",
+   "hex": "#E2A300",
+   "rgb": {
+    "r": 226,
+    "g": 163,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 28,
+    "y": 100,
+    "k": 11
+   },
+   "lab": {
+    "l": 71.12,
+    "a": 12.62,
+    "b": 74.81
+   }
+  },
+  {
+   "code": "RAL 1033",
+   "name": "Dahlia yellow",
+   "localName": "Dahliengelb",
+   "hex": "#F99A1C",
+   "rgb": {
+    "r": 249,
+    "g": 154,
+    "b": 28
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 38,
+    "y": 89,
+    "k": 2
+   },
+   "lab": {
+    "l": 71.79,
+    "a": 27.48,
+    "b": 72.06
+   }
+  },
+  {
+   "code": "RAL 1034",
+   "name": "Pastel yellow",
+   "localName": "Pastellgelb",
+   "hex": "#EB9C52",
+   "rgb": {
+    "r": 235,
+    "g": 156,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 34,
+    "y": 65,
+    "k": 8
+   },
+   "lab": {
+    "l": 70.91,
+    "a": 22.67,
+    "b": 49.9
+   }
+  },
+  {
+   "code": "RAL 1035",
+   "name": "Pearl beige",
+   "localName": "Perlbeige",
+   "hex": "#8F8370",
+   "rgb": {
+    "r": 143,
+    "g": 131,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 22,
+    "k": 44
+   },
+   "lab": {
+    "l": 55.32,
+    "a": 1.28,
+    "b": 11.93
+   }
+  },
+  {
+   "code": "RAL 1036",
+   "name": "Pearl gold",
+   "localName": "Perlgold",
+   "hex": "#806440",
+   "rgb": {
+    "r": 128,
+    "g": 100,
+    "b": 64
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 50,
+    "k": 50
+   },
+   "lab": {
+    "l": 44.34,
+    "a": 6.37,
+    "b": 24.65
+   }
+  },
+  {
+   "code": "RAL 1037",
+   "name": "Sun yellow",
+   "localName": "Sonnengelb",
+   "hex": "#F09200",
+   "rgb": {
+    "r": 240,
+    "g": 146,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 39,
+    "y": 100,
+    "k": 6
+   },
+   "lab": {
+    "l": 68.81,
+    "a": 27.6,
+    "b": 74.09
+   }
+  },
+  {
+   "code": "RAL 2000",
+   "name": "Yellow orange",
+   "localName": "Gelborange",
+   "hex": "#DA6E00",
+   "rgb": {
+    "r": 218,
+    "g": 110,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 50,
+    "y": 100,
+    "k": 15
+   },
+   "lab": {
+    "l": 58.1,
+    "a": 37.27,
+    "b": 65.94
+   }
+  },
+  {
+   "code": "RAL 2001",
+   "name": "Red orange",
+   "localName": "Rotorange",
+   "hex": "#BA481B",
+   "rgb": {
+    "r": 186,
+    "g": 72,
+    "b": 27
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 61,
+    "y": 85,
+    "k": 27
+   },
+   "lab": {
+    "l": 45.85,
+    "a": 43.94,
+    "b": 47.86
+   }
+  },
+  {
+   "code": "RAL 2002",
+   "name": "Vermilion",
+   "localName": "Blutorange",
+   "hex": "#BF3922",
+   "rgb": {
+    "r": 191,
+    "g": 57,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 70,
+    "y": 82,
+    "k": 25
+   },
+   "lab": {
+    "l": 44.41,
+    "a": 52.29,
+    "b": 43.64
+   }
+  },
+  {
+   "code": "RAL 2003",
+   "name": "Pastel orange",
+   "localName": "Pastellorange",
+   "hex": "#F67828",
+   "rgb": {
+    "r": 246,
+    "g": 120,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 84,
+    "k": 4
+   },
+   "lab": {
+    "l": 64.31,
+    "a": 43.85,
+    "b": 62.2
+   }
+  },
+  {
+   "code": "RAL 2004",
+   "name": "Pure orange",
+   "localName": "Reinorange",
+   "hex": "#E25303",
+   "rgb": {
+    "r": 226,
+    "g": 83,
+    "b": 3
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 99,
+    "k": 11
+   },
+   "lab": {
+    "l": 54.41,
+    "a": 53.08,
+    "b": 63.9
+   }
+  },
+  {
+   "code": "RAL 2005",
+   "name": "Luminous orange",
+   "localName": "Leuchtorange",
+   "hex": "#FF4D06",
+   "rgb": {
+    "r": 255,
+    "g": 77,
+    "b": 6
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 70,
+    "y": 98,
+    "k": 0
+   },
+   "lab": {
+    "l": 58.59,
+    "a": 65.08,
+    "b": 68.26
+   }
+  },
+  {
+   "code": "RAL 2007",
+   "name": "Luminous br. orange",
+   "localName": "Leuchthellorange",
+   "hex": "#FFB200",
+   "rgb": {
+    "r": 255,
+    "g": 178,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 77.94,
+    "a": 17.15,
+    "b": 80.94
+   }
+  },
+  {
+   "code": "RAL 2008",
+   "name": "Bright red orange",
+   "localName": "Hellrotorange",
+   "hex": "#ED6B21",
+   "rgb": {
+    "r": 237,
+    "g": 107,
+    "b": 33
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 55,
+    "y": 86,
+    "k": 7
+   },
+   "lab": {
+    "l": 60.46,
+    "a": 46.57,
+    "b": 61
+   }
+  },
+  {
+   "code": "RAL 2009",
+   "name": "Traffic orange",
+   "localName": "Verkehrsorange",
+   "hex": "#DE5307",
+   "rgb": {
+    "r": 222,
+    "g": 83,
+    "b": 7
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 97,
+    "k": 13
+   },
+   "lab": {
+    "l": 53.75,
+    "a": 51.71,
+    "b": 62.33
+   }
+  },
+  {
+   "code": "RAL 2010",
+   "name": "Signal orange",
+   "localName": "Signalorange",
+   "hex": "#D05D28",
+   "rgb": {
+    "r": 208,
+    "g": 93,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 55,
+    "y": 81,
+    "k": 18
+   },
+   "lab": {
+    "l": 53.38,
+    "a": 42.56,
+    "b": 50.26
+   }
+  },
+  {
+   "code": "RAL 2011",
+   "name": "Deep orange",
+   "localName": "Tieforange",
+   "hex": "#E26E0E",
+   "rgb": {
+    "r": 226,
+    "g": 110,
+    "b": 14
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 94,
+    "k": 11
+   },
+   "lab": {
+    "l": 59.3,
+    "a": 40.57,
+    "b": 64.78
+   }
+  },
+  {
+   "code": "RAL 2012",
+   "name": "Salmon orange",
+   "localName": "Lachsorange",
+   "hex": "#D5654D",
+   "rgb": {
+    "r": 213,
+    "g": 101,
+    "b": 77
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 53,
+    "y": 64,
+    "k": 16
+   },
+   "lab": {
+    "l": 56.08,
+    "a": 42.27,
+    "b": 34.37
+   }
+  },
+  {
+   "code": "RAL 2013",
+   "name": "Pearl orange",
+   "localName": "Perlorange",
+   "hex": "#923E25",
+   "rgb": {
+    "r": 146,
+    "g": 62,
+    "b": 37
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 58,
+    "y": 75,
+    "k": 43
+   },
+   "lab": {
+    "l": 37.28,
+    "a": 33.83,
+    "b": 32.22
+   }
+  },
+  {
+   "code": "RAL 3000",
+   "name": "Flame red",
+   "localName": "Feuerrot",
+   "hex": "#AB2524",
+   "rgb": {
+    "r": 171,
+    "g": 37,
+    "b": 36
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 78,
+    "y": 79,
+    "k": 33
+   },
+   "lab": {
+    "l": 38.04,
+    "a": 53,
+    "b": 34.97
+   }
+  },
+  {
+   "code": "RAL 3001",
+   "name": "Signal red",
+   "localName": "Signalrot",
+   "hex": "#A02128",
+   "rgb": {
+    "r": 160,
+    "g": 33,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 79,
+    "y": 75,
+    "k": 37
+   },
+   "lab": {
+    "l": 35.43,
+    "a": 51.04,
+    "b": 29.11
+   }
+  },
+  {
+   "code": "RAL 3002",
+   "name": "Carmine red",
+   "localName": "Karminrot",
+   "hex": "#A1232B",
+   "rgb": {
+    "r": 161,
+    "g": 35,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 78,
+    "y": 73,
+    "k": 37
+   },
+   "lab": {
+    "l": 35.9,
+    "a": 50.85,
+    "b": 27.86
+   }
+  },
+  {
+   "code": "RAL 3003",
+   "name": "Ruby red",
+   "localName": "Rubinrot",
+   "hex": "#8D1D2C",
+   "rgb": {
+    "r": 141,
+    "g": 29,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 79,
+    "y": 69,
+    "k": 45
+   },
+   "lab": {
+    "l": 31.17,
+    "a": 46.66,
+    "b": 20.56
+   }
+  },
+  {
+   "code": "RAL 3004",
+   "name": "Purple red",
+   "localName": "Purpurrot",
+   "hex": "#701F29",
+   "rgb": {
+    "r": 112,
+    "g": 31,
+    "b": 41
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 72,
+    "y": 63,
+    "k": 56
+   },
+   "lab": {
+    "l": 25.52,
+    "a": 36.18,
+    "b": 14.11
+   }
+  },
+  {
+   "code": "RAL 3005",
+   "name": "Wine red",
+   "localName": "Weinrot",
+   "hex": "#5E2028",
+   "rgb": {
+    "r": 94,
+    "g": 32,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 66,
+    "y": 57,
+    "k": 63
+   },
+   "lab": {
+    "l": 22.18,
+    "a": 29,
+    "b": 9.72
+   }
+  },
+  {
+   "code": "RAL 3007",
+   "name": "Black red",
+   "localName": "Schwarzrot",
+   "hex": "#392A2B",
+   "rgb": {
+    "r": 57,
+    "g": 42,
+    "b": 43
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 25,
+    "k": 78
+   },
+   "lab": {
+    "l": 18.8,
+    "a": 7.15,
+    "b": 2.04
+   }
+  },
+  {
+   "code": "RAL 3009",
+   "name": "Oxide red",
+   "localName": "Oxidrot",
+   "hex": "#6A3331",
+   "rgb": {
+    "r": 106,
+    "g": 51,
+    "b": 49
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 52,
+    "y": 54,
+    "k": 58
+   },
+   "lab": {
+    "l": 28.52,
+    "a": 24.28,
+    "b": 12.62
+   }
+  },
+  {
+   "code": "RAL 3011",
+   "name": "Brown red",
+   "localName": "Braunrot",
+   "hex": "#793C3B",
+   "rgb": {
+    "r": 121,
+    "g": 60,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 50,
+    "y": 51,
+    "k": 53
+   },
+   "lab": {
+    "l": 33.16,
+    "a": 26.39,
+    "b": 12.84
+   }
+  },
+  {
+   "code": "RAL 3012",
+   "name": "Beige red",
+   "localName": "Beigerot",
+   "hex": "#C6846D",
+   "rgb": {
+    "r": 198,
+    "g": 132,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 45,
+    "k": 22
+   },
+   "lab": {
+    "l": 61.32,
+    "a": 22.71,
+    "b": 22.79
+   }
+  },
+  {
+   "code": "RAL 3013",
+   "name": "Tomato red",
+   "localName": "Tomatenrot",
+   "hex": "#9C322E",
+   "rgb": {
+    "r": 156,
+    "g": 50,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 68,
+    "y": 71,
+    "k": 39
+   },
+   "lab": {
+    "l": 37.02,
+    "a": 43.73,
+    "b": 27.11
+   }
+  },
+  {
+   "code": "RAL 3014",
+   "name": "Antique pink",
+   "localName": "Altrosa",
+   "hex": "#D47479",
+   "rgb": {
+    "r": 212,
+    "g": 116,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 43,
+    "k": 17
+   },
+   "lab": {
+    "l": 59.77,
+    "a": 37.98,
+    "b": 14.13
+   }
+  },
+  {
+   "code": "RAL 3015",
+   "name": "Light pink",
+   "localName": "Hellrosa",
+   "hex": "#E1A6AD",
+   "rgb": {
+    "r": 225,
+    "g": 166,
+    "b": 173
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 23,
+    "k": 12
+   },
+   "lab": {
+    "l": 73.74,
+    "a": 22.74,
+    "b": 4.97
+   }
+  },
+  {
+   "code": "RAL 3016",
+   "name": "Coral red",
+   "localName": "Korallenrot",
+   "hex": "#AC4034",
+   "rgb": {
+    "r": 172,
+    "g": 64,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 63,
+    "y": 70,
+    "k": 33
+   },
+   "lab": {
+    "l": 42.29,
+    "a": 43.49,
+    "b": 30.48
+   }
+  },
+  {
+   "code": "RAL 3017",
+   "name": "Rose",
+   "localName": "Rosé",
+   "hex": "#D3545F",
+   "rgb": {
+    "r": 211,
+    "g": 84,
+    "b": 95
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 60,
+    "y": 55,
+    "k": 17
+   },
+   "lab": {
+    "l": 52.97,
+    "a": 50.92,
+    "b": 19.95
+   }
+  },
+  {
+   "code": "RAL 3018",
+   "name": "Strawberry red",
+   "localName": "Erdbeerrot",
+   "hex": "#D14152",
+   "rgb": {
+    "r": 209,
+    "g": 65,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 69,
+    "y": 61,
+    "k": 18
+   },
+   "lab": {
+    "l": 49.43,
+    "a": 57.29,
+    "b": 22.94
+   }
+  },
+  {
+   "code": "RAL 3020",
+   "name": "Traffic red",
+   "localName": "Verkehrsrot",
+   "hex": "#C1121C",
+   "rgb": {
+    "r": 193,
+    "g": 18,
+    "b": 28
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 91,
+    "y": 85,
+    "k": 24
+   },
+   "lab": {
+    "l": 40.99,
+    "a": 63.3,
+    "b": 43.73
+   }
+  },
+  {
+   "code": "RAL 3022",
+   "name": "Salmon pink",
+   "localName": "Lachsrot",
+   "hex": "#D56D56",
+   "rgb": {
+    "r": 213,
+    "g": 109,
+    "b": 86
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 49,
+    "y": 60,
+    "k": 16
+   },
+   "lab": {
+    "l": 57.81,
+    "a": 38.85,
+    "b": 31.49
+   }
+  },
+  {
+   "code": "RAL 3024",
+   "name": "Luminous red",
+   "localName": "Leuchtrot",
+   "hex": "#F70000",
+   "rgb": {
+    "r": 247,
+    "g": 0,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 100,
+    "k": 3
+   },
+   "lab": {
+    "l": 51.59,
+    "a": 78.18,
+    "b": 65.6
+   }
+  },
+  {
+   "code": "RAL 3026",
+   "name": "Luminous bright red",
+   "localName": "Leuchthellrot",
+   "hex": "#FF0000",
+   "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 0
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 100,
+    "y": 100,
+    "k": 0
+   },
+   "lab": {
+    "l": 53.24,
+    "a": 80.09,
+    "b": 67.2
+   }
+  },
+  {
+   "code": "RAL 3027",
+   "name": "Raspberry red",
+   "localName": "Himbeerrot",
+   "hex": "#B42041",
+   "rgb": {
+    "r": 180,
+    "g": 32,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 82,
+    "y": 64,
+    "k": 29
+   },
+   "lab": {
+    "l": 39.78,
+    "a": 58.4,
+    "b": 19.74
+   }
+  },
+  {
+   "code": "RAL 3028",
+   "name": "Pure red",
+   "localName": "Reinrot",
+   "hex": "#CB3234",
+   "rgb": {
+    "r": 203,
+    "g": 50,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 75,
+    "y": 74,
+    "k": 20
+   },
+   "lab": {
+    "l": 45.95,
+    "a": 59.18,
+    "b": 36.16
+   }
+  },
+  {
+   "code": "RAL 3031",
+   "name": "Orient red",
+   "localName": "Orientrot",
+   "hex": "#AC323B",
+   "rgb": {
+    "r": 172,
+    "g": 50,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 71,
+    "y": 66,
+    "k": 33
+   },
+   "lab": {
+    "l": 40.2,
+    "a": 49.84,
+    "b": 23.71
+   }
+  },
+  {
+   "code": "RAL 3032",
+   "name": "Pearl ruby red",
+   "localName": "Perlrubinrot",
+   "hex": "#711521",
+   "rgb": {
+    "r": 113,
+    "g": 21,
+    "b": 33
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 81,
+    "y": 71,
+    "k": 56
+   },
+   "lab": {
+    "l": 24.19,
+    "a": 39.83,
+    "b": 17.84
+   }
+  },
+  {
+   "code": "RAL 3033",
+   "name": "Pearl pink",
+   "localName": "Perlrosa",
+   "hex": "#B24C43",
+   "rgb": {
+    "r": 178,
+    "g": 76,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 57,
+    "y": 62,
+    "k": 30
+   },
+   "lab": {
+    "l": 45.69,
+    "a": 40.9,
+    "b": 26.03
+   }
+  },
+  {
+   "code": "RAL 4001",
+   "name": "Red lilac",
+   "localName": "Rotlila",
+   "hex": "#8A5A83",
+   "rgb": {
+    "r": 138,
+    "g": 90,
+    "b": 131
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 35,
+    "y": 5,
+    "k": 46
+   },
+   "lab": {
+    "l": 44.74,
+    "a": 26.57,
+    "b": -14.87
+   }
+  },
+  {
+   "code": "RAL 4002",
+   "name": "Red violet",
+   "localName": "Rotviolett",
+   "hex": "#933D50",
+   "rgb": {
+    "r": 147,
+    "g": 61,
+    "b": 80
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 59,
+    "y": 46,
+    "k": 42
+   },
+   "lab": {
+    "l": 38.06,
+    "a": 38.09,
+    "b": 6.92
+   }
+  },
+  {
+   "code": "RAL 4003",
+   "name": "Heather violet",
+   "localName": "Erikaviolett",
+   "hex": "#D15B8F",
+   "rgb": {
+    "r": 209,
+    "g": 91,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 56,
+    "y": 32,
+    "k": 18
+   },
+   "lab": {
+    "l": 55.1,
+    "a": 51.91,
+    "b": -5.48
+   }
+  },
+  {
+   "code": "RAL 4004",
+   "name": "Claret violet",
+   "localName": "Bordeauxviolett",
+   "hex": "#691639",
+   "rgb": {
+    "r": 105,
+    "g": 22,
+    "b": 57
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 79,
+    "y": 46,
+    "k": 59
+   },
+   "lab": {
+    "l": 23.25,
+    "a": 38.92,
+    "b": -0.21
+   }
+  },
+  {
+   "code": "RAL 4005",
+   "name": "Blue lilac",
+   "localName": "Blaulila",
+   "hex": "#83639D",
+   "rgb": {
+    "r": 131,
+    "g": 99,
+    "b": 157
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 37,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 47.21,
+    "a": 24.46,
+    "b": -26.65
+   }
+  },
+  {
+   "code": "RAL 4006",
+   "name": "Traffic purple",
+   "localName": "Verkehrspurpur",
+   "hex": "#992572",
+   "rgb": {
+    "r": 153,
+    "g": 37,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 76,
+    "y": 25,
+    "k": 40
+   },
+   "lab": {
+    "l": 36.58,
+    "a": 54.17,
+    "b": -16.68
+   }
+  },
+  {
+   "code": "RAL 4007",
+   "name": "Purple violet",
+   "localName": "Purpurviolett",
+   "hex": "#4A203B",
+   "rgb": {
+    "r": 74,
+    "g": 32,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 57,
+    "y": 20,
+    "k": 71
+   },
+   "lab": {
+    "l": 19.25,
+    "a": 23.86,
+    "b": -8.18
+   }
+  },
+  {
+   "code": "RAL 4008",
+   "name": "Signal violet",
+   "localName": "Signalviolett",
+   "hex": "#904684",
+   "rgb": {
+    "r": 144,
+    "g": 70,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 8,
+    "k": 44
+   },
+   "lab": {
+    "l": 41.18,
+    "a": 39.91,
+    "b": -20.86
+   }
+  },
+  {
+   "code": "RAL 4009",
+   "name": "Pastel violet",
+   "localName": "Pastellviolett",
+   "hex": "#A38995",
+   "rgb": {
+    "r": 163,
+    "g": 137,
+    "b": 149
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 9,
+    "k": 36
+   },
+   "lab": {
+    "l": 59.75,
+    "a": 11.92,
+    "b": -2.71
+   }
+  },
+  {
+   "code": "RAL 4010",
+   "name": "Telemagenta",
+   "localName": "Telemagenta",
+   "hex": "#BC4077",
+   "rgb": {
+    "r": 188,
+    "g": 64,
+    "b": 119
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 66,
+    "y": 37,
+    "k": 26
+   },
+   "lab": {
+    "l": 46.57,
+    "a": 54.48,
+    "b": -4.11
+   }
+  },
+  {
+   "code": "RAL 4011",
+   "name": "Pearl violet",
+   "localName": "Perlviolett",
+   "hex": "#7E6EA7",
+   "rgb": {
+    "r": 126,
+    "g": 110,
+    "b": 167
+   },
+   "cmyk": {
+    "c": 25,
+    "m": 34,
+    "y": 0,
+    "k": 35
+   },
+   "lab": {
+    "l": 49.95,
+    "a": 18.74,
+    "b": -28.31
+   }
+  },
+  {
+   "code": "RAL 4012",
+   "name": "Pearl blackberry",
+   "localName": "Perlbrombeer",
+   "hex": "#6C6A6D",
+   "rgb": {
+    "r": 108,
+    "g": 106,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 3,
+    "y": 0,
+    "k": 57
+   },
+   "lab": {
+    "l": 45.08,
+    "a": 1.39,
+    "b": -1.4
+   }
+  },
+  {
+   "code": "RAL 5000",
+   "name": "Violet blue",
+   "localName": "Violettblau",
+   "hex": "#314F6F",
+   "rgb": {
+    "r": 49,
+    "g": 79,
+    "b": 111
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 29,
+    "y": 0,
+    "k": 56
+   },
+   "lab": {
+    "l": 32.68,
+    "a": -0.95,
+    "b": -21.82
+   }
+  },
+  {
+   "code": "RAL 5001",
+   "name": "Green blue",
+   "localName": "Grünblau",
+   "hex": "#0F4C64",
+   "rgb": {
+    "r": 15,
+    "g": 76,
+    "b": 100
+   },
+   "cmyk": {
+    "c": 85,
+    "m": 24,
+    "y": 0,
+    "k": 61
+   },
+   "lab": {
+    "l": 29.89,
+    "a": -9.44,
+    "b": -19.32
+   }
+  },
+  {
+   "code": "RAL 5002",
+   "name": "Ultramarine blue",
+   "localName": "Ultramarinblau",
+   "hex": "#00387B",
+   "rgb": {
+    "r": 0,
+    "g": 56,
+    "b": 123
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 54,
+    "y": 0,
+    "k": 52
+   },
+   "lab": {
+    "l": 24.51,
+    "a": 12.6,
+    "b": -42.5
+   }
+  },
+  {
+   "code": "RAL 5003",
+   "name": "Sapphire blue",
+   "localName": "Saphirblau",
+   "hex": "#1F3855",
+   "rgb": {
+    "r": 31,
+    "g": 56,
+    "b": 85
+   },
+   "cmyk": {
+    "c": 64,
+    "m": 34,
+    "y": 0,
+    "k": 67
+   },
+   "lab": {
+    "l": 22.91,
+    "a": 0.47,
+    "b": -20.45
+   }
+  },
+  {
+   "code": "RAL 5004",
+   "name": "Black blue",
+   "localName": "Schwarzblau",
+   "hex": "#191E28",
+   "rgb": {
+    "r": 25,
+    "g": 30,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 38,
+    "m": 25,
+    "y": 0,
+    "k": 84
+   },
+   "lab": {
+    "l": 11.19,
+    "a": 0.75,
+    "b": -7.5
+   }
+  },
+  {
+   "code": "RAL 5005",
+   "name": "Signal blue",
+   "localName": "Signalblau",
+   "hex": "#005387",
+   "rgb": {
+    "r": 0,
+    "g": 83,
+    "b": 135
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 39,
+    "y": 0,
+    "k": 47
+   },
+   "lab": {
+    "l": 33.85,
+    "a": -0.73,
+    "b": -34.96
+   }
+  },
+  {
+   "code": "RAL 5007",
+   "name": "Brilliant blue",
+   "localName": "Brillantblau",
+   "hex": "#376B8C",
+   "rgb": {
+    "r": 55,
+    "g": 107,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 61,
+    "m": 24,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 43.09,
+    "a": -6.95,
+    "b": -23.37
+   }
+  },
+  {
+   "code": "RAL 5008",
+   "name": "Grey blue",
+   "localName": "Graublau",
+   "hex": "#2B3A44",
+   "rgb": {
+    "r": 43,
+    "g": 58,
+    "b": 68
+   },
+   "cmyk": {
+    "c": 37,
+    "m": 15,
+    "y": 0,
+    "k": 73
+   },
+   "lab": {
+    "l": 23.53,
+    "a": -3.21,
+    "b": -8.14
+   }
+  },
+  {
+   "code": "RAL 5009",
+   "name": "Azure blue",
+   "localName": "Azurblau",
+   "hex": "#22526E",
+   "rgb": {
+    "r": 34,
+    "g": 82,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 69,
+    "m": 25,
+    "y": 0,
+    "k": 57
+   },
+   "lab": {
+    "l": 32.92,
+    "a": -6.49,
+    "b": -20.88
+   }
+  },
+  {
+   "code": "RAL 5010",
+   "name": "Gentian blue",
+   "localName": "Enzianblau",
+   "hex": "#004F7C",
+   "rgb": {
+    "r": 0,
+    "g": 79,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 36,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 31.91,
+    "a": -2.76,
+    "b": -31.24
+   }
+  },
+  {
+   "code": "RAL 5011",
+   "name": "Steel blue",
+   "localName": "Stahlblau",
+   "hex": "#1A2B3C",
+   "rgb": {
+    "r": 26,
+    "g": 43,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 57,
+    "m": 28,
+    "y": 0,
+    "k": 76
+   },
+   "lab": {
+    "l": 16.86,
+    "a": -1.23,
+    "b": -13.01
+   }
+  },
+  {
+   "code": "RAL 5012",
+   "name": "Light blue",
+   "localName": "Lichtblau",
+   "hex": "#0089B6",
+   "rgb": {
+    "r": 0,
+    "g": 137,
+    "b": 182
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 25,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 53.24,
+    "a": -14.62,
+    "b": -32.24
+   }
+  },
+  {
+   "code": "RAL 5013",
+   "name": "Cobalt blue",
+   "localName": "Kobaltblau",
+   "hex": "#193153",
+   "rgb": {
+    "r": 25,
+    "g": 49,
+    "b": 83
+   },
+   "cmyk": {
+    "c": 70,
+    "m": 41,
+    "y": 0,
+    "k": 67
+   },
+   "lab": {
+    "l": 20.15,
+    "a": 3.23,
+    "b": -23.49
+   }
+  },
+  {
+   "code": "RAL 5014",
+   "name": "Pigeon blue",
+   "localName": "Taubenblau",
+   "hex": "#637D96",
+   "rgb": {
+    "r": 99,
+    "g": 125,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 34,
+    "m": 17,
+    "y": 0,
+    "k": 41
+   },
+   "lab": {
+    "l": 51.29,
+    "a": -3.01,
+    "b": -16.49
+   }
+  },
+  {
+   "code": "RAL 5015",
+   "name": "Sky blue",
+   "localName": "Himmelblau",
+   "hex": "#007CB0",
+   "rgb": {
+    "r": 0,
+    "g": 124,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 30,
+    "y": 0,
+    "k": 31
+   },
+   "lab": {
+    "l": 48.94,
+    "a": -9.48,
+    "b": -35.51
+   }
+  },
+  {
+   "code": "RAL 5017",
+   "name": "Traffic blue",
+   "localName": "Verkehrsblau",
+   "hex": "#063971",
+   "rgb": {
+    "r": 6,
+    "g": 57,
+    "b": 113
+   },
+   "cmyk": {
+    "c": 95,
+    "m": 50,
+    "y": 0,
+    "k": 56
+   },
+   "lab": {
+    "l": 24.18,
+    "a": 7.92,
+    "b": -36.66
+   }
+  },
+  {
+   "code": "RAL 5018",
+   "name": "Turquoise blue",
+   "localName": "Türkisblau",
+   "hex": "#3F888F",
+   "rgb": {
+    "r": 63,
+    "g": 136,
+    "b": 143
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 5,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 52.56,
+    "a": -20.54,
+    "b": -10.67
+   }
+  },
+  {
+   "code": "RAL 5019",
+   "name": "Capri blue",
+   "localName": "Capriblau",
+   "hex": "#1B5583",
+   "rgb": {
+    "r": 27,
+    "g": 85,
+    "b": 131
+   },
+   "cmyk": {
+    "c": 79,
+    "m": 35,
+    "y": 0,
+    "k": 49
+   },
+   "lab": {
+    "l": 34.74,
+    "a": -1.45,
+    "b": -31.07
+   }
+  },
+  {
+   "code": "RAL 5020",
+   "name": "Ocean blue",
+   "localName": "Ozeanblau",
+   "hex": "#00414B",
+   "rgb": {
+    "r": 0,
+    "g": 65,
+    "b": 75
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 13,
+    "y": 0,
+    "k": 71
+   },
+   "lab": {
+    "l": 24.6,
+    "a": -14.24,
+    "b": -11.31
+   }
+  },
+  {
+   "code": "RAL 5021",
+   "name": "Water blue",
+   "localName": "Wasserblau",
+   "hex": "#00656C",
+   "rgb": {
+    "r": 0,
+    "g": 101,
+    "b": 108
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 6,
+    "y": 0,
+    "k": 58
+   },
+   "lab": {
+    "l": 38.53,
+    "a": -21.94,
+    "b": -11.08
+   }
+  },
+  {
+   "code": "RAL 5022",
+   "name": "Night blue",
+   "localName": "Nachtblau",
+   "hex": "#252850",
+   "rgb": {
+    "r": 37,
+    "g": 40,
+    "b": 80
+   },
+   "cmyk": {
+    "c": 54,
+    "m": 50,
+    "y": 0,
+    "k": 69
+   },
+   "lab": {
+    "l": 17.87,
+    "a": 11.47,
+    "b": -25.06
+   }
+  },
+  {
+   "code": "RAL 5023",
+   "name": "Distant blue",
+   "localName": "Fernblau",
+   "hex": "#49678D",
+   "rgb": {
+    "r": 73,
+    "g": 103,
+    "b": 141
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 27,
+    "y": 0,
+    "k": 45
+   },
+   "lab": {
+    "l": 42.82,
+    "a": 0.07,
+    "b": -24.32
+   }
+  },
+  {
+   "code": "RAL 5024",
+   "name": "Pastel blue",
+   "localName": "Pastellblau",
+   "hex": "#5D9B9B",
+   "rgb": {
+    "r": 93,
+    "g": 155,
+    "b": 155
+   },
+   "cmyk": {
+    "c": 40,
+    "m": 0,
+    "y": 0,
+    "k": 39
+   },
+   "lab": {
+    "l": 60.01,
+    "a": -19.94,
+    "b": -6.3
+   }
+  },
+  {
+   "code": "RAL 5025",
+   "name": "Pearl gentian blue",
+   "localName": "Perlenzian",
+   "hex": "#2A6478",
+   "rgb": {
+    "r": 42,
+    "g": 100,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 65,
+    "m": 17,
+    "y": 0,
+    "k": 53
+   },
+   "lab": {
+    "l": 39.52,
+    "a": -12.24,
+    "b": -16.85
+   }
+  },
+  {
+   "code": "RAL 5026",
+   "name": "Pearl night blue",
+   "localName": "Perlnachtblau",
+   "hex": "#102C54",
+   "rgb": {
+    "r": 16,
+    "g": 44,
+    "b": 84
+   },
+   "cmyk": {
+    "c": 81,
+    "m": 48,
+    "y": 0,
+    "k": 67
+   },
+   "lab": {
+    "l": 18.15,
+    "a": 5.63,
+    "b": -27.38
+   }
+  },
+  {
+   "code": "RAL 6000",
+   "name": "Patina green",
+   "localName": "Patinagrün",
+   "hex": "#3C7460",
+   "rgb": {
+    "r": 60,
+    "g": 116,
+    "b": 96
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 17,
+    "k": 55
+   },
+   "lab": {
+    "l": 44.65,
+    "a": -23.68,
+    "b": 5.38
+   }
+  },
+  {
+   "code": "RAL 6001",
+   "name": "Emerald green",
+   "localName": "Smaragdgrün",
+   "hex": "#366735",
+   "rgb": {
+    "r": 54,
+    "g": 103,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 49,
+    "k": 60
+   },
+   "lab": {
+    "l": 39.14,
+    "a": -27.96,
+    "b": 23.11
+   }
+  },
+  {
+   "code": "RAL 6002",
+   "name": "Leaf green",
+   "localName": "Laubgrün",
+   "hex": "#325B2C",
+   "rgb": {
+    "r": 50,
+    "g": 91,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 45,
+    "m": 0,
+    "y": 52,
+    "k": 64
+   },
+   "lab": {
+    "l": 34.68,
+    "a": -24.95,
+    "b": 22.59
+   }
+  },
+  {
+   "code": "RAL 6003",
+   "name": "Olive green",
+   "localName": "Olivgrün",
+   "hex": "#50533B",
+   "rgb": {
+    "r": 80,
+    "g": 83,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 29,
+    "k": 67
+   },
+   "lab": {
+    "l": 34.41,
+    "a": -5.82,
+    "b": 13.7
+   }
+  },
+  {
+   "code": "RAL 6004",
+   "name": "Blue green",
+   "localName": "Blaugrün",
+   "hex": "#024442",
+   "rgb": {
+    "r": 2,
+    "g": 68,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 97,
+    "m": 0,
+    "y": 3,
+    "k": 73
+   },
+   "lab": {
+    "l": 25.38,
+    "a": -19.05,
+    "b": -4.19
+   }
+  },
+  {
+   "code": "RAL 6005",
+   "name": "Moss green",
+   "localName": "Moosgrün",
+   "hex": "#114232",
+   "rgb": {
+    "r": 17,
+    "g": 66,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 74,
+    "m": 0,
+    "y": 24,
+    "k": 74
+   },
+   "lab": {
+    "l": 24.47,
+    "a": -20.84,
+    "b": 5.04
+   }
+  },
+  {
+   "code": "RAL 6006",
+   "name": "Grey olive",
+   "localName": "Grauoliv",
+   "hex": "#3C392E",
+   "rgb": {
+    "r": 60,
+    "g": 57,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 23,
+    "k": 76
+   },
+   "lab": {
+    "l": 23.95,
+    "a": -0.92,
+    "b": 7.34
+   }
+  },
+  {
+   "code": "RAL 6007",
+   "name": "Bottle green",
+   "localName": "Flaschengrün",
+   "hex": "#2C3222",
+   "rgb": {
+    "r": 44,
+    "g": 50,
+    "b": 34
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 0,
+    "y": 32,
+    "k": 80
+   },
+   "lab": {
+    "l": 19.77,
+    "a": -6.12,
+    "b": 9.36
+   }
+  },
+  {
+   "code": "RAL 6008",
+   "name": "Brown green",
+   "localName": "Braungrün",
+   "hex": "#36342A",
+   "rgb": {
+    "r": 54,
+    "g": 52,
+    "b": 42
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 22,
+    "k": 79
+   },
+   "lab": {
+    "l": 21.61,
+    "a": -1.2,
+    "b": 6.66
+   }
+  },
+  {
+   "code": "RAL 6009",
+   "name": "Fir green",
+   "localName": "Tannengrün",
+   "hex": "#26392F",
+   "rgb": {
+    "r": 38,
+    "g": 57,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 0,
+    "y": 18,
+    "k": 78
+   },
+   "lab": {
+    "l": 22.1,
+    "a": -10.26,
+    "b": 3.8
+   }
+  },
+  {
+   "code": "RAL 6010",
+   "name": "Grass green",
+   "localName": "Grasgrün",
+   "hex": "#3E753B",
+   "rgb": {
+    "r": 62,
+    "g": 117,
+    "b": 59
+   },
+   "cmyk": {
+    "c": 47,
+    "m": 0,
+    "y": 50,
+    "k": 54
+   },
+   "lab": {
+    "l": 44.32,
+    "a": -30.96,
+    "b": 26.36
+   }
+  },
+  {
+   "code": "RAL 6011",
+   "name": "Reseda green",
+   "localName": "Resedagrün",
+   "hex": "#68825B",
+   "rgb": {
+    "r": 104,
+    "g": 130,
+    "b": 91
+   },
+   "cmyk": {
+    "c": 20,
+    "m": 0,
+    "y": 30,
+    "k": 49
+   },
+   "lab": {
+    "l": 51.45,
+    "a": -17.11,
+    "b": 18.15
+   }
+  },
+  {
+   "code": "RAL 6012",
+   "name": "Black green",
+   "localName": "Schwarzgrün",
+   "hex": "#31403D",
+   "rgb": {
+    "r": 49,
+    "g": 64,
+    "b": 61
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 0,
+    "y": 5,
+    "k": 75
+   },
+   "lab": {
+    "l": 25.73,
+    "a": -6.81,
+    "b": -0.16
+   }
+  },
+  {
+   "code": "RAL 6013",
+   "name": "Reed green",
+   "localName": "Schilfgrün",
+   "hex": "#797C5A",
+   "rgb": {
+    "r": 121,
+    "g": 124,
+    "b": 90
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 27,
+    "k": 51
+   },
+   "lab": {
+    "l": 50.94,
+    "a": -7.17,
+    "b": 18.24
+   }
+  },
+  {
+   "code": "RAL 6014",
+   "name": "Yellow olive",
+   "localName": "Gelboliv",
+   "hex": "#444337",
+   "rgb": {
+    "r": 68,
+    "g": 67,
+    "b": 55
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 19,
+    "k": 73
+   },
+   "lab": {
+    "l": 28.17,
+    "a": -2.02,
+    "b": 7.46
+   }
+  },
+  {
+   "code": "RAL 6015",
+   "name": "Black olive",
+   "localName": "Schwarzoliv",
+   "hex": "#3D3D36",
+   "rgb": {
+    "r": 61,
+    "g": 61,
+    "b": 54
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 11,
+    "k": 76
+   },
+   "lab": {
+    "l": 25.55,
+    "a": -1.51,
+    "b": 4.32
+   }
+  },
+  {
+   "code": "RAL 6016",
+   "name": "Turquoise green",
+   "localName": "Türkisgrün",
+   "hex": "#026A52",
+   "rgb": {
+    "r": 2,
+    "g": 106,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 98,
+    "m": 0,
+    "y": 23,
+    "k": 58
+   },
+   "lab": {
+    "l": 39.46,
+    "a": -32.5,
+    "b": 6.18
+   }
+  },
+  {
+   "code": "RAL 6017",
+   "name": "May green",
+   "localName": "Maigrün",
+   "hex": "#468641",
+   "rgb": {
+    "r": 70,
+    "g": 134,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 0,
+    "y": 51,
+    "k": 47
+   },
+   "lab": {
+    "l": 50.37,
+    "a": -35.23,
+    "b": 30.73
+   }
+  },
+  {
+   "code": "RAL 6018",
+   "name": "Yellow green",
+   "localName": "Gelbgrün",
+   "hex": "#48A43F",
+   "rgb": {
+    "r": 72,
+    "g": 164,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 0,
+    "y": 62,
+    "k": 36
+   },
+   "lab": {
+    "l": 60.15,
+    "a": -47.37,
+    "b": 43.29
+   }
+  },
+  {
+   "code": "RAL 6019",
+   "name": "Pastel green",
+   "localName": "Weißgrün",
+   "hex": "#B7D9B1",
+   "rgb": {
+    "r": 183,
+    "g": 217,
+    "b": 177
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 0,
+    "y": 18,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.37,
+    "a": -18.67,
+    "b": 16.04
+   }
+  },
+  {
+   "code": "RAL 6020",
+   "name": "Chrome green",
+   "localName": "Chromoxidgrün",
+   "hex": "#354733",
+   "rgb": {
+    "r": 53,
+    "g": 71,
+    "b": 51
+   },
+   "cmyk": {
+    "c": 25,
+    "m": 0,
+    "y": 28,
+    "k": 72
+   },
+   "lab": {
+    "l": 28.12,
+    "a": -11.75,
+    "b": 9.77
+   }
+  },
+  {
+   "code": "RAL 6021",
+   "name": "Pale green",
+   "localName": "Blassgrün",
+   "hex": "#86A47C",
+   "rgb": {
+    "r": 134,
+    "g": 164,
+    "b": 124
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 0,
+    "y": 24,
+    "k": 36
+   },
+   "lab": {
+    "l": 64.22,
+    "a": -18.14,
+    "b": 17.43
+   }
+  },
+  {
+   "code": "RAL 6022",
+   "name": "Brown olive",
+   "localName": "Braunoliv",
+   "hex": "#3E3C32",
+   "rgb": {
+    "r": 62,
+    "g": 60,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 19,
+    "k": 76
+   },
+   "lab": {
+    "l": 25.22,
+    "a": -1.2,
+    "b": 6.5
+   }
+  },
+  {
+   "code": "RAL 6024",
+   "name": "Traffic green",
+   "localName": "Verkehrsgrün",
+   "hex": "#008754",
+   "rgb": {
+    "r": 0,
+    "g": 135,
+    "b": 84
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 38,
+    "k": 47
+   },
+   "lab": {
+    "l": 49.46,
+    "a": -44.04,
+    "b": 18.83
+   }
+  },
+  {
+   "code": "RAL 6025",
+   "name": "Fern green",
+   "localName": "Farngrün",
+   "hex": "#53753C",
+   "rgb": {
+    "r": 83,
+    "g": 117,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 0,
+    "y": 49,
+    "k": 54
+   },
+   "lab": {
+    "l": 45.48,
+    "a": -23.24,
+    "b": 27.51
+   }
+  },
+  {
+   "code": "RAL 6026",
+   "name": "Opal green",
+   "localName": "Opalgrün",
+   "hex": "#005D52",
+   "rgb": {
+    "r": 0,
+    "g": 93,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 12,
+    "k": 64
+   },
+   "lab": {
+    "l": 34.88,
+    "a": -26.65,
+    "b": -0.43
+   }
+  },
+  {
+   "code": "RAL 6027",
+   "name": "Light green",
+   "localName": "Lichtgrün",
+   "hex": "#81C0BB",
+   "rgb": {
+    "r": 129,
+    "g": 192,
+    "b": 187
+   },
+   "cmyk": {
+    "c": 33,
+    "m": 0,
+    "y": 3,
+    "k": 25
+   },
+   "lab": {
+    "l": 73.51,
+    "a": -21.19,
+    "b": -3.91
+   }
+  },
+  {
+   "code": "RAL 6028",
+   "name": "Pine green",
+   "localName": "Kieferngrün",
+   "hex": "#2D5546",
+   "rgb": {
+    "r": 45,
+    "g": 85,
+    "b": 70
+   },
+   "cmyk": {
+    "c": 47,
+    "m": 0,
+    "y": 18,
+    "k": 67
+   },
+   "lab": {
+    "l": 32.91,
+    "a": -18.19,
+    "b": 4.39
+   }
+  },
+  {
+   "code": "RAL 6029",
+   "name": "Mint green",
+   "localName": "Minzgrün",
+   "hex": "#007243",
+   "rgb": {
+    "r": 0,
+    "g": 114,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 41,
+    "k": 55
+   },
+   "lab": {
+    "l": 41.91,
+    "a": -39.71,
+    "b": 18.44
+   }
+  },
+  {
+   "code": "RAL 6032",
+   "name": "Signal green",
+   "localName": "Signalgrün",
+   "hex": "#0F8558",
+   "rgb": {
+    "r": 15,
+    "g": 133,
+    "b": 88
+   },
+   "cmyk": {
+    "c": 89,
+    "m": 0,
+    "y": 34,
+    "k": 48
+   },
+   "lab": {
+    "l": 48.98,
+    "a": -41.37,
+    "b": 15.94
+   }
+  },
+  {
+   "code": "RAL 6033",
+   "name": "Mint turquoise",
+   "localName": "Minttürkis",
+   "hex": "#478A84",
+   "rgb": {
+    "r": 71,
+    "g": 138,
+    "b": 132
+   },
+   "cmyk": {
+    "c": 49,
+    "m": 0,
+    "y": 4,
+    "k": 46
+   },
+   "lab": {
+    "l": 53.15,
+    "a": -22.84,
+    "b": -3.38
+   }
+  },
+  {
+   "code": "RAL 6034",
+   "name": "Pastel turquoise",
+   "localName": "Pastelltürkis",
+   "hex": "#7FB0B2",
+   "rgb": {
+    "r": 127,
+    "g": 176,
+    "b": 178
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 1,
+    "y": 0,
+    "k": 30
+   },
+   "lab": {
+    "l": 68.59,
+    "a": -15.65,
+    "b": -6.26
+   }
+  },
+  {
+   "code": "RAL 6035",
+   "name": "Pearl green",
+   "localName": "Perlgrün",
+   "hex": "#1B542C",
+   "rgb": {
+    "r": 27,
+    "g": 84,
+    "b": 44
+   },
+   "cmyk": {
+    "c": 68,
+    "m": 0,
+    "y": 48,
+    "k": 67
+   },
+   "lab": {
+    "l": 31.24,
+    "a": -28.61,
+    "b": 18.04
+   }
+  },
+  {
+   "code": "RAL 6036",
+   "name": "Pearl opal green",
+   "localName": "Perlopalgrün",
+   "hex": "#005D4C",
+   "rgb": {
+    "r": 0,
+    "g": 93,
+    "b": 76
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 18,
+    "k": 64
+   },
+   "lab": {
+    "l": 34.7,
+    "a": -28.51,
+    "b": 3.05
+   }
+  },
+  {
+   "code": "RAL 6037",
+   "name": "Pure green",
+   "localName": "Reingrün",
+   "hex": "#00963F",
+   "rgb": {
+    "r": 0,
+    "g": 150,
+    "b": 63
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 58,
+    "k": 41
+   },
+   "lab": {
+    "l": 54.21,
+    "a": -53.17,
+    "b": 36.05
+   }
+  },
+  {
+   "code": "RAL 6038",
+   "name": "Luminous green",
+   "localName": "Leuchtgrün",
+   "hex": "#00BB2D",
+   "rgb": {
+    "r": 0,
+    "g": 187,
+    "b": 45
+   },
+   "cmyk": {
+    "c": 100,
+    "m": 0,
+    "y": 76,
+    "k": 27
+   },
+   "lab": {
+    "l": 66.31,
+    "a": -66.37,
+    "b": 56.72
+   }
+  },
+  {
+   "code": "RAL 7000",
+   "name": "Squirrel grey",
+   "localName": "Fehgrau",
+   "hex": "#7E8B92",
+   "rgb": {
+    "r": 126,
+    "g": 139,
+    "b": 146
+   },
+   "cmyk": {
+    "c": 14,
+    "m": 5,
+    "y": 0,
+    "k": 43
+   },
+   "lab": {
+    "l": 57.05,
+    "a": -3.19,
+    "b": -5.33
+   }
+  },
+  {
+   "code": "RAL 7001",
+   "name": "Silver grey",
+   "localName": "Silbergrau",
+   "hex": "#8F999F",
+   "rgb": {
+    "r": 143,
+    "g": 153,
+    "b": 159
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 4,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 62.61,
+    "a": -2.34,
+    "b": -4.37
+   }
+  },
+  {
+   "code": "RAL 7002",
+   "name": "Olive grey",
+   "localName": "Olivgrau",
+   "hex": "#817F68",
+   "rgb": {
+    "r": 129,
+    "g": 127,
+    "b": 104
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 19,
+    "k": 49
+   },
+   "lab": {
+    "l": 52.78,
+    "a": -3.39,
+    "b": 12.81
+   }
+  },
+  {
+   "code": "RAL 7003",
+   "name": "Moss grey",
+   "localName": "Moosgrau",
+   "hex": "#7A7B6D",
+   "rgb": {
+    "r": 122,
+    "g": 123,
+    "b": 109
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 11,
+    "k": 52
+   },
+   "lab": {
+    "l": 51.16,
+    "a": -3.05,
+    "b": 7.53
+   }
+  },
+  {
+   "code": "RAL 7004",
+   "name": "Signal grey",
+   "localName": "Signalgrau",
+   "hex": "#9EA0A1",
+   "rgb": {
+    "r": 158,
+    "g": 160,
+    "b": 161
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 1,
+    "y": 0,
+    "k": 37
+   },
+   "lab": {
+    "l": 65.74,
+    "a": -0.52,
+    "b": -0.77
+   }
+  },
+  {
+   "code": "RAL 7005",
+   "name": "Mouse grey",
+   "localName": "Mausgrau",
+   "hex": "#6B716F",
+   "rgb": {
+    "r": 107,
+    "g": 113,
+    "b": 111
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 0,
+    "y": 2,
+    "k": 56
+   },
+   "lab": {
+    "l": 47.08,
+    "a": -2.69,
+    "b": 0.32
+   }
+  },
+  {
+   "code": "RAL 7006",
+   "name": "Beige grey",
+   "localName": "Beigegrau",
+   "hex": "#756F61",
+   "rgb": {
+    "r": 117,
+    "g": 111,
+    "b": 97
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 17,
+    "k": 54
+   },
+   "lab": {
+    "l": 46.99,
+    "a": -0.25,
+    "b": 8.64
+   }
+  },
+  {
+   "code": "RAL 7008",
+   "name": "Khaki grey",
+   "localName": "Khakigrau",
+   "hex": "#746643",
+   "rgb": {
+    "r": 116,
+    "g": 102,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 42,
+    "k": 55
+   },
+   "lab": {
+    "l": 43.69,
+    "a": 0.14,
+    "b": 21.82
+   }
+  },
+  {
+   "code": "RAL 7009",
+   "name": "Green grey",
+   "localName": "Grüngrau",
+   "hex": "#5B6259",
+   "rgb": {
+    "r": 91,
+    "g": 98,
+    "b": 89
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 9,
+    "k": 62
+   },
+   "lab": {
+    "l": 40.7,
+    "a": -4.62,
+    "b": 4.19
+   }
+  },
+  {
+   "code": "RAL 7010",
+   "name": "Tarpaulin grey",
+   "localName": "Zeltgrau",
+   "hex": "#575D57",
+   "rgb": {
+    "r": 87,
+    "g": 93,
+    "b": 87
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 6,
+    "k": 64
+   },
+   "lab": {
+    "l": 38.8,
+    "a": -3.64,
+    "b": 2.63
+   }
+  },
+  {
+   "code": "RAL 7011",
+   "name": "Iron grey",
+   "localName": "Eisengrau",
+   "hex": "#555D61",
+   "rgb": {
+    "r": 85,
+    "g": 93,
+    "b": 97
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 4,
+    "y": 0,
+    "k": 62
+   },
+   "lab": {
+    "l": 38.94,
+    "a": -2.2,
+    "b": -3.36
+   }
+  },
+  {
+   "code": "RAL 7012",
+   "name": "Basalt grey",
+   "localName": "Basaltgrau",
+   "hex": "#596163",
+   "rgb": {
+    "r": 89,
+    "g": 97,
+    "b": 99
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 2,
+    "y": 0,
+    "k": 61
+   },
+   "lab": {
+    "l": 40.53,
+    "a": -2.65,
+    "b": -2.2
+   }
+  },
+  {
+   "code": "RAL 7013",
+   "name": "Brown grey",
+   "localName": "Braungrau",
+   "hex": "#555548",
+   "rgb": {
+    "r": 85,
+    "g": 85,
+    "b": 72
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 15,
+    "k": 67
+   },
+   "lab": {
+    "l": 35.78,
+    "a": -2.59,
+    "b": 7.6
+   }
+  },
+  {
+   "code": "RAL 7015",
+   "name": "Slate grey",
+   "localName": "Schiefergrau",
+   "hex": "#51565C",
+   "rgb": {
+    "r": 81,
+    "g": 86,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 7,
+    "y": 0,
+    "k": 64
+   },
+   "lab": {
+    "l": 36.32,
+    "a": -0.61,
+    "b": -4.16
+   }
+  },
+  {
+   "code": "RAL 7016",
+   "name": "Anthracite grey",
+   "localName": "Anthrazitgrau",
+   "hex": "#373F43",
+   "rgb": {
+    "r": 55,
+    "g": 63,
+    "b": 67
+   },
+   "cmyk": {
+    "c": 18,
+    "m": 6,
+    "y": 0,
+    "k": 74
+   },
+   "lab": {
+    "l": 26.08,
+    "a": -2.3,
+    "b": -3.56
+   }
+  },
+  {
+   "code": "RAL 7021",
+   "name": "Black grey",
+   "localName": "Schwarzgrau",
+   "hex": "#2E3234",
+   "rgb": {
+    "r": 46,
+    "g": 50,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 4,
+    "y": 0,
+    "k": 80
+   },
+   "lab": {
+    "l": 20.48,
+    "a": -1.23,
+    "b": -1.86
+   }
+  },
+  {
+   "code": "RAL 7022",
+   "name": "Umbra grey",
+   "localName": "Umbragrau",
+   "hex": "#4B4D46",
+   "rgb": {
+    "r": 75,
+    "g": 77,
+    "b": 70
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 0,
+    "y": 9,
+    "k": 70
+   },
+   "lab": {
+    "l": 32.36,
+    "a": -2.31,
+    "b": 3.87
+   }
+  },
+  {
+   "code": "RAL 7023",
+   "name": "Concrete grey",
+   "localName": "Betongrau",
+   "hex": "#818479",
+   "rgb": {
+    "r": 129,
+    "g": 132,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 8,
+    "k": 48
+   },
+   "lab": {
+    "l": 54.61,
+    "a": -3.24,
+    "b": 5.55
+   }
+  },
+  {
+   "code": "RAL 7024",
+   "name": "Graphite grey",
+   "localName": "Graphitgrau",
+   "hex": "#474B4E",
+   "rgb": {
+    "r": 71,
+    "g": 75,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 4,
+    "y": 0,
+    "k": 69
+   },
+   "lab": {
+    "l": 31.63,
+    "a": -0.93,
+    "b": -2.34
+   }
+  },
+  {
+   "code": "RAL 7026",
+   "name": "Granite grey",
+   "localName": "Granitgrau",
+   "hex": "#374447",
+   "rgb": {
+    "r": 55,
+    "g": 68,
+    "b": 71
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 4,
+    "y": 0,
+    "k": 72
+   },
+   "lab": {
+    "l": 27.85,
+    "a": -4.45,
+    "b": -3.56
+   }
+  },
+  {
+   "code": "RAL 7030",
+   "name": "Stone grey",
+   "localName": "Steingrau",
+   "hex": "#939388",
+   "rgb": {
+    "r": 147,
+    "g": 147,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 7,
+    "k": 42
+   },
+   "lab": {
+    "l": 60.65,
+    "a": -2.06,
+    "b": 5.82
+   }
+  },
+  {
+   "code": "RAL 7031",
+   "name": "Blue grey",
+   "localName": "Blaugrau",
+   "hex": "#5D6970",
+   "rgb": {
+    "r": 93,
+    "g": 105,
+    "b": 112
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 6,
+    "y": 0,
+    "k": 56
+   },
+   "lab": {
+    "l": 43.65,
+    "a": -2.93,
+    "b": -5.46
+   }
+  },
+  {
+   "code": "RAL 7032",
+   "name": "Pebble grey",
+   "localName": "Kieselgrau",
+   "hex": "#B9B9A8",
+   "rgb": {
+    "r": 185,
+    "g": 185,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 9,
+    "k": 27
+   },
+   "lab": {
+    "l": 74.72,
+    "a": -3.02,
+    "b": 8.63
+   }
+  },
+  {
+   "code": "RAL 7033",
+   "name": "Cement grey",
+   "localName": "Zementgrau",
+   "hex": "#818979",
+   "rgb": {
+    "r": 129,
+    "g": 137,
+    "b": 121
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 0,
+    "y": 12,
+    "k": 46
+   },
+   "lab": {
+    "l": 56.03,
+    "a": -6.05,
+    "b": 7.58
+   }
+  },
+  {
+   "code": "RAL 7034",
+   "name": "Yellow grey",
+   "localName": "Gelbgrau",
+   "hex": "#939176",
+   "rgb": {
+    "r": 147,
+    "g": 145,
+    "b": 118
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 20,
+    "k": 42
+   },
+   "lab": {
+    "l": 59.67,
+    "a": -4,
+    "b": 14.63
+   }
+  },
+  {
+   "code": "RAL 7035",
+   "name": "Light grey",
+   "localName": "Lichtgrau",
+   "hex": "#CBD0CC",
+   "rgb": {
+    "r": 203,
+    "g": 208,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 2,
+    "k": 18
+   },
+   "lab": {
+    "l": 83,
+    "a": -2.44,
+    "b": 1.39
+   }
+  },
+  {
+   "code": "RAL 7036",
+   "name": "Platinum grey",
+   "localName": "Platingrau",
+   "hex": "#9A9697",
+   "rgb": {
+    "r": 154,
+    "g": 150,
+    "b": 151
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 2,
+    "k": 40
+   },
+   "lab": {
+    "l": 62.44,
+    "a": 1.65,
+    "b": -0.01
+   }
+  },
+  {
+   "code": "RAL 7037",
+   "name": "Dusty grey",
+   "localName": "Staubgrau",
+   "hex": "#7C7F7E",
+   "rgb": {
+    "r": 124,
+    "g": 127,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 1,
+    "k": 50
+   },
+   "lab": {
+    "l": 52.92,
+    "a": -1.32,
+    "b": 0.15
+   }
+  },
+  {
+   "code": "RAL 7038",
+   "name": "Agate grey",
+   "localName": "Achatgrau",
+   "hex": "#B4B8B0",
+   "rgb": {
+    "r": 180,
+    "g": 184,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 4,
+    "k": 28
+   },
+   "lab": {
+    "l": 74.27,
+    "a": -2.88,
+    "b": 3.57
+   }
+  },
+  {
+   "code": "RAL 7039",
+   "name": "Quartz grey",
+   "localName": "Quarzgrau",
+   "hex": "#6B695F",
+   "rgb": {
+    "r": 107,
+    "g": 105,
+    "b": 95
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 11,
+    "k": 58
+   },
+   "lab": {
+    "l": 44.31,
+    "a": -1.17,
+    "b": 5.9
+   }
+  },
+  {
+   "code": "RAL 7040",
+   "name": "Window grey",
+   "localName": "Fenstergrau",
+   "hex": "#9DA3A6",
+   "rgb": {
+    "r": 157,
+    "g": 163,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 2,
+    "y": 0,
+    "k": 35
+   },
+   "lab": {
+    "l": 66.61,
+    "a": -1.54,
+    "b": -2.29
+   }
+  },
+  {
+   "code": "RAL 7042",
+   "name": "Traffic grey A",
+   "localName": "Verkehrsgrau A",
+   "hex": "#8D9295",
+   "rgb": {
+    "r": 141,
+    "g": 146,
+    "b": 149
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 2,
+    "y": 0,
+    "k": 42
+   },
+   "lab": {
+    "l": 60.24,
+    "a": -1.21,
+    "b": -2.22
+   }
+  },
+  {
+   "code": "RAL 7043",
+   "name": "Traffic grey B",
+   "localName": "Verkehrsgrau B",
+   "hex": "#4E5452",
+   "rgb": {
+    "r": 78,
+    "g": 84,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 2,
+    "k": 67
+   },
+   "lab": {
+    "l": 35.14,
+    "a": -2.83,
+    "b": 0.34
+   }
+  },
+  {
+   "code": "RAL 7044",
+   "name": "Silk grey",
+   "localName": "Seidengrau",
+   "hex": "#BDBDB2",
+   "rgb": {
+    "r": 189,
+    "g": 189,
+    "b": 178
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 6,
+    "k": 26
+   },
+   "lab": {
+    "l": 76.33,
+    "a": -1.98,
+    "b": 5.56
+   }
+  },
+  {
+   "code": "RAL 7045",
+   "name": "Telegrey 1",
+   "localName": "Telegrau 1",
+   "hex": "#91969A",
+   "rgb": {
+    "r": 145,
+    "g": 150,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 3,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 61.8,
+    "a": -1,
+    "b": -2.73
+   }
+  },
+  {
+   "code": "RAL 7046",
+   "name": "Telegrey 2",
+   "localName": "Telegrau 2",
+   "hex": "#82888E",
+   "rgb": {
+    "r": 130,
+    "g": 136,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 4,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 56.39,
+    "a": -0.95,
+    "b": -3.97
+   }
+  },
+  {
+   "code": "RAL 7047",
+   "name": "Telegrey 4",
+   "localName": "Telegrau 4",
+   "hex": "#CFD0CF",
+   "rgb": {
+    "r": 207,
+    "g": 208,
+    "b": 207
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 83.38,
+    "a": -0.52,
+    "b": 0.37
+   }
+  },
+  {
+   "code": "RAL 7048",
+   "name": "Pearl mouse grey",
+   "localName": "Perlmausgrau",
+   "hex": "#888175",
+   "rgb": {
+    "r": 136,
+    "g": 129,
+    "b": 117
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 14,
+    "k": 47
+   },
+   "lab": {
+    "l": 54.26,
+    "a": 0.46,
+    "b": 7.45
+   }
+  },
+  {
+   "code": "RAL 8000",
+   "name": "Green brown",
+   "localName": "Grünbraun",
+   "hex": "#887142",
+   "rgb": {
+    "r": 136,
+    "g": 113,
+    "b": 66
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 51,
+    "k": 47
+   },
+   "lab": {
+    "l": 48.81,
+    "a": 2.6,
+    "b": 29.31
+   }
+  },
+  {
+   "code": "RAL 8001",
+   "name": "Ochre brown",
+   "localName": "Ockerbraun",
+   "hex": "#9C6B30",
+   "rgb": {
+    "r": 156,
+    "g": 107,
+    "b": 48
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 69,
+    "k": 39
+   },
+   "lab": {
+    "l": 49.25,
+    "a": 13.66,
+    "b": 39.92
+   }
+  },
+  {
+   "code": "RAL 8002",
+   "name": "Signal brown",
+   "localName": "Signalbraun",
+   "hex": "#7B5141",
+   "rgb": {
+    "r": 123,
+    "g": 81,
+    "b": 65
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 34,
+    "y": 47,
+    "k": 52
+   },
+   "lab": {
+    "l": 38.69,
+    "a": 15.57,
+    "b": 16.58
+   }
+  },
+  {
+   "code": "RAL 8003",
+   "name": "Clay brown",
+   "localName": "Lehmbraun",
+   "hex": "#80542F",
+   "rgb": {
+    "r": 128,
+    "g": 84,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 34,
+    "y": 63,
+    "k": 50
+   },
+   "lab": {
+    "l": 39.81,
+    "a": 14.3,
+    "b": 28.78
+   }
+  },
+  {
+   "code": "RAL 8004",
+   "name": "Copper brown",
+   "localName": "Kupferbraun",
+   "hex": "#8F4E35",
+   "rgb": {
+    "r": 143,
+    "g": 78,
+    "b": 53
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 45,
+    "y": 63,
+    "k": 44
+   },
+   "lab": {
+    "l": 40.49,
+    "a": 24.88,
+    "b": 26.63
+   }
+  },
+  {
+   "code": "RAL 8007",
+   "name": "Fawn brown",
+   "localName": "Rehbraun",
+   "hex": "#6F4A2F",
+   "rgb": {
+    "r": 111,
+    "g": 74,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 33,
+    "y": 58,
+    "k": 56
+   },
+   "lab": {
+    "l": 34.97,
+    "a": 12.49,
+    "b": 22.38
+   }
+  },
+  {
+   "code": "RAL 8008",
+   "name": "Olive brown",
+   "localName": "Olivbraun",
+   "hex": "#6F4F28",
+   "rgb": {
+    "r": 111,
+    "g": 79,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 29,
+    "y": 64,
+    "k": 56
+   },
+   "lab": {
+    "l": 36.22,
+    "a": 8.83,
+    "b": 27.97
+   }
+  },
+  {
+   "code": "RAL 8011",
+   "name": "Nut brown",
+   "localName": "Nussbraun",
+   "hex": "#5A3A29",
+   "rgb": {
+    "r": 90,
+    "g": 58,
+    "b": 41
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 36,
+    "y": 54,
+    "k": 65
+   },
+   "lab": {
+    "l": 27.74,
+    "a": 11.99,
+    "b": 16.31
+   }
+  },
+  {
+   "code": "RAL 8012",
+   "name": "Red brown",
+   "localName": "Rotbraun",
+   "hex": "#673831",
+   "rgb": {
+    "r": 103,
+    "g": 56,
+    "b": 49
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 46,
+    "y": 52,
+    "k": 60
+   },
+   "lab": {
+    "l": 29.25,
+    "a": 20.03,
+    "b": 13.51
+   }
+  },
+  {
+   "code": "RAL 8014",
+   "name": "Sepia brown",
+   "localName": "Sepiabraun",
+   "hex": "#49392D",
+   "rgb": {
+    "r": 73,
+    "g": 57,
+    "b": 45
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 22,
+    "y": 38,
+    "k": 71
+   },
+   "lab": {
+    "l": 25.36,
+    "a": 5.05,
+    "b": 10.17
+   }
+  },
+  {
+   "code": "RAL 8015",
+   "name": "Chestnut brown",
+   "localName": "Kastanienbraun",
+   "hex": "#633A34",
+   "rgb": {
+    "r": 99,
+    "g": 58,
+    "b": 52
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 41,
+    "y": 47,
+    "k": 61
+   },
+   "lab": {
+    "l": 29.23,
+    "a": 17.38,
+    "b": 11.44
+   }
+  },
+  {
+   "code": "RAL 8016",
+   "name": "Mahogany brown",
+   "localName": "Mahagonibraun",
+   "hex": "#4C2F27",
+   "rgb": {
+    "r": 76,
+    "g": 47,
+    "b": 39
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 38,
+    "y": 49,
+    "k": 70
+   },
+   "lab": {
+    "l": 22.71,
+    "a": 12.18,
+    "b": 10.61
+   }
+  },
+  {
+   "code": "RAL 8017",
+   "name": "Chocolate brown",
+   "localName": "Schokoladenbraun",
+   "hex": "#44322D",
+   "rgb": {
+    "r": 68,
+    "g": 50,
+    "b": 45
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 26,
+    "y": 34,
+    "k": 73
+   },
+   "lab": {
+    "l": 22.65,
+    "a": 7.28,
+    "b": 6.33
+   }
+  },
+  {
+   "code": "RAL 8019",
+   "name": "Grey brown",
+   "localName": "Graubraun",
+   "hex": "#3F3A3A",
+   "rgb": {
+    "r": 63,
+    "g": 58,
+    "b": 58
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 8,
+    "y": 8,
+    "k": 75
+   },
+   "lab": {
+    "l": 24.92,
+    "a": 2.17,
+    "b": 0.78
+   }
+  },
+  {
+   "code": "RAL 8022",
+   "name": "Black brown",
+   "localName": "Schwarzbraun",
+   "hex": "#211F20",
+   "rgb": {
+    "r": 33,
+    "g": 31,
+    "b": 32
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 3,
+    "k": 87
+   },
+   "lab": {
+    "l": 12.01,
+    "a": 1.19,
+    "b": -0.34
+   }
+  },
+  {
+   "code": "RAL 8023",
+   "name": "Orange brown",
+   "localName": "Orangebraun",
+   "hex": "#A65E2F",
+   "rgb": {
+    "r": 166,
+    "g": 94,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 43,
+    "y": 72,
+    "k": 35
+   },
+   "lab": {
+    "l": 47.39,
+    "a": 25.36,
+    "b": 38.78
+   }
+  },
+  {
+   "code": "RAL 8024",
+   "name": "Beige brown",
+   "localName": "Beigebraun",
+   "hex": "#79553C",
+   "rgb": {
+    "r": 121,
+    "g": 85,
+    "b": 60
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 30,
+    "y": 50,
+    "k": 53
+   },
+   "lab": {
+    "l": 39.39,
+    "a": 11.72,
+    "b": 20.48
+   }
+  },
+  {
+   "code": "RAL 8025",
+   "name": "Pale brown",
+   "localName": "Blassbraun",
+   "hex": "#755C49",
+   "rgb": {
+    "r": 117,
+    "g": 92,
+    "b": 73
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 21,
+    "y": 38,
+    "k": 54
+   },
+   "lab": {
+    "l": 41.09,
+    "a": 7.3,
+    "b": 14.83
+   }
+  },
+  {
+   "code": "RAL 8028",
+   "name": "Terra brown",
+   "localName": "Terrabraun",
+   "hex": "#4E3B31",
+   "rgb": {
+    "r": 78,
+    "g": 59,
+    "b": 49
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 24,
+    "y": 37,
+    "k": 69
+   },
+   "lab": {
+    "l": 26.65,
+    "a": 6.72,
+    "b": 9.42
+   }
+  },
+  {
+   "code": "RAL 8029",
+   "name": "Pearl copper",
+   "localName": "Perlkupfer",
+   "hex": "#763C28",
+   "rgb": {
+    "r": 118,
+    "g": 60,
+    "b": 40
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 49,
+    "y": 66,
+    "k": 54
+   },
+   "lab": {
+    "l": 32.34,
+    "a": 23.43,
+    "b": 23.58
+   }
+  },
+  {
+   "code": "RAL 9001",
+   "name": "Cream",
+   "localName": "Cremeweiß",
+   "hex": "#EFEBDC",
+   "rgb": {
+    "r": 239,
+    "g": 235,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 8,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.99,
+    "a": -1.21,
+    "b": 7.75
+   }
+  },
+  {
+   "code": "RAL 9002",
+   "name": "Grey white",
+   "localName": "Grauweiß",
+   "hex": "#DDDED4",
+   "rgb": {
+    "r": 221,
+    "g": 222,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 5,
+    "k": 13
+   },
+   "lab": {
+    "l": 88.15,
+    "a": -2.1,
+    "b": 4.78
+   }
+  },
+  {
+   "code": "RAL 9003",
+   "name": "Signal white",
+   "localName": "Signalweiß",
+   "hex": "#F4F8F4",
+   "rgb": {
+    "r": 244,
+    "g": 248,
+    "b": 244
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 2,
+    "k": 3
+   },
+   "lab": {
+    "l": 97.19,
+    "a": -2.03,
+    "b": 1.45
+   }
+  },
+  {
+   "code": "RAL 9004",
+   "name": "Signal black",
+   "localName": "Signalschwarz",
+   "hex": "#2E3032",
+   "rgb": {
+    "r": 46,
+    "g": 48,
+    "b": 50
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 4,
+    "y": 0,
+    "k": 80
+   },
+   "lab": {
+    "l": 19.74,
+    "a": -0.39,
+    "b": -1.58
+   }
+  },
+  {
+   "code": "RAL 9005",
+   "name": "Jet black",
+   "localName": "Tiefschwarz",
+   "hex": "#0A0A0D",
+   "rgb": {
+    "r": 10,
+    "g": 10,
+    "b": 13
+   },
+   "cmyk": {
+    "c": 23,
+    "m": 23,
+    "y": 0,
+    "k": 95
+   },
+   "lab": {
+    "l": 2.81,
+    "a": 0.45,
+    "b": -1.23
+   }
+  },
+  {
+   "code": "RAL 9006",
+   "name": "White aluminium",
+   "localName": "Weißaluminium",
+   "hex": "#A5A8A6",
+   "rgb": {
+    "r": 165,
+    "g": 168,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 1,
+    "k": 34
+   },
+   "lab": {
+    "l": 68.58,
+    "a": -1.45,
+    "b": 0.66
+   }
+  },
+  {
+   "code": "RAL 9007",
+   "name": "Grey aluminium",
+   "localName": "Graualuminium",
+   "hex": "#8F8F8C",
+   "rgb": {
+    "r": 143,
+    "g": 143,
+    "b": 140
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 2,
+    "k": 44
+   },
+   "lab": {
+    "l": 59.32,
+    "a": -0.58,
+    "b": 1.59
+   }
+  },
+  {
+   "code": "RAL 9010",
+   "name": "Pure white",
+   "localName": "Reinweiß",
+   "hex": "#F7F9EF",
+   "rgb": {
+    "r": 247,
+    "g": 249,
+    "b": 239
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 4,
+    "k": 2
+   },
+   "lab": {
+    "l": 97.53,
+    "a": -2.4,
+    "b": 4.56
+   }
+  },
+  {
+   "code": "RAL 9011",
+   "name": "Graphite black",
+   "localName": "Graphitschwarz",
+   "hex": "#292C2F",
+   "rgb": {
+    "r": 41,
+    "g": 44,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 6,
+    "y": 0,
+    "k": 82
+   },
+   "lab": {
+    "l": 17.82,
+    "a": -0.56,
+    "b": -2.39
+   }
+  },
+  {
+   "code": "RAL 9016",
+   "name": "Traffic white",
+   "localName": "Verkehrsweiß",
+   "hex": "#F7FBF5",
+   "rgb": {
+    "r": 247,
+    "g": 251,
+    "b": 245
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 2,
+    "k": 2
+   },
+   "lab": {
+    "l": 98.18,
+    "a": -2.37,
+    "b": 2.41
+   }
+  },
+  {
+   "code": "RAL 9017",
+   "name": "Traffic black",
+   "localName": "Verkehrsschwarz",
+   "hex": "#2A2D2F",
+   "rgb": {
+    "r": 42,
+    "g": 45,
+    "b": 47
+   },
+   "cmyk": {
+    "c": 11,
+    "m": 4,
+    "y": 0,
+    "k": 82
+   },
+   "lab": {
+    "l": 18.25,
+    "a": -0.82,
+    "b": -1.75
+   }
+  },
+  {
+   "code": "RAL 9018",
+   "name": "Papyrus white",
+   "localName": "Papyrusweiß",
+   "hex": "#CFD3CD",
+   "rgb": {
+    "r": 207,
+    "g": 211,
+    "b": 205
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 3,
+    "k": 17
+   },
+   "lab": {
+    "l": 84.1,
+    "a": -2.45,
+    "b": 2.49
+   }
+  },
+  {
+   "code": "RAL 9022",
+   "name": "Pearl light grey",
+   "localName": "Perlhellgrau",
+   "hex": "#9C9C9C",
+   "rgb": {
+    "r": 156,
+    "g": 156,
+    "b": 156
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 39
+   },
+   "lab": {
+    "l": 64.36,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "RAL 9023",
+   "name": "Pearl dark grey",
+   "localName": "Perldunkelgrau",
+   "hex": "#7E8182",
+   "rgb": {
+    "r": 126,
+    "g": 129,
+    "b": 130
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 1,
+    "y": 0,
+    "k": 49
+   },
+   "lab": {
+    "l": 53.76,
+    "a": -0.91,
+    "b": -0.93
+   }
+  }
+ ]
+}

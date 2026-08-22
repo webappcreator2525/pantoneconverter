@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone Yellow C', hex: '#FFED00', rgb: '255, 237, 0', cmyk: '0, 6, 100, 0', use: 'Standard pure yellow used in caution signage and bold branding' },
@@ -357,6 +358,22 @@ export default function PantoneYellowPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Yellow in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this yellow is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-oracal/',
+              '/pantone-to-dmc/',
+              '/pantone-to-behr/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

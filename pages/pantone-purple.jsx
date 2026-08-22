@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone Violet C', hex: '#440099', rgb: '68, 0, 153', cmyk: '100, 100, 0, 0', use: 'Standard violet purple used in arts and entertainment branding' },
@@ -357,6 +358,22 @@ export default function PantonePurplePage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Purple in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this purple is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-copic/',
+              '/pantone-to-dmc/',
+              '/pantone-to-benjamin-moore/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

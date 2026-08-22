@@ -235,3 +235,24 @@ This ensures any designer or vendor can work with your brand color in any contex
   { title: "Pantone to HEX Converter", href: "/pantone-to-hex", description: "Find the HEX code for any Pantone color." },
   { title: "Pantone Color Finder", href: "/pantone-finder", description: "Browse and search the full 3,200+ Pantone color library." }
 ]} />
+
+
+---
+
+## Same Screen Colour, Different Destinations
+
+A HEX code is a screen value, and Pantone PMS is only one of the places it can land.
+
+If you picked the colour from a design-tool colour picker rather than a stylesheet, you may find
+[HSV to Pantone](/hsv-to-pantone/) more direct — those are the H, S and B numbers Photoshop and
+Figma show — and [Pantone to HSV](/pantone-to-hsv/) works back the other way for building tints
+and shades.
+
+If the colour is destined for **apparel or interiors**, PMS is the wrong Pantone library. Fashion
+uses a separate system whose codes look like `19-4052 TCX`, and [HEX to TCX](/hex-to-tcx/) is the
+conversion your mill actually needs; [TCX to HEX](/tcx-to-hex/) covers the reverse for ecommerce
+swatches and lookbooks.
+
+And if it is being **manufactured rather than printed**, convert onward from the Pantone result:
+[RAL](/pantone-to-ral/) for coatings, [DMC](/pantone-to-dmc/) for thread,
+[Oracal 651](/pantone-to-oracal/) for cut vinyl.

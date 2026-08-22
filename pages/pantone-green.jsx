@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
   { code: 'Pantone Green C', hex: '#00A550', rgb: '0, 165, 80', cmyk: '97, 0, 76, 0', use: 'Classic Pantone green standard, used in environmental and safety branding' },
@@ -356,6 +357,22 @@ export default function PantoneGreenPage() {
               })}
             </div>
           </section>
+
+          {/* ── Cross-system converters ───────────────────────────── */}
+          <div style={{ marginBottom: '3rem' }}>
+            <CrossSystemLinks
+              heading="Pantone Green in Other Colour Systems"
+              intro="A Pantone number only helps if your supplier works in Pantone. If this green is heading for paint, thread, vinyl or fabric, these converters find the nearest code in the system that supplier actually uses — each one reporting how close the match really is."
+              routes={[
+              '/pantone-to-ral/',
+              '/pantone-to-ncs/',
+              '/pantone-to-farrow-and-ball/',
+              '/pantone-to-dmc/',
+              '/pantone-c-to-tcx/',
+              ]}
+              accentColor="#c44eed"
+            />
+          </div>
 
           {/* ── SECTION 11: FAQ ───────────────────────────────────── */}
           <section>

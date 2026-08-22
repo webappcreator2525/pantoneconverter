@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
-import { Sliders, Hash, Circle, Sun, ArrowRightLeft, Fingerprint, Droplets, Search, Zap, Unlock, Target, Monitor, BookOpen } from 'lucide-react';
+import { Sliders, Hash, Circle, Sun, ArrowRightLeft, Fingerprint, Droplets, Search, Zap, Unlock, Target, Monitor, BookOpen, Factory, Compass, Printer, Stamp, Grid3x3, Shield, FlaskConical, SlidersHorizontal, Scissors, Highlighter, Shirt, PaintRoller, Paintbrush, PaintBucket, Palette, Layers, Ruler } from 'lucide-react';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 
@@ -69,6 +69,189 @@ const TOOLS = [
     Icon: Search,
     color: '#e11d48',
     bg: '#fff1f2',
+  },
+];
+
+// Cross-standard converters. Split out from TOOLS so the primary grid stays the
+// eight everyday tools and the industrial standards get their own labelled row.
+const SYSTEM_TOOLS = [
+  {
+    href: '/pantone-to-ral',
+    title: 'Pantone ↔ RAL',
+    desc: 'Match Pantone to RAL Classic paint and powder-coating codes.',
+    Icon: Factory,
+    color: '#b91c1c',
+    bg: '#fef2f2',
+  },
+  {
+    href: '/pantone-to-ncs',
+    title: 'Pantone → NCS',
+    desc: 'Translate Pantone into Natural Colour System notation.',
+    Icon: Compass,
+    color: '#0284c7',
+    bg: '#f0f9ff',
+  },
+  {
+    href: '/pantone-to-hks',
+    title: 'Pantone → HKS',
+    desc: 'Match Pantone to the HKS spot inks used in German print.',
+    Icon: Printer,
+    color: '#6d28d9',
+    bg: '#f5f3ff',
+  },
+  {
+    href: '/pantone-to-toyo',
+    title: 'Pantone → TOYO',
+    desc: 'Cross-reference Pantone against the TOYO Color Finder deck.',
+    Icon: Stamp,
+    color: '#be123c',
+    bg: '#fff1f2',
+  },
+  {
+    href: '/pantone-to-trumatch',
+    title: 'Pantone → Trumatch',
+    desc: 'Map spot colours onto the Trumatch four-colour CMYK deck.',
+    Icon: Grid3x3,
+    color: '#059669',
+    bg: '#ecfdf5',
+  },
+  {
+    href: '/pantone-to-federal-standard-595',
+    title: 'Pantone → FS 595',
+    desc: 'Find the nearest US Federal Standard 595 defence paint chip.',
+    Icon: Shield,
+    color: '#4d7c0f',
+    bg: '#f7fee7',
+  },
+  {
+    href: '/pantone-to-lab',
+    title: 'Pantone ↔ LAB',
+    desc: 'Device-independent CIELAB values for measurement and ΔE.',
+    Icon: FlaskConical,
+    color: '#0f766e',
+    bg: '#f0fdfa',
+  },
+  {
+    href: '/pantone-to-hsv',
+    title: 'Pantone ↔ HSV',
+    desc: 'Hue, saturation and brightness for design-tool colour pickers.',
+    Icon: SlidersHorizontal,
+    color: '#9333ea',
+    bg: '#faf5ff',
+  },
+];
+
+// Craft and paint-brand converters — the bridge from a specified colour to a
+// material you can buy. Split from SYSTEM_TOOLS so each row has one story.
+const CRAFT_TOOLS = [
+  {
+    href: '/pantone-to-dmc',
+    title: 'Pantone → DMC',
+    desc: 'Match Pantone to DMC embroidery floss for cross-stitch.',
+    Icon: Scissors,
+    color: '#be185d',
+    bg: '#fdf2f8',
+  },
+  {
+    href: '/pantone-to-copic',
+    title: 'Pantone → Copic',
+    desc: 'Find the closest Copic alcohol marker for illustration.',
+    Icon: Highlighter,
+    color: '#4338ca',
+    bg: '#eef2ff',
+  },
+  {
+    href: '/pantone-to-oracal',
+    title: 'Pantone → Oracal 651',
+    desc: 'Pick the nearest permanent vinyl for cutting and signage.',
+    Icon: Layers,
+    color: '#0d9488',
+    bg: '#f0fdfa',
+  },
+  {
+    href: '/pantone-to-siser-htv',
+    title: 'Pantone → Siser HTV',
+    desc: 'Match heat transfer vinyl for t-shirts and garment printing.',
+    Icon: Shirt,
+    color: '#c2410c',
+    bg: '#fff7ed',
+  },
+  {
+    href: '/pantone-to-sherwin-williams',
+    title: 'Pantone → Sherwin-Williams',
+    desc: 'Find the closest Sherwin-Williams interior paint colour.',
+    Icon: PaintRoller,
+    color: '#1d4ed8',
+    bg: '#eff6ff',
+  },
+  {
+    href: '/pantone-to-benjamin-moore',
+    title: 'Pantone → Benjamin Moore',
+    desc: 'Match to the HC, OC and AF paint collections.',
+    Icon: Paintbrush,
+    color: '#15803d',
+    bg: '#f0fdf4',
+  },
+  {
+    href: '/pantone-to-dulux',
+    title: 'Pantone → Dulux',
+    desc: 'Nearest Dulux colour for UK and Australian projects.',
+    Icon: PaintBucket,
+    color: '#7e22ce',
+    bg: '#faf5ff',
+  },
+  {
+    href: '/pantone-to-farrow-and-ball',
+    title: 'Pantone → Farrow & Ball',
+    desc: 'Place a colour within the 130-colour designer palette.',
+    Icon: Palette,
+    color: '#57534e',
+    bg: '#fafaf9',
+  },
+];
+
+// Fashion and textile Pantone. Called out separately on the homepage because
+// TCX is a different Pantone library, not another converter for the same one.
+const TEXTILE_TOOLS = [
+  {
+    href: '/tcx-to-hex',
+    title: 'TCX → HEX / RGB',
+    desc: 'Screen values for any Pantone fashion textile colour.',
+    Icon: Ruler,
+    color: '#db2777',
+    bg: '#fdf2f8',
+  },
+  {
+    href: '/hex-to-tcx',
+    title: 'HEX → TCX',
+    desc: 'Turn a screen colour into a code your mill can dye to.',
+    Icon: Ruler,
+    color: '#e11d48',
+    bg: '#fff1f2',
+  },
+  {
+    href: '/pantone-c-to-tcx',
+    title: 'Pantone C → TCX',
+    desc: 'Cross a graphic PMS number over to the fashion library.',
+    Icon: ArrowRightLeft,
+    color: '#6366f1',
+    bg: '#eef2ff',
+  },
+  {
+    href: '/tcx-vs-tpx-vs-tpg',
+    title: 'TCX vs TPX vs TPG',
+    desc: 'Which Pantone textile format is which, and when to use it.',
+    Icon: BookOpen,
+    color: '#0e7490',
+    bg: '#ecfeff',
+  },
+  {
+    href: '/pantone-textile-to-cmyk',
+    title: 'Pantone Textile → CMYK',
+    desc: 'CMYK builds for sublimation and direct-to-garment printing.',
+    Icon: Droplets,
+    color: '#ea580c',
+    bg: '#fff7ed',
   },
 ];
 
@@ -157,7 +340,7 @@ export default function HomePage() {
         <section className="section bg-white">
           <div className="container-xl">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">8 Free Color Tools</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Free Color Conversion Tools</h2>
               <p className="text-gray-500 text-lg">Pick the conversion you need — all instant, all client-side.</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
@@ -174,7 +357,73 @@ export default function HomePage() {
                 </Link>
               ))}
             </div>
-            
+
+            {/* Industrial colour systems */}
+            <div className="text-center mb-8 mt-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Industrial Color Systems</h2>
+              <p className="text-gray-500 text-lg">
+                Cross-reference Pantone against RAL, NCS, HKS, TOYO, Trumatch, FS&nbsp;595, CIELAB and HSV — every match ranked by ΔE.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+              {SYSTEM_TOOLS.map((tool) => (
+                <Link key={tool.href} href={tool.href} className="tool-card group">
+                  <div
+                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                    style={{ backgroundColor: tool.bg }}
+                  >
+                    <tool.Icon size={24} color={tool.color} strokeWidth={2} />
+                  </div>
+                  <h3 className="font-bold text-gray-900 mb-1 text-base">{tool.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{tool.desc}</p>
+                </Link>
+              ))}
+            </div>
+
+            {/* Craft materials and paint brands */}
+            <div className="text-center mb-8 mt-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Craft &amp; Paint Brand Matching</h2>
+              <p className="text-gray-500 text-lg">
+                Take a Pantone colour to something you can buy — embroidery floss, markers, vinyl, heat transfer film and house paint.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+              {CRAFT_TOOLS.map((tool) => (
+                <Link key={tool.href} href={tool.href} className="tool-card group">
+                  <div
+                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                    style={{ backgroundColor: tool.bg }}
+                  >
+                    <tool.Icon size={24} color={tool.color} strokeWidth={2} />
+                  </div>
+                  <h3 className="font-bold text-gray-900 mb-1 text-base">{tool.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{tool.desc}</p>
+                </Link>
+              ))}
+            </div>
+
+            {/* Fashion and textile Pantone */}
+            <div className="text-center mb-8 mt-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">Fashion &amp; Textile Pantone (TCX)</h2>
+              <p className="text-gray-500 text-lg">
+                Apparel and interiors use a different Pantone library from print — codes like 19-4052&nbsp;TCX, not 186&nbsp;C. These tools work in that one.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+              {TEXTILE_TOOLS.map((tool) => (
+                <Link key={tool.href} href={tool.href} className="tool-card group">
+                  <div
+                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                    style={{ backgroundColor: tool.bg }}
+                  >
+                    <tool.Icon size={24} color={tool.color} strokeWidth={2} />
+                  </div>
+                  <h3 className="font-bold text-gray-900 mb-1 text-base">{tool.title}</h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">{tool.desc}</p>
+                </Link>
+              ))}
+            </div>
+
             {/* Learn Section CTA */}
             <div className="mt-8 bg-purple-50 rounded-2xl p-8 sm:p-10 text-center border-2 border-purple-100 flex flex-col items-center">
               <div className="w-14 h-14 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mb-4">

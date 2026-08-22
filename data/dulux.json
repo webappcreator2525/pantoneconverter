@@ -1,0 +1,1923 @@
+{
+ "system": "Dulux",
+ "owner": "AkzoNobel N.V.",
+ "accuracy": "low",
+ "count": 87,
+ "generatedBy": "scripts/generate-brand-palettes.mjs",
+ "colors": [
+  {
+   "code": "Dulux Pure Brilliant White",
+   "name": "Dulux Pure Brilliant White",
+   "localName": "Whites",
+   "hex": "#FFFFFF",
+   "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 0,
+    "k": 0
+   },
+   "lab": {
+    "l": 100,
+    "a": 0,
+    "b": 0
+   }
+  },
+  {
+   "code": "Dulux Timeless",
+   "name": "Dulux Timeless",
+   "localName": "Whites",
+   "hex": "#EDE7DC",
+   "rgb": {
+    "r": 237,
+    "g": 231,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 7,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.83,
+    "a": 0.15,
+    "b": 6.07
+   }
+  },
+  {
+   "code": "Dulux Natural Hessian",
+   "name": "Dulux Natural Hessian",
+   "localName": "Neutrals",
+   "hex": "#DCD2BE",
+   "rgb": {
+    "r": 220,
+    "g": 210,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 14,
+    "k": 14
+   },
+   "lab": {
+    "l": 84.5,
+    "a": 0.11,
+    "b": 11.15
+   }
+  },
+  {
+   "code": "Dulux Natural Calico",
+   "name": "Dulux Natural Calico",
+   "localName": "Neutrals",
+   "hex": "#E6DCC8",
+   "rgb": {
+    "r": 230,
+    "g": 220,
+    "b": 200
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 13,
+    "k": 10
+   },
+   "lab": {
+    "l": 88.06,
+    "a": 0.1,
+    "b": 11.05
+   }
+  },
+  {
+   "code": "Dulux Almond White",
+   "name": "Dulux Almond White",
+   "localName": "Whites",
+   "hex": "#EDE6D6",
+   "rgb": {
+    "r": 237,
+    "g": 230,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 10,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.44,
+    "a": -0.33,
+    "b": 8.63
+   }
+  },
+  {
+   "code": "Dulux Jasmine White",
+   "name": "Dulux Jasmine White",
+   "localName": "Whites",
+   "hex": "#EFE8D8",
+   "rgb": {
+    "r": 239,
+    "g": 232,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 10,
+    "k": 6
+   },
+   "lab": {
+    "l": 92.14,
+    "a": -0.33,
+    "b": 8.62
+   }
+  },
+  {
+   "code": "Dulux Magnolia",
+   "name": "Dulux Magnolia",
+   "localName": "Whites",
+   "hex": "#F0E6D2",
+   "rgb": {
+    "r": 240,
+    "g": 230,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 13,
+    "k": 6
+   },
+   "lab": {
+    "l": 91.58,
+    "a": 0.09,
+    "b": 10.95
+   }
+  },
+  {
+   "code": "Dulux Orchid White",
+   "name": "Dulux Orchid White",
+   "localName": "Whites",
+   "hex": "#EEE8E2",
+   "rgb": {
+    "r": 238,
+    "g": 232,
+    "b": 226
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 5,
+    "k": 7
+   },
+   "lab": {
+    "l": 92.3,
+    "a": 0.99,
+    "b": 3.63
+   }
+  },
+  {
+   "code": "Dulux Nutmeg White",
+   "name": "Dulux Nutmeg White",
+   "localName": "Neutrals",
+   "hex": "#E4DACA",
+   "rgb": {
+    "r": 228,
+    "g": 218,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 11,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.44,
+    "a": 0.74,
+    "b": 9.09
+   }
+  },
+  {
+   "code": "Dulux Chic Shadow",
+   "name": "Dulux Chic Shadow",
+   "localName": "Greys",
+   "hex": "#B4B4B0",
+   "rgb": {
+    "r": 180,
+    "g": 180,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 2,
+    "k": 29
+   },
+   "lab": {
+    "l": 73.21,
+    "a": -0.74,
+    "b": 2.04
+   }
+  },
+  {
+   "code": "Dulux Polished Pebble",
+   "name": "Dulux Polished Pebble",
+   "localName": "Greys",
+   "hex": "#C4C6C2",
+   "rgb": {
+    "r": 196,
+    "g": 198,
+    "b": 194
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 2,
+    "k": 22
+   },
+   "lab": {
+    "l": 79.62,
+    "a": -1.42,
+    "b": 1.76
+   }
+  },
+  {
+   "code": "Dulux Goose Down",
+   "name": "Dulux Goose Down",
+   "localName": "Greys",
+   "hex": "#D6D4CC",
+   "rgb": {
+    "r": 214,
+    "g": 212,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 16
+   },
+   "lab": {
+    "l": 84.87,
+    "a": -0.73,
+    "b": 4.19
+   }
+  },
+  {
+   "code": "Dulux Warm Pewter",
+   "name": "Dulux Warm Pewter",
+   "localName": "Greys",
+   "hex": "#A8A29A",
+   "rgb": {
+    "r": 168,
+    "g": 162,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 8,
+    "k": 34
+   },
+   "lab": {
+    "l": 66.9,
+    "a": 0.72,
+    "b": 4.93
+   }
+  },
+  {
+   "code": "Dulux Urban Obsession",
+   "name": "Dulux Urban Obsession",
+   "localName": "Greys",
+   "hex": "#8E8C88",
+   "rgb": {
+    "r": 142,
+    "g": 140,
+    "b": 136
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 4,
+    "k": 44
+   },
+   "lab": {
+    "l": 58.31,
+    "a": -0.03,
+    "b": 2.39
+   }
+  },
+  {
+   "code": "Dulux Night Jewels",
+   "name": "Dulux Night Jewels",
+   "localName": "Greys",
+   "hex": "#4A4E52",
+   "rgb": {
+    "r": 74,
+    "g": 78,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 5,
+    "y": 0,
+    "k": 68
+   },
+   "lab": {
+    "l": 32.95,
+    "a": -0.7,
+    "b": -2.92
+   }
+  },
+  {
+   "code": "Dulux Rock Salt",
+   "name": "Dulux Rock Salt",
+   "localName": "Greys",
+   "hex": "#DCDAD2",
+   "rgb": {
+    "r": 220,
+    "g": 218,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 1,
+    "y": 5,
+    "k": 14
+   },
+   "lab": {
+    "l": 87,
+    "a": -0.73,
+    "b": 4.17
+   }
+  },
+  {
+   "code": "Dulux Frosted Steel",
+   "name": "Dulux Frosted Steel",
+   "localName": "Greys",
+   "hex": "#C8CCCC",
+   "rgb": {
+    "r": 200,
+    "g": 204,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 0,
+    "k": 20
+   },
+   "lab": {
+    "l": 81.74,
+    "a": -1.37,
+    "b": -0.48
+   }
+  },
+  {
+   "code": "Dulux Denim Drift",
+   "name": "Dulux Denim Drift",
+   "localName": "Blues",
+   "hex": "#8FA0AA",
+   "rgb": {
+    "r": 143,
+    "g": 160,
+    "b": 170
+   },
+   "cmyk": {
+    "c": 16,
+    "m": 6,
+    "y": 0,
+    "k": 33
+   },
+   "lab": {
+    "l": 64.87,
+    "a": -3.84,
+    "b": -7.21
+   }
+  },
+  {
+   "code": "Dulux Bright Skies",
+   "name": "Dulux Bright Skies",
+   "localName": "Blues",
+   "hex": "#C4D8DE",
+   "rgb": {
+    "r": 196,
+    "g": 216,
+    "b": 222
+   },
+   "cmyk": {
+    "c": 12,
+    "m": 3,
+    "y": 0,
+    "k": 13
+   },
+   "lab": {
+    "l": 85.06,
+    "a": -5.48,
+    "b": -5.23
+   }
+  },
+  {
+   "code": "Dulux Tranquil Dawn",
+   "name": "Dulux Tranquil Dawn",
+   "localName": "Greens",
+   "hex": "#C6CFC6",
+   "rgb": {
+    "r": 198,
+    "g": 207,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 4,
+    "k": 19
+   },
+   "lab": {
+    "l": 82.22,
+    "a": -4.72,
+    "b": 3.4
+   }
+  },
+  {
+   "code": "Dulux Sapphire Salute",
+   "name": "Dulux Sapphire Salute",
+   "localName": "Blues",
+   "hex": "#3E5A78",
+   "rgb": {
+    "r": 62,
+    "g": 90,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 48,
+    "m": 25,
+    "y": 0,
+    "k": 53
+   },
+   "lab": {
+    "l": 37.28,
+    "a": -1.51,
+    "b": -20.21
+   }
+  },
+  {
+   "code": "Dulux Teal Tension",
+   "name": "Dulux Teal Tension",
+   "localName": "Blues",
+   "hex": "#3E6E72",
+   "rgb": {
+    "r": 62,
+    "g": 110,
+    "b": 114
+   },
+   "cmyk": {
+    "c": 46,
+    "m": 4,
+    "y": 0,
+    "k": 55
+   },
+   "lab": {
+    "l": 43.35,
+    "a": -15.14,
+    "b": -7.33
+   }
+  },
+  {
+   "code": "Dulux Blue Babe",
+   "name": "Dulux Blue Babe",
+   "localName": "Blues",
+   "hex": "#7E9EB4",
+   "rgb": {
+    "r": 126,
+    "g": 158,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 30,
+    "m": 12,
+    "y": 0,
+    "k": 29
+   },
+   "lab": {
+    "l": 63.49,
+    "a": -5.78,
+    "b": -15
+   }
+  },
+  {
+   "code": "Dulux Mineral Mist",
+   "name": "Dulux Mineral Mist",
+   "localName": "Blues",
+   "hex": "#B4C4C6",
+   "rgb": {
+    "r": 180,
+    "g": 196,
+    "b": 198
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 1,
+    "y": 0,
+    "k": 22
+   },
+   "lab": {
+    "l": 78.03,
+    "a": -5.05,
+    "b": -2.87
+   }
+  },
+  {
+   "code": "Dulux Willow Tree",
+   "name": "Dulux Willow Tree",
+   "localName": "Greens",
+   "hex": "#C0C4B0",
+   "rgb": {
+    "r": 192,
+    "g": 196,
+    "b": 176
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 10,
+    "k": 23
+   },
+   "lab": {
+    "l": 78.36,
+    "a": -4.94,
+    "b": 9.57
+   }
+  },
+  {
+   "code": "Dulux Overtly Olive",
+   "name": "Dulux Overtly Olive",
+   "localName": "Greens",
+   "hex": "#6E7052",
+   "rgb": {
+    "r": 110,
+    "g": 112,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 27,
+    "k": 56
+   },
+   "lab": {
+    "l": 46.33,
+    "a": -6.2,
+    "b": 16.48
+   }
+  },
+  {
+   "code": "Dulux Woodland Pearl",
+   "name": "Dulux Woodland Pearl",
+   "localName": "Greens",
+   "hex": "#CED2C4",
+   "rgb": {
+    "r": 206,
+    "g": 210,
+    "b": 196
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 7,
+    "k": 18
+   },
+   "lab": {
+    "l": 83.55,
+    "a": -3.86,
+    "b": 6.46
+   }
+  },
+  {
+   "code": "Dulux Wild Wonder",
+   "name": "Dulux Wild Wonder",
+   "localName": "Yellows",
+   "hex": "#DCD2A8",
+   "rgb": {
+    "r": 220,
+    "g": 210,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 5,
+    "y": 24,
+    "k": 14
+   },
+   "lab": {
+    "l": 84.04,
+    "a": -3.16,
+    "b": 22.11
+   }
+  },
+  {
+   "code": "Dulux Sweet Embrace",
+   "name": "Dulux Sweet Embrace",
+   "localName": "Pinks",
+   "hex": "#E2DAD8",
+   "rgb": {
+    "r": 226,
+    "g": 218,
+    "b": 216
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 4,
+    "k": 11
+   },
+   "lab": {
+    "l": 87.62,
+    "a": 2.38,
+    "b": 1.95
+   }
+  },
+  {
+   "code": "Dulux Heart Wood",
+   "name": "Dulux Heart Wood",
+   "localName": "Pinks",
+   "hex": "#B8A2A0",
+   "rgb": {
+    "r": 184,
+    "g": 162,
+    "b": 160
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 13,
+    "k": 28
+   },
+   "lab": {
+    "l": 68.44,
+    "a": 7.69,
+    "b": 3.99
+   }
+  },
+  {
+   "code": "Dulux Copper Blush",
+   "name": "Dulux Copper Blush",
+   "localName": "Oranges",
+   "hex": "#C4886E",
+   "rgb": {
+    "r": 196,
+    "g": 136,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 31,
+    "y": 44,
+    "k": 23
+   },
+   "lab": {
+    "l": 62.06,
+    "a": 19.81,
+    "b": 23.18
+   }
+  },
+  {
+   "code": "Dulux Spiced Honey",
+   "name": "Dulux Spiced Honey",
+   "localName": "Yellows",
+   "hex": "#C4A278",
+   "rgb": {
+    "r": 196,
+    "g": 162,
+    "b": 120
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 17,
+    "y": 39,
+    "k": 23
+   },
+   "lab": {
+    "l": 68.7,
+    "a": 6.69,
+    "b": 26.55
+   }
+  },
+  {
+   "code": "Dulux Proud Peacock",
+   "name": "Dulux Proud Peacock",
+   "localName": "Blues",
+   "hex": "#2E5E68",
+   "rgb": {
+    "r": 46,
+    "g": 94,
+    "b": 104
+   },
+   "cmyk": {
+    "c": 56,
+    "m": 10,
+    "y": 0,
+    "k": 59
+   },
+   "lab": {
+    "l": 37.09,
+    "a": -13.16,
+    "b": -10.7
+   }
+  },
+  {
+   "code": "Dulux Egyptian Cotton",
+   "name": "Dulux Egyptian Cotton",
+   "localName": "Neutrals",
+   "hex": "#E0D8CC",
+   "rgb": {
+    "r": 224,
+    "g": 216,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 9,
+    "k": 12
+   },
+   "lab": {
+    "l": 86.66,
+    "a": 0.69,
+    "b": 6.88
+   }
+  },
+  {
+   "code": "Dulux Soft Stone",
+   "name": "Dulux Soft Stone",
+   "localName": "Neutrals",
+   "hex": "#D4C8B4",
+   "rgb": {
+    "r": 212,
+    "g": 200,
+    "b": 180
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 15,
+    "k": 17
+   },
+   "lab": {
+    "l": 81.07,
+    "a": 0.86,
+    "b": 11.51
+   }
+  },
+  {
+   "code": "Dulux Gentle Fawn",
+   "name": "Dulux Gentle Fawn",
+   "localName": "Neutrals",
+   "hex": "#D8CCB8",
+   "rgb": {
+    "r": 216,
+    "g": 204,
+    "b": 184
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 6,
+    "y": 15,
+    "k": 15
+   },
+   "lab": {
+    "l": 82.51,
+    "a": 0.85,
+    "b": 11.46
+   }
+  },
+  {
+   "code": "Dulux Mellow Mocha",
+   "name": "Dulux Mellow Mocha",
+   "localName": "Browns",
+   "hex": "#B4A290",
+   "rgb": {
+    "r": 180,
+    "g": 162,
+    "b": 144
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 20,
+    "k": 29
+   },
+   "lab": {
+    "l": 67.69,
+    "a": 3.6,
+    "b": 11.76
+   }
+  },
+  {
+   "code": "Dulux Caramel Latte",
+   "name": "Dulux Caramel Latte",
+   "localName": "Browns",
+   "hex": "#C4AC90",
+   "rgb": {
+    "r": 196,
+    "g": 172,
+    "b": 144
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 12,
+    "y": 27,
+    "k": 23
+   },
+   "lab": {
+    "l": 71.73,
+    "a": 4.36,
+    "b": 17.61
+   }
+  },
+  {
+   "code": "Dulux Malted Biscuit",
+   "name": "Dulux Malted Biscuit",
+   "localName": "Browns",
+   "hex": "#CBB596",
+   "rgb": {
+    "r": 203,
+    "g": 181,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 11,
+    "y": 26,
+    "k": 20
+   },
+   "lab": {
+    "l": 74.79,
+    "a": 3.08,
+    "b": 18.7
+   }
+  },
+  {
+   "code": "Dulux Wholemeal",
+   "name": "Dulux Wholemeal",
+   "localName": "Browns",
+   "hex": "#C8B49A",
+   "rgb": {
+    "r": 200,
+    "g": 180,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 23,
+    "k": 22
+   },
+   "lab": {
+    "l": 74.35,
+    "a": 3.03,
+    "b": 15.88
+   }
+  },
+  {
+   "code": "Dulux Cookie Dough",
+   "name": "Dulux Cookie Dough",
+   "localName": "Browns",
+   "hex": "#D2BE9E",
+   "rgb": {
+    "r": 210,
+    "g": 190,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 25,
+    "k": 18
+   },
+   "lab": {
+    "l": 77.87,
+    "a": 2.1,
+    "b": 18.76
+   }
+  },
+  {
+   "code": "Dulux Ivory Lace",
+   "name": "Dulux Ivory Lace",
+   "localName": "Whites",
+   "hex": "#EEE6D4",
+   "rgb": {
+    "r": 238,
+    "g": 230,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 11,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.47,
+    "a": -0.3,
+    "b": 9.73
+   }
+  },
+  {
+   "code": "Dulux Buttermilk",
+   "name": "Dulux Buttermilk",
+   "localName": "Yellows",
+   "hex": "#F2E8CA",
+   "rgb": {
+    "r": 242,
+    "g": 232,
+    "b": 202
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 4,
+    "y": 17,
+    "k": 5
+   },
+   "lab": {
+    "l": 92.07,
+    "a": -1.45,
+    "b": 15.82
+   }
+  },
+  {
+   "code": "Dulux Lemon Tropics",
+   "name": "Dulux Lemon Tropics",
+   "localName": "Yellows",
+   "hex": "#F2E29A",
+   "rgb": {
+    "r": 242,
+    "g": 226,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 7,
+    "y": 36,
+    "k": 5
+   },
+   "lab": {
+    "l": 89.68,
+    "a": -4.72,
+    "b": 37.2
+   }
+  },
+  {
+   "code": "Dulux Daffodil White",
+   "name": "Dulux Daffodil White",
+   "localName": "Whites",
+   "hex": "#F2EEDA",
+   "rgb": {
+    "r": 242,
+    "g": 238,
+    "b": 218
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 10,
+    "k": 5
+   },
+   "lab": {
+    "l": 93.92,
+    "a": -2.02,
+    "b": 10.16
+   }
+  },
+  {
+   "code": "Dulux Mexican Mint",
+   "name": "Dulux Mexican Mint",
+   "localName": "Greens",
+   "hex": "#BCD2BE",
+   "rgb": {
+    "r": 188,
+    "g": 210,
+    "b": 190
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 10,
+    "k": 18
+   },
+   "lab": {
+    "l": 82.11,
+    "a": -11.14,
+    "b": 7.42
+   }
+  },
+  {
+   "code": "Dulux Apple White",
+   "name": "Dulux Apple White",
+   "localName": "Greens",
+   "hex": "#E2E8DC",
+   "rgb": {
+    "r": 226,
+    "g": 232,
+    "b": 220
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 0,
+    "y": 5,
+    "k": 9
+   },
+   "lab": {
+    "l": 91.26,
+    "a": -4.13,
+    "b": 5.13
+   }
+  },
+  {
+   "code": "Dulux Sage Green",
+   "name": "Dulux Sage Green",
+   "localName": "Greens",
+   "hex": "#A8B49A",
+   "rgb": {
+    "r": 168,
+    "g": 180,
+    "b": 154
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 14,
+    "k": 29
+   },
+   "lab": {
+    "l": 71.76,
+    "a": -8.95,
+    "b": 11.86
+   }
+  },
+  {
+   "code": "Dulux Forest Falls",
+   "name": "Dulux Forest Falls",
+   "localName": "Greens",
+   "hex": "#4E6E5C",
+   "rgb": {
+    "r": 78,
+    "g": 110,
+    "b": 92
+   },
+   "cmyk": {
+    "c": 29,
+    "m": 0,
+    "y": 16,
+    "k": 57
+   },
+   "lab": {
+    "l": 43.57,
+    "a": -15.73,
+    "b": 6.35
+   }
+  },
+  {
+   "code": "Dulux Emerald Glade",
+   "name": "Dulux Emerald Glade",
+   "localName": "Greens",
+   "hex": "#2E6E52",
+   "rgb": {
+    "r": 46,
+    "g": 110,
+    "b": 82
+   },
+   "cmyk": {
+    "c": 58,
+    "m": 0,
+    "y": 25,
+    "k": 57
+   },
+   "lab": {
+    "l": 41.75,
+    "a": -27.78,
+    "b": 9.55
+   }
+  },
+  {
+   "code": "Dulux Jade Cluster",
+   "name": "Dulux Jade Cluster",
+   "localName": "Greens",
+   "hex": "#8EB4A4",
+   "rgb": {
+    "r": 142,
+    "g": 180,
+    "b": 164
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 0,
+    "y": 9,
+    "k": 29
+   },
+   "lab": {
+    "l": 70.23,
+    "a": -16.12,
+    "b": 3.96
+   }
+  },
+  {
+   "code": "Dulux Duck Egg",
+   "name": "Dulux Duck Egg",
+   "localName": "Blues",
+   "hex": "#BCD2D2",
+   "rgb": {
+    "r": 188,
+    "g": 210,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 0,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 82.61,
+    "a": -7.35,
+    "b": -2.51
+   }
+  },
+  {
+   "code": "Dulux Coastal Grey",
+   "name": "Dulux Coastal Grey",
+   "localName": "Greys",
+   "hex": "#B4BCBC",
+   "rgb": {
+    "r": 180,
+    "g": 188,
+    "b": 188
+   },
+   "cmyk": {
+    "c": 4,
+    "m": 0,
+    "y": 0,
+    "k": 26
+   },
+   "lab": {
+    "l": 75.64,
+    "a": -2.77,
+    "b": -0.96
+   }
+  },
+  {
+   "code": "Dulux First Dawn",
+   "name": "Dulux First Dawn",
+   "localName": "Neutrals",
+   "hex": "#E6DED2",
+   "rgb": {
+    "r": 230,
+    "g": 222,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 3,
+    "y": 9,
+    "k": 10
+   },
+   "lab": {
+    "l": 88.79,
+    "a": 0.68,
+    "b": 6.85
+   }
+  },
+  {
+   "code": "Dulux Nordic Spa",
+   "name": "Dulux Nordic Spa",
+   "localName": "Blues",
+   "hex": "#C6D6D4",
+   "rgb": {
+    "r": 198,
+    "g": 214,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 1,
+    "k": 16
+   },
+   "lab": {
+    "l": 84.41,
+    "a": -5.75,
+    "b": -0.86
+   }
+  },
+  {
+   "code": "Dulux Mineral Mine",
+   "name": "Dulux Mineral Mine",
+   "localName": "Greys",
+   "hex": "#A4A8A6",
+   "rgb": {
+    "r": 164,
+    "g": 168,
+    "b": 166
+   },
+   "cmyk": {
+    "c": 2,
+    "m": 0,
+    "y": 1,
+    "k": 34
+   },
+   "lab": {
+    "l": 68.5,
+    "a": -1.8,
+    "b": 0.53
+   }
+  },
+  {
+   "code": "Dulux Steel Symphony",
+   "name": "Dulux Steel Symphony",
+   "localName": "Greys",
+   "hex": "#9EA4A8",
+   "rgb": {
+    "r": 158,
+    "g": 164,
+    "b": 168
+   },
+   "cmyk": {
+    "c": 6,
+    "m": 2,
+    "y": 0,
+    "k": 34
+   },
+   "lab": {
+    "l": 67.01,
+    "a": -1.34,
+    "b": -2.81
+   }
+  },
+  {
+   "code": "Dulux Cool Granite",
+   "name": "Dulux Cool Granite",
+   "localName": "Greys",
+   "hex": "#8A9096",
+   "rgb": {
+    "r": 138,
+    "g": 144,
+    "b": 150
+   },
+   "cmyk": {
+    "c": 8,
+    "m": 4,
+    "y": 0,
+    "k": 41
+   },
+   "lab": {
+    "l": 59.48,
+    "a": -0.95,
+    "b": -3.93
+   }
+  },
+  {
+   "code": "Dulux Slate Grey",
+   "name": "Dulux Slate Grey",
+   "localName": "Greys",
+   "hex": "#5E6468",
+   "rgb": {
+    "r": 94,
+    "g": 100,
+    "b": 104
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 4,
+    "y": 0,
+    "k": 59
+   },
+   "lab": {
+    "l": 41.99,
+    "a": -1.43,
+    "b": -3.06
+   }
+  },
+  {
+   "code": "Dulux Ash Grey",
+   "name": "Dulux Ash Grey",
+   "localName": "Greys",
+   "hex": "#B0B2AE",
+   "rgb": {
+    "r": 176,
+    "g": 178,
+    "b": 174
+   },
+   "cmyk": {
+    "c": 1,
+    "m": 0,
+    "y": 2,
+    "k": 30
+   },
+   "lab": {
+    "l": 72.31,
+    "a": -1.45,
+    "b": 1.79
+   }
+  },
+  {
+   "code": "Dulux Grey Steel",
+   "name": "Dulux Grey Steel",
+   "localName": "Greys",
+   "hex": "#8E9498",
+   "rgb": {
+    "r": 142,
+    "g": 148,
+    "b": 152
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 3,
+    "y": 0,
+    "k": 40
+   },
+   "lab": {
+    "l": 60.96,
+    "a": -1.36,
+    "b": -2.86
+   }
+  },
+  {
+   "code": "Dulux Rich Black",
+   "name": "Dulux Rich Black",
+   "localName": "Blacks",
+   "hex": "#2A2C2E",
+   "rgb": {
+    "r": 42,
+    "g": 44,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 9,
+    "m": 4,
+    "y": 0,
+    "k": 82
+   },
+   "lab": {
+    "l": 17.88,
+    "a": -0.39,
+    "b": -1.6
+   }
+  },
+  {
+   "code": "Dulux Onyx Grey",
+   "name": "Dulux Onyx Grey",
+   "localName": "Greys",
+   "hex": "#4A4C4E",
+   "rgb": {
+    "r": 74,
+    "g": 76,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 3,
+    "y": 0,
+    "k": 69
+   },
+   "lab": {
+    "l": 32.2,
+    "a": -0.37,
+    "b": -1.47
+   }
+  },
+  {
+   "code": "Dulux Ruby Starlet",
+   "name": "Dulux Ruby Starlet",
+   "localName": "Reds",
+   "hex": "#8E3A46",
+   "rgb": {
+    "r": 142,
+    "g": 58,
+    "b": 70
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 59,
+    "y": 51,
+    "k": 44
+   },
+   "lab": {
+    "l": 36.41,
+    "a": 36.75,
+    "b": 10.82
+   }
+  },
+  {
+   "code": "Dulux Red Stallion",
+   "name": "Dulux Red Stallion",
+   "localName": "Reds",
+   "hex": "#A8342E",
+   "rgb": {
+    "r": 168,
+    "g": 52,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 69,
+    "y": 73,
+    "k": 34
+   },
+   "lab": {
+    "l": 39.55,
+    "a": 47.02,
+    "b": 30.63
+   }
+  },
+  {
+   "code": "Dulux Berry Smoothie",
+   "name": "Dulux Berry Smoothie",
+   "localName": "Pinks",
+   "hex": "#B44A6E",
+   "rgb": {
+    "r": 180,
+    "g": 74,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 59,
+    "y": 39,
+    "k": 29
+   },
+   "lab": {
+    "l": 46.62,
+    "a": 46.51,
+    "b": 1.3
+   }
+  },
+  {
+   "code": "Dulux Pretty Pink",
+   "name": "Dulux Pretty Pink",
+   "localName": "Pinks",
+   "hex": "#E8C4CC",
+   "rgb": {
+    "r": 232,
+    "g": 196,
+    "b": 204
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 16,
+    "y": 12,
+    "k": 9
+   },
+   "lab": {
+    "l": 82.38,
+    "a": 14.02,
+    "b": 0.76
+   }
+  },
+  {
+   "code": "Dulux Blush Pink",
+   "name": "Dulux Blush Pink",
+   "localName": "Pinks",
+   "hex": "#EAD2CE",
+   "rgb": {
+    "r": 234,
+    "g": 210,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 10,
+    "y": 12,
+    "k": 8
+   },
+   "lab": {
+    "l": 86.03,
+    "a": 7.67,
+    "b": 5.02
+   }
+  },
+  {
+   "code": "Dulux Coral Canyon",
+   "name": "Dulux Coral Canyon",
+   "localName": "Oranges",
+   "hex": "#D4705E",
+   "rgb": {
+    "r": 212,
+    "g": 112,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 47,
+    "y": 56,
+    "k": 17
+   },
+   "lab": {
+    "l": 58.41,
+    "a": 37.53,
+    "b": 27.73
+   }
+  },
+  {
+   "code": "Dulux Burnt Orange",
+   "name": "Dulux Burnt Orange",
+   "localName": "Oranges",
+   "hex": "#BE5E2E",
+   "rgb": {
+    "r": 190,
+    "g": 94,
+    "b": 46
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 51,
+    "y": 76,
+    "k": 25
+   },
+   "lab": {
+    "l": 50.87,
+    "a": 35.25,
+    "b": 44.02
+   }
+  },
+  {
+   "code": "Dulux Golden Sands",
+   "name": "Dulux Golden Sands",
+   "localName": "Yellows",
+   "hex": "#E2C48E",
+   "rgb": {
+    "r": 226,
+    "g": 196,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 13,
+    "y": 37,
+    "k": 11
+   },
+   "lab": {
+    "l": 80.52,
+    "a": 3.11,
+    "b": 31.05
+   }
+  },
+  {
+   "code": "Dulux Tuscan Terracotta",
+   "name": "Dulux Tuscan Terracotta",
+   "localName": "Oranges",
+   "hex": "#B4643E",
+   "rgb": {
+    "r": 180,
+    "g": 100,
+    "b": 62
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 44,
+    "y": 66,
+    "k": 29
+   },
+   "lab": {
+    "l": 50.88,
+    "a": 28.84,
+    "b": 35.28
+   }
+  },
+  {
+   "code": "Dulux Amethyst Falls",
+   "name": "Dulux Amethyst Falls",
+   "localName": "Purples",
+   "hex": "#8E7E9E",
+   "rgb": {
+    "r": 142,
+    "g": 126,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 10,
+    "m": 20,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 55.22,
+    "a": 12.47,
+    "b": -14.87
+   }
+  },
+  {
+   "code": "Dulux Lavender Quartz",
+   "name": "Dulux Lavender Quartz",
+   "localName": "Purples",
+   "hex": "#C4BCCE",
+   "rgb": {
+    "r": 196,
+    "g": 188,
+    "b": 206
+   },
+   "cmyk": {
+    "c": 5,
+    "m": 9,
+    "y": 0,
+    "k": 19
+   },
+   "lab": {
+    "l": 77.38,
+    "a": 6.16,
+    "b": -8.02
+   }
+  },
+  {
+   "code": "Dulux Purple Pout",
+   "name": "Dulux Purple Pout",
+   "localName": "Purples",
+   "hex": "#6E4E7E",
+   "rgb": {
+    "r": 110,
+    "g": 78,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 13,
+    "m": 38,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 38.32,
+    "a": 22.93,
+    "b": -21.96
+   }
+  },
+  {
+   "code": "Dulux Violet White",
+   "name": "Dulux Violet White",
+   "localName": "Whites",
+   "hex": "#EAE6EA",
+   "rgb": {
+    "r": 234,
+    "g": 230,
+    "b": 234
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 2,
+    "y": 0,
+    "k": 8
+   },
+   "lab": {
+    "l": 91.7,
+    "a": 2.05,
+    "b": -1.46
+   }
+  },
+  {
+   "code": "Dulux Indigo Shade",
+   "name": "Dulux Indigo Shade",
+   "localName": "Blues",
+   "hex": "#3E4A6E",
+   "rgb": {
+    "r": 62,
+    "g": 74,
+    "b": 110
+   },
+   "cmyk": {
+    "c": 44,
+    "m": 33,
+    "y": 0,
+    "k": 57
+   },
+   "lab": {
+    "l": 31.91,
+    "a": 5.51,
+    "b": -22.33
+   }
+  },
+  {
+   "code": "Dulux Sapphire Springs",
+   "name": "Dulux Sapphire Springs",
+   "localName": "Blues",
+   "hex": "#4A7E9E",
+   "rgb": {
+    "r": 74,
+    "g": 126,
+    "b": 158
+   },
+   "cmyk": {
+    "c": 53,
+    "m": 20,
+    "y": 0,
+    "k": 38
+   },
+   "lab": {
+    "l": 50.51,
+    "a": -7.99,
+    "b": -22.49
+   }
+  },
+  {
+   "code": "Dulux Cornflower White",
+   "name": "Dulux Cornflower White",
+   "localName": "Whites",
+   "hex": "#E4E8EC",
+   "rgb": {
+    "r": 228,
+    "g": 232,
+    "b": 236
+   },
+   "cmyk": {
+    "c": 3,
+    "m": 2,
+    "y": 0,
+    "k": 7
+   },
+   "lab": {
+    "l": 91.8,
+    "a": -0.61,
+    "b": -2.41
+   }
+  },
+  {
+   "code": "Dulux Blue Diamond",
+   "name": "Dulux Blue Diamond",
+   "localName": "Blues",
+   "hex": "#A4BCD2",
+   "rgb": {
+    "r": 164,
+    "g": 188,
+    "b": 210
+   },
+   "cmyk": {
+    "c": 22,
+    "m": 10,
+    "y": 0,
+    "k": 18
+   },
+   "lab": {
+    "l": 75.15,
+    "a": -3.4,
+    "b": -13.77
+   }
+  },
+  {
+   "code": "Dulux Marine Splash",
+   "name": "Dulux Marine Splash",
+   "localName": "Blues",
+   "hex": "#2E5E7E",
+   "rgb": {
+    "r": 46,
+    "g": 94,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 63,
+    "m": 25,
+    "y": 0,
+    "k": 51
+   },
+   "lab": {
+    "l": 38.01,
+    "a": -5.79,
+    "b": -22.83
+   }
+  },
+  {
+   "code": "Dulux Teal Touch",
+   "name": "Dulux Teal Touch",
+   "localName": "Blues",
+   "hex": "#4E8A8E",
+   "rgb": {
+    "r": 78,
+    "g": 138,
+    "b": 142
+   },
+   "cmyk": {
+    "c": 45,
+    "m": 3,
+    "y": 0,
+    "k": 44
+   },
+   "lab": {
+    "l": 53.76,
+    "a": -18.36,
+    "b": -8.23
+   }
+  },
+  {
+   "code": "Dulux Aqua Crystal",
+   "name": "Dulux Aqua Crystal",
+   "localName": "Blues",
+   "hex": "#B4D8D4",
+   "rgb": {
+    "r": 180,
+    "g": 216,
+    "b": 212
+   },
+   "cmyk": {
+    "c": 17,
+    "m": 0,
+    "y": 2,
+    "k": 15
+   },
+   "lab": {
+    "l": 83.74,
+    "a": -12.6,
+    "b": -1.98
+   }
+  },
+  {
+   "code": "Dulux Mint Whisper",
+   "name": "Dulux Mint Whisper",
+   "localName": "Greens",
+   "hex": "#D2E2D6",
+   "rgb": {
+    "r": 210,
+    "g": 226,
+    "b": 214
+   },
+   "cmyk": {
+    "c": 7,
+    "m": 0,
+    "y": 5,
+    "k": 11
+   },
+   "lab": {
+    "l": 88.42,
+    "a": -7.54,
+    "b": 4.03
+   }
+  },
+  {
+   "code": "Dulux Fresh Stem",
+   "name": "Dulux Fresh Stem",
+   "localName": "Greens",
+   "hex": "#8EB47E",
+   "rgb": {
+    "r": 142,
+    "g": 180,
+    "b": 126
+   },
+   "cmyk": {
+    "c": 21,
+    "m": 0,
+    "y": 30,
+    "k": 29
+   },
+   "lab": {
+    "l": 69.4,
+    "a": -23.03,
+    "b": 23.49
+   }
+  },
+  {
+   "code": "Dulux Green Parade",
+   "name": "Dulux Green Parade",
+   "localName": "Greens",
+   "hex": "#5E7E4E",
+   "rgb": {
+    "r": 94,
+    "g": 126,
+    "b": 78
+   },
+   "cmyk": {
+    "c": 25,
+    "m": 0,
+    "y": 38,
+    "k": 51
+   },
+   "lab": {
+    "l": 49.31,
+    "a": -20.96,
+    "b": 22.55
+   }
+  },
+  {
+   "code": "Dulux Olive Grove",
+   "name": "Dulux Olive Grove",
+   "localName": "Greens",
+   "hex": "#7E7E5E",
+   "rgb": {
+    "r": 126,
+    "g": 126,
+    "b": 94
+   },
+   "cmyk": {
+    "c": 0,
+    "m": 0,
+    "y": 25,
+    "k": 51
+   },
+   "lab": {
+    "l": 52.02,
+    "a": -5.62,
+    "b": 17.49
+   }
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 import { Heart } from 'lucide-react';
-import CopyButton from './CopyButton';
+import CopyableValue from './CopyableValue';
 import { useFavorites } from '../lib/FavoritesContext';
 
 export default function MatchCard({ match, rank }) {
@@ -76,26 +76,13 @@ export default function MatchCard({ match, rank }) {
           </button>
         </div>
 
-        {/* Values row */}
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'center' }}>
-          {[
-            { key: 'HEX',  val: match.hex, copy: match.hex },
-            { key: 'RGB',  val: rgbStr,    copy: rgbStr    },
-            { key: 'CMYK', val: cmykStr,   copy: cmykStr   },
-            { key: 'Name', val: null,      copy: match.name },
-          ].map(({ key, val, copy }) => (
-            <div key={key} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-              {val !== null && (
-                <>
-                  <span style={{ fontSize: '0.72rem', color: '#4b5563', fontWeight: 700 }}>{key}</span>
-                  <code style={{ fontSize: '0.72rem', color: '#374151', background: '#f3f4f6', padding: '0.1rem 0.4rem', borderRadius: '0.25rem', fontFamily: 'monospace' }}>
-                    {val}
-                  </code>
-                </>
-              )}
-              <CopyButton text={copy} label={val === null ? 'Copy Name' : 'Copy'} />
-            </div>
-          ))}
+        {/* Values row — each value is its own copy control, matching the
+            cross-system converters so copying works the same site-wide. */}
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
+          <CopyableValue label="Name" value={match.name} title="Pantone name" />
+          <CopyableValue label="HEX"  value={match.hex} />
+          <CopyableValue label="RGB"  value={rgbStr} />
+          <CopyableValue label="CMYK" value={cmykStr} />
         </div>
       </div>
     </div>

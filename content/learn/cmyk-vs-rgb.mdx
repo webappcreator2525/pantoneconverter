@@ -248,3 +248,25 @@ One of the most common workflow mistakes is designing an entire project in RGB a
   { title: "RGB to Pantone Converter", href: "/rgb-to-pantone", description: "Match RGB screen colors to Pantone spot colors." },
   { title: "What is Pantone?", href: "/learn/what-is-pantone", description: "A complete guide to the Pantone Matching System." }
 ]} />
+
+
+---
+
+## Beyond CMYK and RGB
+
+CMYK and RGB are the two models most designers meet first, but they are both *device* models —
+they describe what a press lays down or what a screen emits, and both change meaning between
+devices. Two other models are worth knowing.
+
+[HSV, also called HSB](/pantone-to-hsv/), is a re-parameterisation of RGB built around how people
+actually pick colour: a hue, then how vivid and how bright. It is what sits behind the colour
+picker in Photoshop and Figma, and it is far easier to build tints and shades in than raw RGB.
+Working the other way, [HSV to Pantone](/hsv-to-pantone/) takes those picker values to a spot colour.
+
+[CIELAB](/pantone-to-lab/) is the opposite kind of model: device-independent by design, and the
+space every colour measurement and ΔE tolerance is actually calculated in. If you have ever
+wondered how anyone settles an argument about whether two colours match, the answer is CIELAB and
+a spectrophotometer — start from [LAB to Pantone](/lab-to-pantone/) if you have a measurement in hand.
+
+For fabric rather than paper, process printing has its own rules again — see
+[Pantone Textile to CMYK](/pantone-textile-to-cmyk/) for sublimation and direct-to-garment work.
