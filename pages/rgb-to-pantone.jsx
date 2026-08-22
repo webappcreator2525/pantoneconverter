@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { useState, useEffect, useCallback } from 'react';
 import { Circle, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -90,6 +91,7 @@ export default function RgbToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/rgb-to-pantone/' })}
       </Head>
 
       <NavBar />

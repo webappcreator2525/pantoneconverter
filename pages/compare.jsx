@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { useState, useRef, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { GitCompare, Copy, Check, X, Share2 } from 'lucide-react';
@@ -481,6 +482,7 @@ export default function ComparePage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/compare/' })}
       </Head>
 
       <NavBar />

@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react';
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
 import Link from 'next/link';
 import { Building2, ArrowRight, Search, X } from 'lucide-react';
 import NavBar from '../../components/NavBar';
@@ -134,6 +135,7 @@ export default function BrandsIndexPage() {
           property="og:description"
           content="Explore official brand color palettes with Pantone, HEX, and CMYK values for the world's most recognizable brands."
         />
+        {ogMeta({ path: '/brands/' })}
       </Head>
 
       <NavBar />

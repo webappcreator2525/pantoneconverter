@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneWhitePage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-white/" />
         <meta property="og:title" content="Pantone White Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="Explore Pantone white codes: Bright White, Brilliant White, ivory, and cream. Full HEX, RGB, CMYK values, psychology, and free color matching tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-white/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-white/' })}
       </Head>
 
       <NavBar />

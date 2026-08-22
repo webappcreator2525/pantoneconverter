@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneGoldPage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-gold/" />
         <meta property="og:title" content="Pantone Gold Color Codes: HEX, RGB, CMYK Values & Metallic Shades" />
         <meta property="og:description" content="Explore Pantone gold codes including metallic Pantone 871 C, 874 C & warm golds like 123 C and 1235 C. HEX, RGB, CMYK values, luxury brand uses & free tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-gold/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-gold/' })}
       </Head>
 
       <NavBar />

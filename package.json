@@ -7,7 +7,11 @@
     "build": "next build",
     "postbuild": "next-sitemap && node -e \"require('fs').copyFileSync('out/sitemap.xml', 'public/sitemap.xml')\"",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "assets:icons": "node scripts/generate-icons.mjs",
+    "assets:og": "node scripts/generate-og.mjs",
+    "assets:verify": "node scripts/verify-og.mjs",
+    "assets": "npm run assets:icons && npm run assets:og"
   },
   "dependencies": {
     "@next/mdx": "^16.2.6",
@@ -20,6 +24,7 @@
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

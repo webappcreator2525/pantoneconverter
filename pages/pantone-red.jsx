@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneRedPage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-red/" />
         <meta property="og:title" content="Pantone Red Color Codes: HEX, RGB, CMYK Values & Shades" />
         <meta property="og:description" content="Explore all Pantone red codes including Pantone Red C, 185 C, 186 C & 485 C. Find HEX, RGB, CMYK values, shades, famous brand uses & free conversion tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-red/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-red/' })}
       </Head>
 
       <NavBar />

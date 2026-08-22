@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import ogMeta from './ogMeta';
+import { pathFrom } from '../lib/ogCards.mjs';
 import { useState, useRef, useEffect } from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -211,6 +213,7 @@ export default function PantoneToXPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: pathFrom(canonical) })}
       </Head>
 
       <NavBar />

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantonePinkPage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-pink/" />
         <meta property="og:title" content="Pantone Pink Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="Discover Pantone pink codes: hot pink, magenta, blush & baby pink. Includes Pantone 812 C, 218 C, Rhodamine Red C & more. HEX, RGB, CMYK & free tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-pink/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-pink/' })}
       </Head>
 
       <NavBar />

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { Shield, EyeOff, Save, Check } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -15,6 +16,7 @@ export default function PrivacyPolicy() {
         <link rel="canonical" href="https://pantoneconverter.com/privacy/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDescription} />
+        {ogMeta({ path: '/privacy/' })}
       </Head>
 
       <NavBar />

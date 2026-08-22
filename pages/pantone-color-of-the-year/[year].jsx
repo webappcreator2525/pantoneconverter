@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { ArrowLeft, ArrowRight, Copy, Check, Heart, Sparkles, Search } from 'lucide-react';
@@ -209,6 +210,7 @@ export default function ColorOfTheYearDetail({ current, prev, next }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
+        {ogMeta({ path: `/pantone-color-of-the-year/${current.year}/` })}
       </Head>
 
       <NavBar />

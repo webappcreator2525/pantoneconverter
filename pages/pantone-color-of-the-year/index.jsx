@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
 import Link from 'next/link';
 import { Calendar, ArrowRight, Sparkles, Copy, Check } from 'lucide-react';
 import { useState, useRef } from 'react';
@@ -48,6 +49,7 @@ export default function ColorOfTheYearIndex() {
           property="og:description"
           content="Explore Pantone Color of the Year 2026: Cloud Dancer (PANTONE 11-4201) plus the complete archive from 1999 to 2026 with HEX, RGB, and CMYK values."
         />
+        {ogMeta({ path: '/pantone-color-of-the-year/' })}
       </Head>
 
       <NavBar />

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { useState, useMemo, useCallback } from 'react';
 import { Search, X } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -70,6 +71,7 @@ export default function PantoneFinder() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/pantone-finder/' })}
       </Head>
 
       <NavBar />

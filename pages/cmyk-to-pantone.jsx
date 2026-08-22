@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { Sliders, Copy, Check, Heart, RefreshCw } from 'lucide-react';
@@ -310,15 +311,13 @@ export default function CmykToPantone() {
         <link rel="canonical" href="https://pantoneconverter.com/cmyk-to-pantone/" />
         <meta property="og:title" content="CMYK to Pantone Converter | Find Closest PMS Color Match" />
         <meta property="og:description" content="Enter any CMYK value and instantly find the closest Pantone PMS match. Free, no signup, works in-browser." />
-        <meta property="og:url" content="https://pantoneconverter.com/cmyk-to-pantone/" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="CMYK to Pantone Converter | Find Closest PMS Color Match" />
         <meta name="twitter:description" content="Enter any CMYK value and instantly find the closest Pantone PMS match. Free, no signup, works in-browser." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/cmyk-to-pantone/' })}
       </Head>
 
       {/* ── Nav ───────────────────────────────────────────────── */}

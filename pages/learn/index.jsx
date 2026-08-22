@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
 import Link from 'next/link';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import NavBar from '@/components/NavBar';
@@ -97,10 +98,9 @@ export default function LearnIndexPage() {
           content="Free guides on Pantone colors, color conversion, CMYK vs RGB, coated vs uncoated paper, and print design. Learn everything you need to work with PMS colors confidently."
         />
         <link rel="canonical" href="https://pantoneconverter.com/learn/" />
-        <meta property="og:type"        content="website" />
         <meta property="og:title"       content="Pantone Color Guides & Tutorials — PantoneConverter.com" />
         <meta property="og:description" content="Free guides on Pantone colors, color conversion, CMYK vs RGB, and print design." />
-        <meta property="og:url"         content="https://pantoneconverter.com/learn/" />
+        {ogMeta({ path: '/learn/' })}
       </Head>
 
       <NavBar />

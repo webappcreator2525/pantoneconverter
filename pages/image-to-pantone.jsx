@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { useState, useRef, useCallback, useEffect, useMemo } from 'react';
 import {
   ImageIcon, Upload, RefreshCw, Heart, Copy, Check,
@@ -653,6 +654,7 @@ export default function ImageToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/image-to-pantone/' })}
       </Head>
 
       <NavBar />

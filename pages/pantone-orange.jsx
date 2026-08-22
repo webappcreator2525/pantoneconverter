@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneOrangePage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-orange/" />
         <meta property="og:title" content="Pantone Orange Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="All Pantone orange codes: Pantone Orange 021 C, 151 C, 1655 C & more. Full HEX, RGB, CMYK values, real brand uses & free Pantone color conversion tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-orange/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-orange/' })}
       </Head>
 
       <NavBar />

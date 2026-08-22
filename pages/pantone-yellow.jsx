@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneYellowPage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-yellow/" />
         <meta property="og:title" content="Pantone Yellow Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="Find all Pantone yellow codes: Pantone Yellow C, 012 C, 109 C, 116 C and more. Full HEX, RGB, CMYK values, IKEA, LEGO & UPS brand uses & free tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-yellow/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-yellow/' })}
       </Head>
 
       <NavBar />

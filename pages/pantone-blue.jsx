@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneBluePage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-blue/" />
         <meta property="og:title" content="Pantone Blue Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="Find all Pantone blue codes including Pantone 286 C, 300 C, Reflex Blue & Process Blue. HEX, RGB, CMYK conversions, brand uses & free tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-blue/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-blue/' })}
       </Head>
 
       <NavBar />

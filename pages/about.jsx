@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import { ShieldCheck, Cpu, Layers, HelpCircle, Check, Info } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -35,6 +36,7 @@ export default function About() {
         <link rel="canonical" href="https://pantoneconverter.com/about/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDescription} />
+        {ogMeta({ path: '/about/' })}
       </Head>
 
       <NavBar />

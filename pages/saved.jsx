@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import { Heart, Trash2, Palette, ArrowLeft } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -167,6 +168,7 @@ export default function SavedColorsPage() {
         <title>My Saved Colors — PantoneConverter.com</title>
         <meta name="description" content="Your saved Pantone color favorites. Quickly access your saved swatches, HEX, RGB, and CMYK values." />
         <meta name="robots" content="noindex" />
+        {ogMeta({ path: '/saved/' })}
       </Head>
 
       <NavBar />

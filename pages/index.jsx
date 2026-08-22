@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import { Sliders, Hash, Circle, Sun, ArrowRightLeft, Fingerprint, Droplets, Search, Zap, Unlock, Target, Monitor, BookOpen } from 'lucide-react';
 import NavBar from '@/components/NavBar';
@@ -110,7 +111,7 @@ export default function HomePage() {
         <link rel="canonical" href="https://pantoneconverter.com/" />
         <meta property="og:title" content="Free Pantone Color Converter — CMYK, HEX, RGB to PMS" />
         <meta property="og:description" content="Free instant Pantone color converter. Convert CMYK, HEX, RGB, and HSL to the closest Pantone PMS match." />
-        <meta property="og:image" content="https://pantoneconverter.com/og-image.png" />
+        {ogMeta({ path: '/' })}
       </Head>
 
       <NavBar />

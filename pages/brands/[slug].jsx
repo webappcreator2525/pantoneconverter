@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { ArrowLeft, Copy, Check, Heart, Building2 } from 'lucide-react';
@@ -275,6 +276,7 @@ export default function BrandPage({ brand }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
+        {ogMeta({ path: `/brands/${brand.slug}/` })}
       </Head>
 
       <NavBar />

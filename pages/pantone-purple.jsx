@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantonePurplePage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-purple/" />
         <meta property="og:title" content="Pantone Purple Color Codes: HEX, RGB, CMYK Values & All Shades" />
         <meta property="og:description" content="Explore all Pantone purple codes: Pantone Violet C, 267 C, 2685 C & more. HEX, RGB, CMYK reference, brand examples & free Pantone conversion tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-purple/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-purple/' })}
       </Head>
 
       <NavBar />

@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import Head from 'next/head';
+import ogMeta from '../../components/ogMeta';
+import { ogImageFor, pathFrom } from '../../lib/ogCards.mjs';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -86,7 +88,8 @@ export default function LearnArticlePage({ mdxSource, frontmatter }) {
 
   const siteUrl      = 'https://pantoneconverter.com';
   const canonicalUrl = canonical || `${siteUrl}/learn/${slug}`;
-  const ogImageUrl   = ogImage ? `${siteUrl}${ogImage}` : `${siteUrl}/og/default.png`;
+  const articlePath  = pathFrom(canonicalUrl);
+  const ogImageUrl   = ogImageFor(articlePath, ogImage).url;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -147,15 +150,11 @@ export default function LearnArticlePage({ mdxSource, frontmatter }) {
         <meta name="description"  content={description} />
         {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
         <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:type"        content="article" />
         <meta property="og:title"       content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url"         content={canonicalUrl} />
-        <meta property="og:image"       content={ogImageUrl} />
-        <meta name="twitter:card"        content="summary_large_image" />
         <meta name="twitter:title"       content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image"       content={ogImageUrl} />
+        {ogMeta({ path: articlePath, type: 'article', image: ogImage, imageAlt: title })}
         {date         && <meta property="article:published_time" content={date} />}
         {lastModified && <meta property="article:modified_time"  content={lastModified} />}
         <script

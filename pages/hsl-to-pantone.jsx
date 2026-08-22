@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import { useState, useEffect, useCallback } from 'react';
 import { Sun, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -76,6 +77,7 @@ export default function HslToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        {ogMeta({ path: '/hsl-to-pantone/' })}
       </Head>
 
       <NavBar />

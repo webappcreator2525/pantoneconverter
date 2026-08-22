@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -109,10 +110,10 @@ export default function PantoneBlackPage() {
         <link rel="canonical" href="https://pantoneconverter.com/pantone-black/" />
         <meta property="og:title" content="Pantone Black Color Codes: HEX, RGB, CMYK — All Black Variants" />
         <meta property="og:description" content="All Pantone black codes including Pantone Black C, Black 6 C & Process Black. HEX, RGB, CMYK values, undertone comparisons, brand uses & free tools." />
-        <meta property="og:url" content="https://pantoneconverter.com/pantone-black/" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+        {ogMeta({ path: '/pantone-black/' })}
       </Head>
 
       <NavBar />
