@@ -42,3 +42,7 @@ next-env.d.ts
 
 # generated asset tooling
 scripts/.fontcache/
+
+# generated at build time by next-sitemap (written into out/)
+/public/sitemap.xml
+/public/robots.txt

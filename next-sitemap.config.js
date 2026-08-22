@@ -6,6 +6,10 @@ module.exports = {
   autoLastmod: true,
   generateIndexSitemap: false, // Don't create sitemap-0.xml etc for simple sites
   exclude: ['/saved'], // Exclude saved page from sitemap
+  // Anything the transform below does not classify is reference content, not
+  // something that changes daily — which is what next-sitemap defaults to.
+  changefreq: 'monthly',
+  priority: 0.7,
   transform: async (config, path) => {
     let priority = config.priority;
     let changefreq = config.changefreq;
@@ -27,6 +31,11 @@ module.exports = {
     ) {
       priority = 0.9;
       changefreq = 'weekly';
+    } else if (/^\/pantone-(red|blue|green|yellow|orange|pink|purple|gold|black|white)$/.test(path)) {
+      // Colour hub pages: evergreen reference content and strong search entry
+      // points, so they rank above brand pages but below the converters.
+      priority = 0.8;
+      changefreq = 'monthly';
     } else if (path.startsWith('/brands')) {
       priority = 0.7;
       changefreq = 'monthly';
@@ -38,6 +47,12 @@ module.exports = {
       changefreq = 'yearly';
     } else if (path.startsWith('/pantone-color-of-the-year')) {
       priority = 0.4;
+      changefreq = 'yearly';
+    } else if (path === '/about') {
+      priority = 0.5;
+      changefreq = 'yearly';
+    } else if (path === '/privacy') {
+      priority = 0.3;
       changefreq = 'yearly';
     }
 

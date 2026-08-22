@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap && node -e \"require('fs').copyFileSync('out/sitemap.xml', 'public/sitemap.xml')\"",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint",
     "assets:icons": "node scripts/generate-icons.mjs",

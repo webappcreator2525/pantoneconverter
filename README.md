@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PantoneConverter.com
 
-## Getting Started
+Free browser-based colour conversion between CMYK, HEX, RGB, HSL and the
+Pantone Matching System. All matching runs client-side — nothing is uploaded.
 
-First, run the development server:
+Live at **https://pantoneconverter.com**
+
+## Stack
+
+- **Next.js 16** (Pages Router) with `output: 'export'` — the build produces a
+  fully static site in `out/`, deployable to any static host.
+- **Tailwind CSS v4**, configured CSS-first via the `@theme` block in
+  `styles/globals.css`. That block is the single source of brand colours.
+- **MDX** for the `/learn` articles (`next-mdx-remote` + `gray-matter`).
+- **next-sitemap** generates `sitemap.xml` and `robots.txt` after each build.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`/robots.txt` and `/sitemap.xml` are build artefacts and are not served by the
+dev server — run a build to see them.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build      # next build + next-sitemap, output in out/
+```
 
-## Learn More
+Deploy the contents of `out/`. Nothing runs server-side.
 
-To learn more about Next.js, take a look at the following resources:
+## Generated assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Favicons and Open Graph cards are generated from the design tokens rather than
+hand-drawn, so they cannot drift from the site's palette and typography.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run assets           # icons + OG cards
+npm run assets:icons     # favicon.ico, PNG icons, apple-touch-icon, webmanifest
+npm run assets:og        # 32 Open Graph cards at 1200x630
+npm run assets:verify    # measures rendered contrast + checks for text overflow
+```
 
-## Deploy on Vercel
+Outputs land in `public/` and are committed, so a normal build never needs to
+run them. Re-run `npm run assets` after changing brand colours in
+`styles/globals.css` (mirrored in `scripts/brand.mjs`) or after adding a card
+to `lib/ogCards.mjs`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`lib/ogCards.mjs` is the single source of truth for OG cards: adding an entry
+there gives a page both its image and its `og:image` / `twitter:image` tags,
+since `components/ogMeta.jsx` looks the page up by path.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Plus Jakarta Sans TTFs are downloaded on first run and cached in
+`scripts/.fontcache/` (gitignored), so `npm run assets` needs network access.
+
+## Layout
+
+```
+pages/            routes (Pages Router); each page owns its own <Head>
+components/       shared UI; ogMeta.jsx emits the social tags
+lib/              colour maths, favourites context, OG card config
+content/learn/    MDX articles with SEO frontmatter
+data/             Pantone library, brand palettes, colour-of-the-year data
+scripts/          asset generators (dev-only, not bundled)
+public/           static assets, including generated icons and OG cards
+```

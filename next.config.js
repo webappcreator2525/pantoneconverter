@@ -15,10 +15,11 @@ const nextConfig = withMDX({
   },
   // Treat .md and .mdx files as pages (for /pages-based MDX if ever used)
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-  experimental: {
-    turbopack: {
-      root: __dirname,
-    },
+  // Top-level since Next 16 — under `experimental` it was silently ignored,
+  // which let Turbopack infer the workspace root from a stray lockfile in the
+  // parent directory.
+  turbopack: {
+    root: __dirname,
   },
 });
 
