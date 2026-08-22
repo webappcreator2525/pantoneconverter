@@ -135,7 +135,7 @@ export default function PantoneWhitePage() {
               Pantone White Color Codes,<br />Shades &amp; Conversions
             </h1>
             <p style={{ fontSize: '1.1rem', color: '#4b5563', maxWidth: '44rem', margin: '0 auto 2rem', lineHeight: 1.7 }}>
-              Discover the nuances of Pantone white codes, from stark, cool brilliant whites to warm, creamy ivories. Find exact HEX, RGB, and CMYK values, understand white's undertones, and use our free color matching tools.
+              Discover the nuances of Pantone white codes, from stark, cool brilliant whites to warm, creamy ivories. Find exact HEX, RGB, and CMYK values, understand white’s undertones, and use our free color matching tools.
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href="/hex-to-pantone/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '0.75rem', background: '#111827', color: '#fff', fontWeight: 700, fontSize: '0.9rem', textDecoration: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.15)' }}>
@@ -248,7 +248,7 @@ export default function PantoneWhitePage() {
                 White is fundamentally the color of light, purity, cleanliness, and minimalism. In design, white space (or negative space) is just as important as the content itself — it provides breathing room, structural hierarchy, and a sense of calm. Culturally, white carries profound and varied meanings: in Western cultures, it represents purity, innocence, and peace (weddings, doves, healthcare); in many Eastern cultures (such as China and India), white is the traditional color of mourning and represents rebirth or the transition to a new phase.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                In branding and product design, the "undertone" of white completely changes its psychological effect. Cool whites (which have blue or gray undertones, like Pantone 11-4001 TCX) feel modern, stark, sterile, and highly technological. They are used extensively in modern tech devices, laboratories, and futuristic design aesthetics.
+                In branding and product design, the “undertone” of white completely changes its psychological effect. Cool whites (which have blue or gray undertones, like Pantone 11-4001 TCX) feel modern, stark, sterile, and highly technological. They are used extensively in modern tech devices, laboratories, and futuristic design aesthetics.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem' }}>
                 Warm whites (which have yellow, red, or brown undertones, like Pantone 11-0103 TCX Egret) feel organic, soft, historic, and approachable. These creamy whites, ivories, and alabasters are heavily utilized in organic food branding, high-end wedding stationery, luxury natural skincare, and traditional interior design, as they feel less harsh on the eyes than pure optical white.
@@ -267,7 +267,7 @@ export default function PantoneWhitePage() {
                 <strong>Chanel</strong> uses white as one half of its iconic black-and-white pairing. For Chanel, white represents timeless elegance, simplicity, and Parisian chic. It acts as the perfect, unblemished backdrop that allows their bold black typography and logo to command total authority.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem' }}>
-                <strong>Nike</strong> utilizes extensive white space in their advertising to communicate focus, athleticism, and clarity. Their stark white backgrounds isolate the athlete or product, visually representing the "zone" of peak performance without distraction.
+                <strong>Nike</strong> utilizes extensive white space in their advertising to communicate focus, athleticism, and clarity. Their stark white backgrounds isolate the athlete or product, visually representing the “zone” of peak performance without distraction.
               </p>
             </div>
           </section>
@@ -298,10 +298,10 @@ export default function PantoneWhitePage() {
             <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#111827', marginBottom: '1rem' }}>White Pantone: Screen vs. Print Reality</h2>
             <div style={{ background: '#fff', borderRadius: '1.25rem', border: '1.5px solid #f3f4f6', padding: '2rem', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                In the graphic design Pantone system (PMS), white is almost entirely handled by the paper stock. A designer does not print "white ink" on white paper; they simply leave that area unprinted. Therefore, the "whiteness" of the final product is entirely dictated by the paper chosen — a coated bright white stock will yield a stark, crisp white, while an uncoated natural stock will yield a softer, warmer white.
+                In the graphic design Pantone system (PMS), white is almost entirely handled by the paper stock. A designer does not print “white ink” on white paper; they simply leave that area unprinted. Therefore, the “whiteness” of the final product is entirely dictated by the paper chosen — a coated bright white stock will yield a stark, crisp white, while an uncoated natural stock will yield a softer, warmer white.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                If white must be printed (e.g., on colored paper or clear acrylic), printers must use opaque white ink, foil stamping, or specialized white toner. Pantone provides 'Transparent White' as a base mixing ink for creating pastel colors, but it is not meant to be printed as a standalone opaque white.
+                If white must be printed (e.g., on colored paper or clear acrylic), printers must use opaque white ink, foil stamping, or specialized white toner. Pantone provides ‘Transparent White’ as a base mixing ink for creating pastel colors, but it is not meant to be printed as a standalone opaque white.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem' }}>
                 Because white is so dependent on the substrate, industries like fashion and home interiors use the Pantone TCX (cotton) and TPG (paper) systems, which provide hundreds of highly specific, subtly tinted off-whites to ensure precise color matching across fabrics and paints.
@@ -319,11 +319,11 @@ export default function PantoneWhitePage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Fashion &amp; Apparel</h3>
-                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>White is fundamental in fashion. The "perfect white tee" or crisp white button-down are wardrobe staples. The specific shade of white—whether an optic, blue-tinted white for modern athletic wear or a softer, natural white for organic cotton—defines the garment's aesthetic context.</p>
+                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>White is fundamental in fashion. The “perfect white tee” or crisp white button-down are wardrobe staples. The specific shade of white—whether an optic, blue-tinted white for modern athletic wear or a softer, natural white for organic cotton—defines the garment’s aesthetic context.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Interior Design</h3>
-                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>Choosing the "right" white paint is notoriously difficult. Interior designers obsess over white undertones: cool whites are used in modern, sunlit galleries or kitchens, while warm whites are used in north-facing rooms or traditional spaces to prevent the environment from feeling sterile or clinical.</p>
+                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>Choosing the “right” white paint is notoriously difficult. Interior designers obsess over white undertones: cool whites are used in modern, sunlit galleries or kitchens, while warm whites are used in north-facing rooms or traditional spaces to prevent the environment from feeling sterile or clinical.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Digital &amp; Branding</h3>

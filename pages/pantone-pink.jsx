@@ -248,10 +248,10 @@ export default function PantonePinkPage() {
                 Pink sits at the fascinating intersection of red’s passion and white’s purity, creating a color that communicates tenderness, romance, femininity, playfulness, and nurturing warmth. Its psychological effects are highly nuanced and depend heavily on the specific shade: bright, vivid pinks like Pantone 812 C carry energy, boldness, and rebellion; softer blush pinks like Pantone 1767 C feel delicate, calming, and innocent.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                Research into color psychology has shown that exposure to certain shades of pink (specifically 'Baker-Miller pink') temporarily reduces aggression and hostility, which has led to its experimental use in some prison environments and locker rooms.
+                Research into color psychology has shown that exposure to certain shades of pink (specifically ‘Baker-Miller pink’) temporarily reduces aggression and hostility, which has led to its experimental use in some prison environments and locker rooms.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                Pink has undergone significant cultural evolution in recent decades. Once rigidly gendered as feminine in Western cultures (a relatively recent 20th-century development), pink has increasingly been reclaimed by gender-neutral and gender-fluid fashion movements, appearing prominently in contemporary menswear and unisex branding. The 'Barbie' movie of 2023 revitalized massive cultural interest in vivid, unapologetic hot pinks, driving a trend that saw Pantone 219 C become one of the most culturally resonant colors of the year.
+                Pink has undergone significant cultural evolution in recent decades. Once rigidly gendered as feminine in Western cultures (a relatively recent 20th-century development), pink has increasingly been reclaimed by gender-neutral and gender-fluid fashion movements, appearing prominently in contemporary menswear and unisex branding. The ‘Barbie’ movie of 2023 revitalized massive cultural interest in vivid, unapologetic hot pinks, driving a trend that saw Pantone 219 C become one of the most culturally resonant colors of the year.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem' }}>
                 Culturally, pink carries varied meanings globally: in Japan, pink is inextricably linked to cherry blossoms and the transient beauty of nature; in India, pink represents hospitality and is a celebratory color commonly worn at festivals; in Korea, pink flowers represent happiness and good luck. Designers reach for pink when they want to communicate gentleness, romance, bold femininity, youthfulness, or avant-garde individuality — depending entirely on the saturation of the shade they choose.
@@ -264,10 +264,10 @@ export default function PantonePinkPage() {
             <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#111827', marginBottom: '1rem' }}>Famous Brands That Use Pink Pantone Colors</h2>
             <div style={{ background: '#fff', borderRadius: '1.25rem', border: '1.5px solid #f3f4f6', padding: '2rem', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                <strong>Barbie</strong> (Mattel) uses a highly saturated hot pink historically aligned with Pantone 219 C (and variations like Rhodamine Red C). This 'Barbie Pink' is one of the most recognizable proprietary brand colors in toy and fashion history, representing uninhibited playfulness, bold femininity, and confidence.
+                <strong>Barbie</strong> (Mattel) uses a highly saturated hot pink historically aligned with Pantone 219 C (and variations like Rhodamine Red C). This ‘Barbie Pink’ is one of the most recognizable proprietary brand colors in toy and fashion history, representing uninhibited playfulness, bold femininity, and confidence.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, marginBottom: '1.2rem', fontSize: '0.95rem' }}>
-                <strong>T-Mobile</strong> uses Pantone Rhodamine Red C as their distinctive magenta brand color. In the telecommunications industry, where competitors largely use safe blues and reds, T-Mobile's aggressive pink-magenta creates immediate, disruptive recognition and positions the brand as a challenger.
+                <strong>T-Mobile</strong> uses Pantone Rhodamine Red C as their distinctive magenta brand color. In the telecommunications industry, where competitors largely use safe blues and reds, T-Mobile’s aggressive pink-magenta creates immediate, disruptive recognition and positions the brand as a challenger.
               </p>
               <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem' }}>
                 <strong>Cosmopolitan magazine</strong> frequently utilizes vivid hot pinks (aligned with Pantone 812 C and 218 C) in their branding and editorial design to represent femininity, boldness, and the modern, energetic woman.
@@ -323,11 +323,11 @@ export default function PantonePinkPage() {
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Fashion &amp; Apparel</h3>
-                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>Pink is cyclically trendy in fashion, sometimes dominating entire seasons (as seen with the recent 'Barbiecore' and Valentino Pink PP trends). While traditionally prominent in women's wear, pink has increasingly become a staple in gender-neutral streetwear and high fashion.</p>
+                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>Pink is cyclically trendy in fashion, sometimes dominating entire seasons (as seen with the recent ‘Barbiecore’ and Valentino Pink PP trends). While traditionally prominent in women’s wear, pink has increasingly become a staple in gender-neutral streetwear and high fashion.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Interior Design</h3>
-                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>'Millennial Pink' (a soft, muted, dusty rose tone) became a defining interior design trend of the late 2010s, used widely in boutique hotels, restaurants, and residential spaces as a sophisticated neutral alternative to beige or gray.</p>
+                <p style={{ color: '#374151', lineHeight: 1.85, fontSize: '0.95rem', margin: 0 }}>‘Millennial Pink’ (a soft, muted, dusty rose tone) became a defining interior design trend of the late 2010s, used widely in boutique hotels, restaurants, and residential spaces as a sophisticated neutral alternative to beige or gray.</p>
               </div>
               <div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Digital &amp; Branding</h3>

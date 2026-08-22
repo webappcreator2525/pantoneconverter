@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import ogMeta from '../components/ogMeta';
-import Link from 'next/link';
 import { ShieldCheck, Cpu, Layers, HelpCircle, Check, Info } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -72,7 +71,7 @@ export default function About() {
                 </div>
                 <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#111827', margin: 0 }}>Our Mission</h2>
                 <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.6, margin: 0 }}>
-                  Spot color systems can be complex to navigate, and professional tools are often expensive. We built PantoneConverter to be a free, accessible, and fast matching companion. Whether you're prepressing a logo package or matching hex codes for web designs, we want to simplify your workflow.
+                  Spot color systems can be complex to navigate, and professional tools are often expensive. We built PantoneConverter to be a free, accessible, and fast matching companion. Whether you’re prepressing a logo package or matching hex codes for web designs, we want to simplify your workflow.
                 </p>
               </div>
 

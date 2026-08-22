@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/router';
 import { GitCompare, Copy, Check, X, Share2 } from 'lucide-react';
 import NavBar from '../components/NavBar';
@@ -20,7 +20,7 @@ function CopyBtn({ text }) {
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2000);
-    } catch (_) {}
+    } catch {}
   };
   return (
     <button
@@ -37,16 +37,15 @@ function CopyBtn({ text }) {
 
 // ─── Autocomplete search input ────────────────────────────────────
 function PantoneSearch({ id, label, accentColor, value, onChange, onSelect, onClear }) {
-  const [open, setOpen]           = useState(false);
-  const [suggestions, setSugs]    = useState([]);
-  const wrapRef                   = useRef(null);
+  const [open, setOpen] = useState(false);
+  const wrapRef         = useRef(null);
 
-  useEffect(() => {
-    if (!value.trim()) { setSugs([]); setOpen(false); return; }
-    const q    = value.toLowerCase();
-    const hits = pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
-    setSugs(hits);
-    setOpen(hits.length > 0);
+  // Suggestions follow the query, so derive them. Whether the list is *shown*
+  // is genuine state — clicking outside closes it without changing the query.
+  const suggestions = useMemo(() => {
+    if (!value.trim()) return [];
+    const q = value.toLowerCase();
+    return pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
   }, [value]);
 
   useEffect(() => {
@@ -79,7 +78,7 @@ function PantoneSearch({ id, label, accentColor, value, onChange, onSelect, onCl
           id={id}
           type="text"
           value={value}
-          onChange={e => onChange(e.target.value)}
+          onChange={e => { onChange(e.target.value); setOpen(true); }}
           onFocus={() => suggestions.length > 0 && setOpen(true)}
           className="input-field"
           placeholder="Search by name — e.g. 186 C, Cool Gray…"
@@ -107,7 +106,7 @@ function PantoneSearch({ id, label, accentColor, value, onChange, onSelect, onCl
         )}
 
         {/* Dropdown */}
-        {open && (
+        {open && suggestions.length > 0 && (
           <ul style={{
             position: 'absolute', top: 'calc(100% + 4px)', left: 0, right: 0,
             background: '#fff', border: '1.5px solid #e9a8fd',
@@ -401,12 +400,16 @@ export default function ComparePage() {
   const [shareCopied, setShareCopied] = useState(false);
   const router = useRouter();
 
+  // Seed both slots from ?a=&b= once the router is ready. Query values are not
+  // available during a server render without desyncing the hydrated markup, so
+  // this has to happen in an effect rather than during render.
   useEffect(() => {
     if (!router.isReady) return;
     const { a, b } = router.query;
     if (a) {
       const match = pantoneDb.find(e => e.name.toLowerCase() === decodeURIComponent(a).toLowerCase());
       if (match) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setColorA(match);
         setQueryA(match.name);
       }
@@ -441,7 +444,7 @@ export default function ComparePage() {
       await navigator.clipboard.writeText(shareUrl);
       setShareCopied(true);
       setTimeout(() => setShareCopied(false), 2500);
-    } catch (_) {}
+    } catch {}
   };
 
   // ΔE Euclidean RGB distance
@@ -577,7 +580,7 @@ export default function ComparePage() {
                 fontSize: '0.78rem', color: '#6b7280',
                 margin: '0.875rem 0 0', lineHeight: 1.5,
               }}>
-                💡 Try: <em>"186 C"</em>, <em>"Cool Gray 9"</em>, <em>"Reflex Blue"</em>, <em>"Process Black"</em>
+                💡 Try: <em>“186 C”</em>, <em>“Cool Gray 9”</em>, <em>“Reflex Blue”</em>, <em>“Process Black”</em>
               </p>
             )}
           </div>

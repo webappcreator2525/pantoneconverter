@@ -1,4 +1,4 @@
-import { Info, AlertTriangle, BookOpen, Zap } from 'lucide-react';
+import { Info, AlertTriangle, Zap } from 'lucide-react';
 
 /**
  * InfoBox — callout / alert box for MDX articles.

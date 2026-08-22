@@ -69,7 +69,7 @@ function CopyBtn({ text }) {
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2000);
-    } catch (_) {}
+    } catch {}
   };
   return (
     <button
@@ -687,7 +687,7 @@ export default function ImageToPantone() {
               </h1>
             </div>
             <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0, maxWidth: '46rem', lineHeight: 1.6 }}>
-              Upload any image and we'll extract the {TOP_N_COLORS} dominant colors and match each to the closest
+              Upload any image and we’ll extract the {TOP_N_COLORS} dominant colors and match each to the closest
               Pantone PMS color — instantly, in your browser, with no file ever leaving your device.
             </p>
 

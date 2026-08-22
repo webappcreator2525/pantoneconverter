@@ -6,7 +6,6 @@ import { Building2, ArrowRight, Search, X } from 'lucide-react';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 import brands from '../../data/brands.json';
-import { isLightColor } from '../../lib/colorUtils';
 
 // ─── Industry badge color map ─────────────────────────────────────
 function industryStyle(industry) {
@@ -163,7 +162,7 @@ export default function BrandsIndexPage() {
               </h1>
             </div>
             <p style={{ color: '#4b5563', fontSize: '1rem', margin: '0 0 1rem', maxWidth: '46rem', lineHeight: 1.6 }}>
-              Official Pantone, HEX, and CMYK color values for the world's most recognizable brands —
+              Official Pantone, HEX, and CMYK color values for the world’s most recognizable brands —
               from luxury houses to tech giants.
             </p>
 

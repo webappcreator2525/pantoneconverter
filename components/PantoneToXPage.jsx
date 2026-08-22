@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import ogMeta from './ogMeta';
 import { pathFrom } from '../lib/ogCards.mjs';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useMemo } from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import CopyButton from '../components/CopyButton';
@@ -26,15 +26,14 @@ const POPULAR_ENTRIES = POPULAR_NAMES.map(n => {
 // ─── Autocomplete search ──────────────────────────────────────────
 function PantoneSearchInput({ value, onChange, onSelect }) {
   const [open, setOpen] = useState(false);
-  const [suggestions, setSuggestions] = useState([]);
   const wrapRef = useRef(null);
 
-  useEffect(() => {
-    if (!value.trim()) { setSuggestions([]); return; }
+  // Suggestions follow the query, so derive them. Whether the list is *shown*
+  // is genuine state — clicking outside closes it without changing the query.
+  const suggestions = useMemo(() => {
+    if (!value.trim()) return [];
     const q = value.toLowerCase();
-    const hits = pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
-    setSuggestions(hits);
-    setOpen(hits.length > 0);
+    return pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
   }, [value]);
 
   useEffect(() => {
@@ -49,14 +48,14 @@ function PantoneSearchInput({ value, onChange, onSelect }) {
         id="pantone-search"
         type="text"
         value={value}
-        onChange={e => { onChange(e.target.value); }}
+        onChange={e => { onChange(e.target.value); setOpen(true); }}
         onFocus={() => suggestions.length > 0 && setOpen(true)}
         className="input-field"
         placeholder="e.g. 186-C, Cool Gray, Reflex Blue…"
         style={{ fontSize: '1rem', padding: '0.875rem 1.25rem' }}
         autoComplete="off"
       />
-      {open && (
+      {open && suggestions.length > 0 && (
         <ul style={{
           position: 'absolute', top: 'calc(100% + 4px)', left: 0, right: 0,
           background: '#fff', border: '1.5px solid #e9a8fd', borderRadius: '0.875rem',
@@ -244,7 +243,7 @@ export default function PantoneToXPage({
             </label>
             <PantoneSearchInput value={query} onChange={setQuery} onSelect={setSelected} />
             <p style={{ fontSize: '0.78rem', color: '#6b7280', margin: '0.6rem 0 0' }}>
-              Try: "186 C", "Cool Gray 9", "Reflex Blue", "Process Black"
+              Try: “186 C”, “Cool Gray 9”, “Reflex Blue”, “Process Black”
             </p>
           </div>
 

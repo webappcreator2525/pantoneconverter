@@ -76,7 +76,7 @@ function CopyBtn({ text, label }) {
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2000);
-    } catch (_) {}
+    } catch {}
   };
   return (
     <button
@@ -395,7 +395,7 @@ export default function BrandPage({ brand }) {
           {BRAND_COLOR_LINKS[brand.slug] && (
             <div style={{ marginTop: '3.5rem', background: '#fff', borderRadius: '1.25rem', border: '1.5px solid #f3f4f6', padding: '2rem', boxShadow: '0 1px 4px rgba(0,0,0,0.04)' }}>
               <h2 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}>Related Color Guides</h2>
-              <p style={{ color: '#4b5563', fontSize: '0.9rem', marginBottom: '1.25rem' }}>Explore comprehensive Pantone guides for {brand.name}'s primary color families:</p>
+              <p style={{ color: '#4b5563', fontSize: '0.9rem', marginBottom: '1.25rem' }}>Explore comprehensive Pantone guides for {brand.name}’s primary color families:</p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 {BRAND_COLOR_LINKS[brand.slug].map(link => {
                   const isLight = (() => {

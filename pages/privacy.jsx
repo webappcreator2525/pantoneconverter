@@ -59,7 +59,7 @@ export default function PrivacyPolicy() {
                 <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#111827', margin: 0 }}>1. No Data Uploads (Local Processing)</h2>
               </div>
               <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: 1.7, margin: 0 }}>
-                All search parameters, input colors, values, and files are processed strictly inside your device's web browser:
+                All search parameters, input colors, values, and files are processed strictly inside your device’s web browser:
               </p>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', paddingLeft: '0.5rem' }}>
                 <li style={{ display: 'flex', gap: '0.5rem', fontSize: '0.9rem', color: '#374151', lineHeight: 1.5 }}>
@@ -80,7 +80,7 @@ export default function PrivacyPolicy() {
                 <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#111827', margin: 0 }}>2. Saved Colors & LocalStorage</h2>
               </div>
               <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: 1.7, margin: 0 }}>
-                When you click the "Save" heart icon next to color swatches on our website, those items are saved directly on your computer or phone using your browser's <code>localStorage</code> database.
+                When you click the “Save” heart icon next to color swatches on our website, those items are saved directly on your computer or phone using your browser’s <code>localStorage</code> database.
               </p>
               <p style={{ fontSize: '0.92rem', color: '#4b5563', lineHeight: 1.7, margin: 0 }}>
                 Because this data remains entirely local, we do not require account registration, login credentials, or email collections. You can permanently clear all saved colors at any time simply by clearing your browser cache or site data.

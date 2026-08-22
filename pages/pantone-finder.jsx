@@ -255,7 +255,7 @@ export default function PantoneFinder() {
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               This free Pantone Finder lets you instantly search and browse the full PMS library by name or
               HEX code. Click any swatch to reveal its complete color data — HEX, RGB, and CMYK values — all
-              with one-click copy buttons. Whether you're a graphic designer confirming a brand color, a prepress
+              with one-click copy buttons. Whether you’re a graphic designer confirming a brand color, a prepress
               technician verifying ink specifications, or a product developer sourcing a finish, the Pantone
               Finder gives you the reference data you need in seconds.
             </p>

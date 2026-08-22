@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Circle, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -41,16 +41,19 @@ export default function RgbToPantone() {
   const [G, setG] = useState('16');
   const [B, setB] = useState('46');
   const [surface, setSurface] = useState('coated');
-  const [matches, setMatches] = useState([]);
 
   const clamp = v => Math.min(255, Math.max(0, Number(v) || 0));
 
+  // Seed from ?r&g&b on mount. The query string is not readable during a server
+  // render without desyncing the hydrated markup, so this has to happen in an
+  // effect rather than during render.
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const queryR = params.get('r');
       const queryG = params.get('g');
       const queryB = params.get('b');
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       if (queryR !== null) setR(clamp(queryR).toString());
       if (queryG !== null) setG(clamp(queryG).toString());
       if (queryB !== null) setB(clamp(queryB).toString());
@@ -62,12 +65,10 @@ export default function RgbToPantone() {
   const textColor  = isLight ? '#1f2937' : '#ffffff';
   const subColor   = isLight ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
 
-  const runMatch = useCallback(() => {
+  const matches = useMemo(() => {
     const db = surface === 'coated' ? COATED_DB : UNCOATED_DB;
-    setMatches(getMatchesFromRgb(r, g, b, db, 5));
+    return getMatchesFromRgb(r, g, b, db, 5);
   }, [r, g, b, surface]);
-
-  useEffect(() => { runMatch(); }, [runMatch]);
 
   const schema = {
     "@context": "https://schema.org",
@@ -242,7 +243,7 @@ export default function RgbToPantone() {
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Converting RGB to Pantone (PMS) is essential whenever a digital design moves to physical
-              production. Whether you're printing a logo on business cards, producing branded packaging,
+              production. Whether you’re printing a logo on business cards, producing branded packaging,
               or specifying ink for a large-format print run, Pantone gives you a standardized reference
               that any printer worldwide can reproduce with precision. This tool instantly finds the closest
               PMS match for any RGB value using a perceptually-weighted algorithm that emphasizes the green

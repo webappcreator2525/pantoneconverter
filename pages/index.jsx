@@ -323,7 +323,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
               Instantly convert CMYK, HEX, RGB, or HSL to the closest Pantone PMS match —
-              or look up any Pantone color's values. Free, fast, no login.
+              or look up any Pantone color’s values. Free, fast, no login.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/cmyk-to-pantone" className="btn-primary text-base px-8 py-4">

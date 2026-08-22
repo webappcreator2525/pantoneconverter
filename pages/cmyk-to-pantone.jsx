@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { Sliders, Copy, Check, Heart, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -26,7 +26,7 @@ function CopyButton({ text }) {
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2000);
-    } catch (_) {}
+    } catch {}
   };
 
   return (
@@ -181,23 +181,23 @@ export default function CmykToPantone() {
   const [Y, setY] = useState('0');
   const [K, setK] = useState('0');
   const [surface, setSurface] = useState('coated'); // 'coated' | 'uncoated'
-  const [matches, setMatches] = useState([]);
-  const [previewHex, setPreviewHex] = useState('#FFFFFF');
+  // The preview colour and the match list are a pure function of the inputs,
+  // so derive them rather than mirroring them into state from an effect.
 
   const clampVal = v => {
     const n = Number(v);
     return isNaN(n) ? 0 : Math.min(100, Math.max(0, n));
   };
 
-  const runMatch = useCallback(() => {
+  const { previewHex, matches } = useMemo(() => {
     const c = clampVal(C), m = clampVal(M), y = clampVal(Y), k = clampVal(K);
     const rgb = cmykToRgb(c, m, y, k);
-    setPreviewHex(rgbToHex(rgb.r, rgb.g, rgb.b));
     const db = surface === 'coated' ? COATED_DB : UNCOATED_DB;
-    setMatches(getMatchesFromCmyk(c, m, y, k, db, 5));
+    return {
+      previewHex: rgbToHex(rgb.r, rgb.g, rgb.b),
+      matches: getMatchesFromCmyk(c, m, y, k, db, 5),
+    };
   }, [C, M, Y, K, surface]);
-
-  useEffect(() => { runMatch(); }, [runMatch]);
 
   const reset = () => { setC('0'); setM('0'); setY('0'); setK('0'); };
 
@@ -517,7 +517,7 @@ export default function CmykToPantone() {
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Pantone (PMS — Pantone Matching System) solves this by defining standardized
               spot colors that any printer worldwide can reproduce exactly using pre-mixed
-              inks. When you convert CMYK to Pantone, you're finding the single pre-mixed
+              inks. When you convert CMYK to Pantone, you’re finding the single pre-mixed
               PMS color that most closely resembles your four-ink mix. Graphic designers,
               brand managers, and prepress technicians use this conversion to ensure brand
               colors remain consistent across business cards, packaging, signage, and apparel
@@ -563,7 +563,7 @@ export default function CmykToPantone() {
             </p>
             <ul style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0, paddingLeft: '1.4rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <li>
-                <strong style={{ color: '#111827' }}>Brand color standardization</strong> — Translate your brand's CMYK
+                <strong style={{ color: '#111827' }}>Brand color standardization</strong> — Translate your brand’s CMYK
                 color into a single PMS code so logos, business cards, signage, and packaging always match.
               </li>
               <li>
@@ -604,7 +604,7 @@ export default function CmykToPantone() {
               </li>
               <li>
                 <strong style={{ color: '#111827' }}>Gamut difference.</strong> CMYK can approximate a wider range of
-                hues but inconsistently. Pantone's gamut is narrower but every color within it is perfectly
+                hues but inconsistently. Pantone’s gamut is narrower but every color within it is perfectly
                 reproducible.
               </li>
               <li>

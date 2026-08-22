@@ -19,7 +19,7 @@ function CopyBtn({ text }) {
       setCopied(true);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopied(false), 2000);
-    } catch (_) {}
+    } catch {}
   };
   return (
     <button

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Hash, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -27,29 +27,30 @@ function normaliseHex(h) {
 export default function HexToPantone() {
   const [hex, setHex]         = useState('#C8102E');
   const [surface, setSurface] = useState('coated');
-  const [matches, setMatches] = useState([]);
   const [error, setError]     = useState('');
 
   const valid = isValidHex(hex);
 
+  // Seed from ?hex= on mount. The query string is not readable during a server
+  // render without desyncing the hydrated markup, so this has to happen in an
+  // effect rather than during render.
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const params = new URLSearchParams(window.location.search);
       const queryHex = params.get('hex');
       if (queryHex && isValidHex(queryHex)) {
         const withHash = queryHex.startsWith('#') ? queryHex : `#${queryHex}`;
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setHex(withHash);
       }
     }
   }, []);
 
-  const runMatch = useCallback(() => {
-    if (!valid) { setMatches([]); return; }
+  const matches = useMemo(() => {
+    if (!valid) return [];
     const db = surface === 'coated' ? COATED_DB : UNCOATED_DB;
-    setMatches(getMatchesFromHex(hex, db, 5));
+    return getMatchesFromHex(hex, db, 5);
   }, [hex, surface, valid]);
-
-  useEffect(() => { runMatch(); }, [runMatch]);
 
   const handleInput = v => {
     const val = v.startsWith('#') ? v : `#${v}`;
@@ -317,11 +318,11 @@ export default function HexToPantone() {
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0 }}>
               A HEX color code is a six-digit hexadecimal value used in digital design, web development, and
               screen-based media to represent a specific RGB color. While HEX codes are universal for screens,
-              they don't translate directly to the physical world of ink and print — which is where Pantone comes in.
+              they don’t translate directly to the physical world of ink and print — which is where Pantone comes in.
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               Converting a HEX code to its closest Pantone PMS equivalent bridges the gap between digital and
-              print design. When a brand's primary color is defined in HEX for web use, a designer preparing
+              print design. When a brand’s primary color is defined in HEX for web use, a designer preparing
               printed packaging or merchandise needs the equivalent PMS color to ensure color consistency.
               This tool uses a perceptually-weighted RGB distance algorithm to find the closest Pantone match
               from over 2,600 coated and uncoated swatches — instantly, in your browser, with no uploads required.
@@ -370,7 +371,7 @@ export default function HexToPantone() {
             </p>
             <ul style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0, paddingLeft: '1.4rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <li>
-                <strong style={{ color: '#111827' }}>Brand color standardization</strong> — Your website's HEX brand
+                <strong style={{ color: '#111827' }}>Brand color standardization</strong> — Your website’s HEX brand
                 colors need a Pantone equivalent for business cards, signage, apparel, and packaging. This tool gives
                 you the closest PMS match instantly.
               </li>

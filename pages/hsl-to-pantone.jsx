@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import ogMeta from '../components/ogMeta';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useMemo } from 'react';
 import { Sun, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
@@ -39,7 +39,6 @@ export default function HslToPantone() {
   const [S, setS] = useState('85');
   const [L, setL] = useState('42');
   const [surface, setSurface] = useState('coated');
-  const [matches, setMatches] = useState([]);
 
   const clamp = (v, max) => Math.min(max, Math.max(0, Number(v) || 0));
   const h = clamp(H, 360), s = clamp(S, 100), l = clamp(L, 100);
@@ -49,12 +48,10 @@ export default function HslToPantone() {
   const textColor  = isLight ? '#1f2937' : '#ffffff';
   const subColor   = isLight ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
 
-  const runMatch = useCallback(() => {
+  const matches = useMemo(() => {
     const db = surface === 'coated' ? COATED_DB : UNCOATED_DB;
-    setMatches(getMatchesFromHsl(h, s, l, db, 5));
+    return getMatchesFromHsl(h, s, l, db, 5);
   }, [h, s, l, surface]);
-
-  useEffect(() => { runMatch(); }, [runMatch]);
 
   const schema = {
     "@context": "https://schema.org",
