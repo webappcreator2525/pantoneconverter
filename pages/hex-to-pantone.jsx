@@ -146,11 +146,11 @@ export default function HexToPantone() {
   return (
     <>
       <Head>
-        <title>HEX to Pantone Converter — Find Closest PMS Match</title>
-        <meta name="description" content="Convert any HEX color code to the closest Pantone PMS match instantly. Free, no login, client-side matching across 2600+ Pantone colors." />
+        <title>HEX to PMS Converter — Free HEX to Pantone Match</title>
+        <meta name="description" content="Use this free hex to pantone color converter to find the closest PMS match instantly. Look up any hex in pantone's 2600+ swatch library — client-side, no login." />
         <link rel="canonical" href="https://pantoneconverter.com/hex-to-pantone/" />
-        <meta property="og:title" content="HEX to Pantone Converter — Find Closest PMS Match" />
-        <meta property="og:description" content="Convert any HEX color code to the closest Pantone PMS match instantly." />
+        <meta property="og:title" content="HEX to PMS Converter — Free HEX to Pantone Match" />
+        <meta property="og:description" content="Use this free hex to pantone color converter to find the closest PMS match instantly. Look up any hex in pantone's 2600+ swatch library — client-side, no login." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -169,7 +169,7 @@ export default function HexToPantone() {
                 <Hash size={20} color="#7c3aed" />
               </div>
               <h1 style={{ fontSize: '1.75rem', fontWeight: 900, color: '#111827', margin: 0 }}>
-                HEX to Pantone Converter
+                HEX to Pantone & HEX to PMS Converter
               </h1>
             </div>
             <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0 }}>
@@ -316,16 +316,19 @@ export default function HexToPantone() {
               What is HEX to Pantone Conversion?
             </h2>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0 }}>
-              A HEX color code is a six-digit hexadecimal value used in digital design, web development, and
-              screen-based media to represent a specific RGB color. While HEX codes are universal for screens,
-              they don’t translate directly to the physical world of ink and print — which is where Pantone comes in.
+              A HEX color code is a six-digit value that defines colors in digital design, web development, and
+              screen-based media. It represents a specific point in the RGB color palette. HEX codes are universal
+              for screens, but they don't translate directly to the world of ink and print — which is where
+              Pantone comes in.
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
-              Converting a HEX code to its closest Pantone PMS equivalent bridges the gap between digital and
-              print design. When a brand’s primary color is defined in HEX for web use, a designer preparing
-              printed packaging or merchandise needs the equivalent PMS color to ensure color consistency.
-              This tool uses a perceptually-weighted RGB distance algorithm to find the closest Pantone match
-              from over 2,600 coated and uncoated swatches — instantly, in your browser, with no uploads required.
+              This color converter helps you move from screen to print. When a brand's primary color is
+              defined in HEX for web use, a designer preparing printed packaging or merchandise needs the
+              equivalent PMS color to keep things consistent. The tool compares your HEX value against
+              over 2,600 coated and uncoated swatches using a weighted color-distance formula
+              (perceptually-weighted RGB distance) to surface the closest Pantone color match — instantly,
+              in your browser, with no uploads required. Always verify the result against a physical Pantone
+              swatch book before final print production.
             </p>
             <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0.75rem 0 0' }}>
               This tool also supports the reverse workflow — use the{' '}
