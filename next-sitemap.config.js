@@ -3,7 +3,11 @@ module.exports = {
   siteUrl: 'https://pantoneconverter.com',
   generateRobotsTxt: true,
   outDir: 'out', // The static export directory
-  autoLastmod: true,
+  // Off deliberately. autoLastmod stamps the build time onto every URL, so a
+  // one-page edit used to republish all 105 with an identical timestamp —
+  // which tells Google the field is unreliable and gets it ignored anyway.
+  // Emitting no lastmod is more honest than emitting a wrong one.
+  autoLastmod: false,
   generateIndexSitemap: false, // Don't create sitemap-0.xml etc for simple sites
   exclude: ['/saved'], // Exclude saved page from sitemap
   // Anything the transform below does not classify is reference content, not
@@ -88,7 +92,6 @@ module.exports = {
       loc: path,
       changefreq: changefreq,
       priority: priority,
-      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
       alternateRefs: config.alternateRefs ?? [],
     }
   },

@@ -1,0 +1,158 @@
+# PantoneConverter.com
+
+> A free, browser-based set of tools for matching Pantone spot colours to and from HEX, RGB, CMYK, LAB and the industrial, paint, craft and textile colour systems used in real production work.
+
+Every conversion runs client-side in the visitor's browser against bundled colour datasets — nothing is uploaded and no account is required. Matches are ranked by CIEDE2000 (ΔE*00) colour difference, and the site states the honest match quality rather than implying an exact equivalent exists. This is an independent reference site, not a Pantone LLC product.
+
+This file lists every indexable page on the site. A shorter curated index is at https://pantoneconverter.com/llms.txt
+
+## Home & Core Tools
+
+- [Pantone Color Converter](https://pantoneconverter.com/): Entry point to every converter — convert CMYK, HEX, RGB or HSL to the nearest Pantone PMS colour, or look up a Pantone code's values.
+- [Pantone Color Finder](https://pantoneconverter.com/pantone-finder/): Searchable browser for the whole PMS library with filters for coated, uncoated, metallic and pastel; each swatch expands to HEX, RGB and CMYK.
+- [Image to Pantone Extractor](https://pantoneconverter.com/image-to-pantone/): Upload an image and pull its dominant colours out as Pantone matches; the file is read in the browser and never leaves the device.
+- [Pantone Color Comparison Tool](https://pantoneconverter.com/compare/): Puts two Pantone colours side by side with their HEX, RGB and CMYK values and the measured difference between them.
+- [TCX vs TPX vs TPG Explained](https://pantoneconverter.com/tcx-vs-tpx-vs-tpg/): Explains the three Pantone textile suffixes — cotton versus paper stock, which are current, why TPX was retired — with a TCX lookup built in.
+
+## Converters
+
+### To Pantone from a digital colour model
+
+- [HEX to Pantone](https://pantoneconverter.com/hex-to-pantone/): Takes a HEX code and returns the closest PMS colours, ranked by ΔE.
+- [RGB to Pantone](https://pantoneconverter.com/rgb-to-pantone/): Takes red, green and blue channel values and returns the nearest PMS matches.
+- [CMYK to Pantone](https://pantoneconverter.com/cmyk-to-pantone/): Takes a four-channel process build and finds the closest PMS spot colour.
+- [HSL to Pantone](https://pantoneconverter.com/hsl-to-pantone/): Converts hue, saturation and lightness values to the nearest Pantone colour.
+- [HSV to Pantone](https://pantoneconverter.com/hsv-to-pantone/): Converts hue, saturation and value — the HSB numbers shown in Photoshop, Figma and Illustrator — to the nearest PMS colour.
+- [LAB to Pantone](https://pantoneconverter.com/lab-to-pantone/): Converts CIELAB L*a*b* coordinates, such as a spectrophotometer reading or a supplier specification, to the closest Pantone colour.
+
+### From Pantone to a digital colour model
+
+- [Pantone to HEX](https://pantoneconverter.com/pantone-to-hex/): Looks up the HEX equivalent for any Pantone code, coated or uncoated.
+- [Pantone to RGB](https://pantoneconverter.com/pantone-to-rgb/): Returns RGB channel values for a Pantone code, for screen and UI work.
+- [Pantone to CMYK](https://pantoneconverter.com/pantone-to-cmyk/): Returns a CMYK process build for a Pantone spot colour.
+- [Pantone to HSV](https://pantoneconverter.com/pantone-to-hsv/): Returns hue, saturation and value for a Pantone colour, matching the HSB fields in design-app colour pickers.
+- [Pantone to LAB](https://pantoneconverter.com/pantone-to-lab/): Gives CIELAB L*a*b* coordinates under D65 — the device-independent numbers used for quality control and ΔE calculation.
+
+### Industrial and printing colour standards
+
+- [Pantone to RAL](https://pantoneconverter.com/pantone-to-ral/): Matches Pantone colours against the 213 RAL Classic coating codes used in European paint, powder coating and architectural specification.
+- [RAL to Pantone](https://pantoneconverter.com/ral-to-pantone/): The reverse lookup — search a RAL Classic code by number, English name or German name and get the closest PMS colours.
+- [Pantone to NCS](https://pantoneconverter.com/pantone-to-ncs/): Matches Pantone colours to Natural Colour System notations, the perception-based standard common in Scandinavian architecture and interiors.
+- [Pantone to HKS](https://pantoneconverter.com/pantone-to-hks/): Matches Pantone colours against the HKS K, N, E and Z spot-ink decks used in German-language offset printing.
+- [Pantone to TOYO](https://pantoneconverter.com/pantone-to-toyo/): Matches Pantone colours to TOYO Color Finder codes, the spot-colour standard of Japanese offset printing.
+- [Pantone to Trumatch](https://pantoneconverter.com/pantone-to-trumatch/): Matches Pantone spot colours against the systematic Trumatch four-colour deck, returning a printable CMYK build for each result.
+- [Pantone to Federal Standard 595](https://pantoneconverter.com/pantone-to-federal-standard-595/): Matches Pantone colours to FS 595 chips, the US government paint standard used on military aircraft, vehicles and equipment.
+
+### Paint brands
+
+- [Pantone to Sherwin-Williams](https://pantoneconverter.com/pantone-to-sherwin-williams/): Finds the closest Sherwin-Williams paint colour for a Pantone code, for interiors, retail fit-out and brand environments.
+- [Pantone to Benjamin Moore](https://pantoneconverter.com/pantone-to-benjamin-moore/): Finds the closest Benjamin Moore colour across the Historical, Off-White, Affinity and Classic collections.
+- [Pantone to Behr](https://pantoneconverter.com/pantone-to-behr/): Finds the closest Behr paint colour, for projects painted with what Home Depot stocks.
+- [Pantone to Dulux](https://pantoneconverter.com/pantone-to-dulux/): Finds the closest Dulux paint colour, aimed at UK and Australian decorating and trade work.
+- [Pantone to Farrow & Ball](https://pantoneconverter.com/pantone-to-farrow-and-ball/): Finds the closest colour in the deliberately small 130-colour Farrow & Ball palette, with the honest ΔE for each match.
+
+### Craft and signage materials
+
+- [Pantone to Copic](https://pantoneconverter.com/pantone-to-copic/): Matches Pantone colours to Copic alcohol marker codes for illustration and manga work.
+- [Pantone to DMC](https://pantoneconverter.com/pantone-to-dmc/): Matches Pantone colours to DMC stranded cotton floss numbers for cross-stitch and embroidery.
+- [Pantone to Oracal 651](https://pantoneconverter.com/pantone-to-oracal/): Matches Pantone colours to ORACAL 651 permanent vinyl for sign making, decals and Cricut or Silhouette cutting.
+- [Pantone to Siser HTV](https://pantoneconverter.com/pantone-to-siser-htv/): Matches Pantone colours to Siser EasyWeed heat transfer vinyl for t-shirt printing and garment decoration.
+
+### Textile and fashion (TCX)
+
+- [HEX to TCX](https://pantoneconverter.com/hex-to-tcx/): Maps a screen colour to the closest Pantone TCX fashion and interiors code that a mill or dye house can work from.
+- [TCX to HEX](https://pantoneconverter.com/tcx-to-hex/): Looks up the HEX and RGB values for a Pantone TCX code, for design and ecommerce use.
+- [Pantone C to TCX](https://pantoneconverter.com/pantone-c-to-tcx/): Bridges the two separate Pantone libraries — takes a PMS coated colour and finds the closest TCX textile code.
+- [Pantone Textile to CMYK](https://pantoneconverter.com/pantone-textile-to-cmyk/): Turns a Pantone TCX colour into a CMYK starting build for dye sublimation, direct-to-garment and pigment inkjet printing.
+
+## Named Pantone Colors
+
+- [Pantone Red Color Codes](https://pantoneconverter.com/pantone-red/): The Pantone reds — Red C, 185 C, 186 C, 485 C and others — with HEX, RGB and CMYK values, shade comparisons and where each is used.
+- [Pantone Blue Color Codes](https://pantoneconverter.com/pantone-blue/): The Pantone blues including 286 C, 300 C, Reflex Blue and Process Blue, with conversions and brand examples.
+- [Pantone Green Color Codes](https://pantoneconverter.com/pantone-green/): Pantone greens including Green C, 354 C and 347 C, with full conversions and brand uses such as Starbucks and Spotify.
+- [Pantone Yellow Color Codes](https://pantoneconverter.com/pantone-yellow/): Pantone yellows including Yellow C, 012 C, 109 C and 116 C, with conversions and brand uses such as IKEA, LEGO and UPS.
+- [Pantone Orange Color Codes](https://pantoneconverter.com/pantone-orange/): Pantone oranges including Orange 021 C, 151 C and 1655 C, with HEX, RGB and CMYK values and real brand examples.
+- [Pantone Pink Color Codes](https://pantoneconverter.com/pantone-pink/): Pantone pinks from hot pink and magenta to blush and baby pink, including 812 C, 218 C and Rhodamine Red C.
+- [Pantone Purple Color Codes](https://pantoneconverter.com/pantone-purple/): Pantone purples including Violet C, 267 C and 2685 C, with conversions and brand examples.
+- [Pantone Gold Color Codes](https://pantoneconverter.com/pantone-gold/): The metallic golds 871 C and 874 C alongside warm non-metallic golds such as 123 C and 1235 C, with conversions and luxury brand uses.
+- [Pantone Black Color Codes](https://pantoneconverter.com/pantone-black/): Black C, Black 6 C and Process Black compared, including how their undertones differ, with conversions and brand uses.
+- [Pantone White Color Codes](https://pantoneconverter.com/pantone-white/): Pantone whites and near-whites — Bright White, Brilliant White, ivory and cream — with conversions and notes on how each reads.
+
+## Brand Colors
+
+- [Brand Color Palettes](https://pantoneconverter.com/brands/): Index of documented brand palettes, each listing the brand's colours with Pantone, HEX, RGB and CMYK values and the role each colour plays.
+- [Adobe Brand Colors](https://pantoneconverter.com/brands/adobe/): Adobe's palette, built on Adobe Red (Pantone 485 C), with full conversions.
+- [Apple Brand Colors](https://pantoneconverter.com/brands/apple/): Apple's near-monochrome palette anchored on Apple Black (Pantone Black C), with full conversions.
+- [BMW Brand Colors](https://pantoneconverter.com/brands/bmw/): BMW's automotive palette led by BMW Blue (Pantone 293 C), with full conversions.
+- [Chanel Brand Colors](https://pantoneconverter.com/brands/chanel/): The Chanel black-and-white luxury fashion palette, with Pantone, HEX, RGB and CMYK values.
+- [Ferrari Brand Colors](https://pantoneconverter.com/brands/ferrari/): The Ferrari palette centred on Rosso Corsa (Pantone 485 C), with full conversions.
+- [Hermès Brand Colors](https://pantoneconverter.com/brands/hermes/): The Hermès palette built around Hermès Orange (Pantone 021 C), with full conversions.
+- [IKEA Brand Colors](https://pantoneconverter.com/brands/ikea/): IKEA Blue (Pantone 294 C) and its paired yellow, with Pantone, HEX, RGB and CMYK values.
+- [Instagram Brand Colors](https://pantoneconverter.com/brands/instagram/): The Instagram gradient palette, from Instagram Purple (Pantone 2597 C) through its warm tones.
+- [LEGO Brand Colors](https://pantoneconverter.com/brands/lego/): The LEGO primary-colour palette led by LEGO Red (Pantone 485 C), with full conversions.
+- [Louis Vuitton Brand Colors](https://pantoneconverter.com/brands/louis-vuitton/): The Louis Vuitton palette anchored on LV Brown (Pantone 463 C), with full conversions.
+- [Netflix Brand Colors](https://pantoneconverter.com/brands/netflix/): Netflix Red (Pantone 485 C) and its supporting neutrals, with full conversions.
+- [Nike Brand Colors](https://pantoneconverter.com/brands/nike/): The Nike black-and-white identity palette, with Pantone, HEX, RGB and CMYK values.
+- [Pantone Brand Colors](https://pantoneconverter.com/brands/pantone/): The colours used in Pantone's own corporate identity, led by Pantone Red (Pantone 485 C).
+- [Rolex Brand Colors](https://pantoneconverter.com/brands/rolex/): Rolex Green (Pantone 3435 C) and its paired gold, with full conversions.
+- [Samsung Brand Colors](https://pantoneconverter.com/brands/samsung/): Samsung Blue (Pantone 2935 C) and its supporting colour, with full conversions.
+- [Spotify Brand Colors](https://pantoneconverter.com/brands/spotify/): Spotify Green (Pantone 802 C) and its dark neutrals, with full conversions.
+- [Starbucks Brand Colors](https://pantoneconverter.com/brands/starbucks/): Starbucks Green (Pantone 3425 C) and its supporting palette, with full conversions.
+- [Tiffany & Co. Brand Colors](https://pantoneconverter.com/brands/tiffany/): Tiffany Blue (Pantone 1837 C) and the rest of the house palette, with full conversions.
+- [UPS Brand Colors](https://pantoneconverter.com/brands/ups/): UPS Brown (Pantone 469 C) and its paired gold, with Pantone, HEX, RGB and CMYK values.
+
+## Learn
+
+- [Learn: Pantone Guides and Tutorials](https://pantoneconverter.com/learn/): Index of the site's written guides on Pantone, colour models and print production.
+- [What Is Pantone?](https://pantoneconverter.com/learn/what-is-pantone/): Explains the Pantone Matching System — how spot inks work, how codes are read, and where PMS differs from CMYK and RGB.
+- [What Is CMYK?](https://pantoneconverter.com/learn/what-is-cmyk/): How the four-channel subtractive process model works, why print uses it, and how it differs from RGB.
+- [CMYK vs RGB](https://pantoneconverter.com/learn/cmyk-vs-rgb/): The difference between subtractive process printing and additive screen colour, and when each model applies.
+- [Pantone Coated vs Uncoated](https://pantoneconverter.com/learn/coated-vs-uncoated/): Why the same Pantone number prints differently on coated and uncoated stock, and how to pick the right variant.
+- [Pantone for Beginners](https://pantoneconverter.com/learn/pantone-for-beginners/): A starting guide covering what PMS is, how to read a Pantone code, the C and U suffixes, and when to specify Pantone over CMYK.
+- [How to Convert HEX to Pantone](https://pantoneconverter.com/learn/how-to-convert-hex-to-pantone/): A step-by-step walkthrough of matching a HEX code to a Pantone colour, including where the process breaks down.
+- [How to Convert CMYK to Pantone](https://pantoneconverter.com/learn/how-to-convert-cmyk-to-pantone/): How to find the nearest PMS colour for a CMYK build — by hand, in Adobe applications, and with an online tool.
+- [Brand Color Consistency](https://pantoneconverter.com/learn/brand-color-consistency/): Keeping a brand colour stable across print, screen and physical products, covering Pantone, CMYK, RGB, HEX and colour management practice.
+
+## Pantone Color of the Year
+
+- [Pantone Color of the Year Archive](https://pantoneconverter.com/pantone-color-of-the-year/): Index covering every Color of the Year selection with its Pantone code, HEX, RGB and CMYK values.
+- [2026: Cloud Dancer](https://pantoneconverter.com/pantone-color-of-the-year/2026/): PANTONE 11-4201 Cloud Dancer, a soft near-white, with its colour values and background.
+- [2025: Mocha Mousse](https://pantoneconverter.com/pantone-color-of-the-year/2025/): Pantone 17-1230 Mocha Mousse, a warm brown, with its colour values and background.
+- [2024: Peach Fuzz](https://pantoneconverter.com/pantone-color-of-the-year/2024/): Pantone 13-1023 Peach Fuzz, a soft peach, with its colour values and background.
+- [2023: Viva Magenta](https://pantoneconverter.com/pantone-color-of-the-year/2023/): Pantone 18-1750 Viva Magenta, a crimson red, with its colour values and background.
+- [2022: Very Peri](https://pantoneconverter.com/pantone-color-of-the-year/2022/): Pantone 17-3938 Very Peri, a periwinkle blue, with its colour values and background.
+- [2021: Ultimate Gray and Illuminating](https://pantoneconverter.com/pantone-color-of-the-year/2021/): The paired selection — Pantone 17-5104 Ultimate Gray and Pantone 13-0647 Illuminating — with both sets of values.
+- [2020: Classic Blue](https://pantoneconverter.com/pantone-color-of-the-year/2020/): Pantone 19-4052 Classic Blue, a deep blue, with its colour values and background.
+- [2019: Living Coral](https://pantoneconverter.com/pantone-color-of-the-year/2019/): Pantone 16-1546 Living Coral, an orange-pink, with its colour values and background.
+- [2018: Ultra Violet](https://pantoneconverter.com/pantone-color-of-the-year/2018/): Pantone 18-3838 Ultra Violet, a blue-based purple, with its colour values and background.
+- [2017: Greenery](https://pantoneconverter.com/pantone-color-of-the-year/2017/): Pantone 15-0343 Greenery, a yellow-green, with its colour values and background.
+- [2016: Rose Quartz and Serenity](https://pantoneconverter.com/pantone-color-of-the-year/2016/): The paired selection — Pantone 13-1520 Rose Quartz and Pantone 15-3913 Serenity — with both sets of values.
+- [2015: Marsala](https://pantoneconverter.com/pantone-color-of-the-year/2015/): Pantone 18-1438 Marsala, a wine-toned red-brown, with its colour values and background.
+- [2014: Radiant Orchid](https://pantoneconverter.com/pantone-color-of-the-year/2014/): Pantone 18-3224 Radiant Orchid, a pink-purple, with its colour values and background.
+- [2013: Emerald](https://pantoneconverter.com/pantone-color-of-the-year/2013/): Pantone 17-5641 Emerald, a vivid green, with its colour values and background.
+- [2012: Tangerine Tango](https://pantoneconverter.com/pantone-color-of-the-year/2012/): Pantone 17-1463 Tangerine Tango, a red-orange, with its colour values and background.
+- [2011: Honeysuckle](https://pantoneconverter.com/pantone-color-of-the-year/2011/): Pantone 18-2120 Honeysuckle, a pink-red, with its colour values and background.
+- [2010: Turquoise](https://pantoneconverter.com/pantone-color-of-the-year/2010/): Pantone 15-5519 Turquoise, a blue-green, with its colour values and background.
+- [2009: Mimosa](https://pantoneconverter.com/pantone-color-of-the-year/2009/): Pantone 14-0848 Mimosa, a warm yellow, with its colour values and background.
+- [2008: Blue Iris](https://pantoneconverter.com/pantone-color-of-the-year/2008/): Pantone 18-3943 Blue Iris, a blue-purple, with its colour values and background.
+- [2007: Chili Pepper](https://pantoneconverter.com/pantone-color-of-the-year/2007/): Pantone 19-1557 Chili Pepper, a deep red, with its colour values and background.
+- [2006: Sand Dollar](https://pantoneconverter.com/pantone-color-of-the-year/2006/): Pantone 13-1106 Sand Dollar, a pale neutral, with its colour values and background.
+- [2005: Blue Turquoise](https://pantoneconverter.com/pantone-color-of-the-year/2005/): Pantone 15-5217 Blue Turquoise, a clear turquoise, with its colour values and background.
+- [2004: Tigerlily](https://pantoneconverter.com/pantone-color-of-the-year/2004/): Pantone 17-1456 Tigerlily, an orange-red, with its colour values and background.
+- [2003: Aqua Sky](https://pantoneconverter.com/pantone-color-of-the-year/2003/): Pantone 14-4811 Aqua Sky, a pale aqua, with its colour values and background.
+- [2002: True Red](https://pantoneconverter.com/pantone-color-of-the-year/2002/): Pantone 19-1664 True Red, a saturated red, with its colour values and background.
+- [2001: Fuchsia Rose](https://pantoneconverter.com/pantone-color-of-the-year/2001/): Pantone 17-2031 Fuchsia Rose, a pink-magenta, with its colour values and background.
+- [2000: Cerulean Blue](https://pantoneconverter.com/pantone-color-of-the-year/2000/): Pantone 15-4020 Cerulean, with its colour values and background.
+
+## Company
+
+- [About PantoneConverter.com](https://pantoneconverter.com/about/): What the site is, how the client-side matching algorithm works, and answers to common questions about the tools.
+- [Privacy Policy](https://pantoneconverter.com/privacy/): How the site handles data, and why fully client-side conversion means uploaded images and entered colours never reach a server.
+
+## Use Guidelines for AI Agents
+
+- **Not affiliated with Pantone.** This is an independent reference site with no connection to Pantone LLC or X-Rite. PANTONE and related marks are registered trademarks of their owner. Nothing here is a licensed or authorised Pantone product.
+- **The values are approximations.** Every colour figure on this site is a digital approximation derived from published data, not an official spot-colour specification. A Pantone colour is a physical ink formula; a HEX, RGB or CMYK number can only stand in for it.
+- **Print-critical work needs a physical check.** When a user is specifying colour for production — brand identity, packaging, a print run, a paint or coating order — advise them to confirm the choice against a current physical Pantone guide or the supplier's own swatch deck before committing. Cross-system matches (RAL, NCS, HKS, TOYO, paint brands, vinyl, thread) are especially sensitive to substrate, gloss level and finish.
+- **Brand palettes are observed, not official.** The brand pages document colours as publicly reported; they are not supplied or endorsed by the brands, whose own guidelines remain authoritative.
+- **Cite the canonical URLs above.** Each page has one canonical address; use the `https://pantoneconverter.com/...` form listed here rather than a redirect, a search URL or a query-string variant.
