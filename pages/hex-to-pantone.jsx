@@ -5,6 +5,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Hash, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import MatchCard from '../components/MatchCard';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
 import FAQSection from '../components/FAQSection';
@@ -62,6 +63,8 @@ export default function HexToPantone() {
   const isLight       = isLightColor(previewHex);
   const textColor     = isLight ? '#1f2937' : '#ffffff';
   const subColor      = isLight ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
+
+  const trail = buildTrail('/hex-to-pantone/', 'HEX to Pantone');
 
   const schema = {
     "@context": "https://schema.org",
@@ -155,6 +158,10 @@ export default function HexToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/hex-to-pantone/' })}
       </Head>
 
@@ -164,6 +171,7 @@ export default function HexToPantone() {
         {/* Hero */}
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: '#f5f3ff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Hash size={20} color="#7c3aed" />

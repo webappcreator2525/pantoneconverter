@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import { Sun, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import CrossSystemLinks from '../components/CrossSystemLinks';
 import MatchCard from '../components/MatchCard';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
@@ -53,6 +54,8 @@ export default function HslToPantone() {
     return getMatchesFromHsl(h, s, l, db, 5);
   }, [h, s, l, surface]);
 
+  const trail = buildTrail('/hsl-to-pantone/', 'HSL to Pantone');
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -75,6 +78,10 @@ export default function HslToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/hsl-to-pantone/' })}
       </Head>
 
@@ -83,6 +90,7 @@ export default function HslToPantone() {
       <main style={{ minHeight: '100vh', background: '#fafafa' }}>
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: '#f0fdfa', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Sun size={20} color="#0d9488" />

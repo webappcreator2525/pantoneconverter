@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { GitCompare, Copy, Check, X, Share2 } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import CrossSystemLinks from '../components/CrossSystemLinks';
 import pantoneDb from '../data/pantone.json';
 import { isLightColor } from '../lib/colorUtils';
@@ -458,6 +459,8 @@ export default function ComparePage() {
 
   const bothSelected = colorA && colorB;
 
+  const trail = buildTrail('/compare/', 'Pantone Color Comparison');
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -487,6 +490,10 @@ export default function ComparePage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/compare/' })}
       </Head>
 
@@ -501,6 +508,7 @@ export default function ComparePage() {
           padding: '2.5rem 1.5rem 2rem',
         }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{
                 width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem',

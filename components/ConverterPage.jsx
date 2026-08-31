@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 import Footer from './Footer';
 import FAQSection from './FAQSection';
 import CopyableValue from './CopyableValue';
-import Breadcrumb, { breadcrumbSchema } from './Breadcrumb';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from './Breadcrumb';
 import SystemMatchCard, { SourceSwatch } from './SystemMatchCard';
 
 import pantoneDb from '../data/pantone.json';
@@ -643,10 +643,7 @@ export default function ConverterPage({
   }, [exampleCodes, sourceKind, targetKind, paletteColors, isFormulaMode, formula]);
 
   // ── Structured data ────────────────────────────────────────────
-  const trail = [
-    { label: 'Home', href: '/' },
-    { label: breadcrumbLabel },
-  ];
+  const trail = buildTrail(canonical, breadcrumbLabel);
 
   const schema = {
     '@context': 'https://schema.org',
@@ -662,7 +659,7 @@ export default function ConverterPage({
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         ...(featureList.length ? { featureList } : {}),
       },
-      breadcrumbSchema(trail, canonical),
+      breadcrumbSchema(trail),
       ...(faqs.length
         ? [{
             '@type': 'FAQPage',

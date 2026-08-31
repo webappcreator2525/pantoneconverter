@@ -13,6 +13,7 @@ import remarkGfm from 'remark-gfm';
 
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
+import { breadcrumbSchemaFor } from '@/components/Breadcrumb';
 import { InfoBox }      from '@/components/InfoBox';
 import { FAQSection }   from '@/components/FAQSection';
 import { RelatedTools } from '@/components/RelatedTools';
@@ -118,30 +119,7 @@ export default function LearnArticlePage({ mdxSource, frontmatter }) {
     }
   };
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://pantoneconverter.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Learn",
-        "item": "https://pantoneconverter.com/learn/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": title,
-        "item": canonicalUrl
-      }
-    ]
-  };
+  const breadcrumbSchema = breadcrumbSchemaFor(canonicalUrl, title);
 
   return (
     <>

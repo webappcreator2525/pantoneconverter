@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import Link from 'next/link';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import { breadcrumbSchemaFor } from '../components/Breadcrumb';
 import CrossSystemLinks from '../components/CrossSystemLinks';
 
 const PRIMARY_CODES = [
@@ -65,14 +66,7 @@ const FAQS = [
   },
 ];
 
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pantoneconverter.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Pantone Black Colors", "item": "https://pantoneconverter.com/pantone-black/" },
-  ],
-};
+const breadcrumbSchema = breadcrumbSchemaFor('/pantone-black/', 'Pantone Black');
 
 const faqSchema = {
   "@context": "https://schema.org",

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, BookOpen } from 'lucide-react';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '@/components/Breadcrumb';
 
 const ARTICLES = [
   {
@@ -89,6 +90,8 @@ const ARTICLES = [
 ];
 
 export default function LearnIndexPage() {
+  const trail = buildTrail('/learn/', 'Learn');
+
   return (
     <>
       <Head>
@@ -100,6 +103,10 @@ export default function LearnIndexPage() {
         <link rel="canonical" href="https://pantoneconverter.com/learn/" />
         <meta property="og:title"       content="Pantone Color Guides & Tutorials — PantoneConverter.com" />
         <meta property="og:description" content="Free guides on Pantone colors, color conversion, CMYK vs RGB, and print design." />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/learn/' })}
       </Head>
 
@@ -109,6 +116,7 @@ export default function LearnIndexPage() {
         {/* ── Hero ─────────────────────────────────────────────── */}
         <div className="hero-gradient" style={{ padding: '4rem 1.5rem 3rem' }}>
           <div className="container-xl" style={{ textAlign: 'center' }}>
+            <Breadcrumb trail={trail} centered />
             <div style={{
               display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
               background: '#f3d0fe', color: '#7c3aed',

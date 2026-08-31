@@ -5,6 +5,7 @@ import { useState, useRef } from 'react';
 import { ArrowLeft, ArrowRight, Copy, Check, Heart, Sparkles, Search } from 'lucide-react';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import { breadcrumbSchemaFor } from '../../components/Breadcrumb';
 import { colorOfTheYearData } from '../../data/colorOfTheYearData';
 import { isLightColor } from '../../lib/colorUtils';
 import { useFavorites } from '../../lib/FavoritesContext';
@@ -173,30 +174,7 @@ export default function ColorOfTheYearDetail({ current, prev, next }) {
   const primaryColor = current.colors[0];
   const metaDesc = `Official Pantone Color of the Year for ${current.year}: ${current.colors.map(c => `${c.name} (${c.pantone})`).join(' and ')}. View complete HEX, RGB, and CMYK codes.`;
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://pantoneconverter.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Color of the Year",
-        "item": "https://pantoneconverter.com/pantone-color-of-the-year/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": current.year.toString(),
-        "item": `https://pantoneconverter.com/pantone-color-of-the-year/${current.year}/`
-      }
-    ]
-  };
+  const breadcrumbSchema = breadcrumbSchemaFor(`/pantone-color-of-the-year/${current.year}/`, String(current.year));
 
   return (
     <>

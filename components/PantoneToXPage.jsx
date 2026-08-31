@@ -8,6 +8,7 @@ import CopyButton from '../components/CopyButton';
 import pantoneDb from '../data/pantone.json';
 import { isLightColor } from '../lib/colorUtils';
 import CrossSystemLinks from './CrossSystemLinks';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from './Breadcrumb';
 
 // ─── Popular colors ───────────────────────────────────────────────
 const POPULAR_NAMES = [
@@ -190,10 +191,13 @@ export default function PantoneToXPage({
   const [query, setQuery]       = useState('');
   const [selected, setSelected] = useState(null);
 
+  const h1 = pageTitle.split('—')[0].trim();
+  const trail = buildTrail(canonical, h1.replace(/ Converter$/, ''));
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": pageTitle.split('—')[0].trim(),
+    "name": h1,
     "url": canonical,
     "applicationCategory": "DesignApplication",
     "operatingSystem": "All",
@@ -213,6 +217,10 @@ export default function PantoneToXPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: pathFrom(canonical) })}
       </Head>
 
@@ -222,11 +230,12 @@ export default function PantoneToXPage({
         {/* Hero */}
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: iconBg, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 {icon}
               </div>
-              <h1 style={{ fontSize: '1.75rem', fontWeight: 900, color: '#111827', margin: 0 }}>{pageTitle.split('—')[0].trim()}</h1>
+              <h1 style={{ fontSize: '1.75rem', fontWeight: 900, color: '#111827', margin: 0 }}>{h1}</h1>
             </div>
             <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0 }}>
               Search any Pantone color by name to get its {primaryOutput.toUpperCase()} equivalent. Over 3,200 PMS colors — instantly.

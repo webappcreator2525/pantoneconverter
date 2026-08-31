@@ -5,6 +5,7 @@ import { Calendar, ArrowRight, Sparkles, Copy, Check } from 'lucide-react';
 import { useState, useRef } from 'react';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../../components/Breadcrumb';
 import { colorOfTheYearData } from '../../data/colorOfTheYearData';
 import { isLightColor } from '../../lib/colorUtils';
 
@@ -35,6 +36,8 @@ function CopyBtn({ text }) {
 }
 
 export default function ColorOfTheYearIndex() {
+  const trail = buildTrail('/pantone-color-of-the-year/', 'Color of the Year');
+
   return (
     <>
       <Head>
@@ -49,6 +52,10 @@ export default function ColorOfTheYearIndex() {
           property="og:description"
           content="Explore Pantone Color of the Year 2026: Cloud Dancer (PANTONE 11-4201) plus the complete archive from 1999 to 2026 with HEX, RGB, and CMYK values."
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/pantone-color-of-the-year/' })}
       </Head>
 
@@ -62,6 +69,7 @@ export default function ColorOfTheYearIndex() {
           padding: '3rem 1.5rem 2.5rem',
         }}>
           <div style={{ maxWidth: '64rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.875rem', marginBottom: '0.75rem' }}>
               <div style={{
                 width: '2.75rem', height: '2.75rem', borderRadius: '0.875rem',

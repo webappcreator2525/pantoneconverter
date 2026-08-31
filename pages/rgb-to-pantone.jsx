@@ -5,6 +5,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { Circle, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import MatchCard from '../components/MatchCard';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
 import pantoneDb from '../data/pantone.json';
@@ -70,6 +71,8 @@ export default function RgbToPantone() {
     return getMatchesFromRgb(r, g, b, db, 5);
   }, [r, g, b, surface]);
 
+  const trail = buildTrail('/rgb-to-pantone/', 'RGB to Pantone');
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -93,6 +96,10 @@ export default function RgbToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/rgb-to-pantone/' })}
       </Head>
 
@@ -102,6 +109,7 @@ export default function RgbToPantone() {
         {/* Hero */}
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Circle size={20} color="#2563eb" />

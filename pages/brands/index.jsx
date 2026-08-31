@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Building2, ArrowRight, Search, X } from 'lucide-react';
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../../components/Breadcrumb';
 import brands from '../../data/brands.json';
 
 // ─── Industry badge color map ─────────────────────────────────────
@@ -108,6 +109,8 @@ function BrandCard({ brand }) {
 
 // ─── Page ─────────────────────────────────────────────────────────
 export default function BrandsIndexPage() {
+  const trail = buildTrail('/brands/', 'Brand Colors');
+
   const [query, setQuery] = useState('');
 
   // Group brands by industry for the filter state (static render — no JS needed)
@@ -134,6 +137,10 @@ export default function BrandsIndexPage() {
           property="og:description"
           content="Explore official brand color palettes with Pantone, HEX, and CMYK values for the world's most recognizable brands."
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/brands/' })}
       </Head>
 
@@ -148,6 +155,7 @@ export default function BrandsIndexPage() {
           padding: '2.5rem 1.5rem 2.25rem',
         }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.875rem', marginBottom: '0.625rem' }}>
               <div style={{
                 width: '2.75rem', height: '2.75rem', borderRadius: '0.875rem',

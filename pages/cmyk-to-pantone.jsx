@@ -5,6 +5,7 @@ import { useState, useMemo, useRef } from 'react';
 import { Sliders, Copy, Check, Heart, RefreshCw } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
 import FAQSection from '../components/FAQSection';
 import pantoneDb from '../data/pantone.json';
@@ -205,6 +206,8 @@ export default function CmykToPantone() {
   const previewTextColor = isLight ? '#1f2937' : '#ffffff';
   const previewSubColor  = isLight ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
 
+  const trail = buildTrail('/cmyk-to-pantone/', 'CMYK to Pantone');
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -317,6 +320,10 @@ export default function CmykToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/cmyk-to-pantone/' })}
       </Head>
 
@@ -328,6 +335,7 @@ export default function CmykToPantone() {
         {/* ── Hero strip ─────────────────────────────────────── */}
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: '#fdf2f8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Sliders size={20} color="#ec4899" />

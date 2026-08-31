@@ -3,6 +3,7 @@ import ogMeta from '../components/ogMeta';
 import { ShieldCheck, Cpu, Layers, HelpCircle, Check, Info } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 
 export default function About() {
   const pageTitle = "About PantoneConverter.com — Free Color Utility Tool";
@@ -27,6 +28,8 @@ export default function About() {
     }
   ];
 
+  const trail = buildTrail('/about/', 'About PantoneConverter');
+
   return (
     <>
       <Head>
@@ -35,6 +38,10 @@ export default function About() {
         <link rel="canonical" href="https://pantoneconverter.com/about/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDescription} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/about/' })}
       </Head>
 
@@ -44,6 +51,7 @@ export default function About() {
         {/* Hero */}
         <section className="hero-gradient section" style={{ padding: '3.5rem 1.5rem 3rem' }}>
           <div className="container-xl text-center">
+            <Breadcrumb trail={trail} centered />
             <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#7c3aed', textTransform: 'uppercase', letterSpacing: '0.12em', display: 'inline-flex', alignItems: 'center', gap: '0.35rem', marginBottom: '0.75rem' }}>
               <Info size={14} />
               About Our Tool

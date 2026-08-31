@@ -3,10 +3,13 @@ import ogMeta from '../components/ogMeta';
 import { Shield, EyeOff, Save, Check } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 
 export default function PrivacyPolicy() {
   const pageTitle = "Privacy Policy — PantoneConverter.com";
   const metaDescription = "Read the Privacy Policy for PantoneConverter.com. Learn why our 100% client-side conversion tools guarantee your files and colors remain private.";
+
+  const trail = buildTrail('/privacy/', 'Privacy Policy');
 
   return (
     <>
@@ -16,6 +19,10 @@ export default function PrivacyPolicy() {
         <link rel="canonical" href="https://pantoneconverter.com/privacy/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDescription} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/privacy/' })}
       </Head>
 
@@ -25,6 +32,7 @@ export default function PrivacyPolicy() {
         {/* Hero Section */}
         <section className="hero-gradient section" style={{ padding: '3.5rem 1.5rem 3rem' }}>
           <div className="container-xl text-center">
+            <Breadcrumb trail={trail} centered />
             <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#7c3aed', textTransform: 'uppercase', letterSpacing: '0.12em', display: 'inline-flex', alignItems: 'center', gap: '0.35rem', marginBottom: '0.75rem' }}>
               <Shield size={14} />
               Privacy & Security

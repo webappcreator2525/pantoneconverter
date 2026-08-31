@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import pantoneDb from '../data/pantone.json';
 import { findClosestPantones, isLightColor, rgbToHex } from '../lib/colorUtils';
 import { useFavorites } from '../lib/FavoritesContext';
@@ -626,6 +627,8 @@ export default function ImageToPantone() {
 
   const hasResults = extracted.length > 0;
 
+  const trail = buildTrail('/image-to-pantone/', 'Image to Pantone');
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -655,6 +658,10 @@ export default function ImageToPantone() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+        />
         {ogMeta({ path: '/image-to-pantone/' })}
       </Head>
 
@@ -672,6 +679,7 @@ export default function ImageToPantone() {
           padding: '2.5rem 1.5rem 2rem',
         }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
+            <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.875rem', marginBottom: '0.625rem' }}>
               <div style={{
                 width: '2.75rem', height: '2.75rem', borderRadius: '0.875rem',

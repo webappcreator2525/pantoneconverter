@@ -24,6 +24,7 @@ const BRAND_COLOR_LINKS = {
 };
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
+import { breadcrumbSchemaFor } from '../../components/Breadcrumb';
 import brands from '../../data/brands.json';
 import { isLightColor } from '../../lib/colorUtils';
 import { useFavorites } from '../../lib/FavoritesContext';
@@ -239,30 +240,7 @@ export default function BrandPage({ brand }) {
   const pageTitle      = `${brand.name} Brand Colors — Pantone, HEX & CMYK`;
   const metaDesc       = `Official ${brand.name} brand colors: ${primaryColor.pantone} (${primaryColor.hex}) and more. Full Pantone, HEX, RGB, and CMYK values for every ${brand.name} brand color.`;
 
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://pantoneconverter.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Brand Colors",
-        "item": "https://pantoneconverter.com/brands/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": brand.name,
-        "item": `https://pantoneconverter.com/brands/${brand.slug}/`
-      }
-    ]
-  };
+  const breadcrumbSchema = breadcrumbSchemaFor(`/brands/${brand.slug}/`, brand.name);
 
   return (
     <>
