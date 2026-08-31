@@ -32,6 +32,19 @@ npm run build      # next build + next-sitemap, output in out/
 
 Deploy the contents of `out/`. Nothing runs server-side.
 
+Two `postbuild` steps rewrite the export for the critical path:
+
+- `scripts/inline-critical-css.mjs` inlines each page's above-the-fold CSS and
+  turns the Tailwind chunk into a `preload`/`onload` swap, so first paint no
+  longer waits on a stylesheet round trip. (`experimental.inlineCss` would do
+  this natively, but it is App Router only.)
+- `scripts/strip-legacy-polyfills.mjs` removes the shims in Next's client
+  polyfill module for methods every browser in Next's support matrix ships
+  natively. `URL.canParse` is deliberately kept — Safari only got it in 17.
+
+Serve `public/fonts/` and `_next/static/` with long, immutable cache headers;
+both are content-stable.
+
 ## Generated assets
 
 Favicons and Open Graph cards are generated from the design tokens rather than
@@ -53,8 +66,29 @@ to `lib/ogCards.mjs`.
 there gives a page both its image and its `og:image` / `twitter:image` tags,
 since `components/ogMeta.jsx` looks the page up by path.
 
-Plus Jakarta Sans TTFs are downloaded on first run and cached in
+The OG generator needs real TTFs on disk (resvg has no webfont support); Plus
+Jakarta Sans TTFs are downloaded on first run and cached in
 `scripts/.fontcache/` (gitignored), so `npm run assets` needs network access.
+
+## Fonts
+
+Plus Jakarta Sans is self-hosted from `public/fonts/` — variable woff2, weight
+axis 200–800, latin and latin-ext subsets in both roman and italic. Serving it
+ourselves removes the `fonts.googleapis.com` → `fonts.gstatic.com` DNS + TLS +
+CSS chain from the critical path, which was the site's largest render-blocking
+delay and its main source of layout shift.
+
+The `@font-face` rules live in `styles/globals.css`; the latin subset is
+preloaded and the metric-matched `Plus Jakarta Fallback` face is declared inline
+in `pages/_document.jsx`, where the browser sees it before first paint.
+
+```bash
+npm run assets:webfonts   # re-download the subsets + licence from Google Fonts
+```
+
+Licence: **SIL Open Font License 1.1** — full text in `public/fonts/OFL.txt`.
+Copyright 2020 The Plus Jakarta Sans Project Authors
+(https://github.com/tokotype/PlusJakartaSans).
 
 ## Colour system data
 

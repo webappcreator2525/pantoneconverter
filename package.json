@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap && node scripts/sync-sitemap.mjs",
+    "postbuild": "next-sitemap && node scripts/sync-sitemap.mjs && node scripts/strip-legacy-polyfills.mjs && node scripts/inline-critical-css.mjs",
     "start": "next start",
     "lint": "eslint",
     "assets:icons": "node scripts/generate-icons.mjs",
+    "assets:webfonts": "node scripts/fetch-webfonts.mjs",
     "assets:og": "node scripts/generate-og.mjs",
     "assets:verify": "node scripts/verify-og.mjs",
     "assets": "npm run assets:icons && npm run assets:og",
@@ -17,6 +18,12 @@
     "data:tcx": "node scripts/generate-tcx-palette.mjs",
     "data": "npm run data:industrial && npm run data:brands && npm run data:tcx"
   },
+  "browserslist": [
+    "chrome 111",
+    "edge 111",
+    "firefox 111",
+    "safari 16.4"
+  ],
   "dependencies": {
     "@next/mdx": "^16.2.6",
     "gray-matter": "^4.0.3",
@@ -33,6 +40,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "beasties": "^0.4.3",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "next-sitemap": "^4.2.3",

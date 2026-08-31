@@ -1,8 +1,69 @@
 @import "tailwindcss";
 
+/* ── Self-hosted webfont ────────────────────────────────────────────
+   Plus Jakarta Sans (variable, wght 200–800) — SIL Open Font License 1.1.
+   Source: Google Fonts v12 (fonts.gstatic.com), license text in
+   public/fonts/OFL.txt. Re-fetch with `npm run assets:webfonts`.
+
+   Self-hosted so the browser never has to resolve fonts.googleapis.com →
+   fonts.gstatic.com before it can request the font: that DNS/TLS/CSS chain
+   was the render-blocking critical path and the source of the layout shift.
+
+   'Plus Jakarta Fallback' is Arial re-scaled with the real metrics of Plus
+   Jakarta Sans (xWidthAvg 468/1000 vs Arial 913/2048), so the swap from
+   fallback to webfont does not reflow text. Same technique next/font uses. */
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  font-style: italic;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url('/fonts/plus-jakarta-sans-italic-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020,
+    U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* The metric-matched 'Plus Jakarta Fallback' face is declared inline in
+   pages/_document.jsx instead of here: it has to be in the very first bytes
+   of the HTML to have any effect, and it costs no network request. */
+
 /* ── Theme (Tailwind v4 CSS-first config) ───────────────────────── */
 @theme {
-  --font-family-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-family-sans: 'Plus Jakarta Sans', 'Plus Jakarta Fallback', Arial, sans-serif;
 
   /* Brand purple */
   --color-brand-50:  #fdf4ff;
@@ -45,7 +106,7 @@ html {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', 'Plus Jakarta Fallback', Arial, sans-serif;
   background-color: #ffffff;
   color: #111827;
   -webkit-font-smoothing: antialiased;
@@ -115,7 +176,7 @@ body {
   color: #111827;
   font-size: 0.875rem;
   font-weight: 500;
-  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', 'Plus Jakarta Fallback', Arial, sans-serif;
   transition: border-color 0.2s, box-shadow 0.2s;
   outline: none;
 }
