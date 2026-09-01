@@ -26,10 +26,14 @@ export default function CoatedUncoatedComparison({ bestMatch }) {
         background: '#fff', borderRadius: '1rem', border: '1.5px solid #f3f4f6',
         overflow: 'hidden', display: 'flex', flexDirection: 'column',
       }}>
-        <div style={{ padding: '1rem 1rem 0.5rem' }}>
-          <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#4b5563', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '0.75rem' }}>
-            {label}
-          </div>
+        {/* Label sits directly on the padded block — a separate typography
+            wrapper added a DOM level without changing the rendering. */}
+        <div style={{
+          padding: '1rem 1rem 1.25rem',
+          fontSize: '0.8rem', fontWeight: 700, color: '#4b5563',
+          textTransform: 'uppercase', letterSpacing: '0.05em',
+        }}>
+          {label}
         </div>
         <div style={{ height: '8rem', backgroundColor: hex }} />
         <div style={{ padding: '1.25rem 1rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
@@ -82,8 +86,8 @@ export default function CoatedUncoatedComparison({ bestMatch }) {
   };
 
   return (
-    <div style={{ marginTop: '3rem' }}>
-      <h2 style={{ fontSize: '1.25rem', fontWeight: 800, color: '#111827', marginBottom: '1.25rem' }}>
+    <section style={{ marginTop: '3rem' }} aria-labelledby="coated-uncoated-heading">
+      <h2 id="coated-uncoated-heading" style={{ fontSize: '1.25rem', fontWeight: 800, color: '#111827', marginBottom: '1.25rem' }}>
         Coated vs Uncoated Comparison
       </h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
@@ -93,6 +97,6 @@ export default function CoatedUncoatedComparison({ bestMatch }) {
       <p style={{ marginTop: '1.25rem', fontSize: '0.85rem', color: '#4b5563', lineHeight: 1.6, padding: '1rem', background: '#f9fafb', borderRadius: '0.75rem', border: '1px solid #f3f4f6' }}>
         The same Pantone number looks different on coated (glossy) and uncoated (matte) paper due to ink absorption differences. Always verify against a physical Pantone swatch book.
       </p>
-    </div>
+    </section>
   );
 }

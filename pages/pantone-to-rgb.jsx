@@ -249,7 +249,7 @@ export default function PantoneToRgb() {
       <NavBar />
 
       <main style={{ minHeight: '100vh', background: '#fafafa' }}>
-        <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
+        <header style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
@@ -262,7 +262,7 @@ export default function PantoneToRgb() {
               Search any Pantone color by name to get its RGB equivalent. Over 3,200 PMS colors — instantly.
             </p>
           </div>
-        </div>
+        </header>
 
         <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1.5rem 4rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           
@@ -277,16 +277,16 @@ export default function PantoneToRgb() {
           </div>
 
           {selected && (
-            <div>
-              <h2 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111827', marginBottom: '1rem' }}>
+            <section aria-labelledby="rgb-values-heading">
+              <h2 id="rgb-values-heading" style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111827', marginBottom: '1rem' }}>
                 RGB Values for <span className="gradient-text">{selected.name}</span>
               </h2>
               <ResultPanel selected={selected} />
-            </div>
+            </section>
           )}
 
           {!selected && !query.trim() && (
-            <div>
+            <section aria-label="Popular colors">
               <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#6b7280', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '0.875rem' }}>
                 Popular Colors — click to look up
               </div>
@@ -311,29 +311,33 @@ export default function PantoneToRgb() {
                       <div style={{ height: '4.5rem', backgroundColor: entry.hex, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', padding: '0.5rem' }}>
                         <span style={{ fontSize: '0.6rem', fontWeight: 700, color: sc, fontFamily: 'monospace' }}>{entry.hex}</span>
                       </div>
-                      <div style={{ background: '#fff', padding: '0.375rem 0.5rem' }}>
-                        <div style={{ fontSize: '0.62rem', fontWeight: 700, color: '#374151', lineHeight: 1.3, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                          {entry.name.replace('Pantone ', '')}
-                        </div>
+                      {/* Background/padding and the label typography live on a
+                          single element — they were two nested divs before. */}
+                      <div style={{
+                        background: '#fff', padding: '0.375rem 0.5rem',
+                        fontSize: '0.62rem', fontWeight: 700, color: '#374151', lineHeight: 1.3,
+                        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                      }}>
+                        {entry.name.replace('Pantone ', '')}
                       </div>
                     </button>
                   );
                 })}
               </div>
-            </div>
+            </section>
           )}
 
-          <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '0.75rem', padding: '0.75rem 1rem', fontSize: '0.85rem', color: '#475569', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <aside aria-label="How we look up these values" style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '0.75rem', padding: '0.75rem 1rem', fontSize: '0.85rem', color: '#475569', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <span><strong>How we look up these values:</strong> This database contains the official Pantone-published RGB approximations for each PMS color. These are not calculated algorithmic conversions.</span>
             <span style={{ whiteSpace: 'nowrap', marginLeft: '1rem', fontSize: '0.75rem' }}>Last updated: September 2026 · Reviewed by PantoneConverter.com</span>
-          </div>
+          </aside>
 
-          <div className="card" style={{ background: '#f0f9ff', borderLeft: '4px solid #0ea5e9', padding: '1.25rem' }}>
+          <aside className="card" aria-label="Quick takeaway" style={{ background: '#f0f9ff', borderLeft: '4px solid #0ea5e9', padding: '1.25rem' }}>
             <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#0369a1', marginTop: 0, marginBottom: '0.5rem' }}>Bringing the Brand to the Screen</h3>
             <p style={{ fontSize: '0.95rem', color: '#0c4a6e', margin: 0, lineHeight: 1.6 }}>
               Whether you are updating a website, styling an app, or rendering video motion graphics, delivering a consistent brand experience requires translating physical Pantone specs into digital RGB codes. This tool guarantees you capture the intended brand color across digital channels.
             </p>
-          </div>
+          </aside>
 
           <nav aria-label="Table of contents" className="card" style={{ padding: '1.5rem', background: '#fff', border: '1px solid #e5e7eb', borderRadius: '1rem' }}>
             <h2 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111827', marginBottom: '1rem', marginTop: 0 }}>Table of Contents</h2>
@@ -515,7 +519,9 @@ export default function PantoneToRgb() {
               </ul>
             </div>
             
-            <div style={{ margin: '1.5rem 0', padding: '1.5rem', background: '#f8fafc', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
+            <figure style={{ margin: '1.5rem 0', padding: '1.5rem', background: '#f8fafc', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
+              {/* Kept as an <h3> on purpose: demoting it to <figcaption> would
+                  drop a heading from the page outline that the SEO pass added. */}
               <h3 style={{ fontSize: '0.95rem', fontWeight: 700, color: '#1e293b', marginBottom: '1rem', marginTop: 0 }}>Approximate Visible Spectrum Coverage</h3>
               <svg width="100%" height="120" viewBox="0 0 400 120" role="img" aria-label="Horizontal bar chart showing color gamut coverage: sRGB 35%, Pantone Coated 50%, CMYK Print 30%">
                 <rect x="0" y="10" width="140" height="20" fill="#3b82f6" rx="4" />
@@ -527,28 +533,25 @@ export default function PantoneToRgb() {
                 <rect x="0" y="90" width="120" height="20" fill="#06b6d4" rx="4" />
                 <text x="130" y="105" fontSize="12" fill="#475569" fontWeight="600">CMYK Print (~30%)</text>
               </svg>
-            </div>
+            </figure>
 
             <p style={{ fontSize: '0.95rem', color: '#374151', lineHeight: 1.7, margin: '0' }}>
               While digital approximations hold tremendous utility, consulting a physical Pantone swatch book remains the absolute gold standard for mission-critical brand design.
             </p>
           </section>
 
-          <section id="faqs">
-            <FAQSection suppressSchema items={faqs} />
-          </section>
+          <FAQSection id="faqs" suppressSchema items={faqs} />
 
-          <section id="related-conversions">
-            <CrossSystemLinks
-              heading="Convert the Same Pantone Colour to Another System"
-              intro="HEX, RGB and CMYK cover screen and process print. If the colour is heading for paint, coating, thread or fabric instead, these converters find the nearest code in that system and report the ΔE difference."
-              routes={[
-                '/pantone-to-ral/', '/pantone-to-ncs/', '/pantone-to-lab/',
-                '/pantone-to-hsv/', '/pantone-to-dmc/', '/pantone-c-to-tcx/',
-              ]}
-              accentColor="#4f46e5"
-            />
-          </section>
+          <CrossSystemLinks
+            id="related-conversions"
+            heading="Convert the Same Pantone Colour to Another System"
+            intro="HEX, RGB and CMYK cover screen and process print. If the colour is heading for paint, coating, thread or fabric instead, these converters find the nearest code in that system and report the ΔE difference."
+            routes={[
+              '/pantone-to-ral/', '/pantone-to-ncs/', '/pantone-to-lab/',
+              '/pantone-to-hsv/', '/pantone-to-dmc/', '/pantone-c-to-tcx/',
+            ]}
+            accentColor="#4f46e5"
+          />
 
         </div>
       </main>

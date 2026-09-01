@@ -21,6 +21,7 @@ export default function CrossSystemLinks({
   intro,
   routes = [],
   accentColor = '#c44eed',
+  id,
 }) {
   const links = routes
     .map((href) => (LINKS[href] ? { href, ...LINKS[href] } : null))
@@ -29,7 +30,7 @@ export default function CrossSystemLinks({
   if (links.length === 0) return null;
 
   return (
-    <section className="card" style={{ borderTop: `3px solid ${accentColor}` }} aria-labelledby="cross-system-heading">
+    <section id={id} className="card" style={{ borderTop: `3px solid ${accentColor}` }} aria-labelledby="cross-system-heading">
       <h2
         id="cross-system-heading"
         style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}

@@ -6,7 +6,7 @@ import Head from 'next/head';
  * FAQSection — animated accordion FAQ block for MDX articles.
  * Props: items [{ question, answer }]
  */
-export function FAQSection({ items = [], suppressSchema = false }) {
+export function FAQSection({ items = [], suppressSchema = false, id }) {
   const [openIndex, setOpenIndex] = useState(null);
   const toggle = (i) => setOpenIndex((prev) => (prev === i ? null : i));
 
@@ -33,15 +33,15 @@ export function FAQSection({ items = [], suppressSchema = false }) {
           />
         </Head>
       )}
-      <section aria-label="Frequently Asked Questions" style={{ margin: '2rem 0' }}>
-      <h2 style={{
-        fontSize: '1.4rem', fontWeight: 800, color: '#111827',
-        marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem',
-      }}>
-        Frequently Asked Questions
-      </h2>
+      <section id={id} aria-label="Frequently Asked Questions" style={{ margin: '2rem 0' }}>
+        <h2 style={{
+          fontSize: '1.4rem', fontWeight: 800, color: '#111827',
+          marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem',
+        }}>
+          Frequently Asked Questions
+        </h2>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
         {items.map((item, i) => {
           const isOpen = openIndex === i;
           return (
@@ -100,8 +100,8 @@ export function FAQSection({ items = [], suppressSchema = false }) {
             </div>
           );
         })}
-      </div>
-    </section>
+        </div>
+      </section>
     </>
   );
 }

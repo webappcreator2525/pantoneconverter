@@ -188,7 +188,7 @@ export default function RgbToPantone() {
 
       <main style={{ minHeight: '100vh', background: '#fafafa' }}>
         {/* Hero */}
-        <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
+        <header style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
             <Breadcrumb trail={trail} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
@@ -203,7 +203,7 @@ export default function RgbToPantone() {
               Enter R, G, B values and instantly find the closest Pantone PMS matches across {surface === 'coated' ? COATED_DB.length : UNCOATED_DB.length}+ colors.
             </p>
           </div>
-        </div>
+        </header>
 
         <div style={{ maxWidth: '72rem', margin: '0 auto', padding: '2rem 1.5rem 4rem', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
 
@@ -298,9 +298,9 @@ export default function RgbToPantone() {
           </div>
 
           {/* Results */}
-          <div>
+          <section aria-labelledby="top-matches-heading">
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem' }}>
-              <h2 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111827', margin: 0 }}>
+              <h2 id="top-matches-heading" style={{ fontSize: '1.1rem', fontWeight: 800, color: '#111827', margin: 0 }}>
                 Top 5 Pantone Matches
               </h2>
               <span className="badge badge-purple">
@@ -314,24 +314,24 @@ export default function RgbToPantone() {
             {matches.length > 0 && (
               <CoatedUncoatedComparison bestMatch={matches[0]} />
             )}
-          </div>
+          </section>
 
           {/* E-E-A-T Banner & Methodology */}
-          <div style={{ marginTop: '2rem', padding: '1rem 1.5rem', background: '#f8fafc', borderRadius: '0.75rem', border: '1px solid #e2e8f0' }}>
+          <aside aria-label="How we calculate these matches" style={{ marginTop: '2rem', padding: '1rem 1.5rem', background: '#f8fafc', borderRadius: '0.75rem', border: '1px solid #e2e8f0' }}>
             <p style={{ margin: 0, fontSize: '0.85rem', color: '#475569', fontWeight: 600 }}>
               Last updated: September 2026 · Reviewed by the PantoneConverter.com color team
             </p>
             <p style={{ margin: '0.5rem 0 0', fontSize: '0.85rem', color: '#64748b', lineHeight: 1.5 }}>
               <strong>How we calculate this:</strong> Our conversion engine analyzes your RGB input by first translating it into the device-independent CIE Lab color space. We then calculate the perceptually-weighted distance (ΔE*00 formula) to thousands of Pantone spot inks. We intentionally emphasize the green channel in our heuristics to mirror human vision sensitivity, delivering the most visually accurate color match possible.
             </p>
-          </div>
+          </aside>
 
           {/* Key Takeaway Box */}
-          <div style={{ marginTop: '2rem', padding: '1.5rem', background: '#eff6ff', borderRadius: '1rem', borderLeft: '4px solid #3b82f6' }}>
+          <aside aria-label="Quick takeaway" style={{ marginTop: '2rem', padding: '1.5rem', background: '#eff6ff', borderRadius: '1rem', borderLeft: '4px solid #3b82f6' }}>
             <p style={{ margin: 0, fontSize: '1.05rem', color: '#1e3a8a', fontWeight: 600, lineHeight: 1.6 }}>
               Quick Takeaway: A flawless transition from screen to print production starts with the right color space. This tool lets designers translate digital RGB screens into physical Pantone spot inks effortlessly. Use it to preserve brand identity across logo printing, packaging, and commercial offset runs, ensuring your exact intent arrives on paper perfectly.
             </p>
-          </div>
+          </aside>
 
           {/* Table of Contents */}
           <nav aria-label="Table of Contents" style={{ background: '#ffffff', padding: '1.5rem', borderRadius: '1rem', border: '1px solid #e5e7eb', marginTop: '2rem' }}>
@@ -351,7 +351,7 @@ export default function RgbToPantone() {
           </nav>
 
           {/* Long-Form Content */}
-          <div className="card" style={{ padding: '2.5rem', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+          <article className="card" style={{ padding: '2.5rem', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             
             <section>
               <h2 id="what-is-rgb-pantone" style={{ fontSize: '1.4rem', fontWeight: 800, color: '#111827', margin: '0 0 1rem' }}>
@@ -544,7 +544,7 @@ export default function RgbToPantone() {
               </p>
               
               {/* ΔE Accuracy Tiers Chart SVG */}
-              <div style={{ background: '#ffffff', border: '1px solid #e5e7eb', borderRadius: '0.75rem', padding: '1.5rem', marginBottom: '1.5rem' }}>
+              <figure style={{ background: '#ffffff', border: '1px solid #e5e7eb', borderRadius: '0.75rem', padding: '1.5rem', margin: '0 0 1.5rem' }}>
                 <svg viewBox="0 0 600 250" width="100%" height="auto" role="img" aria-label="Delta E Accuracy Tiers Chart">
                   <title>Delta E Visual Accuracy Scale</title>
                   <text x="10" y="25" fontSize="16" fontWeight="bold" fill="#374151">ΔE Accuracy Rating Scale</text>
@@ -569,7 +569,7 @@ export default function RgbToPantone() {
                   <text x="100" y="230" fontSize="14" fill="#111827" fontWeight="bold">&gt; 10: Different color</text>
                   <text x="250" y="230" fontSize="13" fill="#6b7280">The RGB color falls outside the print gamut.</text>
                 </svg>
-              </div>
+              </figure>
 
               <div style={{ background: '#fef3c7', borderLeft: '4px solid #f59e0b', padding: '1.5rem', borderRadius: '0.5rem' }}>
                 <h3 style={{ margin: '0 0 0.75rem', fontSize: '1.05rem', color: '#92400e', fontWeight: 800 }}>Quick Reference: Ensuring Color Accuracy</h3>
@@ -581,9 +581,7 @@ export default function RgbToPantone() {
               </div>
             </section>
 
-            <section id="faq">
-              <FAQSection suppressSchema items={faqItems} />
-            </section>
+            <FAQSection id="faq" suppressSchema items={faqItems} />
 
             <section id="related" style={{ marginTop: '2rem' }}>
               <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#111827', margin: '0 0 1rem' }}>
@@ -616,7 +614,7 @@ export default function RgbToPantone() {
                 </Link>
               </div>
             </section>
-          </div>
+          </article>
         </div>
       </main>
 
