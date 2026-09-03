@@ -10,7 +10,8 @@ import MatchCard from '../components/MatchCard';
 import CoatedUncoatedComparison from '../components/CoatedUncoatedComparison';
 import FAQSection from '../components/FAQSection';
 import pantoneDb from '../data/pantone.json';
-import { hexToRgb, isLightColor, getMatchesFromHex, rgbToHex } from '../lib/colorUtils';
+import { hexToRgb, isLightColor, getMatchesFromHex } from '../lib/colorUtils';
+import { useDeferredInput } from '../lib/useDeferredInput';
 
 const COATED_DB   = pantoneDb.filter(e => e.collection === 'coated');
 const UNCOATED_DB = pantoneDb.filter(e => e.collection === 'uncoated');
@@ -25,12 +26,99 @@ function normaliseHex(h) {
   return `#${full.toUpperCase()}`;
 }
 
+// Constant for the life of the page. They used to be rebuilt — and the JSON-LD
+// re-stringified — on every render, which on a page that re-renders per
+// keystroke is pure waste.
+const TRAIL = buildTrail('/hex-to-pantone/', 'HEX to Pantone');
+
+// The visible FAQ, and the only source for the FAQPage JSON-LD below —
+// Google requires the two to match, and hand-maintaining both had already let
+// them drift apart on five of six entries.
+const FAQ_ITEMS = [
+  {
+    question: 'Is this HEX to Pantone converter free?',
+    answer: 'Yes — completely free, no login or account required. All color matching runs client-side in your browser. No HEX codes or results are sent to any server.',
+  },
+  {
+    question: 'How accurate is HEX to Pantone conversion?',
+    answer: 'The tool uses a perceptually-weighted RGB distance algorithm across 2,600+ Pantone swatches to find the closest visual match. Because HEX is a screen color space (RGB) and Pantone is a physical ink system, a perfect match doesn\'t always exist — the result is the best achievable approximation. Always verify with a physical Pantone swatch book before final print production.',
+  },
+  {
+    question: 'What is the difference between HEX and PMS?',
+    answer: 'HEX (hexadecimal) is a digital format representing RGB values used on screens and in web design. PMS (Pantone Matching System) is a standardized physical ink color system used in commercial printing. A hexadecimal to PMS conversion gives you the closest printable Pantone ink color for any screen color.',
+  },
+  {
+    question: 'What is the difference between coated and uncoated Pantone?',
+    answer: 'Coated (C) Pantone colors are for glossy or coated paper. Uncoated (U) colors are for matte or uncoated surfaces. The same Pantone number looks visually different on each finish. This tool shows both variants side by side — always confirm with a physical swatch before production.',
+  },
+  {
+    question: 'Can I convert multiple HEX codes at once?',
+    answer: 'The tool converts one HEX code at a time. Save individual results using the heart icon on each match and access all saved colors from the Saved Colors page.',
+  },
+  {
+    question: 'Does this work for hex colour to Pantone (British spelling)?',
+    answer: 'Yes — the converter works identically for "hex color to Pantone" and "hex colour to Pantone." It accepts all standard HEX input formats regardless of regional spelling.',
+  },
+  {
+    question: 'Can I also convert Pantone to HEX?',
+    answer: 'Yes — use the Pantone to HEX converter at pantoneconverter.com/pantone-to-hex/ for the reverse lookup.',
+  },
+  {
+    question: 'How do I find a Pantone color from a hex code?',
+    answer: 'Paste your HEX value into the input field above. The tool automatically searches through 2,600+ Pantone swatches and returns the 5 closest PMS matches ranked by perceptual color distance — no manual lookup required.',
+  },
+];
+
+const SCHEMA = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "HEX to Pantone Converter",
+      "url": "https://pantoneconverter.com/hex-to-pantone/",
+      "description": "Convert any HEX color code to the closest Pantone PMS match. Free, instant, client-side matching across 2600+ coated and uncoated Pantone swatches.",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Top 5 closest Pantone PMS matches",
+        "Coated and uncoated swatch comparison",
+        "CMYK, RGB, and HEX values for each match",
+        "One-click copy for all color values",
+        "2600+ Pantone swatches",
+        "Client-side processing, no data sent to server"
+      ]
+    }
+  ]
+};
+
+// The FAQPage node is generated from FAQ_ITEMS rather than written out, so the
+// structured data cannot describe questions the page does not show.
+SCHEMA['@graph'].push({
+  '@type': 'FAQPage',
+  mainEntity: FAQ_ITEMS.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+});
+
+const SCHEMA_JSON = JSON.stringify(SCHEMA);
+const BREADCRUMB_JSON = JSON.stringify(breadcrumbSchema(TRAIL));
+
+
 export default function HexToPantone() {
   const [hex, setHex]         = useState('#C8102E');
   const [surface, setSurface] = useState('coated');
-  const [error, setError]     = useState('');
 
   const valid = isValidHex(hex);
+  // Derived, not state: it is a pure function of `hex`, and keeping it in state
+  // meant a second setState on every keystroke for no extra information.
+  const error = hex.length > 1 && !valid ? 'Enter a valid 3 or 6-digit HEX code' : '';
 
   // Seed from ?hex= on mount. The query string is not readable during a server
   // render without desyncing the hydrated markup, so this has to happen in an
@@ -47,16 +135,28 @@ export default function HexToPantone() {
     }
   }, []);
 
+  // The swatch preview and the validation message follow `hex` and stay
+  // instant. The match list is the expensive half — five MatchCards plus the
+  // coated/uncoated comparison — so it follows the lagging copy and re-renders
+  // a few times a second rather than once per keystroke.
+  const settledHex = useDeferredInput(hex);
+
   const matches = useMemo(() => {
-    if (!valid) return [];
+    if (!isValidHex(settledHex)) return [];
     const db = surface === 'coated' ? COATED_DB : UNCOATED_DB;
-    return getMatchesFromHex(hex, db, 5);
-  }, [hex, surface, valid]);
+    return getMatchesFromHex(settledHex, db, 5);
+  }, [settledHex, surface]);
+
+  // Memoised alongside `matches`, so a keystroke that has not yet settled hands
+  // React the identical element array and it skips the cards entirely rather
+  // than rebuilding five elements and running five memo comparisons.
+  const matchCards = useMemo(
+    () => matches.map((m, i) => <MatchCard key={m.name} match={m} rank={i} />),
+    [matches],
+  );
 
   const handleInput = v => {
-    const val = v.startsWith('#') ? v : `#${v}`;
-    setHex(val);
-    setError(val.length > 1 && !isValidHex(val) ? 'Enter a valid 3 or 6-digit HEX code' : '');
+    setHex(v.startsWith('#') ? v : `#${v}`);
   };
 
   const previewHex    = valid ? normaliseHex(hex) : '#e5e7eb';
@@ -64,87 +164,6 @@ export default function HexToPantone() {
   const textColor     = isLight ? '#1f2937' : '#ffffff';
   const subColor      = isLight ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
 
-  const trail = buildTrail('/hex-to-pantone/', 'HEX to Pantone');
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebApplication",
-        "name": "HEX to Pantone Converter",
-        "url": "https://pantoneconverter.com/hex-to-pantone/",
-        "description": "Convert any HEX color code to the closest Pantone PMS match. Free, instant, client-side matching across 2600+ coated and uncoated Pantone swatches.",
-        "applicationCategory": "DesignApplication",
-        "operatingSystem": "Any",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "featureList": [
-          "Top 5 closest Pantone PMS matches",
-          "Coated and uncoated swatch comparison",
-          "CMYK, RGB, and HEX values for each match",
-          "One-click copy for all color values",
-          "2600+ Pantone swatches",
-          "Client-side processing, no data sent to server"
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is this HEX to Pantone converter free?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, completely free with no login or signup required. All color matching happens client-side in your browser \u2014 no HEX codes or results are sent to any server."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How accurate is the HEX to Pantone conversion?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The tool uses a perceptually-weighted RGB distance algorithm to find the closest match from 2,600+ Pantone swatches. Because HEX is a screen color space (RGB) and Pantone is a physical ink system, a mathematically perfect match doesn't always exist. Always verify against a physical Pantone swatch book before final print production."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between HEX and PMS colors?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "HEX (hexadecimal) codes represent colors in the RGB color model used on screens and in web design. PMS (Pantone Matching System) is a standardized physical ink color system used in commercial printing. Converting a HEX code to its closest PMS equivalent bridges digital and print workflows."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is the difference between coated and uncoated Pantone?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Coated (C) Pantone colors are used for glossy or coated paper stock. Uncoated (U) colors are for matte or uncoated surfaces. The same Pantone number looks visually different on each finish \u2014 coated colors appear more vibrant. This tool shows both variants so you can compare before sending to print."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I convert multiple HEX codes to Pantone at once?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The tool converts one HEX code at a time. Save individual results using the heart icon on each match, then access all saved colors from the Saved Colors page for batch reference."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I also convert Pantone to HEX?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes \u2014 use the Pantone to HEX converter at pantoneconverter.com/pantone-to-hex/ for the reverse lookup."
-            }
-          }
-        ]
-      }
-    ]
-  };
 
   return (
     <>
@@ -156,11 +175,11 @@ export default function HexToPantone() {
         <meta property="og:description" content="Convert any HEX color code to the closest Pantone PMS match instantly." />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: SCHEMA_JSON }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
+          dangerouslySetInnerHTML={{ __html: BREADCRUMB_JSON }}
         />
         {ogMeta({ path: '/hex-to-pantone/' })}
       </Head>
@@ -171,7 +190,7 @@ export default function HexToPantone() {
         {/* Hero */}
         <div style={{ background: 'linear-gradient(135deg,#fdf4ff 0%,#eff6ff 100%)', borderBottom: '1px solid #f3f4f6', padding: '2.5rem 1.5rem 2rem' }}>
           <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
-            <Breadcrumb trail={trail} />
+            <Breadcrumb trail={TRAIL} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
               <div style={{ width: '2.5rem', height: '2.5rem', borderRadius: '0.75rem', background: '#f5f3ff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Hash size={20} color="#7c3aed" />
@@ -309,13 +328,32 @@ export default function HexToPantone() {
               <div style={{ textAlign: 'center', padding: '3rem', color: '#6b7280' }}>Enter a valid HEX code above.</div>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
-                {matches.map((m, i) => <MatchCard key={m.name} match={m} rank={i} />)}
+                {matchCards}
               </div>
             )}
             
             {valid && matches.length > 0 && (
               <CoatedUncoatedComparison bestMatch={matches[0]} />
             )}
+          </div>
+
+          {/* The other direction, offered where people actually need it: right
+              under the matches, not four paragraphs into an SEO block. Someone
+              who has just matched a hex code to a PMS number very often wants
+              the published hex for a *different* PMS number next. */}
+          <div style={{
+            background: '#faf5ff', border: '1.5px solid #e9d5ff', borderRadius: '0.875rem',
+            padding: '1rem 1.15rem',
+          }}>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0 }}>
+              <strong style={{ color: '#111827' }}>Need to go the other way?</strong> If you already have a
+              PMS number and want its screen value, the{' '}
+              <Link href="/pantone-to-hex/" style={{ color: '#7c3aed', fontWeight: 700, textDecoration: 'underline' }}>
+                Pantone to HEX converter
+              </Link>{' '}
+              looks up any of the 3,231 Pantone colours and returns the hex, RGB and CMYK values, with a
+              100-colour PMS to HEX chart and a coated-versus-uncoated comparison underneath it.
+            </p>
           </div>
 
           {/* SEO: What is HEX to Pantone Conversion */}
@@ -418,40 +456,7 @@ export default function HexToPantone() {
 
           {/* SEO: FAQ accordion */}
           <div className="card" style={{ borderTop: '3px solid #7c3aed' }}>
-            <FAQSection suppressSchema items={[
-              {
-                question: 'Is this HEX to Pantone converter free?',
-                answer: 'Yes — completely free, no login or account required. All color matching runs client-side in your browser. No HEX codes or results are sent to any server.',
-              },
-              {
-                question: 'How accurate is HEX to Pantone conversion?',
-                answer: 'The tool uses a perceptually-weighted RGB distance algorithm across 2,600+ Pantone swatches to find the closest visual match. Because HEX is a screen color space (RGB) and Pantone is a physical ink system, a perfect match doesn\'t always exist — the result is the best achievable approximation. Always verify with a physical Pantone swatch book before final print production.',
-              },
-              {
-                question: 'What is the difference between HEX and PMS?',
-                answer: 'HEX (hexadecimal) is a digital format representing RGB values used on screens and in web design. PMS (Pantone Matching System) is a standardized physical ink color system used in commercial printing. A hexadecimal to PMS conversion gives you the closest printable Pantone ink color for any screen color.',
-              },
-              {
-                question: 'What is the difference between coated and uncoated Pantone?',
-                answer: 'Coated (C) Pantone colors are for glossy or coated paper. Uncoated (U) colors are for matte or uncoated surfaces. The same Pantone number looks visually different on each finish. This tool shows both variants side by side — always confirm with a physical swatch before production.',
-              },
-              {
-                question: 'Can I convert multiple HEX codes at once?',
-                answer: 'The tool converts one HEX code at a time. Save individual results using the heart icon on each match and access all saved colors from the Saved Colors page.',
-              },
-              {
-                question: 'Does this work for hex colour to Pantone (British spelling)?',
-                answer: 'Yes — the converter works identically for "hex color to Pantone" and "hex colour to Pantone." It accepts all standard HEX input formats regardless of regional spelling.',
-              },
-              {
-                question: 'Can I also convert Pantone to HEX?',
-                answer: 'Yes — use the Pantone to HEX converter at pantoneconverter.com/pantone-to-hex/ for the reverse lookup.',
-              },
-              {
-                question: 'How do I find a Pantone color from a hex code?',
-                answer: 'Paste your HEX value into the input field above. The tool automatically searches through 2,600+ Pantone swatches and returns the 5 closest PMS matches ranked by perceptual color distance — no manual lookup required.',
-              },
-            ]} />
+            <FAQSection suppressSchema items={FAQ_ITEMS} />
           </div>
         </div>
       </main>

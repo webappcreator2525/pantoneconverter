@@ -321,9 +321,23 @@ export default function HomePage() {
               <br />
               Color Converter
             </h1>
-            <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
+            <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-5 font-medium leading-relaxed">
               Instantly convert CMYK, HEX, RGB, or HSL to the closest Pantone PMS match —
               or look up any Pantone color’s values. Free, fast, no login.
+            </p>
+            {/* Body-copy links to the two reference pages. The tool grid below
+                already lists them, but a link inside a sentence carries more
+                weight than one inside a card. */}
+            <p className="text-base text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+              Already have a PMS number? The{' '}
+              <Link href="/pantone-to-hex/" className="text-purple-700 font-semibold underline">
+                Pantone to HEX converter
+              </Link>{' '}
+              gives you the screen value along with a 100-colour chart and contrast ratios, and the{' '}
+              <Link href="/pantone-to-cmyk/" className="text-purple-700 font-semibold underline">
+                Pantone to CMYK converter
+              </Link>{' '}
+              gives you the four-colour ink build with total coverage for every one.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/cmyk-to-pantone" className="btn-primary text-base px-8 py-4">

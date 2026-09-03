@@ -27,9 +27,9 @@ This file lists every indexable page on the site. A shorter curated index is at 
 
 ### From Pantone to a digital colour model
 
-- [Pantone to HEX](https://pantoneconverter.com/pantone-to-hex/): Looks up the HEX equivalent for any Pantone code, coated or uncoated.
+- [Pantone to HEX](https://pantoneconverter.com/pantone-to-hex/): Looks up the HEX equivalent for any Pantone code, coated or uncoated, and carries a 100-colour PMS-to-HEX chart with RGB values, the nearest CSS keyword by ΔE and WCAG contrast ratios, plus a coated-versus-uncoated table showing how far the C and U codes actually diverge.
 - [Pantone to RGB](https://pantoneconverter.com/pantone-to-rgb/): Returns RGB channel values for a Pantone code, for screen and UI work.
-- [Pantone to CMYK](https://pantoneconverter.com/pantone-to-cmyk/): Returns a CMYK process build for a Pantone spot colour.
+- [Pantone to CMYK](https://pantoneconverter.com/pantone-to-cmyk/): Returns a CMYK process build for a Pantone spot colour, with a 100-colour ink chart giving total area coverage and flagging builds that leave the press no ink headroom, plus sections on rich black, total ink limits and when a fifth spot plate is worth paying for.
 - [Pantone to HSV](https://pantoneconverter.com/pantone-to-hsv/): Returns hue, saturation and value for a Pantone colour, matching the HSB fields in design-app colour pickers.
 - [Pantone to LAB](https://pantoneconverter.com/pantone-to-lab/): Gives CIELAB L*a*b* coordinates under D65 — the device-independent numbers used for quality control and ΔE calculation.
 

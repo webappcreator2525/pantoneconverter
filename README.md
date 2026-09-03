@@ -100,7 +100,15 @@ npm run data              # regenerate every palette
 npm run data:industrial   # RAL, NCS, HKS, TOYO, Trumatch, FS 595
 npm run data:brands       # DMC, Copic, Oracal, Siser + five paint brands
 npm run data:tcx          # Pantone Fashion, Home + Interiors (TCX)
+npm run data:stats        # data/color-stats.json for the two reference pages
 ```
+
+`data:stats` is the odd one out: it derives from `data/pantone.json` rather than
+from a table in `scripts/`, and it produces every figure the conversion charts
+and SVG charts on `/pantone-to-hex/` and `/pantone-to-cmyk/` print — including
+the ones quoted in the prose. Re-run it if `pantone.json` changes, so the pages
+cannot claim numbers the dataset no longer supports. It fails the build rather
+than emitting a row for a colour the dataset does not contain.
 
 The JSON is committed, so a normal build never runs these — they exist so the
 data can be regenerated or replaced. Each file records an `accuracy` field
@@ -111,6 +119,33 @@ a drop-in: keep the `[code, name, localName, hex]` row shape and re-run.
 
 `scripts/` is dev-only tooling. Nothing under `pages/`, `components/` or `lib/`
 imports from it, so it is never bundled and never reaches `out/`.
+
+## Performance measurement
+
+`scripts/perf/` drives headless Chrome over the DevTools Protocol to measure the
+built site in `out/`. It has no dependencies — Chrome is already installed and
+Node ships a WebSocket client — so it needs no install step, but it does need a
+build first, because it measures the export rather than the dev server.
+
+```bash
+npm run build
+node scripts/perf/measure.mjs          # layout shift + interaction latency
+node scripts/perf/measure.mjs inp      # interaction latency only
+node scripts/perf/measure.mjs cls      # layout shift only
+node scripts/perf/profile.mjs          # CPU profile of a typing burst
+node scripts/perf/data-work.mjs        # cost of the colour maths alone
+node scripts/perf/font-swap-cls.mjs    # layout shift with the webfont blocked
+node scripts/perf/faq-schema-check.mjs # FAQPage JSON-LD vs the visible FAQ
+node scripts/perf/snapshot.mjs before  # …change something, rebuild…
+node scripts/perf/snapshot.mjs after
+node scripts/perf/snapshot.mjs diff    # pixel + element-box diff at 375 / 1287px
+```
+
+`measure.mjs` reports CLS under three conditions — clean profile, a profile with
+saved colours, and a throttled network — because the first two report 0 on every
+route and only the third reproduces what the field data shows. `snapshot.mjs` is
+the guard for changes that are supposed to be visually inert; screenshots land in
+`scripts/perf/shots/` and are gitignored.
 
 ## Layout
 

@@ -1,3 +1,18 @@
+/**
+ * Pages rewritten on a known date, path → ISO date. See the note on
+ * `autoLastmod` below for why this is a hand-kept list rather than a build
+ * timestamp applied to everything.
+ */
+const LASTMOD = {
+  '/pantone-to-hex': '2026-09-03',
+  '/pantone-to-cmyk': '2026-09-03',
+  '/hex-to-pantone': '2026-09-03',
+  '/cmyk-to-pantone': '2026-09-03',
+  '/': '2026-09-03',
+  '/learn/how-to-convert-hex-to-pantone': '2026-09-03',
+  '/learn/how-to-convert-cmyk-to-pantone': '2026-09-03',
+};
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://pantoneconverter.com',
@@ -7,6 +22,12 @@ module.exports = {
   // one-page edit used to republish all 105 with an identical timestamp —
   // which tells Google the field is unreliable and gets it ignored anyway.
   // Emitting no lastmod is more honest than emitting a wrong one.
+  //
+  // LASTMOD below is the exception that proves the rule: a hand-kept list of
+  // pages whose content genuinely changed on a known date. Add a path here only
+  // when you have actually rewritten it, and delete nothing — a stale entry is
+  // worse than a missing one. Everything absent from the map ships without a
+  // lastmod, exactly as before.
   autoLastmod: false,
   generateIndexSitemap: false, // Don't create sitemap-0.xml etc for simple sites
   exclude: ['/saved'], // Exclude saved page from sitemap
@@ -92,6 +113,7 @@ module.exports = {
       loc: path,
       changefreq: changefreq,
       priority: priority,
+      ...(LASTMOD[path] ? { lastmod: LASTMOD[path] } : {}),
       alternateRefs: config.alternateRefs ?? [],
     }
   },

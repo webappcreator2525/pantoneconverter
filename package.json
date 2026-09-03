@@ -16,7 +16,8 @@
     "data:industrial": "node scripts/generate-palettes.mjs",
     "data:brands": "node scripts/generate-brand-palettes.mjs",
     "data:tcx": "node scripts/generate-tcx-palette.mjs",
-    "data": "npm run data:industrial && npm run data:brands && npm run data:tcx"
+    "data:stats": "node scripts/build-color-stats.mjs",
+    "data": "npm run data:industrial && npm run data:brands && npm run data:tcx && npm run data:stats"
   },
   "browserslist": [
     "chrome 111",
