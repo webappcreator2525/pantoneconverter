@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import ogMeta from '../components/ogMeta';
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, memo } from 'react';
 import { Search, X } from 'lucide-react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import CopyButton from '../components/CopyButton';
 import pantoneDb from '../data/pantone.json';
-import { isLightColor } from '../lib/colorUtils';
+import { useDeferredInput } from '../lib/useDeferredInput';
 
 const PAGE_SIZE = 120;
 
@@ -20,23 +20,87 @@ const COLLECTIONS = [
   { key: 'pastels-neons', label: 'Pastels & Neons' },
 ];
 
+/**
+ * One swatch in the grid.
+ *
+ * Pulled out of the map and memoised: the grid renders up to PAGE_SIZE of these,
+ * and typing in the search box used to reconcile all of them on every keystroke.
+ * `entry` comes straight from the database and `onSelect` is a setState
+ * function, so both identities are stable and only the cards whose `isActive`
+ * actually flips do any work.
+ */
+const SwatchButton = memo(function SwatchButton({ entry, isActive, onSelect }) {
+  const base = {
+    border: isActive ? '2.5px solid #c44eed' : '1.5px solid rgba(0,0,0,0.08)',
+    borderRadius: '0.875rem',
+    overflow: 'hidden',
+    cursor: 'pointer',
+    background: 'none',
+    padding: 0,
+    transition: 'transform 0.15s ease, box-shadow 0.15s ease',
+    boxShadow: isActive ? '0 0 0 3px rgba(196,78,237,0.25)' : '0 1px 4px rgba(0,0,0,0.07)',
+    transform: isActive ? 'scale(1.04)' : 'scale(1)',
+  };
+  return (
+    <button
+      onClick={() => onSelect(isActive ? null : entry)}
+      title={`${entry.name} — ${entry.hex}`}
+      style={base}
+      onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.12)'; }}
+      onMouseLeave={e => { e.currentTarget.style.transform = base.transform; e.currentTarget.style.boxShadow = base.boxShadow; }}
+    >
+      {/* Color block */}
+      <div style={{ height: '4.5rem', backgroundColor: entry.hex }} />
+      {/* Label */}
+      <div style={{ background: '#fff', padding: '0.375rem 0.5rem' }}>
+        <div style={{ fontSize: '0.62rem', fontWeight: 700, color: '#374151', lineHeight: 1.3, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          {entry.name.replace('Pantone ', '')}
+        </div>
+        <div style={{ fontSize: '0.6rem', color: '#6b7280', fontFamily: 'monospace', marginTop: '0.1rem' }}>
+          {entry.hex}
+        </div>
+      </div>
+    </button>
+  );
+});
+
 export default function PantoneFinder() {
   const [query,      setQuery]      = useState('');
   const [collection, setCollection] = useState('coated');
   const [visible,    setVisible]    = useState(PAGE_SIZE);
   const [selected,   setSelected]   = useState(null);
 
-  // Filtered list
+  // The grid below renders up to PAGE_SIZE swatch cards, so re-filtering it on
+  // every keystroke means re-rendering 120 cards per character. It follows the
+  // settled query instead; the input itself still updates synchronously.
+  const settledQuery = useDeferredInput(query);
+
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = settledQuery.trim().toLowerCase();
     return pantoneDb.filter(e => {
       const collOk = collection === 'all' || e.collection === collection;
       const searchOk = !q || e.name.toLowerCase().includes(q) || e.hex.toLowerCase().includes(q);
       return collOk && searchOk;
     });
-  }, [query, collection]);
+  }, [settledQuery, collection]);
 
-  const shown = filtered.slice(0, visible);
+  // Both of these are memoised so that a render which changed neither the
+  // settled query nor the selection hands React the *same* element array and it
+  // can skip the grid outright. Without it, every keystroke rebuilt 120 element
+  // objects and ran 120 memo comparisons before concluding nothing had changed.
+  const shown = useMemo(() => filtered.slice(0, visible), [filtered, visible]);
+
+  const grid = useMemo(
+    () => shown.map(entry => (
+      <SwatchButton
+        key={entry.name}
+        entry={entry}
+        isActive={selected?.name === entry.name}
+        onSelect={setSelected}
+      />
+    )),
+    [shown, selected],
+  );
 
   const handleCollectionChange = useCallback(key => {
     setCollection(key);
@@ -193,42 +257,7 @@ export default function PantoneFinder() {
                 gridTemplateColumns: 'repeat(auto-fill, minmax(7rem, 1fr))',
                 gap: '0.75rem',
               }}>
-                {shown.map(entry => {
-                  const light = isLightColor(entry.hex);
-                  const isActive = selected?.name === entry.name;
-                  return (
-                    <button
-                      key={entry.name}
-                      onClick={() => setSelected(isActive ? null : entry)}
-                      title={`${entry.name} — ${entry.hex}`}
-                      style={{
-                        border: isActive ? '2.5px solid #c44eed' : '1.5px solid rgba(0,0,0,0.08)',
-                        borderRadius: '0.875rem',
-                        overflow: 'hidden',
-                        cursor: 'pointer',
-                        background: 'none',
-                        padding: 0,
-                        transition: 'transform 0.15s ease, box-shadow 0.15s ease',
-                        boxShadow: isActive ? '0 0 0 3px rgba(196,78,237,0.25)' : '0 1px 4px rgba(0,0,0,0.07)',
-                        transform: isActive ? 'scale(1.04)' : 'scale(1)',
-                      }}
-                      onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.05)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.12)'; }}
-                      onMouseLeave={e => { e.currentTarget.style.transform = isActive ? 'scale(1.04)' : 'scale(1)'; e.currentTarget.style.boxShadow = isActive ? '0 0 0 3px rgba(196,78,237,0.25)' : '0 1px 4px rgba(0,0,0,0.07)'; }}
-                    >
-                      {/* Color block */}
-                      <div style={{ height: '4.5rem', backgroundColor: entry.hex }} />
-                      {/* Label */}
-                      <div style={{ background: '#fff', padding: '0.375rem 0.5rem' }}>
-                        <div style={{ fontSize: '0.62rem', fontWeight: 700, color: '#374151', lineHeight: 1.3, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                          {entry.name.replace('Pantone ', '')}
-                        </div>
-                        <div style={{ fontSize: '0.6rem', color: '#6b7280', fontFamily: 'monospace', marginTop: '0.1rem' }}>
-                          {entry.hex}
-                        </div>
-                      </div>
-                    </button>
-                  );
-                })}
+                {grid}
               </div>
 
               {/* Load more */}

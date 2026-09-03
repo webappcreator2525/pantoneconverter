@@ -1,0 +1,4357 @@
+{
+  "generatedBy": "scripts/build-color-stats.mjs",
+  "source": "data/pantone.json",
+  "generatedAt": "2026-09-03",
+  "method": {
+    "lab": "sRGB to CIE XYZ to CIELAB, D65 illuminant, 2 degree standard observer",
+    "deltaE": "CIEDE2000 (Sharma, Wu & Dalal 2005), kL = kC = kH = 1",
+    "contrast": "WCAG 2.2 relative-luminance contrast ratio",
+    "cmykIsDerived": true,
+    "cmykNote": "CMYK breakdowns in data/pantone.json are derived from each colour’s published sRGB value by the standard non-colour-managed formula, not measured off a press."
+  },
+  "counts": {
+    "total": 3231,
+    "coated": 1341,
+    "uncoated": 1341,
+    "metallic": 301,
+    "pastels-neons": 196,
+    "color-of-year": 22,
+    "skin": 30
+  },
+  "chart": [
+    {
+      "name": "Pantone YELLOW-C",
+      "code": "PMS Yellow C",
+      "family": "Base solid inks",
+      "hex": "#FEDD00",
+      "rgb": {
+        "r": 254,
+        "g": 221,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 13,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 88.35,
+        "a": -5.37,
+        "b": 88.09
+      },
+      "chroma": 88.3,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 2.08
+      },
+      "contrastWhite": 1.35,
+      "contrastBlack": 15.56,
+      "tac": 113,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone YELLOW-012-C",
+      "code": "PMS Yellow 012 C",
+      "family": "Base solid inks",
+      "hex": "#FFD700",
+      "rgb": {
+        "r": 255,
+        "g": 215,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 16,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 86.93,
+        "a": -1.92,
+        "b": 87.13
+      },
+      "chroma": 87.2,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 0
+      },
+      "contrastWhite": 1.4,
+      "contrastBlack": 14.97,
+      "tac": 116,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone ORANGE-021-C",
+      "code": "PMS Orange 021 C",
+      "family": "Base solid inks",
+      "hex": "#FE5000",
+      "rgb": {
+        "r": 254,
+        "g": 80,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 69,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 58.8,
+        "a": 63.62,
+        "b": 69.43
+      },
+      "chroma": 94.2,
+      "css": {
+        "name": "orangered",
+        "hex": "#FF4500",
+        "deltaE": 2.09
+      },
+      "contrastWhite": 3.3,
+      "contrastBlack": 6.36,
+      "tac": 169,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone WARM-RED-C",
+      "code": "PMS Warm Red C",
+      "family": "Base solid inks",
+      "hex": "#F9423A",
+      "rgb": {
+        "r": 249,
+        "g": 66,
+        "b": 58
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 73,
+        "y": 77,
+        "k": 2
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 56.43,
+        "a": 67.96,
+        "b": 46.72
+      },
+      "chroma": 82.5,
+      "css": {
+        "name": "tomato",
+        "hex": "#FF6347",
+        "deltaE": 6.27
+      },
+      "contrastWhite": 3.58,
+      "contrastBlack": 5.87,
+      "tac": 152,
+      "maxInk": 77,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone RED-032-C",
+      "code": "PMS Red 032 C",
+      "family": "Base solid inks",
+      "hex": "#EF3340",
+      "rgb": {
+        "r": 239,
+        "g": 51,
+        "b": 64
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 79,
+        "y": 73,
+        "k": 6
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 53.05,
+        "a": 69.76,
+        "b": 39.18
+      },
+      "chroma": 80,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 6.62
+      },
+      "contrastWhite": 4.02,
+      "contrastBlack": 5.22,
+      "tac": 158,
+      "maxInk": 79,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone RUBINE-RED-C",
+      "code": "PMS Rubine Red C",
+      "family": "Base solid inks",
+      "hex": "#CE0058",
+      "rgb": {
+        "r": 206,
+        "g": 0,
+        "b": 88
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 100,
+        "y": 57,
+        "k": 19
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 43.99,
+        "a": 70.99,
+        "b": 11.81
+      },
+      "chroma": 72,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 10.3
+      },
+      "contrastWhite": 5.58,
+      "contrastBlack": 3.77,
+      "tac": 176,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone RHODAMINE-RED-C",
+      "code": "PMS Rhodamine Red C",
+      "family": "Base solid inks",
+      "hex": "#E10098",
+      "rgb": {
+        "r": 225,
+        "g": 0,
+        "b": 152
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 100,
+        "y": 32,
+        "k": 12
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 49.83,
+        "a": 80.4,
+        "b": -18.48
+      },
+      "chroma": 82.5,
+      "css": {
+        "name": "mediumvioletred",
+        "hex": "#C71585",
+        "deltaE": 5.44
+      },
+      "contrastWhite": 4.51,
+      "contrastBlack": 4.65,
+      "tac": 144,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone PURPLE-C",
+      "code": "PMS Purple C",
+      "family": "Base solid inks",
+      "hex": "#BB29BB",
+      "rgb": {
+        "r": 187,
+        "g": 41,
+        "b": 187
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 78,
+        "y": 0,
+        "k": 27
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 46.63,
+        "a": 71.43,
+        "b": -44.7
+      },
+      "chroma": 84.3,
+      "css": {
+        "name": "darkorchid",
+        "hex": "#9932CC",
+        "deltaE": 7.44
+      },
+      "contrastWhite": 5.06,
+      "contrastBlack": 4.15,
+      "tac": 105,
+      "maxInk": 78,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone VIOLET-C",
+      "code": "PMS Violet C",
+      "family": "Base solid inks",
+      "hex": "#440099",
+      "rgb": {
+        "r": 68,
+        "g": 0,
+        "b": 153
+      },
+      "cmyk": {
+        "c": 56,
+        "m": 100,
+        "y": 0,
+        "k": 40
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 22.05,
+        "a": 56.33,
+        "b": -65.1
+      },
+      "chroma": 86.1,
+      "css": {
+        "name": "indigo",
+        "hex": "#4B0082",
+        "deltaE": 3.83
+      },
+      "contrastWhite": 12.31,
+      "contrastBlack": 1.71,
+      "tac": 196,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone BLUE-072-C",
+      "code": "PMS Blue 072 C",
+      "family": "Base solid inks",
+      "hex": "#10069F",
+      "rgb": {
+        "r": 16,
+        "g": 6,
+        "b": 159
+      },
+      "cmyk": {
+        "c": 90,
+        "m": 96,
+        "y": 0,
+        "k": 38
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 18.98,
+        "a": 54.04,
+        "b": -74
+      },
+      "chroma": 91.6,
+      "css": {
+        "name": "darkblue",
+        "hex": "#00008B",
+        "deltaE": 3.13
+      },
+      "contrastWhite": 13.56,
+      "contrastBlack": 1.55,
+      "tac": 224,
+      "maxInk": 96,
+      "heavy": 1,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone REFLEX-BLUE-C",
+      "code": "PMS Reflex Blue C",
+      "family": "Base solid inks",
+      "hex": "#001489",
+      "rgb": {
+        "r": 0,
+        "g": 20,
+        "b": 137
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 85,
+        "y": 0,
+        "k": 46
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 17.02,
+        "a": 42.04,
+        "b": -63.65
+      },
+      "chroma": 76.3,
+      "css": {
+        "name": "darkblue",
+        "hex": "#00008B",
+        "deltaE": 3.06
+      },
+      "contrastWhite": 14.37,
+      "contrastBlack": 1.46,
+      "tac": 231,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone PROCESS-BLUE-C",
+      "code": "PMS Process Blue C",
+      "family": "Base solid inks",
+      "hex": "#0085CA",
+      "rgb": {
+        "r": 0,
+        "g": 133,
+        "b": 202
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 34,
+        "y": 0,
+        "k": 21
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 52.99,
+        "a": -4.79,
+        "b": -44.03
+      },
+      "chroma": 44.3,
+      "css": {
+        "name": "steelblue",
+        "hex": "#4682B4",
+        "deltaE": 4.07
+      },
+      "contrastWhite": 4.03,
+      "contrastBlack": 5.21,
+      "tac": 155,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone GREEN-C",
+      "code": "PMS Green C",
+      "family": "Base solid inks",
+      "hex": "#00AB84",
+      "rgb": {
+        "r": 0,
+        "g": 171,
+        "b": 132
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 23,
+        "k": 33
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 62.33,
+        "a": -46.69,
+        "b": 9.74
+      },
+      "chroma": 47.7,
+      "css": {
+        "name": "mediumseagreen",
+        "hex": "#3CB371",
+        "deltaE": 7.43
+      },
+      "contrastWhite": 2.93,
+      "contrastBlack": 7.16,
+      "tac": 156,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone BLACK-C",
+      "code": "PMS Black C",
+      "family": "Base solid inks",
+      "hex": "#2D2926",
+      "rgb": {
+        "r": 45,
+        "g": 41,
+        "b": 38
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 9,
+        "y": 16,
+        "k": 82
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 16.91,
+        "a": 1.17,
+        "b": 2.63
+      },
+      "chroma": 2.9,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 10.85
+      },
+      "contrastWhite": 14.42,
+      "contrastBlack": 1.46,
+      "tac": 107,
+      "maxInk": 16,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-2-C",
+      "code": "PMS Black 2 C",
+      "family": "Deck blacks",
+      "hex": "#332F21",
+      "rgb": {
+        "r": 51,
+        "g": 47,
+        "b": 33
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 8,
+        "y": 35,
+        "k": 80
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 19.42,
+        "a": -0.94,
+        "b": 9.67
+      },
+      "chroma": 9.7,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 14.54
+      },
+      "contrastWhite": 13.38,
+      "contrastBlack": 1.57,
+      "tac": 123,
+      "maxInk": 35,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-3-C",
+      "code": "PMS Black 3 C",
+      "family": "Deck blacks",
+      "hex": "#212721",
+      "rgb": {
+        "r": 33,
+        "g": 39,
+        "b": 33
+      },
+      "cmyk": {
+        "c": 15,
+        "m": 0,
+        "y": 15,
+        "k": 85
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 14.87,
+        "a": -4.18,
+        "b": 3.07
+      },
+      "chroma": 5.2,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 10.91
+      },
+      "contrastWhite": 15.25,
+      "contrastBlack": 1.38,
+      "tac": 115,
+      "maxInk": 15,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-4-C",
+      "code": "PMS Black 4 C",
+      "family": "Deck blacks",
+      "hex": "#31261D",
+      "rgb": {
+        "r": 49,
+        "g": 38,
+        "b": 29
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 22,
+        "y": 41,
+        "k": 81
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 16.15,
+        "a": 3.54,
+        "b": 7.93
+      },
+      "chroma": 8.7,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 12.67
+      },
+      "contrastWhite": 14.73,
+      "contrastBlack": 1.43,
+      "tac": 144,
+      "maxInk": 41,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-5-C",
+      "code": "PMS Black 5 C",
+      "family": "Deck blacks",
+      "hex": "#3E2B2E",
+      "rgb": {
+        "r": 62,
+        "g": 43,
+        "b": 46
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 31,
+        "y": 26,
+        "k": 76
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 19.84,
+        "a": 9.35,
+        "b": 1.54
+      },
+      "chroma": 9.5,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 16.39
+      },
+      "contrastWhite": 13.21,
+      "contrastBlack": 1.59,
+      "tac": 133,
+      "maxInk": 31,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-6-C",
+      "code": "PMS Black 6 C",
+      "family": "Deck blacks",
+      "hex": "#101820",
+      "rgb": {
+        "r": 16,
+        "g": 24,
+        "b": 32
+      },
+      "cmyk": {
+        "c": 50,
+        "m": 25,
+        "y": 0,
+        "k": 87
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 7.84,
+        "a": -0.97,
+        "b": -6.75
+      },
+      "chroma": 6.8,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 7.57
+      },
+      "contrastWhite": 17.89,
+      "contrastBlack": 1.17,
+      "tac": 162,
+      "maxInk": 50,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone BLACK-7-C",
+      "code": "PMS Black 7 C",
+      "family": "Deck blacks",
+      "hex": "#3D3935",
+      "rgb": {
+        "r": 61,
+        "g": 57,
+        "b": 53
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 7,
+        "y": 13,
+        "k": 76
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 24.24,
+        "a": 0.89,
+        "b": 3.12
+      },
+      "chroma": 3.2,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 15.81
+      },
+      "contrastWhite": 11.44,
+      "contrastBlack": 1.84,
+      "tac": 96,
+      "maxInk": 13,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone NEUTRAL-BLACK-C",
+      "code": "PMS Neutral Black C",
+      "family": "Deck blacks",
+      "hex": "#222223",
+      "rgb": {
+        "r": 34,
+        "g": 34,
+        "b": 35
+      },
+      "cmyk": {
+        "c": 3,
+        "m": 3,
+        "y": 0,
+        "k": 86
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 13.26,
+        "a": 0.25,
+        "b": -0.67
+      },
+      "chroma": 0.7,
+      "css": {
+        "name": "black",
+        "hex": "#000000",
+        "deltaE": 8.09
+      },
+      "contrastWhite": 15.9,
+      "contrastBlack": 1.32,
+      "tac": 92,
+      "maxInk": 3,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-1-C",
+      "code": "PMS Cool Gray 1 C",
+      "family": "Cool Grays",
+      "hex": "#D9D9D6",
+      "rgb": {
+        "r": 217,
+        "g": 217,
+        "b": 214
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 0,
+        "y": 1,
+        "k": 15
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 86.62,
+        "a": -0.54,
+        "b": 1.47
+      },
+      "chroma": 1.6,
+      "css": {
+        "name": "gainsboro",
+        "hex": "#DCDCDC",
+        "deltaE": 1.78
+      },
+      "contrastWhite": 1.41,
+      "contrastBlack": 14.85,
+      "tac": 16,
+      "maxInk": 1,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-2-C",
+      "code": "PMS Cool Gray 2 C",
+      "family": "Cool Grays",
+      "hex": "#D0D0CE",
+      "rgb": {
+        "r": 208,
+        "g": 208,
+        "b": 206
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 0,
+        "y": 1,
+        "k": 18
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 83.43,
+        "a": -0.36,
+        "b": 0.99
+      },
+      "chroma": 1.1,
+      "css": {
+        "name": "lightgray",
+        "hex": "#D3D3D3",
+        "deltaE": 1.33
+      },
+      "contrastWhite": 1.54,
+      "contrastBlack": 13.6,
+      "tac": 19,
+      "maxInk": 1,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-3-C",
+      "code": "PMS Cool Gray 3 C",
+      "family": "Cool Grays",
+      "hex": "#C8C9C7",
+      "rgb": {
+        "r": 200,
+        "g": 201,
+        "b": 199
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 0,
+        "y": 1,
+        "k": 21
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 80.84,
+        "a": -0.71,
+        "b": 0.88
+      },
+      "chroma": 1.1,
+      "css": {
+        "name": "silver",
+        "hex": "#C0C0C0",
+        "deltaE": 2.57
+      },
+      "contrastWhite": 1.66,
+      "contrastBlack": 12.64,
+      "tac": 22,
+      "maxInk": 1,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-4-C",
+      "code": "PMS Cool Gray 4 C",
+      "family": "Cool Grays",
+      "hex": "#BBBCBC",
+      "rgb": {
+        "r": 187,
+        "g": 188,
+        "b": 188
+      },
+      "cmyk": {
+        "c": 1,
+        "m": 0,
+        "y": 0,
+        "k": 26
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 76.17,
+        "a": -0.35,
+        "b": -0.12
+      },
+      "chroma": 0.4,
+      "css": {
+        "name": "silver",
+        "hex": "#C0C0C0",
+        "deltaE": 1.22
+      },
+      "contrastWhite": 1.9,
+      "contrastBlack": 11.03,
+      "tac": 27,
+      "maxInk": 1,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-5-C",
+      "code": "PMS Cool Gray 5 C",
+      "family": "Cool Grays",
+      "hex": "#B1B3B3",
+      "rgb": {
+        "r": 177,
+        "g": 179,
+        "b": 179
+      },
+      "cmyk": {
+        "c": 1,
+        "m": 0,
+        "y": 0,
+        "k": 30
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 72.79,
+        "a": -0.7,
+        "b": -0.25
+      },
+      "chroma": 0.7,
+      "css": {
+        "name": "darkgray",
+        "hex": "#A9A9A9",
+        "deltaE": 2.91
+      },
+      "contrastWhite": 2.11,
+      "contrastBlack": 9.97,
+      "tac": 31,
+      "maxInk": 1,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-6-C",
+      "code": "PMS Cool Gray 6 C",
+      "family": "Cool Grays",
+      "hex": "#A7A8AA",
+      "rgb": {
+        "r": 167,
+        "g": 168,
+        "b": 170
+      },
+      "cmyk": {
+        "c": 2,
+        "m": 1,
+        "y": 0,
+        "k": 33
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 68.84,
+        "a": 0.03,
+        "b": -1.15
+      },
+      "chroma": 1.2,
+      "css": {
+        "name": "darkgray",
+        "hex": "#A9A9A9",
+        "deltaE": 1.16
+      },
+      "contrastWhite": 2.38,
+      "contrastBlack": 8.82,
+      "tac": 36,
+      "maxInk": 2,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-7-C",
+      "code": "PMS Cool Gray 7 C",
+      "family": "Cool Grays",
+      "hex": "#97999B",
+      "rgb": {
+        "r": 151,
+        "g": 153,
+        "b": 155
+      },
+      "cmyk": {
+        "c": 3,
+        "m": 1,
+        "y": 0,
+        "k": 39
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 63.12,
+        "a": -0.33,
+        "b": -1.3
+      },
+      "chroma": 1.3,
+      "css": {
+        "name": "darkgray",
+        "hex": "#A9A9A9",
+        "deltaE": 5.14
+      },
+      "contrastWhite": 2.86,
+      "contrastBlack": 7.35,
+      "tac": 43,
+      "maxInk": 3,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-8-C",
+      "code": "PMS Cool Gray 8 C",
+      "family": "Cool Grays",
+      "hex": "#888B8D",
+      "rgb": {
+        "r": 136,
+        "g": 139,
+        "b": 141
+      },
+      "cmyk": {
+        "c": 4,
+        "m": 1,
+        "y": 0,
+        "k": 45
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 57.68,
+        "a": -0.7,
+        "b": -1.45
+      },
+      "chroma": 1.6,
+      "css": {
+        "name": "gray",
+        "hex": "#808080",
+        "deltaE": 4.2
+      },
+      "contrastWhite": 3.43,
+      "contrastBlack": 6.12,
+      "tac": 50,
+      "maxInk": 4,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-9-C",
+      "code": "PMS Cool Gray 9 C",
+      "family": "Cool Grays",
+      "hex": "#75787B",
+      "rgb": {
+        "r": 117,
+        "g": 120,
+        "b": 123
+      },
+      "cmyk": {
+        "c": 5,
+        "m": 2,
+        "y": 0,
+        "k": 52
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 50.27,
+        "a": -0.51,
+        "b": -2.04
+      },
+      "chroma": 2.1,
+      "css": {
+        "name": "gray",
+        "hex": "#808080",
+        "deltaE": 3.88
+      },
+      "contrastWhite": 4.44,
+      "contrastBlack": 4.73,
+      "tac": 59,
+      "maxInk": 5,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-10-C",
+      "code": "PMS Cool Gray 10 C",
+      "family": "Cool Grays",
+      "hex": "#63666A",
+      "rgb": {
+        "r": 99,
+        "g": 102,
+        "b": 106
+      },
+      "cmyk": {
+        "c": 7,
+        "m": 4,
+        "y": 0,
+        "k": 58
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 43.06,
+        "a": -0.3,
+        "b": -2.65
+      },
+      "chroma": 2.7,
+      "css": {
+        "name": "dimgray",
+        "hex": "#696969",
+        "deltaE": 2.83
+      },
+      "contrastWhite": 5.77,
+      "contrastBlack": 3.64,
+      "tac": 69,
+      "maxInk": 7,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone COOL-GRAY-11-C",
+      "code": "PMS Cool Gray 11 C",
+      "family": "Cool Grays",
+      "hex": "#53565A",
+      "rgb": {
+        "r": 83,
+        "g": 86,
+        "b": 90
+      },
+      "cmyk": {
+        "c": 8,
+        "m": 4,
+        "y": 0,
+        "k": 65
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 36.43,
+        "a": -0.3,
+        "b": -2.73
+      },
+      "chroma": 2.7,
+      "css": {
+        "name": "dimgray",
+        "hex": "#696969",
+        "deltaE": 7.53
+      },
+      "contrastWhite": 7.38,
+      "contrastBlack": 2.85,
+      "tac": 77,
+      "maxInk": 8,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 871-C",
+      "code": "PMS 871 C",
+      "family": "Metallics and neons",
+      "hex": "#84754E",
+      "rgb": {
+        "r": 132,
+        "g": 117,
+        "b": 78
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 11,
+        "y": 41,
+        "k": 48
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 49.71,
+        "a": -0.14,
+        "b": 23.65
+      },
+      "chroma": 23.7,
+      "css": {
+        "name": "olive",
+        "hex": "#808000",
+        "deltaE": 13.61
+      },
+      "contrastWhite": 4.53,
+      "contrastBlack": 4.64,
+      "tac": 100,
+      "maxInk": 41,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 877-C",
+      "code": "PMS 877 C",
+      "family": "Metallics and neons",
+      "hex": "#8A8D8F",
+      "rgb": {
+        "r": 138,
+        "g": 141,
+        "b": 143
+      },
+      "cmyk": {
+        "c": 3,
+        "m": 1,
+        "y": 0,
+        "k": 44
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 58.45,
+        "a": -0.7,
+        "b": -1.45
+      },
+      "chroma": 1.6,
+      "css": {
+        "name": "gray",
+        "hex": "#808080",
+        "deltaE": 4.85
+      },
+      "contrastWhite": 3.34,
+      "contrastBlack": 6.29,
+      "tac": 48,
+      "maxInk": 3,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 8003-C Metallic",
+      "code": "PMS 8003 C Metallic",
+      "family": "Metallics and neons",
+      "hex": "#8A7E70",
+      "rgb": {
+        "r": 138,
+        "g": 126,
+        "b": 112
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 9,
+        "y": 19,
+        "k": 46
+      },
+      "collection": "metallic",
+      "lab": {
+        "l": 53.49,
+        "a": 2.12,
+        "b": 9.28
+      },
+      "chroma": 9.5,
+      "css": {
+        "name": "gray",
+        "hex": "#808080",
+        "deltaE": 8.04
+      },
+      "contrastWhite": 3.96,
+      "contrastBlack": 5.3,
+      "tac": 74,
+      "maxInk": 19,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 811-C",
+      "code": "PMS 811 C",
+      "family": "Metallics and neons",
+      "hex": "#FF8F6C",
+      "rgb": {
+        "r": 255,
+        "g": 143,
+        "b": 108
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 44,
+        "y": 58,
+        "k": 0
+      },
+      "collection": "pastels-neons",
+      "lab": {
+        "l": 70.87,
+        "a": 39.11,
+        "b": 37.12
+      },
+      "chroma": 53.9,
+      "css": {
+        "name": "lightsalmon",
+        "hex": "#FFA07A",
+        "deltaE": 4.35
+      },
+      "contrastWhite": 2.23,
+      "contrastBlack": 9.4,
+      "tac": 102,
+      "maxInk": 58,
+      "heavy": 0,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 185-C",
+      "code": "PMS 185 C",
+      "family": "Reds and pinks",
+      "hex": "#E4002B",
+      "rgb": {
+        "r": 228,
+        "g": 0,
+        "b": 43
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 100,
+        "y": 81,
+        "k": 11
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 47.85,
+        "a": 74.2,
+        "b": 44.75
+      },
+      "chroma": 86.6,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 4.5
+      },
+      "contrastWhite": 4.85,
+      "contrastBlack": 4.33,
+      "tac": 192,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 186-C",
+      "code": "PMS 186 C",
+      "family": "Reds and pinks",
+      "hex": "#C8102E",
+      "rgb": {
+        "r": 200,
+        "g": 16,
+        "b": 46
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 92,
+        "y": 77,
+        "k": 22
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 42.54,
+        "a": 65.89,
+        "b": 35.71
+      },
+      "chroma": 74.9,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 4.81
+      },
+      "contrastWhite": 5.88,
+      "contrastBlack": 3.57,
+      "tac": 191,
+      "maxInk": 92,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 199-C",
+      "code": "PMS 199 C",
+      "family": "Reds and pinks",
+      "hex": "#D50032",
+      "rgb": {
+        "r": 213,
+        "g": 0,
+        "b": 50
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 100,
+        "y": 77,
+        "k": 16
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 44.77,
+        "a": 70.81,
+        "b": 36.58
+      },
+      "chroma": 79.7,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 2.58
+      },
+      "contrastWhite": 5.42,
+      "contrastBlack": 3.88,
+      "tac": 193,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 200-C",
+      "code": "PMS 200 C",
+      "family": "Reds and pinks",
+      "hex": "#BA0C2F",
+      "rgb": {
+        "r": 186,
+        "g": 12,
+        "b": 47
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 94,
+        "y": 75,
+        "k": 27
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 39.43,
+        "a": 62.85,
+        "b": 30.82
+      },
+      "chroma": 70,
+      "css": {
+        "name": "brown",
+        "hex": "#A52A2A",
+        "deltaE": 4.82
+      },
+      "contrastWhite": 6.6,
+      "contrastBlack": 3.18,
+      "tac": 196,
+      "maxInk": 94,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 202-C",
+      "code": "PMS 202 C",
+      "family": "Reds and pinks",
+      "hex": "#862633",
+      "rgb": {
+        "r": 134,
+        "g": 38,
+        "b": 51
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 72,
+        "y": 62,
+        "k": 47
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 31.1,
+        "a": 41.54,
+        "b": 15.64
+      },
+      "chroma": 44.4,
+      "css": {
+        "name": "brown",
+        "hex": "#A52A2A",
+        "deltaE": 8.9
+      },
+      "contrastWhite": 8.98,
+      "contrastBlack": 2.34,
+      "tac": 181,
+      "maxInk": 72,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 219-C",
+      "code": "PMS 219 C",
+      "family": "Reds and pinks",
+      "hex": "#DA1884",
+      "rgb": {
+        "r": 218,
+        "g": 24,
+        "b": 132
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 89,
+        "y": 39,
+        "k": 15
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 48.55,
+        "a": 74.64,
+        "b": -8.49
+      },
+      "chroma": 75.1,
+      "css": {
+        "name": "mediumvioletred",
+        "hex": "#C71585",
+        "deltaE": 4.64
+      },
+      "contrastWhite": 4.72,
+      "contrastBlack": 4.44,
+      "tac": 143,
+      "maxInk": 89,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 226-C",
+      "code": "PMS 226 C",
+      "family": "Reds and pinks",
+      "hex": "#D0006F",
+      "rgb": {
+        "r": 208,
+        "g": 0,
+        "b": 111
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 100,
+        "y": 47,
+        "k": 18
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 45.03,
+        "a": 73.11,
+        "b": -1.03
+      },
+      "chroma": 73.1,
+      "css": {
+        "name": "mediumvioletred",
+        "hex": "#C71585",
+        "deltaE": 5.64
+      },
+      "contrastWhite": 5.37,
+      "contrastBlack": 3.91,
+      "tac": 165,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 241-C",
+      "code": "PMS 241 C",
+      "family": "Reds and pinks",
+      "hex": "#AF1685",
+      "rgb": {
+        "r": 175,
+        "g": 22,
+        "b": 133
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 87,
+        "y": 24,
+        "k": 31
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 40.22,
+        "a": 65.6,
+        "b": -22.55
+      },
+      "chroma": 69.4,
+      "css": {
+        "name": "mediumvioletred",
+        "hex": "#C71585",
+        "deltaE": 5.4
+      },
+      "contrastWhite": 6.41,
+      "contrastBlack": 3.28,
+      "tac": 142,
+      "maxInk": 87,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 485-C",
+      "code": "PMS 485 C",
+      "family": "Reds and pinks",
+      "hex": "#DA291C",
+      "rgb": {
+        "r": 218,
+        "g": 41,
+        "b": 28
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 81,
+        "y": 87,
+        "k": 15
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 47.73,
+        "a": 65.45,
+        "b": 51.38
+      },
+      "chroma": 83.2,
+      "css": {
+        "name": "red",
+        "hex": "#FF0000",
+        "deltaE": 7.02
+      },
+      "contrastWhite": 4.87,
+      "contrastBlack": 4.32,
+      "tac": 183,
+      "maxInk": 87,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 1795-C",
+      "code": "PMS 1795 C",
+      "family": "Reds and pinks",
+      "hex": "#D22630",
+      "rgb": {
+        "r": 210,
+        "g": 38,
+        "b": 48
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 82,
+        "y": 77,
+        "k": 18
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 46.05,
+        "a": 64.47,
+        "b": 38.95
+      },
+      "chroma": 75.3,
+      "css": {
+        "name": "crimson",
+        "hex": "#DC143C",
+        "deltaE": 4.14
+      },
+      "contrastWhite": 5.17,
+      "contrastBlack": 4.06,
+      "tac": 177,
+      "maxInk": 82,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 151-C",
+      "code": "PMS 151 C",
+      "family": "Oranges and browns",
+      "hex": "#FF8200",
+      "rgb": {
+        "r": 255,
+        "g": 130,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 49,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 67.45,
+        "a": 41.84,
+        "b": 74.25
+      },
+      "chroma": 85.2,
+      "css": {
+        "name": "darkorange",
+        "hex": "#FF8C00",
+        "deltaE": 3.27
+      },
+      "contrastWhite": 2.49,
+      "contrastBlack": 8.45,
+      "tac": 149,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 158-C",
+      "code": "PMS 158 C",
+      "family": "Oranges and browns",
+      "hex": "#E87722",
+      "rgb": {
+        "r": 232,
+        "g": 119,
+        "b": 34
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 49,
+        "y": 85,
+        "k": 9
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 62.06,
+        "a": 38.76,
+        "b": 61.65
+      },
+      "chroma": 72.8,
+      "css": {
+        "name": "chocolate",
+        "hex": "#D2691E",
+        "deltaE": 5.6
+      },
+      "contrastWhite": 2.96,
+      "contrastBlack": 7.09,
+      "tac": 143,
+      "maxInk": 85,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 165-C",
+      "code": "PMS 165 C",
+      "family": "Oranges and browns",
+      "hex": "#FF671F",
+      "rgb": {
+        "r": 255,
+        "g": 103,
+        "b": 31
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 60,
+        "y": 88,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 62.56,
+        "a": 54.9,
+        "b": 64.55
+      },
+      "chroma": 84.7,
+      "css": {
+        "name": "orangered",
+        "hex": "#FF4500",
+        "deltaE": 6.03
+      },
+      "contrastWhite": 2.91,
+      "contrastBlack": 7.21,
+      "tac": 148,
+      "maxInk": 88,
+      "heavy": 0,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 172-C",
+      "code": "PMS 172 C",
+      "family": "Oranges and browns",
+      "hex": "#FA4616",
+      "rgb": {
+        "r": 250,
+        "g": 70,
+        "b": 22
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 72,
+        "y": 91,
+        "k": 2
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 56.85,
+        "a": 66.12,
+        "b": 62.99
+      },
+      "chroma": 91.3,
+      "css": {
+        "name": "orangered",
+        "hex": "#FF4500",
+        "deltaE": 2
+      },
+      "contrastWhite": 3.53,
+      "contrastBlack": 5.95,
+      "tac": 165,
+      "maxInk": 91,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 1375-C",
+      "code": "PMS 1375 C",
+      "family": "Oranges and browns",
+      "hex": "#FF9E1B",
+      "rgb": {
+        "r": 255,
+        "g": 158,
+        "b": 27
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 38,
+        "y": 89,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 73.41,
+        "a": 27.86,
+        "b": 73.85
+      },
+      "chroma": 78.9,
+      "css": {
+        "name": "orange",
+        "hex": "#FFA500",
+        "deltaE": 3.42
+      },
+      "contrastWhite": 2.07,
+      "contrastBlack": 10.16,
+      "tac": 127,
+      "maxInk": 89,
+      "heavy": 0,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 1585-C",
+      "code": "PMS 1585 C",
+      "family": "Oranges and browns",
+      "hex": "#FF6A13",
+      "rgb": {
+        "r": 255,
+        "g": 106,
+        "b": 19
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 58,
+        "y": 93,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 63.03,
+        "a": 53.39,
+        "b": 68.31
+      },
+      "chroma": 86.7,
+      "css": {
+        "name": "coral",
+        "hex": "#FF7F50",
+        "deltaE": 7.28
+      },
+      "contrastWhite": 2.87,
+      "contrastBlack": 7.32,
+      "tac": 151,
+      "maxInk": 93,
+      "heavy": 0,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 1665-C",
+      "code": "PMS 1665 C",
+      "family": "Oranges and browns",
+      "hex": "#DC4405",
+      "rgb": {
+        "r": 220,
+        "g": 68,
+        "b": 5
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 69,
+        "y": 98,
+        "k": 14
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 51.11,
+        "a": 57.15,
+        "b": 61.1
+      },
+      "chroma": 83.7,
+      "css": {
+        "name": "orangered",
+        "hex": "#FF4500",
+        "deltaE": 6.8
+      },
+      "contrastWhite": 4.31,
+      "contrastBlack": 4.87,
+      "tac": 181,
+      "maxInk": 98,
+      "heavy": 1,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 469-C",
+      "code": "PMS 469 C",
+      "family": "Oranges and browns",
+      "hex": "#693F23",
+      "rgb": {
+        "r": 105,
+        "g": 63,
+        "b": 35
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 40,
+        "y": 67,
+        "k": 59
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 31.07,
+        "a": 15.39,
+        "b": 24.59
+      },
+      "chroma": 29,
+      "css": {
+        "name": "saddlebrown",
+        "hex": "#8B4513",
+        "deltaE": 8.9
+      },
+      "contrastWhite": 8.99,
+      "contrastBlack": 2.34,
+      "tac": 166,
+      "maxInk": 67,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 476-C",
+      "code": "PMS 476 C",
+      "family": "Oranges and browns",
+      "hex": "#4E3629",
+      "rgb": {
+        "r": 78,
+        "g": 54,
+        "b": 41
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 31,
+        "y": 47,
+        "k": 69
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 25.01,
+        "a": 8.84,
+        "b": 12.43
+      },
+      "chroma": 15.3,
+      "css": {
+        "name": "saddlebrown",
+        "hex": "#8B4513",
+        "deltaE": 16.93
+      },
+      "contrastWhite": 11.15,
+      "contrastBlack": 1.88,
+      "tac": 147,
+      "maxInk": 47,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 7412-C",
+      "code": "PMS 7412 C",
+      "family": "Oranges and browns",
+      "hex": "#D38235",
+      "rgb": {
+        "r": 211,
+        "g": 130,
+        "b": 53
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 38,
+        "y": 75,
+        "k": 17
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 61.72,
+        "a": 25.06,
+        "b": 52.74
+      },
+      "chroma": 58.4,
+      "css": {
+        "name": "peru",
+        "hex": "#CD853F",
+        "deltaE": 1.9
+      },
+      "contrastWhite": 2.99,
+      "contrastBlack": 7.01,
+      "tac": 130,
+      "maxInk": 75,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 100-C",
+      "code": "PMS 100 C",
+      "family": "Yellows and golds",
+      "hex": "#F6EB61",
+      "rgb": {
+        "r": 246,
+        "g": 235,
+        "b": 97
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 4,
+        "y": 61,
+        "k": 4
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 91.63,
+        "a": -12.65,
+        "b": 66.38
+      },
+      "chroma": 67.6,
+      "css": {
+        "name": "khaki",
+        "hex": "#F0E68C",
+        "deltaE": 6.17
+      },
+      "contrastWhite": 1.24,
+      "contrastBlack": 16.97,
+      "tac": 69,
+      "maxInk": 61,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 102-C",
+      "code": "PMS 102 C",
+      "family": "Yellows and golds",
+      "hex": "#FCE300",
+      "rgb": {
+        "r": 252,
+        "g": 227,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 10,
+        "y": 100,
+        "k": 1
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 89.69,
+        "a": -9.21,
+        "b": 88.97
+      },
+      "chroma": 89.4,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 4.26
+      },
+      "contrastWhite": 1.3,
+      "contrastBlack": 16.13,
+      "tac": 111,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 109-C",
+      "code": "PMS 109 C",
+      "family": "Yellows and golds",
+      "hex": "#FFD100",
+      "rgb": {
+        "r": 255,
+        "g": 209,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 18,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 85.44,
+        "a": 1.12,
+        "b": 86.08
+      },
+      "chroma": 86.1,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 1.95
+      },
+      "contrastWhite": 1.46,
+      "contrastBlack": 14.37,
+      "tac": 118,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 116-C",
+      "code": "PMS 116 C",
+      "family": "Yellows and golds",
+      "hex": "#FFCD00",
+      "rgb": {
+        "r": 255,
+        "g": 205,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 20,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 84.45,
+        "a": 3.17,
+        "b": 85.39
+      },
+      "chroma": 85.4,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 3.29
+      },
+      "contrastWhite": 1.5,
+      "contrastBlack": 13.98,
+      "tac": 120,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 123-C",
+      "code": "PMS 123 C",
+      "family": "Yellows and golds",
+      "hex": "#FFC72C",
+      "rgb": {
+        "r": 255,
+        "g": 199,
+        "b": 44
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 22,
+        "y": 83,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 83.07,
+        "a": 6.89,
+        "b": 77.28
+      },
+      "chroma": 77.6,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 6.15
+      },
+      "contrastWhite": 1.56,
+      "contrastBlack": 13.46,
+      "tac": 105,
+      "maxInk": 83,
+      "heavy": 0,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 130-C",
+      "code": "PMS 130 C",
+      "family": "Yellows and golds",
+      "hex": "#F2A900",
+      "rgb": {
+        "r": 242,
+        "g": 169,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 30,
+        "y": 100,
+        "k": 5
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 74.35,
+        "a": 16.34,
+        "b": 77.84
+      },
+      "chroma": 79.5,
+      "css": {
+        "name": "orange",
+        "hex": "#FFA500",
+        "deltaE": 4.22
+      },
+      "contrastWhite": 2.01,
+      "contrastBlack": 10.45,
+      "tac": 135,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 137-C",
+      "code": "PMS 137 C",
+      "family": "Yellows and golds",
+      "hex": "#FFA300",
+      "rgb": {
+        "r": 255,
+        "g": 163,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 36,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 74.48,
+        "a": 24.98,
+        "b": 78.65
+      },
+      "chroma": 82.5,
+      "css": {
+        "name": "orange",
+        "hex": "#FFA500",
+        "deltaE": 0.72
+      },
+      "contrastWhite": 2,
+      "contrastBlack": 10.49,
+      "tac": 136,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 872-C",
+      "code": "PMS 872 C",
+      "family": "Yellows and golds",
+      "hex": "#85714D",
+      "rgb": {
+        "r": 133,
+        "g": 113,
+        "b": 77
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 15,
+        "y": 42,
+        "k": 48
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 48.68,
+        "a": 2.48,
+        "b": 22.89
+      },
+      "chroma": 23,
+      "css": {
+        "name": "olive",
+        "hex": "#808000",
+        "deltaE": 15.54
+      },
+      "contrastWhite": 4.7,
+      "contrastBlack": 4.47,
+      "tac": 105,
+      "maxInk": 42,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 7406-C",
+      "code": "PMS 7406 C",
+      "family": "Yellows and golds",
+      "hex": "#F1C400",
+      "rgb": {
+        "r": 241,
+        "g": 196,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 19,
+        "y": 100,
+        "k": 5
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 80.84,
+        "a": 1.8,
+        "b": 82.23
+      },
+      "chroma": 82.2,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 4.67
+      },
+      "contrastWhite": 1.66,
+      "contrastBlack": 12.64,
+      "tac": 124,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 7548-C",
+      "code": "PMS 7548 C",
+      "family": "Yellows and golds",
+      "hex": "#FFC600",
+      "rgb": {
+        "r": 255,
+        "g": 198,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 22,
+        "y": 100,
+        "k": 0
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 82.73,
+        "a": 6.76,
+        "b": 84.2
+      },
+      "chroma": 84.5,
+      "css": {
+        "name": "gold",
+        "hex": "#FFD700",
+        "deltaE": 5.67
+      },
+      "contrastWhite": 1.58,
+      "contrastBlack": 13.33,
+      "tac": 122,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 347-C",
+      "code": "PMS 347 C",
+      "family": "Greens",
+      "hex": "#009A44",
+      "rgb": {
+        "r": 0,
+        "g": 154,
+        "b": 68
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 56,
+        "k": 40
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 55.61,
+        "a": -53.74,
+        "b": 35.25
+      },
+      "chroma": 64.3,
+      "css": {
+        "name": "forestgreen",
+        "hex": "#228B22",
+        "deltaE": 6.58
+      },
+      "contrastWhite": 3.68,
+      "contrastBlack": 5.71,
+      "tac": 196,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 348-C",
+      "code": "PMS 348 C",
+      "family": "Greens",
+      "hex": "#00843D",
+      "rgb": {
+        "r": 0,
+        "g": 132,
+        "b": 61
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 54,
+        "k": 48
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 48.06,
+        "a": -47.42,
+        "b": 29.62
+      },
+      "chroma": 55.9,
+      "css": {
+        "name": "seagreen",
+        "hex": "#2E8B57",
+        "deltaE": 5.41
+      },
+      "contrastWhite": 4.81,
+      "contrastBlack": 4.37,
+      "tac": 202,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 354-C",
+      "code": "PMS 354 C",
+      "family": "Greens",
+      "hex": "#00B140",
+      "rgb": {
+        "r": 0,
+        "g": 177,
+        "b": 64
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 64,
+        "k": 31
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 63.19,
+        "a": -61.58,
+        "b": 45.96
+      },
+      "chroma": 76.8,
+      "css": {
+        "name": "mediumseagreen",
+        "hex": "#3CB371",
+        "deltaE": 7.7
+      },
+      "contrastWhite": 2.85,
+      "contrastBlack": 7.36,
+      "tac": 195,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 355-C",
+      "code": "PMS 355 C",
+      "family": "Greens",
+      "hex": "#009639",
+      "rgb": {
+        "r": 0,
+        "g": 150,
+        "b": 57
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 62,
+        "k": 41
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 54.14,
+        "a": -54,
+        "b": 38.86
+      },
+      "chroma": 66.5,
+      "css": {
+        "name": "forestgreen",
+        "hex": "#228B22",
+        "deltaE": 4.72
+      },
+      "contrastWhite": 3.87,
+      "contrastBlack": 5.42,
+      "tac": 203,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 356-C",
+      "code": "PMS 356 C",
+      "family": "Greens",
+      "hex": "#007A33",
+      "rgb": {
+        "r": 0,
+        "g": 122,
+        "b": 51
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 58,
+        "k": 52
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 44.46,
+        "a": -45.6,
+        "b": 30.46
+      },
+      "chroma": 54.8,
+      "css": {
+        "name": "green",
+        "hex": "#008000",
+        "deltaE": 6.77
+      },
+      "contrastWhite": 5.48,
+      "contrastBlack": 3.83,
+      "tac": 210,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 368-C",
+      "code": "PMS 368 C",
+      "family": "Greens",
+      "hex": "#78BE20",
+      "rgb": {
+        "r": 120,
+        "g": 190,
+        "b": 32
+      },
+      "cmyk": {
+        "c": 37,
+        "m": 0,
+        "y": 83,
+        "k": 25
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 70.12,
+        "a": -44.9,
+        "b": 65.16
+      },
+      "chroma": 79.1,
+      "css": {
+        "name": "yellowgreen",
+        "hex": "#9ACD32",
+        "deltaE": 5.58
+      },
+      "contrastWhite": 2.29,
+      "contrastBlack": 9.18,
+      "tac": 145,
+      "maxInk": 83,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 375-C",
+      "code": "PMS 375 C",
+      "family": "Greens",
+      "hex": "#97D700",
+      "rgb": {
+        "r": 151,
+        "g": 215,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 30,
+        "m": 0,
+        "y": 100,
+        "k": 16
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 79.14,
+        "a": -44.82,
+        "b": 77.91
+      },
+      "chroma": 89.9,
+      "css": {
+        "name": "yellowgreen",
+        "hex": "#9ACD32",
+        "deltaE": 3.34
+      },
+      "contrastWhite": 1.74,
+      "contrastBlack": 12.04,
+      "tac": 146,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 382-C",
+      "code": "PMS 382 C",
+      "family": "Greens",
+      "hex": "#C4D600",
+      "rgb": {
+        "r": 196,
+        "g": 214,
+        "b": 0
+      },
+      "cmyk": {
+        "c": 8,
+        "m": 0,
+        "y": 100,
+        "k": 16
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 81.75,
+        "a": -26.45,
+        "b": 81.14
+      },
+      "chroma": 85.3,
+      "css": {
+        "name": "yellowgreen",
+        "hex": "#9ACD32",
+        "deltaE": 8.6
+      },
+      "contrastWhite": 1.62,
+      "contrastBlack": 12.97,
+      "tac": 124,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 3405-C",
+      "code": "PMS 3405 C",
+      "family": "Greens",
+      "hex": "#00AF66",
+      "rgb": {
+        "r": 0,
+        "g": 175,
+        "b": 102
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 42,
+        "k": 31
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 63.02,
+        "a": -54.96,
+        "b": 27.02
+      },
+      "chroma": 61.2,
+      "css": {
+        "name": "mediumseagreen",
+        "hex": "#3CB371",
+        "deltaE": 2.76
+      },
+      "contrastWhite": 2.87,
+      "contrastBlack": 7.32,
+      "tac": 173,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 7482-C",
+      "code": "PMS 7482 C",
+      "family": "Greens",
+      "hex": "#009F4D",
+      "rgb": {
+        "r": 0,
+        "g": 159,
+        "b": 77
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 52,
+        "k": 38
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 57.4,
+        "a": -53.97,
+        "b": 32.88
+      },
+      "chroma": 63.2,
+      "css": {
+        "name": "mediumseagreen",
+        "hex": "#3CB371",
+        "deltaE": 7.56
+      },
+      "contrastWhite": 3.46,
+      "contrastBlack": 6.07,
+      "tac": 190,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 279-C",
+      "code": "PMS 279 C",
+      "family": "Blues",
+      "hex": "#418FDE",
+      "rgb": {
+        "r": 65,
+        "g": 143,
+        "b": 222
+      },
+      "cmyk": {
+        "c": 71,
+        "m": 36,
+        "y": 0,
+        "k": 13
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 58.07,
+        "a": 1.85,
+        "b": -47.16
+      },
+      "chroma": 47.2,
+      "css": {
+        "name": "dodgerblue",
+        "hex": "#1E90FF",
+        "deltaE": 2.71
+      },
+      "contrastWhite": 3.38,
+      "contrastBlack": 6.21,
+      "tac": 120,
+      "maxInk": 71,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 285-C",
+      "code": "PMS 285 C",
+      "family": "Blues",
+      "hex": "#0072CE",
+      "rgb": {
+        "r": 0,
+        "g": 114,
+        "b": 206
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 45,
+        "y": 0,
+        "k": 19
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 47.61,
+        "a": 8.38,
+        "b": -54.9
+      },
+      "chroma": 55.5,
+      "css": {
+        "name": "steelblue",
+        "hex": "#4682B4",
+        "deltaE": 6.59
+      },
+      "contrastWhite": 4.89,
+      "contrastBlack": 4.3,
+      "tac": 164,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 286-C",
+      "code": "PMS 286 C",
+      "family": "Blues",
+      "hex": "#0033A0",
+      "rgb": {
+        "r": 0,
+        "g": 51,
+        "b": 160
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 68,
+        "y": 0,
+        "k": 37
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 26.46,
+        "a": 31.69,
+        "b": -62.21
+      },
+      "chroma": 69.8,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 8.3
+      },
+      "contrastWhite": 10.6,
+      "contrastBlack": 1.98,
+      "tac": 205,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 287-C",
+      "code": "PMS 287 C",
+      "family": "Blues",
+      "hex": "#003087",
+      "rgb": {
+        "r": 0,
+        "g": 48,
+        "b": 135
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 64,
+        "y": 0,
+        "k": 47
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 23.21,
+        "a": 23.54,
+        "b": -52.15
+      },
+      "chroma": 57.2,
+      "css": {
+        "name": "midnightblue",
+        "hex": "#191970",
+        "deltaE": 7.82
+      },
+      "contrastWhite": 11.85,
+      "contrastBlack": 1.77,
+      "tac": 211,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 293-C",
+      "code": "PMS 293 C",
+      "family": "Blues",
+      "hex": "#003DA5",
+      "rgb": {
+        "r": 0,
+        "g": 61,
+        "b": 165
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 63,
+        "y": 0,
+        "k": 35
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 29.55,
+        "a": 26.91,
+        "b": -60.17
+      },
+      "chroma": 65.9,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 8.69
+      },
+      "contrastWhite": 9.5,
+      "contrastBlack": 2.21,
+      "tac": 198,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 300-C",
+      "code": "PMS 300 C",
+      "family": "Blues",
+      "hex": "#005EB8",
+      "rgb": {
+        "r": 0,
+        "g": 94,
+        "b": 184
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 49,
+        "y": 0,
+        "k": 28
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 40.35,
+        "a": 12.39,
+        "b": -53.87
+      },
+      "chroma": 55.3,
+      "css": {
+        "name": "royalblue",
+        "hex": "#4169E1",
+        "deltaE": 8.67
+      },
+      "contrastWhite": 6.38,
+      "contrastBlack": 3.29,
+      "tac": 177,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 301-C",
+      "code": "PMS 301 C",
+      "family": "Blues",
+      "hex": "#004B87",
+      "rgb": {
+        "r": 0,
+        "g": 75,
+        "b": 135
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 44,
+        "y": 0,
+        "k": 47
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 31.3,
+        "a": 4.57,
+        "b": -39.03
+      },
+      "chroma": 39.3,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 13.4
+      },
+      "contrastWhite": 8.91,
+      "contrastBlack": 2.36,
+      "tac": 191,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 306-C",
+      "code": "PMS 306 C",
+      "family": "Blues",
+      "hex": "#00B5E2",
+      "rgb": {
+        "r": 0,
+        "g": 181,
+        "b": 226
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 20,
+        "y": 0,
+        "k": 11
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 68.41,
+        "a": -22.49,
+        "b": -33.25
+      },
+      "chroma": 40.1,
+      "css": {
+        "name": "deepskyblue",
+        "hex": "#00BFFF",
+        "deltaE": 5.49
+      },
+      "contrastWhite": 2.41,
+      "contrastBlack": 8.71,
+      "tac": 131,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 2955-C",
+      "code": "PMS 2955 C",
+      "family": "Blues",
+      "hex": "#003865",
+      "rgb": {
+        "r": 0,
+        "g": 56,
+        "b": 101
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 45,
+        "y": 0,
+        "k": 60
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 22.89,
+        "a": 2.78,
+        "b": -31.03
+      },
+      "chroma": 31.2,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 12.88
+      },
+      "contrastWhite": 11.98,
+      "contrastBlack": 1.75,
+      "tac": 205,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 7461-C",
+      "code": "PMS 7461 C",
+      "family": "Blues",
+      "hex": "#007DBA",
+      "rgb": {
+        "r": 0,
+        "g": 125,
+        "b": 186
+      },
+      "cmyk": {
+        "c": 100,
+        "m": 33,
+        "y": 0,
+        "k": 27
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 49.75,
+        "a": -6.22,
+        "b": -40.01
+      },
+      "chroma": 40.5,
+      "css": {
+        "name": "steelblue",
+        "hex": "#4682B4",
+        "deltaE": 4.46
+      },
+      "contrastWhite": 4.52,
+      "contrastBlack": 4.64,
+      "tac": 160,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 265-C",
+      "code": "PMS 265 C",
+      "family": "Purples and violets",
+      "hex": "#9063CD",
+      "rgb": {
+        "r": 144,
+        "g": 99,
+        "b": 205
+      },
+      "cmyk": {
+        "c": 30,
+        "m": 52,
+        "y": 0,
+        "k": 20
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 50.99,
+        "a": 39.85,
+        "b": -48.51
+      },
+      "chroma": 62.8,
+      "css": {
+        "name": "mediumpurple",
+        "hex": "#9370DB",
+        "deltaE": 4.41
+      },
+      "contrastWhite": 4.33,
+      "contrastBlack": 4.85,
+      "tac": 102,
+      "maxInk": 52,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 266-C",
+      "code": "PMS 266 C",
+      "family": "Purples and violets",
+      "hex": "#753BBD",
+      "rgb": {
+        "r": 117,
+        "g": 59,
+        "b": 189
+      },
+      "cmyk": {
+        "c": 38,
+        "m": 69,
+        "y": 0,
+        "k": 26
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 38.87,
+        "a": 51.06,
+        "b": -58.89
+      },
+      "chroma": 77.9,
+      "css": {
+        "name": "blueviolet",
+        "hex": "#8A2BE2",
+        "deltaE": 5.72
+      },
+      "contrastWhite": 6.74,
+      "contrastBlack": 3.12,
+      "tac": 133,
+      "maxInk": 69,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 267-C",
+      "code": "PMS 267 C",
+      "family": "Purples and violets",
+      "hex": "#5F259F",
+      "rgb": {
+        "r": 95,
+        "g": 37,
+        "b": 159
+      },
+      "cmyk": {
+        "c": 40,
+        "m": 77,
+        "y": 0,
+        "k": 38
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 30.06,
+        "a": 49.76,
+        "b": -55.46
+      },
+      "chroma": 74.5,
+      "css": {
+        "name": "rebeccapurple",
+        "hex": "#663399",
+        "deltaE": 3.48
+      },
+      "contrastWhite": 9.33,
+      "contrastBlack": 2.25,
+      "tac": 155,
+      "maxInk": 77,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 2685-C",
+      "code": "PMS 2685 C",
+      "family": "Purples and violets",
+      "hex": "#330072",
+      "rgb": {
+        "r": 51,
+        "g": 0,
+        "b": 114
+      },
+      "cmyk": {
+        "c": 55,
+        "m": 100,
+        "y": 0,
+        "k": 55
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 15.05,
+        "a": 45.7,
+        "b": -52.12
+      },
+      "chroma": 69.3,
+      "css": {
+        "name": "indigo",
+        "hex": "#4B0082",
+        "deltaE": 4.26
+      },
+      "contrastWhite": 15.18,
+      "contrastBlack": 1.38,
+      "tac": 210,
+      "maxInk": 100,
+      "heavy": 1,
+      "srgbClipped": true
+    },
+    {
+      "name": "Pantone 2725-C",
+      "code": "PMS 2725 C",
+      "family": "Purples and violets",
+      "hex": "#685BC7",
+      "rgb": {
+        "r": 104,
+        "g": 91,
+        "b": 199
+      },
+      "cmyk": {
+        "c": 48,
+        "m": 54,
+        "y": 0,
+        "k": 22
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 45.01,
+        "a": 33.21,
+        "b": -54.85
+      },
+      "chroma": 64.1,
+      "css": {
+        "name": "slateblue",
+        "hex": "#6A5ACD",
+        "deltaE": 1.03
+      },
+      "contrastWhite": 5.37,
+      "contrastBlack": 3.91,
+      "tac": 124,
+      "maxInk": 54,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 527-C",
+      "code": "PMS 527 C",
+      "family": "Purples and violets",
+      "hex": "#8031A7",
+      "rgb": {
+        "r": 128,
+        "g": 49,
+        "b": 167
+      },
+      "cmyk": {
+        "c": 23,
+        "m": 71,
+        "y": 0,
+        "k": 35
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 37.07,
+        "a": 52.82,
+        "b": -48.7
+      },
+      "chroma": 71.8,
+      "css": {
+        "name": "rebeccapurple",
+        "hex": "#663399",
+        "deltaE": 5
+      },
+      "contrastWhite": 7.2,
+      "contrastBlack": 2.92,
+      "tac": 129,
+      "maxInk": 71,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 668-C",
+      "code": "PMS 668 C",
+      "family": "Purples and violets",
+      "hex": "#614B79",
+      "rgb": {
+        "r": 97,
+        "g": 75,
+        "b": 121
+      },
+      "cmyk": {
+        "c": 20,
+        "m": 38,
+        "y": 0,
+        "k": 53
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 35.9,
+        "a": 19.21,
+        "b": -22.75
+      },
+      "chroma": 29.8,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 9.85
+      },
+      "contrastWhite": 7.52,
+      "contrastBlack": 2.79,
+      "tac": 111,
+      "maxInk": 38,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 7679-C",
+      "code": "PMS 7679 C",
+      "family": "Purples and violets",
+      "hex": "#563D82",
+      "rgb": {
+        "r": 86,
+        "g": 61,
+        "b": 130
+      },
+      "cmyk": {
+        "c": 34,
+        "m": 53,
+        "y": 0,
+        "k": 49
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 31.64,
+        "a": 26.97,
+        "b": -35.13
+      },
+      "chroma": 44.3,
+      "css": {
+        "name": "darkslateblue",
+        "hex": "#483D8B",
+        "deltaE": 4.19
+      },
+      "contrastWhite": 8.8,
+      "contrastBlack": 2.39,
+      "tac": 136,
+      "maxInk": 53,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 402-C",
+      "code": "PMS 402 C",
+      "family": "Warm neutrals",
+      "hex": "#9D968D",
+      "rgb": {
+        "r": 157,
+        "g": 150,
+        "b": 141
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 4,
+        "y": 10,
+        "k": 38
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 62.43,
+        "a": 0.94,
+        "b": 5.66
+      },
+      "chroma": 5.7,
+      "css": {
+        "name": "darkgray",
+        "hex": "#A9A9A9",
+        "deltaE": 7.57
+      },
+      "contrastWhite": 2.92,
+      "contrastBlack": 7.18,
+      "tac": 52,
+      "maxInk": 10,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 405-C",
+      "code": "PMS 405 C",
+      "family": "Warm neutrals",
+      "hex": "#696158",
+      "rgb": {
+        "r": 105,
+        "g": 97,
+        "b": 88
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 8,
+        "y": 16,
+        "k": 59
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 41.62,
+        "a": 1.49,
+        "b": 6.28
+      },
+      "chroma": 6.5,
+      "css": {
+        "name": "dimgray",
+        "hex": "#696969",
+        "deltaE": 6.34
+      },
+      "contrastWhite": 6.08,
+      "contrastBlack": 3.45,
+      "tac": 83,
+      "maxInk": 16,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 408-C",
+      "code": "PMS 408 C",
+      "family": "Warm neutrals",
+      "hex": "#978C87",
+      "rgb": {
+        "r": 151,
+        "g": 140,
+        "b": 135
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 7,
+        "y": 11,
+        "k": 41
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 59.05,
+        "a": 3.19,
+        "b": 4.14
+      },
+      "chroma": 5.2,
+      "css": {
+        "name": "gray",
+        "hex": "#808080",
+        "deltaE": 7.51
+      },
+      "contrastWhite": 3.27,
+      "contrastBlack": 6.42,
+      "tac": 59,
+      "maxInk": 11,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 418-C",
+      "code": "PMS 418 C",
+      "family": "Warm neutrals",
+      "hex": "#51534A",
+      "rgb": {
+        "r": 81,
+        "g": 83,
+        "b": 74
+      },
+      "cmyk": {
+        "c": 2,
+        "m": 0,
+        "y": 11,
+        "k": 67
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 34.86,
+        "a": -2.68,
+        "b": 5
+      },
+      "chroma": 5.7,
+      "css": {
+        "name": "dimgray",
+        "hex": "#696969",
+        "deltaE": 10.06
+      },
+      "contrastWhite": 7.82,
+      "contrastBlack": 2.69,
+      "tac": 80,
+      "maxInk": 11,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 424-C",
+      "code": "PMS 424 C",
+      "family": "Warm neutrals",
+      "hex": "#707372",
+      "rgb": {
+        "r": 112,
+        "g": 115,
+        "b": 114
+      },
+      "cmyk": {
+        "c": 3,
+        "m": 0,
+        "y": 1,
+        "k": 55
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 48.16,
+        "a": -1.34,
+        "b": 0.15
+      },
+      "chroma": 1.3,
+      "css": {
+        "name": "dimgray",
+        "hex": "#696969",
+        "deltaE": 4.1
+      },
+      "contrastWhite": 4.79,
+      "contrastBlack": 4.38,
+      "tac": 59,
+      "maxInk": 3,
+      "heavy": 0,
+      "srgbClipped": false
+    },
+    {
+      "name": "Pantone 430-C",
+      "code": "PMS 430 C",
+      "family": "Warm neutrals",
+      "hex": "#7C878E",
+      "rgb": {
+        "r": 124,
+        "g": 135,
+        "b": 142
+      },
+      "cmyk": {
+        "c": 13,
+        "m": 5,
+        "y": 0,
+        "k": 44
+      },
+      "collection": "coated",
+      "lab": {
+        "l": 55.65,
+        "a": -2.51,
+        "b": -5.12
+      },
+      "chroma": 5.7,
+      "css": {
+        "name": "lightslategray",
+        "hex": "#778899",
+        "deltaE": 4.45
+      },
+      "contrastWhite": 3.68,
+      "contrastBlack": 5.71,
+      "tac": 62,
+      "maxInk": 13,
+      "heavy": 0,
+      "srgbClipped": false
+    }
+  ],
+  "families": [
+    "Base solid inks",
+    "Deck blacks",
+    "Cool Grays",
+    "Metallics and neons",
+    "Reds and pinks",
+    "Oranges and browns",
+    "Yellows and golds",
+    "Greens",
+    "Blues",
+    "Purples and violets",
+    "Warm neutrals"
+  ],
+  "coatedUncoated": [
+    {
+      "name": "Pantone 186-C",
+      "code": "PMS 186",
+      "coatedHex": "#C8102E",
+      "uncoatedHex": "#D2515E",
+      "deltaE": 11.74,
+      "dL": 9.7,
+      "dC": -19.5,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 485-C",
+      "code": "PMS 485",
+      "coatedHex": "#DA291C",
+      "uncoatedHex": "#E45D50",
+      "deltaE": 10.83,
+      "dL": 9.3,
+      "dC": -21.2,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone RED-032-C",
+      "code": "PMS Red 032",
+      "coatedHex": "#EF3340",
+      "uncoatedHex": "#F65058",
+      "deltaE": 5.47,
+      "dL": 5,
+      "dC": -9,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone REFLEX-BLUE-C",
+      "code": "PMS Reflex Blue",
+      "coatedHex": "#001489",
+      "uncoatedHex": "#39499C",
+      "deltaE": 14.61,
+      "dL": 17,
+      "dC": -24.6,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone ORANGE-021-C",
+      "code": "PMS Orange 021",
+      "coatedHex": "#FE5000",
+      "uncoatedHex": "#FF6C2F",
+      "deltaE": 5.08,
+      "dL": 4.7,
+      "dC": -14.7,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 300-C",
+      "code": "PMS 300",
+      "coatedHex": "#005EB8",
+      "uncoatedHex": "#006EB6",
+      "deltaE": 6.35,
+      "dL": 4.6,
+      "dC": -10,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 285-C",
+      "code": "PMS 285",
+      "coatedHex": "#0072CE",
+      "uncoatedHex": "#4982CF",
+      "deltaE": 6.65,
+      "dL": 6.3,
+      "dC": -9.9,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 355-C",
+      "code": "PMS 355",
+      "coatedHex": "#009639",
+      "uncoatedHex": "#19975D",
+      "deltaE": 6.59,
+      "dL": 1.1,
+      "dC": -15.4,
+      "note": "Uncoated prints about as light and much duller."
+    },
+    {
+      "name": "Pantone 354-C",
+      "code": "PMS 354",
+      "coatedHex": "#00B140",
+      "uncoatedHex": "#00A95C",
+      "deltaE": 5.79,
+      "dL": -2.3,
+      "dC": -14.6,
+      "note": "Uncoated prints about as light and much duller."
+    },
+    {
+      "name": "Pantone 2955-C",
+      "code": "PMS 2955",
+      "coatedHex": "#003865",
+      "uncoatedHex": "#395775",
+      "deltaE": 10.76,
+      "dL": 13,
+      "dC": -10.6,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 109-C",
+      "code": "PMS 109",
+      "coatedHex": "#FFD100",
+      "uncoatedHex": "#FFC700",
+      "deltaE": 3.37,
+      "dL": -2.5,
+      "dC": -1.5,
+      "note": "Uncoated prints about as light and similarly saturated."
+    },
+    {
+      "name": "Pantone 200-C",
+      "code": "PMS 200",
+      "coatedHex": "#BA0C2F",
+      "uncoatedHex": "#BD4F5C",
+      "deltaE": 11.26,
+      "dL": 9.1,
+      "dC": -22.2,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 266-C",
+      "code": "PMS 266",
+      "coatedHex": "#753BBD",
+      "uncoatedHex": "#8A65C4",
+      "deltaE": 12.05,
+      "dL": 11.5,
+      "dC": -21.5,
+      "note": "Uncoated prints lighter and much duller."
+    },
+    {
+      "name": "Pantone 348-C",
+      "code": "PMS 348",
+      "coatedHex": "#00843D",
+      "uncoatedHex": "#34855B",
+      "deltaE": 6.8,
+      "dL": 1.8,
+      "dC": -17.6,
+      "note": "Uncoated prints about as light and much duller."
+    },
+    {
+      "name": "Pantone 877-C",
+      "code": "PMS 877",
+      "coatedHex": "#8A8D8F",
+      "uncoatedHex": "#B4B7B9",
+      "deltaE": 12.77,
+      "dL": 15.8,
+      "dC": -0.1,
+      "note": "Uncoated prints lighter and similarly saturated."
+    },
+    {
+      "name": "Pantone 871-C",
+      "code": "PMS 871",
+      "coatedHex": "#84754E",
+      "uncoatedHex": "#AD986E",
+      "deltaE": 13.05,
+      "dL": 14,
+      "dC": 1.4,
+      "note": "Uncoated prints lighter and similarly saturated."
+    },
+    {
+      "name": "Pantone BLACK-C",
+      "code": "PMS Black",
+      "coatedHex": "#2D2926",
+      "uncoatedHex": "#615D59",
+      "deltaE": 17.32,
+      "dL": 22.8,
+      "dC": 0.1,
+      "note": "Uncoated prints lighter and similarly saturated."
+    },
+    {
+      "name": "Pantone BLACK-6-C",
+      "code": "PMS Black 6",
+      "coatedHex": "#101820",
+      "uncoatedHex": "#4C4E56",
+      "deltaE": 17.97,
+      "dL": 25.4,
+      "dC": -1.7,
+      "note": "Uncoated prints lighter and similarly saturated."
+    },
+    {
+      "name": "Pantone COOL-GRAY-9-C",
+      "code": "PMS Cool Gray 9",
+      "coatedHex": "#75787B",
+      "uncoatedHex": "#898B8E",
+      "deltaE": 7.25,
+      "dL": 7.5,
+      "dC": -0.2,
+      "note": "Uncoated prints lighter and similarly saturated."
+    },
+    {
+      "name": "Pantone YELLOW-C",
+      "code": "PMS Yellow",
+      "coatedHex": "#FEDD00",
+      "uncoatedHex": "#FFE800",
+      "deltaE": 3.18,
+      "dL": 2.9,
+      "dC": 2.5,
+      "note": "Uncoated prints about as light and more saturated."
+    }
+  ],
+  "cuHistogram": {
+    "buckets": [
+      {
+        "label": "Under 1",
+        "lo": 0,
+        "hi": 1,
+        "count": 44,
+        "pct": 3.3
+      },
+      {
+        "label": "1 – 2",
+        "lo": 1,
+        "hi": 2,
+        "count": 187,
+        "pct": 13.9
+      },
+      {
+        "label": "2 – 3",
+        "lo": 2,
+        "hi": 3,
+        "count": 156,
+        "pct": 11.6
+      },
+      {
+        "label": "3 – 5",
+        "lo": 3,
+        "hi": 5,
+        "count": 164,
+        "pct": 12.2
+      },
+      {
+        "label": "5 – 10",
+        "lo": 5,
+        "hi": 10,
+        "count": 382,
+        "pct": 28.5
+      },
+      {
+        "label": "10 and over",
+        "lo": 10,
+        "hi": null,
+        "count": 408,
+        "pct": 30.4
+      }
+    ],
+    "n": 1341,
+    "min": 0.35,
+    "max": 23.57,
+    "mean": 7.2,
+    "median": 6.41,
+    "widest": [
+      {
+        "code": "PMS 2685",
+        "deltaE": 23.57,
+        "coatedHex": "#330072",
+        "uncoatedHex": "#765BA7"
+      },
+      {
+        "code": "PMS 273",
+        "deltaE": 22.59,
+        "coatedHex": "#24135F",
+        "uncoatedHex": "#645D9B"
+      },
+      {
+        "code": "PMS 426",
+        "deltaE": 21.85,
+        "coatedHex": "#25282A",
+        "uncoatedHex": "#686869"
+      }
+    ],
+    "under2": 231,
+    "over5": 790,
+    "over10": 408
+  },
+  "tacHistogram": {
+    "buckets": [
+      {
+        "label": "Under 50%",
+        "lo": 0,
+        "hi": 50,
+        "count": 186,
+        "pct": 13.9
+      },
+      {
+        "label": "50 – 100%",
+        "lo": 50,
+        "hi": 100,
+        "count": 358,
+        "pct": 26.7
+      },
+      {
+        "label": "100 – 150%",
+        "lo": 100,
+        "hi": 150,
+        "count": 406,
+        "pct": 30.3
+      },
+      {
+        "label": "150 – 200%",
+        "lo": 150,
+        "hi": 200,
+        "count": 344,
+        "pct": 25.7
+      },
+      {
+        "label": "200 – 250%",
+        "lo": 200,
+        "hi": 250,
+        "count": 47,
+        "pct": 3.5
+      },
+      {
+        "label": "250% and over",
+        "lo": 250,
+        "hi": null,
+        "count": 0,
+        "pct": 0
+      }
+    ],
+    "n": 1341,
+    "min": 12,
+    "max": 239,
+    "mean": 113.58,
+    "median": 117,
+    "heaviest": [
+      {
+        "code": "PMS 2738 C",
+        "tac": 239,
+        "cmyk": {
+          "c": 96,
+          "m": 98,
+          "y": 0,
+          "k": 45
+        }
+      },
+      {
+        "code": "PMS 2748 C",
+        "tac": 235,
+        "cmyk": {
+          "c": 100,
+          "m": 79,
+          "y": 0,
+          "k": 56
+        }
+      },
+      {
+        "code": "PMS 662 C",
+        "tac": 233,
+        "cmyk": {
+          "c": 100,
+          "m": 77,
+          "y": 0,
+          "k": 56
+        }
+      }
+    ]
+  },
+  "srgbClipping": {
+    "total": 1341,
+    "clipped": 279,
+    "pct": 20.8,
+    "byChannelCount": [
+      {
+        "channels": 1,
+        "count": 268
+      },
+      {
+        "channels": 2,
+        "count": 11
+      },
+      {
+        "channels": 3,
+        "count": 0
+      }
+    ]
+  },
+  "hardestForProcess": [
+    {
+      "code": "PMS 2738 C",
+      "name": "Pantone 2738-C",
+      "hex": "#06038D",
+      "cmyk": {
+        "c": 96,
+        "m": 98,
+        "y": 0,
+        "k": 45
+      },
+      "tac": 239,
+      "maxInk": 98,
+      "heavy": 2
+    },
+    {
+      "code": "PMS 2748 C",
+      "name": "Pantone 2748-C",
+      "hex": "#001871",
+      "cmyk": {
+        "c": 100,
+        "m": 79,
+        "y": 0,
+        "k": 56
+      },
+      "tac": 235,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 662 C",
+      "name": "Pantone 662-C",
+      "hex": "#001A70",
+      "cmyk": {
+        "c": 100,
+        "m": 77,
+        "y": 0,
+        "k": 56
+      },
+      "tac": 233,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2747 C",
+      "name": "Pantone 2747-C",
+      "hex": "#001A72",
+      "cmyk": {
+        "c": 100,
+        "m": 77,
+        "y": 0,
+        "k": 55
+      },
+      "tac": 232,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2758 C",
+      "name": "Pantone 2758-C",
+      "hex": "#001E62",
+      "cmyk": {
+        "c": 100,
+        "m": 69,
+        "y": 0,
+        "k": 62
+      },
+      "tac": 231,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2757 C",
+      "name": "Pantone 2757-C",
+      "hex": "#001E60",
+      "cmyk": {
+        "c": 100,
+        "m": 69,
+        "y": 0,
+        "k": 62
+      },
+      "tac": 231,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS Reflex Blue C",
+      "name": "Pantone REFLEX-BLUE-C",
+      "hex": "#001489",
+      "cmyk": {
+        "c": 100,
+        "m": 85,
+        "y": 0,
+        "k": 46
+      },
+      "tac": 231,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 281 C",
+      "name": "Pantone 281-C",
+      "hex": "#00205B",
+      "cmyk": {
+        "c": 100,
+        "m": 65,
+        "y": 0,
+        "k": 64
+      },
+      "tac": 229,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 280 C",
+      "name": "Pantone 280-C",
+      "hex": "#012169",
+      "cmyk": {
+        "c": 99,
+        "m": 69,
+        "y": 0,
+        "k": 59
+      },
+      "tac": 227,
+      "maxInk": 99,
+      "heavy": 1
+    },
+    {
+      "code": "PMS Blue 072 C",
+      "name": "Pantone BLUE-072-C",
+      "hex": "#10069F",
+      "cmyk": {
+        "c": 90,
+        "m": 96,
+        "y": 0,
+        "k": 38
+      },
+      "tac": 224,
+      "maxInk": 96,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 655 C",
+      "name": "Pantone 655-C",
+      "hex": "#002554",
+      "cmyk": {
+        "c": 100,
+        "m": 56,
+        "y": 0,
+        "k": 67
+      },
+      "tac": 223,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2745 C",
+      "name": "Pantone 2745-C",
+      "hex": "#280071",
+      "cmyk": {
+        "c": 65,
+        "m": 100,
+        "y": 0,
+        "k": 56
+      },
+      "tac": 221,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 295 C",
+      "name": "Pantone 295-C",
+      "hex": "#002855",
+      "cmyk": {
+        "c": 100,
+        "m": 53,
+        "y": 0,
+        "k": 67
+      },
+      "tac": 220,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS Dark Blue C",
+      "name": "Pantone DARK-BLUE-C",
+      "hex": "#00239C",
+      "cmyk": {
+        "c": 100,
+        "m": 78,
+        "y": 0,
+        "k": 39
+      },
+      "tac": 217,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 288 C",
+      "name": "Pantone 288-C",
+      "hex": "#002D72",
+      "cmyk": {
+        "c": 100,
+        "m": 61,
+        "y": 0,
+        "k": 55
+      },
+      "tac": 216,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 648 C",
+      "name": "Pantone 648-C",
+      "hex": "#002E5D",
+      "cmyk": {
+        "c": 100,
+        "m": 51,
+        "y": 0,
+        "k": 64
+      },
+      "tac": 215,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2965 C",
+      "name": "Pantone 2965-C",
+      "hex": "#00263E",
+      "cmyk": {
+        "c": 100,
+        "m": 39,
+        "y": 0,
+        "k": 76
+      },
+      "tac": 215,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 294 C",
+      "name": "Pantone 294-C",
+      "hex": "#002F6C",
+      "cmyk": {
+        "c": 100,
+        "m": 56,
+        "y": 0,
+        "k": 58
+      },
+      "tac": 214,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2735 C",
+      "name": "Pantone 2735-C",
+      "hex": "#2E008B",
+      "cmyk": {
+        "c": 67,
+        "m": 100,
+        "y": 0,
+        "k": 45
+      },
+      "tac": 212,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 7463 C",
+      "name": "Pantone 7463-C",
+      "hex": "#002B49",
+      "cmyk": {
+        "c": 100,
+        "m": 41,
+        "y": 0,
+        "k": 71
+      },
+      "tac": 212,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 287 C",
+      "name": "Pantone 287-C",
+      "hex": "#003087",
+      "cmyk": {
+        "c": 100,
+        "m": 64,
+        "y": 0,
+        "k": 47
+      },
+      "tac": 211,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 540 C",
+      "name": "Pantone 540-C",
+      "hex": "#003057",
+      "cmyk": {
+        "c": 100,
+        "m": 45,
+        "y": 0,
+        "k": 66
+      },
+      "tac": 211,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 539 C",
+      "name": "Pantone 539-C",
+      "hex": "#00263A",
+      "cmyk": {
+        "c": 100,
+        "m": 34,
+        "y": 0,
+        "k": 77
+      },
+      "tac": 211,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 2685 C",
+      "name": "Pantone 2685-C",
+      "hex": "#330072",
+      "cmyk": {
+        "c": 55,
+        "m": 100,
+        "y": 0,
+        "k": 55
+      },
+      "tac": 210,
+      "maxInk": 100,
+      "heavy": 1
+    },
+    {
+      "code": "PMS 356 C",
+      "name": "Pantone 356-C",
+      "hex": "#007A33",
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 58,
+        "k": 52
+      },
+      "tac": 210,
+      "maxInk": 100,
+      "heavy": 1
+    }
+  ],
+  "noHeadroomCount": 262,
+  "inkBuild": [
+    {
+      "code": "PMS Yellow C",
+      "hex": "#FEDD00",
+      "cmyk": {
+        "c": 0,
+        "m": 13,
+        "y": 100,
+        "k": 0
+      },
+      "tac": 113
+    },
+    {
+      "code": "PMS Orange 021 C",
+      "hex": "#FE5000",
+      "cmyk": {
+        "c": 0,
+        "m": 69,
+        "y": 100,
+        "k": 0
+      },
+      "tac": 169
+    },
+    {
+      "code": "PMS 186 C",
+      "hex": "#C8102E",
+      "cmyk": {
+        "c": 0,
+        "m": 92,
+        "y": 77,
+        "k": 22
+      },
+      "tac": 191
+    },
+    {
+      "code": "PMS 485 C",
+      "hex": "#DA291C",
+      "cmyk": {
+        "c": 0,
+        "m": 81,
+        "y": 87,
+        "k": 15
+      },
+      "tac": 183
+    },
+    {
+      "code": "PMS 355 C",
+      "hex": "#009639",
+      "cmyk": {
+        "c": 100,
+        "m": 0,
+        "y": 62,
+        "k": 41
+      },
+      "tac": 203
+    },
+    {
+      "code": "PMS Reflex Blue C",
+      "hex": "#001489",
+      "cmyk": {
+        "c": 100,
+        "m": 85,
+        "y": 0,
+        "k": 46
+      },
+      "tac": 231
+    },
+    {
+      "code": "PMS 266 C",
+      "hex": "#753BBD",
+      "cmyk": {
+        "c": 38,
+        "m": 69,
+        "y": 0,
+        "k": 26
+      },
+      "tac": 133
+    },
+    {
+      "code": "PMS Black C",
+      "hex": "#2D2926",
+      "cmyk": {
+        "c": 0,
+        "m": 9,
+        "y": 16,
+        "k": 82
+      },
+      "tac": 107
+    }
+  ]
+}

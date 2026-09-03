@@ -1,8 +1,9 @@
-import React from 'react';
+import { memo } from 'react';
 import pantoneDb from '../data/pantone.json';
 import CopyButton from './CopyButton';
 
-export default function CoatedUncoatedComparison({ bestMatch }) {
+/** Memoised for the same reason as MatchCard — see the note there. */
+function CoatedUncoatedComparison({ bestMatch }) {
   if (!bestMatch) return null;
 
   // Extract base number, e.g. "Pantone 186-C" -> "186"
@@ -100,3 +101,5 @@ export default function CoatedUncoatedComparison({ bestMatch }) {
     </section>
   );
 }
+
+export default memo(CoatedUncoatedComparison);

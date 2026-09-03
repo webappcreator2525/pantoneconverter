@@ -19,9 +19,9 @@ This file is the curated index. The complete page list is at https://pantoneconv
 - [HEX to Pantone](https://pantoneconverter.com/hex-to-pantone/): Takes a HEX code and returns the closest PMS colours, ranked by ΔE.
 - [RGB to Pantone](https://pantoneconverter.com/rgb-to-pantone/): Takes red, green and blue channel values and returns the nearest PMS matches.
 - [CMYK to Pantone](https://pantoneconverter.com/cmyk-to-pantone/): Takes a four-channel process build and finds the closest PMS spot colour.
-- [Pantone to HEX](https://pantoneconverter.com/pantone-to-hex/): Looks up the HEX equivalent for any Pantone code, coated or uncoated.
+- [Pantone to HEX](https://pantoneconverter.com/pantone-to-hex/): Looks up the HEX equivalent for any Pantone code, coated or uncoated, and carries a 100-colour PMS-to-HEX chart with RGB values, the nearest CSS keyword by ΔE and WCAG contrast ratios, plus a coated-versus-uncoated table showing how far the C and U codes actually diverge.
 - [Pantone to RGB](https://pantoneconverter.com/pantone-to-rgb/): Returns RGB channel values for a Pantone code, for screen and UI work.
-- [Pantone to CMYK](https://pantoneconverter.com/pantone-to-cmyk/): Returns a CMYK process build for a Pantone spot colour.
+- [Pantone to CMYK](https://pantoneconverter.com/pantone-to-cmyk/): Returns a CMYK process build for a Pantone spot colour, with a 100-colour ink chart giving total area coverage and flagging builds that leave the press no ink headroom, plus sections on rich black, total ink limits and when a fifth spot plate is worth paying for.
 - [Pantone to RAL](https://pantoneconverter.com/pantone-to-ral/): Matches Pantone colours against the 213 RAL Classic coating codes used in European paint, powder coating and architectural specification.
 - [Pantone to LAB](https://pantoneconverter.com/pantone-to-lab/): Gives CIELAB L*a*b* coordinates under D65 — the device-independent numbers used for quality control and ΔE calculation.
 - [HEX to TCX](https://pantoneconverter.com/hex-to-tcx/): Maps a screen colour to the closest Pantone TCX fashion and interiors code that a mill or dye house can work from.

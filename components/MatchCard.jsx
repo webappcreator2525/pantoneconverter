@@ -1,8 +1,14 @@
+import { memo } from 'react';
 import { Heart } from 'lucide-react';
 import CopyableValue from './CopyableValue';
 import { useFavorites } from '../lib/FavoritesContext';
 
-export default function MatchCard({ match, rank }) {
+/**
+ * Memoised: the converter pages re-render on every keystroke to keep the input
+ * responsive, but the five match cards only change when the settled value does.
+ * `match` comes out of a useMemo, so its identity is stable between those.
+ */
+function MatchCard({ match, rank }) {
   const { c, m, y, k } = match.cmyk;
   const { r, g, b }     = match.rgb;
   const cmykStr = `C:${c} M:${m} Y:${y} K:${k}`;
@@ -88,3 +94,5 @@ export default function MatchCard({ match, rank }) {
     </div>
   );
 }
+
+export default memo(MatchCard);

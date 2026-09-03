@@ -13,6 +13,7 @@ import SystemMatchCard, { SourceSwatch } from './SystemMatchCard';
 
 import pantoneDb from '../data/pantone.json';
 import { pathFrom } from '../lib/ogCards.mjs';
+import { useDeferredInput } from '../lib/useDeferredInput';
 import {
   hexToRgb, rgbToHex, rgbToCmyk, clamp,
   findClosestByDeltaE, filterPalette,
@@ -32,9 +33,13 @@ function PaletteSearchInput({ palette, value, onChange, onSelect, placeholder, l
   const wrapRef = useRef(null);
   const inputRef = useRef(null);
 
+  // Built from the settled value, not the live one — see PantoneToXPage for the
+  // same reasoning: the cost of typing here is re-rendering the suggestion
+  // rows, not filtering the palette.
+  const settled = useDeferredInput(value);
   const suggestions = useMemo(
-    () => (value.trim() ? filterPalette(value, palette, 10) : []),
-    [value, palette]
+    () => (settled.trim() ? filterPalette(settled, palette, 10) : []),
+    [settled, palette]
   );
 
   useEffect(() => {

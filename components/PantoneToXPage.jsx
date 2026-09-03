@@ -7,22 +7,8 @@ import Footer from '../components/Footer';
 import CopyButton from '../components/CopyButton';
 import pantoneDb from '../data/pantone.json';
 import { isLightColor } from '../lib/colorUtils';
-import CrossSystemLinks from './CrossSystemLinks';
+import { useDeferredInput } from '../lib/useDeferredInput';
 import Breadcrumb, { buildTrail, breadcrumbSchema } from './Breadcrumb';
-
-// ─── Popular colors ───────────────────────────────────────────────
-const POPULAR_NAMES = [
-  'Pantone 186-C', 'Pantone 285-C', 'Pantone 368-C', 'Pantone 109-C',
-  'Pantone 485-C', 'Pantone 266-C', 'Pantone Process Black-C', 'Pantone Cool Gray 9-C',
-  'Pantone 877-C Metallic', 'Pantone 032-C', 'Pantone 355-C', 'Pantone Reflex Blue-C',
-];
-
-// Resolve to actual DB entries (fuzzy: substring match on each keyword)
-const POPULAR_ENTRIES = POPULAR_NAMES.map(n => {
-  const key = n.toLowerCase();
-  return pantoneDb.find(e => e.name.toLowerCase() === key)
-      || pantoneDb.find(e => e.name.toLowerCase().includes(key.replace('pantone ', '')));
-}).filter(Boolean);
 
 // ─── Autocomplete search ──────────────────────────────────────────
 function PantoneSearchInput({ value, onChange, onSelect }) {
@@ -31,11 +17,16 @@ function PantoneSearchInput({ value, onChange, onSelect }) {
 
   // Suggestions follow the query, so derive them. Whether the list is *shown*
   // is genuine state — clicking outside closes it without changing the query.
+  //
+  // They follow the *settled* query rather than the live one: rebuilding ten
+  // suggestion rows on every keystroke was the expensive part of typing here,
+  // and nobody reads a suggestion list mid-keystroke anyway.
+  const settled = useDeferredInput(value);
   const suggestions = useMemo(() => {
-    if (!value.trim()) return [];
-    const q = value.toLowerCase();
+    if (!settled.trim()) return [];
+    const q = settled.toLowerCase();
     return pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
-  }, [value]);
+  }, [settled]);
 
   useEffect(() => {
     const handler = e => { if (wrapRef.current && !wrapRef.current.contains(e.target)) setOpen(false); };
@@ -176,33 +167,75 @@ function ResultPanel({ selected, primaryOutput }) {
   );
 }
 
-// ─── Shared page component ────────────────────────────────────────
+/**
+ * PantoneToXPage — the shell shared by /pantone-to-hex/ and /pantone-to-cmyk/.
+ *
+ * It owns the chrome and the tool, and nothing else. Everything that used to be
+ * hard-coded here — the "Popular Colors" strip, the SEO paragraph, the
+ * cross-system link block — was byte-identical on both pages, which is exactly
+ * the near-duplicate boilerplate the two pages were being suppressed for. Those
+ * now arrive as props, and the long-form body arrives as `children`, so the
+ * pages share plumbing and share no prose.
+ *
+ * @param {object} props
+ * @param {'cmyk'|'hex'|'rgb'} props.primaryOutput  Which value the result card leads with.
+ * @param {React.ReactNode} props.icon
+ * @param {string} props.iconBg
+ * @param {string} props.pageTitle       <title>, under 60 characters.
+ * @param {string} props.h1
+ * @param {string} props.metaDescription
+ * @param {string} props.canonical
+ * @param {React.ReactNode} props.intro  Lead paragraph under the H1, above the tool.
+ * @param {string} props.toolLabel       Label on the search field.
+ * @param {string} props.toolHint        Example queries under the search field.
+ * @param {Array<string>} props.popularNames  Dataset names for the quick-pick strip.
+ * @param {string} props.popularHeading
+ * @param {Array<object>} [props.schemas]  Extra JSON-LD emitted alongside the
+ *        WebApplication and BreadcrumbList blocks.
+ * @param {React.ReactNode} props.children  Everything below the tool.
+ */
 export default function PantoneToXPage({
-  primaryOutput, // 'cmyk' | 'hex' | 'rgb'
+  primaryOutput,
   icon,
   iconBg,
-  accentColor,
   pageTitle,
+  h1,
   metaDescription,
   canonical,
-  seoH2,
-  seoText,
+  intro,
+  toolLabel = 'Search Pantone Color by Name',
+  toolHint,
+  popularNames = [],
+  popularHeading = 'Popular colours — click to look up',
+  datePublished,
+  dateModified,
+  schemas = [],
+  children,
 }) {
   const [query, setQuery]       = useState('');
   const [selected, setSelected] = useState(null);
 
-  const h1 = pageTitle.split('—')[0].trim();
   const trail = buildTrail(canonical, h1.replace(/ Converter$/, ''));
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": h1,
-    "url": canonical,
-    "applicationCategory": "DesignApplication",
-    "operatingSystem": "All",
-    "browserRequirements": "Requires JavaScript",
-    "description": metaDescription,
+  // Resolved once at module evaluation would be nicer, but the list is a prop.
+  // A hundred-entry Map lookup per render is nothing next to the 3,231-row
+  // filter the search box already does.
+  const popular = popularNames
+    .map((n) => pantoneDb.find((e) => e.name === n))
+    .filter(Boolean);
+
+  const appSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: h1,
+    url: canonical,
+    applicationCategory: 'DesignApplication',
+    operatingSystem: 'All',
+    browserRequirements: 'Requires JavaScript',
+    description: metaDescription,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    ...(datePublished ? { datePublished } : {}),
+    ...(dateModified ? { dateModified } : {}),
   };
 
   return (
@@ -213,14 +246,22 @@ export default function PantoneToXPage({
         <link rel="canonical" href={canonical} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={metaDescription} />
+        {dateModified && <meta property="article:modified_time" content={dateModified} />}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
         />
+        {schemas.map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          />
+        ))}
         {ogMeta({ path: pathFrom(canonical) })}
       </Head>
 
@@ -237,9 +278,9 @@ export default function PantoneToXPage({
               </div>
               <h1 style={{ fontSize: '1.75rem', fontWeight: 900, color: '#111827', margin: 0 }}>{h1}</h1>
             </div>
-            <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0 }}>
-              Search any Pantone color by name to get its {primaryOutput.toUpperCase()} equivalent. Over 3,200 PMS colors — instantly.
-            </p>
+            <div style={{ color: '#4b5563', fontSize: '0.95rem', lineHeight: 1.7, maxWidth: '52rem' }}>
+              {intro}
+            </div>
           </div>
         </div>
 
@@ -248,11 +289,11 @@ export default function PantoneToXPage({
           {/* Search box */}
           <div className="card">
             <label htmlFor="pantone-search" className="input-label" style={{ marginBottom: '0.75rem', display: 'block' }}>
-              Search Pantone Color by Name
+              {toolLabel}
             </label>
             <PantoneSearchInput value={query} onChange={setQuery} onSelect={setSelected} />
             <p style={{ fontSize: '0.78rem', color: '#6b7280', margin: '0.6rem 0 0' }}>
-              Try: “186 C”, “Cool Gray 9”, “Reflex Blue”, “Process Black”
+              {toolHint}
             </p>
           </div>
 
@@ -267,15 +308,14 @@ export default function PantoneToXPage({
           )}
 
           {/* Popular colors — shown only when query is empty and nothing selected */}
-          {!selected && !query.trim() && (
+          {!selected && !query.trim() && popular.length > 0 && (
             <div>
               <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#6b7280', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '0.875rem' }}>
-                Popular Colors — click to look up
+                {popularHeading}
               </div>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(7.5rem, 1fr))', gap: '0.75rem' }}>
-                {POPULAR_ENTRIES.map(entry => {
+                {popular.map(entry => {
                   const light = isLightColor(entry.hex);
-                  const tc = light ? '#1f2937' : '#ffffff';
                   const sc = light ? 'rgba(0,0,0,0.45)' : 'rgba(255,255,255,0.65)';
                   return (
                     <button
@@ -306,29 +346,7 @@ export default function PantoneToXPage({
             </div>
           )}
 
-          {/* SEO */}
-          <div className="card" style={{ borderTop: `3px solid ${accentColor}`, marginTop: '1rem' }}>
-            <h2 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111827', marginBottom: '0.75rem' }}>{seoH2}</h2>
-            {seoText.map((p, i) => (
-              <p key={i} style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: i > 0 ? '0.75rem 0 0' : 0 }}>{p}</p>
-            ))}
-          </div>
-
-          {/* HEX, RGB and CMYK are only three of the systems a Pantone colour
-              may need to reach. Point at the rest rather than dead-ending. */}
-          <CrossSystemLinks
-            heading="Convert the Same Pantone Colour to Another System"
-            intro="HEX, RGB and CMYK cover screen and process print. If the colour is heading for paint, coating, thread or fabric instead, these converters find the nearest code in that system and report the ΔE difference."
-            routes={[
-              '/pantone-to-ral/',
-              '/pantone-to-ncs/',
-              '/pantone-to-lab/',
-              '/pantone-to-hsv/',
-              '/pantone-to-dmc/',
-              '/pantone-c-to-tcx/',
-            ]}
-            accentColor={accentColor}
-          />
+          {children}
         </div>
       </main>
 

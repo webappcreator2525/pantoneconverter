@@ -176,6 +176,39 @@ function InputField({ id, label, value, onChange, color }) {
 }
 
 // ─── Page ─────────────────────────────────────────────────────────
+// The visible FAQ, and the only source for the FAQPage JSON-LD — Google needs
+// the two to match, and maintaining them separately had already let them drift.
+const FAQ_ITEMS = [
+  {
+    question: 'Is CMYK to Pantone conversion exact?',
+    answer: 'No. CMYK is a process color model using four inks; Pantone uses pre-mixed spot colors. The conversion always finds the closest visual match, not a mathematically exact equivalent. Always verify with a physical Pantone swatch book before going to print.',
+  },
+  {
+    question: 'What is PMS (Pantone Matching System)?',
+    answer: 'The Pantone Matching System (PMS) is a standardized color reproduction system used in commercial printing. Each PMS color is a pre-mixed proprietary ink with a unique number, ensuring identical color reproduction regardless of printer, location, or substrate.',
+  },
+  {
+    question: 'What\'s the difference between Coated (C) and Uncoated (U) Pantone colors?',
+    answer: 'Coated Pantone colors (suffix C) are for glossy or coated paper — they appear more vibrant and saturated. Uncoated colors (suffix U) are for matte or uncoated paper — the same ink absorbs differently and looks softer. This tool shows both variants side by side.',
+  },
+  {
+    question: 'Can I convert CMYK to Pantone in Illustrator or Photoshop?',
+    answer: 'Yes, both Adobe Illustrator and Photoshop have built-in Pantone libraries. However, using a dedicated CMYK to Pantone converter like this tool gives you an instant, browser-based result without needing to open design software.',
+  },
+  {
+    question: 'How do I find the closest Pantone color to my CMYK value?',
+    answer: 'Enter your C, M, Y, and K values (each 0–100) into the fields above. This tool searches 1,300+ Pantone swatches and returns the 5 closest PMS matches ranked by perceptual color distance — no manual lookup required.',
+  },
+  {
+    question: 'Why does my printed CMYK color look different from the Pantone swatch?',
+    answer: 'CMYK printing layers four semi-transparent inks, so the result depends on paper stock, ink density, printer calibration, and humidity. Pantone spot colors are pre-mixed and behave consistently. This inherent difference means a CMYK-to-Pantone conversion is always an approximation.',
+  },
+  {
+    question: 'What is CMYK to PMS conversion used for?',
+    answer: 'CMYK to PMS conversion is used whenever a designer needs to translate a process-color design into a spot-color specification — for brand color standardization, packaging, apparel, signage, and any print job requiring guaranteed color consistency across suppliers.',
+  },
+];
+
 export default function CmykToPantone() {
   const [C, setC] = useState('0');
   const [M, setM] = useState('0');
@@ -242,66 +275,15 @@ export default function CmykToPantone() {
           { "@type": "HowToStep", "text": "Click Copy next to the Pantone name, HEX, RGB, or CMYK value to use it in your design files." }
         ]
       },
+      // Generated from the visible list, so the structured data cannot
+      // describe questions the page does not show.
       {
         "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is CMYK to Pantone conversion exact?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. CMYK is a process color model using four inks; Pantone uses pre-mixed spot colors. The conversion always finds the closest visual match, not a mathematically exact equivalent. Always verify with a physical Pantone swatch book before going to print."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is PMS (Pantone Matching System)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The Pantone Matching System (PMS) is a standardized color reproduction system used in commercial printing. Each PMS color is a pre-mixed proprietary ink with a unique number, ensuring identical color reproduction regardless of printer, location, or substrate."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What's the difference between Coated (C) and Uncoated (U) Pantone colors?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Coated Pantone colors (suffix C) are formulated for glossy or coated paper — they appear more vibrant and saturated. Uncoated colors (suffix U) are for matte or uncoated paper — the same ink absorbs differently and looks softer. This tool shows both variants side by side."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I convert CMYK to Pantone in Illustrator or Photoshop?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, both Adobe Illustrator and Photoshop have built-in Pantone libraries. However, using a dedicated CMYK to Pantone converter like this tool gives you an instant, browser-based result without needing to open design software."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I find the closest Pantone color to my CMYK value?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Enter your C, M, Y, and K values (each 0\u2013100) into the fields above. This tool searches 1,300+ Pantone swatches and returns the 5 closest PMS matches ranked by perceptual color distance \u2014 no manual lookup required."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why does my printed CMYK color look different from the Pantone swatch?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "CMYK printing layers four semi-transparent inks, so the result depends on paper stock, ink density, printer calibration, and humidity. Pantone spot colors are pre-mixed and behave consistently. This inherent difference means a CMYK-to-Pantone conversion is always an approximation."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What is CMYK to PMS conversion used for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "CMYK to PMS conversion is used whenever a designer needs to translate a process-color design into a spot-color specification \u2014 for brand color standardization, packaging, apparel, signage, and any print job requiring guaranteed color consistency across suppliers."
-            }
-          }
-        ]
+        "mainEntity": FAQ_ITEMS.map((item) => ({
+          "@type": "Question",
+          "name": item.question,
+          "acceptedAnswer": { "@type": "Answer", "text": item.answer },
+        })),
       }
     ]
   };
@@ -511,6 +493,24 @@ export default function CmykToPantone() {
             )}
           </div>
 
+          {/* The reverse direction, placed where it is actually wanted: someone
+              who has just matched a build to a PMS number usually needs the
+              process build for a different PMS number next. */}
+          <div style={{
+            background: '#fdf4ff', border: '1.5px solid #f3d0fe', borderRadius: '0.875rem',
+            padding: '1rem 1.15rem',
+          }}>
+            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0 }}>
+              <strong style={{ color: '#111827' }}>Need to go the other way?</strong> If you already have a
+              PMS number and need the ink percentages, the{' '}
+              <Link href="/pantone-to-cmyk/" style={{ color: '#c44eed', fontWeight: 700, textDecoration: 'underline' }}>
+                Pantone to CMYK converter
+              </Link>{' '}
+              covers all 3,231 Pantone colours and comes with a 100-colour ink chart showing total area
+              coverage, plus guidance on rich black, total ink limits and when a fifth plate is worth it.
+            </p>
+          </div>
+
           {/* ── SEO: What is CMYK to Pantone ─────────────────────── */}
           <div className="card" style={{ borderTop: '3px solid #c44eed', marginTop: '1rem' }}>
             <h2 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111827', marginBottom: '0.75rem' }}>
@@ -625,36 +625,7 @@ export default function CmykToPantone() {
 
           {/* ── SEO: FAQ accordion ───────────────────────────────── */}
           <div className="card" style={{ borderTop: '3px solid #c44eed' }}>
-            <FAQSection suppressSchema items={[
-              {
-                question: 'Is CMYK to Pantone conversion exact?',
-                answer: 'No. CMYK is a process color model using four inks; Pantone uses pre-mixed spot colors. The conversion always finds the closest visual match, not a mathematically exact equivalent. Always verify with a physical Pantone swatch book before going to print.',
-              },
-              {
-                question: 'What is PMS (Pantone Matching System)?',
-                answer: 'The Pantone Matching System (PMS) is a standardized color reproduction system used in commercial printing. Each PMS color is a pre-mixed proprietary ink with a unique number, ensuring identical color reproduction regardless of printer, location, or substrate.',
-              },
-              {
-                question: 'What\'s the difference between Coated (C) and Uncoated (U) Pantone colors?',
-                answer: 'Coated Pantone colors (suffix C) are for glossy or coated paper — they appear more vibrant and saturated. Uncoated colors (suffix U) are for matte or uncoated paper — the same ink absorbs differently and looks softer. This tool shows both variants side by side.',
-              },
-              {
-                question: 'Can I convert CMYK to Pantone in Illustrator or Photoshop?',
-                answer: 'Yes, both Adobe Illustrator and Photoshop have built-in Pantone libraries. However, using a dedicated CMYK to Pantone converter like this tool gives you an instant, browser-based result without needing to open design software.',
-              },
-              {
-                question: 'How do I find the closest Pantone color to my CMYK value?',
-                answer: 'Enter your C, M, Y, and K values (each 0–100) into the fields above. This tool searches 1,300+ Pantone swatches and returns the 5 closest PMS matches ranked by perceptual color distance — no manual lookup required.',
-              },
-              {
-                question: 'Why does my printed CMYK color look different from the Pantone swatch?',
-                answer: 'CMYK printing layers four semi-transparent inks, so the result depends on paper stock, ink density, printer calibration, and humidity. Pantone spot colors are pre-mixed and behave consistently. This inherent difference means a CMYK-to-Pantone conversion is always an approximation.',
-              },
-              {
-                question: 'What is CMYK to PMS conversion used for?',
-                answer: 'CMYK to PMS conversion is used whenever a designer needs to translate a process-color design into a spot-color specification — for brand color standardization, packaging, apparel, signage, and any print job requiring guaranteed color consistency across suppliers.',
-              },
-            ]} />
+            <FAQSection suppressSchema items={FAQ_ITEMS} />
           </div>
 
           {/* ── Related Tools ────────────────────────────────────── */}

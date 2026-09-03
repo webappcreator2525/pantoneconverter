@@ -162,8 +162,11 @@ export default function NavBar() {
       background: 'rgba(255,255,255,0.88)', backdropFilter: 'blur(14px)',
       borderBottom: '1px solid #f3f4f6',
     }}>
-      <div style={{
-        maxWidth: '72rem', margin: '0 auto', padding: '0 1.5rem', height: '4rem',
+      {/* The bar's height is a class, not an inline style, so the stylesheet
+          already in <head> reserves it on the very first paint — before any
+          React work and before this element's own style attribute matters. */}
+      <div className="h-16" style={{
+        maxWidth: '72rem', margin: '0 auto', padding: '0 1.5rem',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',
       }}>
 
@@ -175,8 +178,20 @@ export default function NavBar() {
           <span className="badge badge-purple">.com</span>
         </Link>
 
-        {/* Desktop links */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }} className="desktop-nav">
+        {/* Desktop links.
+            This replaces a <style> block that used to sit at the end of <nav>,
+            so the correct nav is now right on the first paint rather than after
+            the parser reaches a rule further down the body.
+
+            The breakpoint reads 1025, not 1024, on purpose: Tailwind compiles
+            `max-[N]` to `not all and (min-width:N)`, which is `< N`, whereas the
+            rule being replaced was `max-width: 1024px`, which is `<= 1024`. 1025
+            reproduces the old boundary exactly and keeps a 1024px-wide viewport
+            — iPad landscape — on the mobile nav where it has always been. */}
+        <div
+          className="desktop-nav flex max-[1025px]:hidden"
+          style={{ alignItems: 'center', gap: '1.5rem' }}
+        >
           {PRIMARY_LINKS.map(({ href, label }) => (
             <Link key={href} href={href} style={linkStyle}
               onMouseEnter={(e) => (e.currentTarget.style.color = '#7c3aed')}
@@ -186,16 +201,21 @@ export default function NavBar() {
           ))}
 
           {/* Converters mega menu — the trigger; the panel is a sibling of this
-              row so it can span the full nav width rather than the button's. */}
-          <button
-            onClick={() => setMegaOpen((o) => !o)}
-            style={triggerStyle(megaOpen)}
-            aria-expanded={megaOpen}
-            aria-haspopup="true"
-          >
-            Converters
-            <ChevronDown size={14} style={chevron(megaOpen)} />
-          </button>
+              row so it can span the full nav width rather than the button's.
+              The wrapper matches the Colors and Learn triggers, giving this one
+              a positioning context too, so nothing anchored to it can ever be
+              laid out in flow and push the page down. */}
+          <div style={{ position: 'relative' }}>
+            <button
+              onClick={() => setMegaOpen((o) => !o)}
+              style={triggerStyle(megaOpen)}
+              aria-expanded={megaOpen}
+              aria-haspopup="true"
+            >
+              Converters
+              <ChevronDown size={14} style={chevron(megaOpen)} />
+            </button>
+          </div>
 
           <NavDropdown
             label="Colors"
@@ -215,27 +235,47 @@ export default function NavBar() {
 
           <Link
             href="/saved"
-            style={{ ...linkStyle, display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}
+            style={{
+              ...linkStyle, display: 'inline-flex', alignItems: 'center', gap: '0.35rem',
+              // Positioning context for the count badge below.
+              position: 'relative',
+            }}
             onMouseEnter={(e) => (e.currentTarget.style.color = '#7c3aed')}
             onMouseLeave={(e) => (e.currentTarget.style.color = '#4b5563')}
           >
             <Bookmark size={14} strokeWidth={2} style={{ flexShrink: 0 }} />
             Saved
+            {/* The count comes from localStorage, so it cannot exist until after
+                hydration. As an in-flow element it therefore widened this link
+                one frame late and nudged the whole nav row sideways — it showed
+                up as a `div.desktop-nav` layout-shift source in the field.
+
+                Taking it out of flow fixes that without reserving a gap: the
+                link's own width never changes, so nothing moves whether the
+                badge appears or not, and a visitor with nothing saved sees a nav
+                identical to the one they saw before. It renders in the same spot
+                it always did, in the bar's right-hand padding. Capped at "99+"
+                so it cannot outgrow that space either. */}
             {favCount > 0 && (
               <span style={{
+                position: 'absolute', left: 'calc(100% + 0.35rem)', top: '50%',
+                transform: 'translateY(-50%)',
                 background: 'linear-gradient(135deg, #c44eed, #4361EE)',
                 color: '#fff', fontSize: '0.65rem', fontWeight: 800,
                 borderRadius: '9999px', padding: '0.05rem 0.45rem',
-                lineHeight: 1.6, letterSpacing: '0.01em',
+                lineHeight: 1.6, letterSpacing: '0.01em', whiteSpace: 'nowrap',
               }}>
-                {favCount}
+                {favCount > 99 ? '99+' : favCount}
               </span>
             )}
           </Link>
         </div>
 
-        {/* Mobile icons */}
-        <div className="mobile-nav-container" style={{ display: 'none', alignItems: 'center', gap: '0.25rem' }}>
+        {/* Mobile icons — the mirror of the desktop rule above. */}
+        <div
+          className="mobile-nav-container hidden max-[1025px]:flex"
+          style={{ alignItems: 'center', gap: '0.25rem' }}
+        >
           <Link
             href="/saved"
             style={{ position: 'relative', display: 'flex', padding: '0.5rem', color: '#374151', textDecoration: 'none' }}
@@ -268,9 +308,11 @@ export default function NavBar() {
       {megaOpen && (
         <div
           ref={megaRef}
-          className="mega-panel"
+          className="mega-panel max-[1025px]:hidden"
           style={{
-            position: 'absolute', top: '4rem', left: 0, right: 0,
+            // Anchored to the nav's own height rather than a repeated 4rem, and
+            // absolute so an open panel overlays the page instead of pushing it.
+            position: 'absolute', top: '100%', left: 0, right: 0,
             background: '#ffffff', borderBottom: '1.5px solid #f3f4f6',
             boxShadow: '0 12px 28px -8px rgba(0,0,0,0.12)', zIndex: 45,
           }}
@@ -449,14 +491,6 @@ export default function NavBar() {
           </div>
         </div>
       )}
-
-      <style>{`
-        @media (max-width: 1024px) {
-          .desktop-nav          { display: none !important; }
-          .mobile-nav-container { display: flex !important; }
-          .mega-panel           { display: none !important; }
-        }
-      `}</style>
     </nav>
   );
 }
