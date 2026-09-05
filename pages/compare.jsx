@@ -8,8 +8,77 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Breadcrumb, { buildTrail, breadcrumbSchema } from '../components/Breadcrumb';
 import CrossSystemLinks from '../components/CrossSystemLinks';
+import {
+  CompareToc,
+  HowToCompare,
+  DeltaEExplained,
+  CoatedVsUncoated,
+  PopularComparisons,
+  CloseEnough,
+  CompareAccuracy,
+  CompareFaq,
+  CompareRelated,
+} from '../components/CompareSeoContent';
+import { HOWTO_STEPS, COMPARE_FAQS } from '../lib/compareData';
 import pantoneDb from '../data/pantone.json';
-import { isLightColor } from '../lib/colorUtils';
+import { isLightColor, rgbToLab, deltaE2000, deltaEQuality } from '../lib/colorUtils';
+
+const CANONICAL = 'https://pantoneconverter.com/compare/';
+const PAGE_TITLE = 'Compare Pantone Colors Side by Side — ΔE*00 Tool';
+const META_DESCRIPTION =
+  'Compare two Pantone colors side by side with a real ΔE*00 difference score plus HEX, RGB and CMYK values for each. Free, no signup, runs in your browser.';
+
+// ─── Name matching ────────────────────────────────────────────────
+//
+// Catalogue names are stored as "Pantone 186-C", but nobody types that. Reduce
+// both sides to a common form so "186 C", "186c" and the full name all land on
+// the same entry — and so the ?a=&b= links in the comparison table can use
+// readable codes instead of URL-encoded catalogue names.
+
+const normalizeName = (value) =>
+  String(value)
+    .toLowerCase()
+    .replace(/pantone/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+
+// Built once at module load rather than per keystroke — 3,231 entries is enough
+// that re-normalising on every render is felt.
+const NAME_INDEX = pantoneDb.map((entry) => {
+  const normal = normalizeName(entry.name);
+  return { entry, normal, compact: normal.replace(/ /g, '') };
+});
+
+/** Resolve a user-typed or URL-supplied code to a catalogue entry, or null. */
+function resolvePantone(value) {
+  if (!value) return null;
+  const normal = normalizeName(value);
+  if (!normal) return null;
+  const compact = normal.replace(/ /g, '');
+  return (
+    NAME_INDEX.find((row) => row.normal === normal)?.entry ??
+    NAME_INDEX.find((row) => row.compact === compact)?.entry ??
+    null
+  );
+}
+
+/** Up to `limit` suggestions, prefix matches first. */
+function searchPantone(value, limit = 10) {
+  const normal = normalizeName(value);
+  if (!normal) return [];
+  const compact = normal.replace(/ /g, '');
+  const starts = [];
+  const contains = [];
+  for (const row of NAME_INDEX) {
+    if (row.normal.startsWith(normal) || row.compact.startsWith(compact)) {
+      starts.push(row.entry);
+      if (starts.length >= limit) return starts;
+    } else if (row.normal.includes(normal) || row.compact.includes(compact)) {
+      if (contains.length < limit) contains.push(row.entry);
+    }
+  }
+  return [...starts, ...contains].slice(0, limit);
+}
 
 // ─── Copy Button ──────────────────────────────────────────────────
 function CopyBtn({ text }) {
@@ -43,11 +112,7 @@ function PantoneSearch({ id, label, accentColor, value, onChange, onSelect, onCl
 
   // Suggestions follow the query, so derive them. Whether the list is *shown*
   // is genuine state — clicking outside closes it without changing the query.
-  const suggestions = useMemo(() => {
-    if (!value.trim()) return [];
-    const q = value.toLowerCase();
-    return pantoneDb.filter(e => e.name.toLowerCase().includes(q)).slice(0, 10);
-  }, [value]);
+  const suggestions = useMemo(() => searchPantone(value), [value]);
 
   useEffect(() => {
     const h = (e) => {
@@ -305,55 +370,70 @@ function ColorPanel({ color, label, accentColor }) {
 }
 
 // ─── Delta-E badge ────────────────────────────────────────────────
-function DeltaEBadge({ delta }) {
-  const { label, bg, fg, barColor } =
-    delta < 10  ? { label: 'Very Similar',          bg: '#dcfce7', fg: '#166534', barColor: '#22c55e' } :
-    delta < 30  ? { label: 'Noticeable Difference', bg: '#fef9c3', fg: '#854d0e', barColor: '#eab308' } :
-    delta < 60  ? { label: 'Significant Difference',bg: '#ffedd5', fg: '#9a3412', barColor: '#f97316' } :
-                  { label: 'Very Different',         bg: '#fee2e2', fg: '#991b1b', barColor: '#ef4444' };
+//
+// ΔE*00 (CIEDE2000) is the figure the rest of the site ranks matches by, and
+// the only one printing tolerances are written in — so it is the headline
+// number here too. The RGB Euclidean distance the page used to show is kept as
+// a clearly-secondary figure, because it is a useful sanity check and a
+// familiar number, not because it means anything perceptually.
+function DeltaEBadge({ delta, rgbDistance }) {
+  const quality = deltaEQuality(delta);
 
-  // Max possible ΔE (RGB Euclidean) ≈ 441.67
-  const MAX = 441.67;
-  const pct  = Math.min(100, (delta / MAX) * 100);
+  const tone =
+    quality.tone === 'good' ? { bg: '#dcfce7', fg: '#166534', bar: '#22c55e' } :
+    quality.tone === 'fair' ? { bg: '#fef9c3', fg: '#854d0e', bar: '#eab308' } :
+                              { bg: '#fee2e2', fg: '#991b1b', bar: '#ef4444' };
+
+  // The bar reads against the tolerance ladder further down the page, so it
+  // saturates at ΔE*00 15 rather than at the theoretical maximum — everything
+  // past that point is equally "different colours".
+  const pct = Math.min(100, (delta / 15) * 100);
 
   return (
     <div style={{
-      background: bg, border: `1.5px solid ${fg}22`,
+      background: tone.bg, border: `1.5px solid ${tone.fg}22`,
       borderRadius: '1rem', padding: '1.25rem 1.5rem',
       display: 'flex', flexDirection: 'column', gap: '0.75rem',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem' }}>
         <div>
-          <div style={{ fontSize: '0.65rem', fontWeight: 800, color: fg, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>
-            ΔE — Color Difference
+          <div style={{ fontSize: '0.65rem', fontWeight: 800, color: tone.fg, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.25rem' }}>
+            ΔE*00 (CIEDE2000) — colour difference
           </div>
-          <div style={{ fontSize: '2.25rem', fontWeight: 900, color: fg, lineHeight: 1, fontFamily: 'monospace' }}>
-            {delta.toFixed(1)}
+          <div style={{ fontSize: '2.25rem', fontWeight: 900, color: tone.fg, lineHeight: 1, fontFamily: 'monospace' }}>
+            {delta.toFixed(2)}
           </div>
         </div>
         <span style={{
-          background: fg, color: '#fff',
+          background: tone.fg, color: '#fff',
           fontSize: '0.78rem', fontWeight: 700,
           padding: '0.35rem 0.9rem', borderRadius: '9999px',
         }}>
-          {label}
+          {quality.label}
         </span>
       </div>
 
       {/* Progress bar */}
-      <div style={{ height: '6px', background: `${fg}22`, borderRadius: '9999px', overflow: 'hidden' }}>
+      <div style={{ height: '6px', background: `${tone.fg}22`, borderRadius: '9999px', overflow: 'hidden' }}>
         <div style={{
           width: `${pct}%`, height: '100%',
-          background: barColor, borderRadius: '9999px',
+          background: tone.bar, borderRadius: '9999px',
           transition: 'width 0.6s ease',
         }} />
       </div>
 
-      <p style={{ fontSize: '0.82rem', color: fg, margin: 0, fontWeight: 500 }}>
-        {delta < 10  && 'Barely noticeable — these colors are extremely close. A human eye may struggle to tell them apart.'}
-        {delta >= 10 && delta < 30  && 'A clear difference is visible, but the colors share a similar feel or family.'}
-        {delta >= 30 && delta < 60  && 'These colors are quite distinct. Substituting one for the other would be noticeable in print.'}
-        {delta >= 60 && 'These are very different colors. Do not substitute one for the other in any branded material.'}
+      <p style={{ fontSize: '0.82rem', color: tone.fg, margin: 0, fontWeight: 500 }}>
+        {quality.note}{' '}
+        <a href="#delta-e-explained" style={{ color: tone.fg, fontWeight: 700 }}>
+          Read the tolerance ladder
+        </a>{' '}
+        for what this number means in production.
+      </p>
+
+      <p style={{ fontSize: '0.75rem', color: tone.fg, margin: 0 }}>
+        Secondary figure — RGB Euclidean distance: <strong>{rgbDistance.toFixed(1)}</strong> of a
+        possible 441.7. This is a straight-line distance between two sRGB triplets, not a
+        perceptual measure; use the ΔE*00 score above for any production decision.
       </p>
     </div>
   );
@@ -363,15 +443,18 @@ function DeltaEBadge({ delta }) {
 function TableRow({ attr, valA, valB, highlight }) {
   return (
     <tr style={{ background: highlight ? '#fdf4ff' : 'transparent' }}>
-      <td style={{
-        padding: '0.65rem 1rem',
-        fontWeight: 700, fontSize: '0.75rem',
-        color: '#4b5563', textTransform: 'uppercase',
-        letterSpacing: '0.07em', borderBottom: '1px solid #f3f4f6',
-        whiteSpace: 'nowrap',
-      }}>
+      <th
+        scope="row"
+        style={{
+          padding: '0.65rem 1rem', textAlign: 'left',
+          fontWeight: 700, fontSize: '0.75rem',
+          color: '#4b5563', textTransform: 'uppercase',
+          letterSpacing: '0.07em', borderBottom: '1px solid #f3f4f6',
+          whiteSpace: 'nowrap',
+        }}
+      >
         {attr}
-      </td>
+      </th>
       <td style={{
         padding: '0.65rem 1rem',
         fontFamily: 'monospace', fontSize: '0.82rem',
@@ -399,35 +482,64 @@ export default function ComparePage() {
   const [colorA,    setColorA]    = useState(null);
   const [colorB,    setColorB]    = useState(null);
   const [shareCopied, setShareCopied] = useState(false);
+  const seeded = useRef(null);
+  // The URL is only rewritten once the visitor has actually changed something.
+  // Without this the sync effect could race the ?a=&b= seeding on mount and
+  // strip the very parameters it is about to read.
+  const dirty = useRef(false);
   const router = useRouter();
 
   // Seed both slots from ?a=&b= once the router is ready. Query values are not
   // available during a server render without desyncing the hydrated markup, so
   // this has to happen in an effect rather than during render.
+  // Re-runs when the query itself changes, so the "Compare it" links in the
+  // table below re-load the pickers even though they point at this same page.
+  // history.replaceState does not touch router.query, so the signature check
+  // keeps the URL sync below from bouncing back into here.
   useEffect(() => {
     if (!router.isReady) return;
     const { a, b } = router.query;
-    if (a) {
-      const match = pantoneDb.find(e => e.name.toLowerCase() === decodeURIComponent(a).toLowerCase());
-      if (match) {
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setColorA(match);
-        setQueryA(match.name);
-      }
+    const signature = `${a ?? ''}|${b ?? ''}`;
+    if (seeded.current === signature) return;
+    seeded.current = signature;
+
+    const matchA = resolvePantone(a);
+    const matchB = resolvePantone(b);
+    if (matchA) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setColorA(matchA);
+      setQueryA(matchA.name);
     }
-    if (b) {
-      const match = pantoneDb.find(e => e.name.toLowerCase() === decodeURIComponent(b).toLowerCase());
-      if (match) {
-        setColorB(match);
-        setQueryB(match.name);
-      }
+    if (matchB) {
+      setColorB(matchB);
+      setQueryB(matchB.name);
     }
   }, [router.isReady, router.query]);
 
-  const clearA = () => { setQueryA(''); setColorA(null); };
-  const clearB = () => { setQueryB(''); setColorB(null); };
+  // Keep the address bar in step with the pickers so the page is always
+  // shareable and every comparison has its own URL. replaceState rather than a
+  // router push: this is not a navigation and must not add history entries or
+  // re-run the route.
+  useEffect(() => {
+    if (!dirty.current || typeof window === 'undefined') return;
+    const params = new URLSearchParams();
+    if (colorA) params.set('a', colorA.name);
+    if (colorB) params.set('b', colorB.name);
+    const search = params.toString();
+    const next = `${window.location.pathname}${search ? `?${search}` : ''}${window.location.hash}`;
+    if (next !== `${window.location.pathname}${window.location.search}${window.location.hash}`) {
+      window.history.replaceState(window.history.state, '', next);
+    }
+  }, [colorA, colorB]);
+
+  const selectA = (entry) => { dirty.current = true; setColorA(entry); };
+  const selectB = (entry) => { dirty.current = true; setColorB(entry); };
+
+  const clearA = () => { dirty.current = true; setQueryA(''); setColorA(null); };
+  const clearB = () => { dirty.current = true; setQueryB(''); setColorB(null); };
 
   const handleSwap = () => {
+    dirty.current = true;
     const tempColor = colorA;
     setColorA(colorB);
     setColorB(tempColor);
@@ -448,8 +560,15 @@ export default function ComparePage() {
     } catch {}
   };
 
-  // ΔE Euclidean RGB distance
-  const delta = (colorA && colorB)
+  // ΔE*00 (CIEDE2000) — the same metric the cross-standard converters rank by.
+  const delta = useMemo(() => {
+    if (!colorA || !colorB) return null;
+    const labA = rgbToLab(colorA.rgb.r, colorA.rgb.g, colorA.rgb.b);
+    const labB = rgbToLab(colorB.rgb.r, colorB.rgb.g, colorB.rgb.b);
+    return deltaE2000(labA, labB);
+  }, [colorA, colorB]);
+
+  const rgbDistance = (colorA && colorB)
     ? Math.sqrt(
         (colorA.rgb.r - colorB.rgb.r) ** 2 +
         (colorA.rgb.g - colorB.rgb.g) ** 2 +
@@ -462,37 +581,63 @@ export default function ComparePage() {
   const trail = buildTrail('/compare/', 'Pantone Color Comparison');
 
   const schema = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "Pantone Color Comparison Tool",
-    "url": "https://pantoneconverter.com/compare/",
-    "applicationCategory": "DesignApplication",
-    "operatingSystem": "All",
-    "browserRequirements": "Requires JavaScript",
-    "description": "Compare any two Pantone colors side by side. See HEX, RGB, CMYK values and the visual difference between any two PMS colors instantly.",
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': ['WebApplication', 'SoftwareApplication'],
+        name: 'Pantone Color Comparison Tool',
+        url: CANONICAL,
+        applicationCategory: 'DesignApplication',
+        operatingSystem: 'Any',
+        browserRequirements: 'Requires JavaScript',
+        description: META_DESCRIPTION,
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        featureList: [
+          'Side-by-side comparison of any two Pantone PMS colours',
+          'ΔE*00 (CIEDE2000) colour difference score for the pair',
+          'HEX, RGB and CMYK values for both colours, with one-click copy',
+          'Coated, uncoated, metallic, pastel and neon libraries — 3,231 colours',
+          'Shareable URLs that pre-load both colours',
+          'Runs entirely client-side — nothing is uploaded',
+        ],
+      },
+      breadcrumbSchema(trail),
+      {
+        '@type': 'FAQPage',
+        mainEntity: COMPARE_FAQS.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      },
+      {
+        '@type': 'HowTo',
+        name: 'How to compare two Pantone colors',
+        description:
+          'Compare any two Pantone PMS colours side by side and read the ΔE*00 difference between them.',
+        step: HOWTO_STEPS.map((step, i) => ({
+          '@type': 'HowToStep',
+          position: i + 1,
+          name: step.name,
+          text: step.text,
+        })),
+      },
+    ],
   };
 
   return (
     <>
       <Head>
-        <title>Pantone Color Comparison Tool — Compare Two PMS Colors</title>
-        <meta
-          name="description"
-          content="Compare any two Pantone colors side by side. See HEX, RGB, CMYK values and the visual difference between any two PMS colors instantly."
-        />
-        <link rel="canonical" href="https://pantoneconverter.com/compare/" />
-        <meta property="og:title" content="Pantone Color Comparison Tool — Compare Two PMS Colors" />
-        <meta
-          property="og:description"
-          content="Compare any two Pantone colors side by side. See HEX, RGB, CMYK values and the visual difference between any two PMS colors instantly."
-        />
+        <title>{PAGE_TITLE}</title>
+        <meta name="description" content={META_DESCRIPTION} />
+        <link rel="canonical" href={CANONICAL} />
+        <meta property="og:title" content={PAGE_TITLE} />
+        <meta property="og:description" content={META_DESCRIPTION} />
+        <meta name="twitter:title" content={PAGE_TITLE} />
+        <meta name="twitter:description" content={META_DESCRIPTION} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(trail)) }}
         />
         {ogMeta({ path: '/compare/' })}
       </Head>
@@ -522,8 +667,16 @@ export default function ComparePage() {
                 Pantone Color Comparison Tool
               </h1>
             </div>
-            <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0, maxWidth: '44rem' }}>
-              Select two Pantone PMS colors to compare them side by side — see the visual difference, ΔE score, and full value breakdown instantly.
+            <p style={{ color: '#4b5563', fontSize: '1rem', margin: 0, maxWidth: '48rem', lineHeight: 1.7 }}>
+              Compare Pantone colors side by side and get a real ΔE*00 (CIEDE2000) difference score
+              for any two PMS colours in the library. Pick a colour for slot A and a colour for slot
+              B, and the tool draws both swatches at full size, lists their HEX, RGB and CMYK values
+              against each other, and prints the perceptual distance between them as a single
+              number. It is built for brand designers checking whether a substitute holds up, print
+              buyers reconciling a coated code against an uncoated one, packaging specialists
+              working across mixed substrates, and signage fabricators who need to know how far
+              apart two inks really sit. ΔE*00 measures how different two colours look to a human
+              observer — under 2 and almost nobody will see it, above 5 and almost everybody will.
             </p>
           </div>
         </div>
@@ -543,7 +696,7 @@ export default function ComparePage() {
                 accentColor="#c44eed"
                 value={queryA}
                 onChange={setQueryA}
-                onSelect={setColorA}
+                onSelect={selectA}
                 onClear={clearA}
               />
 
@@ -555,6 +708,7 @@ export default function ComparePage() {
                 <button
                   onClick={handleSwap}
                   title="Swap Colors"
+                  aria-label="Swap Color A and Color B"
                   style={{
                     width: '2.25rem', height: '2.25rem', borderRadius: '50%',
                     background: 'linear-gradient(135deg,#f5f3ff,#eff6ff)',
@@ -567,7 +721,7 @@ export default function ComparePage() {
                   onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.1)'; e.currentTarget.style.borderColor = '#c44eed'; }}
                   onMouseLeave={e => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.borderColor = '#e9a8fd'; }}
                 >
-                  <GitCompare size={14} color="#a855f7" />
+                  <GitCompare size={14} color="#a855f7" aria-hidden="true" />
                 </button>
               </div>
 
@@ -577,7 +731,7 @@ export default function ComparePage() {
                 accentColor="#4361EE"
                 value={queryB}
                 onChange={setQueryB}
-                onSelect={setColorB}
+                onSelect={selectB}
                 onClear={clearB}
               />
             </div>
@@ -588,7 +742,7 @@ export default function ComparePage() {
                 fontSize: '0.78rem', color: '#6b7280',
                 margin: '0.875rem 0 0', lineHeight: 1.5,
               }}>
-                💡 Try: <em>“186 C”</em>, <em>“Cool Gray 9”</em>, <em>“Reflex Blue”</em>, <em>“Process Black”</em>
+                💡 Try: <em>“186 C”</em>, <em>“Cool Gray 9”</em>, <em>“Reflex Blue”</em>, <em>“Black 6 C”</em>
               </p>
             )}
           </div>
@@ -608,7 +762,7 @@ export default function ComparePage() {
               style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', animation: 'slideUp 0.4s ease-out' }}
             >
               {/* Delta-E card */}
-              <DeltaEBadge delta={delta} />
+              <DeltaEBadge delta={delta} rgbDistance={rgbDistance} />
 
               {/* Comparison table */}
               <div className="card" style={{ padding: 0, overflow: 'hidden' }}>
@@ -618,7 +772,7 @@ export default function ComparePage() {
                   display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.75rem',
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <GitCompare size={15} color="#c44eed" />
+                    <GitCompare size={15} color="#c44eed" aria-hidden="true" />
                     <span style={{ fontWeight: 800, fontSize: '0.875rem', color: '#111827' }}>
                       Side-by-Side Value Breakdown
                     </span>
@@ -635,9 +789,12 @@ export default function ComparePage() {
 
                 <div style={{ overflowX: 'auto' }}>
                   <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                    <caption className="sr-only">
+                      {`HEX, RGB and CMYK values for ${colorA.name} and ${colorB.name} side by side`}
+                    </caption>
                     <thead>
                       <tr style={{ background: '#f9fafb' }}>
-                        <th style={{
+                        <th scope="col" style={{
                           padding: '0.65rem 1rem', textAlign: 'left',
                           fontSize: '0.7rem', fontWeight: 800,
                           color: '#6b7280', textTransform: 'uppercase',
@@ -645,7 +802,7 @@ export default function ComparePage() {
                         }}>
                           Attribute
                         </th>
-                        <th style={{
+                        <th scope="col" style={{
                           padding: '0.65rem 1rem', textAlign: 'left',
                           fontSize: '0.7rem', fontWeight: 800,
                           color: '#c44eed', textTransform: 'uppercase',
@@ -653,7 +810,7 @@ export default function ComparePage() {
                         }}>
                           Color A
                         </th>
-                        <th style={{
+                        <th scope="col" style={{
                           padding: '0.65rem 1rem', textAlign: 'left',
                           fontSize: '0.7rem', fontWeight: 800,
                           color: '#4361EE', textTransform: 'uppercase',
@@ -714,52 +871,64 @@ export default function ComparePage() {
             </div>
           )}
 
-          {/* ── SEO block ──────────────────────────────────────── */}
-          <div className="card" style={{ borderTop: '3px solid #c44eed', marginTop: '2rem' }}>
-            <h2 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111827', marginBottom: '0.75rem' }}>
-              How to Compare Pantone Colors
-            </h2>
-            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: 0 }}>
-              Choosing between two Pantone PMS colors is a common challenge for brand designers, print buyers, and packaging specialists.
-              Even colors that look similar on screen can produce noticeably different results on press — especially when mixing coated
-              and uncoated substrates. This tool lets you compare any two PMS colors side by side, showing their exact HEX, RGB, and CMYK
-              values as well as a ΔE (Delta-E) difference score.
-            </p>
-            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, marginTop: '0.75rem', marginBottom: 0 }}>
-              The ΔE score is calculated as the straight-line Euclidean distance in RGB space. A ΔE below 10 indicates colors
-              that are nearly indistinguishable to the naked eye, while values above 60 represent very different hues. Use this
-              comparison to verify substitutions, validate brand color alternatives, or simply explore the Pantone library.
-            </p>
-            <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, marginTop: '0.75rem', marginBottom: 0 }}>
-              If you need a difference score that industry actually writes tolerances in, the cross-standard
-              converters rank every match by ΔE*00 (CIEDE2000) rather than RGB distance — see{' '}
-              <Link href="/pantone-to-lab/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to LAB</Link>{' '}
-              for the underlying colour space, or compare a Pantone colour against another standard entirely with{' '}
-              <Link href="/pantone-to-ral/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to RAL</Link>,{' '}
-              <Link href="/pantone-to-ncs/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to NCS</Link>{' '}
-              and{' '}
-              <Link href="/pantone-to-hks/" style={{ color: '#7c3aed', fontWeight: 600, textDecoration: 'underline' }}>Pantone to HKS</Link>.
-            </p>
-          </div>
+          {/* ── Editorial content ──────────────────────────────── */}
+          <CompareToc />
 
-          {/* This tool compares two Pantone colours to each other. Comparing a
-              Pantone colour against a different standard is a different job,
-              and the cross-system converters are where that happens. */}
-          <CrossSystemLinks
-            heading="Comparing Colours Across Different Systems"
-            intro="The tool above compares two colours inside the Pantone library. Comparing a Pantone colour against a different standard — RAL against NCS, a lab measurement against a PMS number, a screen colour against a textile code — is a cross-system question, and each of these converters answers it with a ΔE*00 figure rather than a yes or no."
-            routes={[
-              '/ral-to-pantone/',
-              '/lab-to-pantone/',
-              '/hsv-to-pantone/',
-              '/pantone-to-hsv/',
-              '/pantone-to-ncs/',
-              '/pantone-to-behr/',
-              '/tcx-to-hex/',
-              '/pantone-textile-to-cmyk/',
-            ]}
-            accentColor="#c44eed"
-          />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', marginTop: '1.25rem' }}>
+            <HowToCompare />
+            <DeltaEExplained />
+            <CoatedVsUncoated />
+            <PopularComparisons />
+            <CloseEnough />
+
+            {/* This tool compares two Pantone colours to each other. Comparing a
+                Pantone colour against a different standard is a different job,
+                and the cross-system converters are where that happens. */}
+            <CrossSystemLinks
+              id="cross-system"
+              heading="Comparing colours across different systems"
+              intro={[
+                'The tool above compares two colours inside the Pantone library. Comparing a Pantone colour against a different standard — RAL against NCS, a lab measurement against a PMS number, a screen colour against a textile code — is a cross-system question, and each of these converters answers it with a ΔE*00 figure rather than a yes or no.',
+                'The distinction matters more than it sounds. An in-library comparison asks whether two colours from the same deck, made from the same ink base and printed on the same paper, are close enough to swap — a question with a real answer, because both sides of it are defined in the same terms. A cross-standard conversion asks something weaker: which colour in this other system, made from different colourants on a different substrate, comes nearest? There is no exact answer to that, only a nearest neighbour and a ΔE*00 figure telling you how good the nearest neighbour is.',
+                'So read the two kinds of result differently. A ΔE*00 of 3 between two PMS codes means you are choosing between two colours you could genuinely specify either of. A ΔE*00 of 3 between a Pantone colour and a RAL code means the closest available coating is a fair approximation of the ink — which is usually as good as it gets, and still needs checking against a physical chip.',
+              ]}
+              routes={[
+                '/ral-to-pantone/',
+                '/lab-to-pantone/',
+                '/hsv-to-pantone/',
+                '/pantone-to-hsv/',
+                '/pantone-to-ncs/',
+                '/pantone-to-behr/',
+                '/tcx-to-hex/',
+                '/pantone-textile-to-cmyk/',
+                '/pantone-to-hks/',
+              ]}
+              accentColor="#c44eed"
+            />
+
+            <CompareAccuracy />
+            <CompareFaq />
+            <CompareRelated />
+
+            <aside
+              aria-label="Trademark notice"
+              style={{
+                display: 'flex', gap: '0.65rem', alignItems: 'flex-start',
+                padding: '1rem 1.15rem', borderRadius: '0.875rem',
+                background: '#f9fafb', border: '1px solid #f3f4f6',
+              }}
+            >
+              <p style={{ fontSize: '0.78rem', color: '#6b7280', lineHeight: 1.65, margin: 0 }}>
+                PANTONE® is a registered trademark of Pantone LLC. This page is not affiliated with,
+                endorsed by or sponsored by Pantone LLC. All colour codes and names are the property
+                of their respective owners and are referenced here for identification only. Colour
+                values shown are sRGB approximations for on-screen reference and are not
+                colour-managed reproductions of the physical standard. For the underlying colour
+                space these figures are computed in, see{' '}
+                <Link href="/pantone-to-lab/" style={{ color: '#7c3aed', fontWeight: 600 }}>Pantone to LAB</Link>.
+              </p>
+            </aside>
+          </div>
 
         </div>
       </main>

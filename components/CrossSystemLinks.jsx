@@ -12,7 +12,7 @@ import { LINKS } from '../lib/converterLinks';
  *
  * @param {object} props
  * @param {string} [props.heading]
- * @param {string} [props.intro]
+ * @param {string|Array<string>} [props.intro]  One paragraph, or several.
  * @param {Array<string>} props.routes  Converter paths, in display order.
  * @param {string} [props.accentColor]  Border accent for the card.
  */
@@ -29,20 +29,31 @@ export default function CrossSystemLinks({
 
   if (links.length === 0) return null;
 
+  // A page may render this block twice (cross-system links and related tools),
+  // so the heading id has to follow the section id rather than being fixed.
+  const headingId = `${id || 'cross-system'}-heading`;
+  const paragraphs = Array.isArray(intro) ? intro : intro ? [intro] : [];
+
   return (
-    <section id={id} className="card" style={{ borderTop: `3px solid ${accentColor}` }} aria-labelledby="cross-system-heading">
+    <section id={id} className="card" style={{ borderTop: `3px solid ${accentColor}` }} aria-labelledby={headingId}>
       <h2
-        id="cross-system-heading"
+        id={headingId}
         style={{ fontSize: '1.05rem', fontWeight: 800, color: '#111827', marginBottom: '0.5rem' }}
       >
         {heading}
       </h2>
 
-      {intro && (
-        <p style={{ fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75, margin: '0 0 1rem' }}>
-          {intro}
+      {paragraphs.map((text, i) => (
+        <p
+          key={i}
+          style={{
+            fontSize: '0.9rem', color: '#4b5563', lineHeight: 1.75,
+            margin: i === paragraphs.length - 1 ? '0 0 1rem' : '0 0 0.75rem',
+          }}
+        >
+          {text}
         </p>
-      )}
+      ))}
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(15rem, 1fr))', gap: '0.65rem' }}>
         {links.map((link) => (
